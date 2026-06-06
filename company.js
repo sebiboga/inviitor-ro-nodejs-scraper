@@ -9,7 +9,7 @@
 import fetch from "node-fetch";
 import fs from "fs";
 import { querySOLR, deleteJobsByCIF } from "./solr.js";
-import { getCompanyFromANAF, searchCompany, getCompanyFromANAFWithFallback } from "./src/anaf.js";
+import { getCompanyFromANAF } from "./src/anaf.js";
 
 // ============================================================================
 // CONFIGURATION
@@ -17,6 +17,8 @@ import { getCompanyFromANAF, searchCompany, getCompanyFromANAFWithFallback } fro
 
 // Peviitor API base URL for company validation
 const Peviitor_API_URL = "https://api.peviitor.ro/v1/company/";
+
+const COMPANY_CIF = "33159615";
 
 // Company brand name (used for searching in ANAF)
 const COMPANY_BRAND = "EPAM";
@@ -170,8 +172,8 @@ function saveCompanyData(anafData, peviitorData) {
   };
   
   // Save to file for future use
-  fs.writeFileSync("company.json", JSON.stringify(companyData, null, 2), "utf-8");
-  console.log("\n✅ Saved company data to company.json");
+  fs.writeFileSync("tmp/company.json", JSON.stringify(companyData, null, 2), "utf-8");
+  console.log("\n✅ Saved company data to tmp/company.json");
   console.log("This file can be used to restore company details if SOLR data is lost.\n");
   
   return companyData;
@@ -183,9 +185,9 @@ function saveCompanyData(anafData, peviitorData) {
  * @returns {Object|null} - Cached company data or null
  */
 function loadCachedCompanyData() {
-  if (fs.existsSync("company.json")) {
+  if (fs.existsSync("tmp/company.json")) {
     try {
-      const data = JSON.parse(fs.readFileSync("company.json", "utf-8"));
+      const data = JSON.parse(fs.readFileSync("tmp/company.json", "utf-8"));
       // Validate cache has required fields
       if (data?.anaf?.cui && data?.anaf?.name) {
         console.log("Found cached company data in company.json");
@@ -204,84 +206,46 @@ function loadCachedCompanyData() {
 
 /**
  * Gets company data, preferring cache over live API calls
- * Searches ANAF by brand name, fetches details, and caches result
+ * Uses hardcoded COMPANY_CIF to fetch from ANAF directly
  * @returns {Promise<Object>} - Company data with company name, CIF, and active status
  */
 export async function getCompanyData() {
-  // Try to load from cache first
   const cachedData = loadCachedCompanyData();
-  
-  // If no cache, search and fetch from ANAF
-  if (!cachedData?.summary?.cif) {
-    console.log(`Searching for company with brand: ${COMPANY_BRAND}`);
-    const searchResults = await searchCompany(COMPANY_BRAND);
-    
-    if (!searchResults || searchResults.length === 0) {
-      throw new Error(`No companies found for brand: ${COMPANY_BRAND}`);
-    }
-    
-    // Find exact match with "Funcțiune" (active) status
-    const exactMatch = searchResults.find(c => 
-      (c.name.toUpperCase().startsWith(COMPANY_BRAND.toUpperCase() + " ") || 
-       c.name.toUpperCase().includes(" " + COMPANY_BRAND.toUpperCase() + " ")) &&
-      c.statusLabel === "Funcțiune"
-    );
-    
-    if (!exactMatch) {
-      // Fallback: take first active company
-      console.log("No exact match with 'Funcțiune' status, trying first active company...");
-      const activeMatch = searchResults.find(c => c.statusLabel === "Funcțiune");
-      if (!activeMatch) {
-        throw new Error(`No active company found for brand: ${COMPANY_BRAND}`);
-      }
-      var selectedCIF = activeMatch.cui;
-      console.log(`Selected: ${activeMatch.name} (CIF: ${selectedCIF})`);
-    } else {
-      var selectedCIF = exactMatch.cui;
-      console.log(`Found exact match: ${exactMatch.name} (CIF: ${selectedCIF})`);
-    }
-    
-    // Fetch detailed company info from ANAF
-    console.log(`Fetching company details for CIF: ${selectedCIF}`);
-    // Use fallback to cached data if ANAF fails
-    const anafData = await getCompanyFromANAFWithFallback(selectedCIF, cachedData?.anaf);
-    
-    // Validate we got valid data
-    if (!anafData) {
-      throw new Error("No data from ANAF and no cache - cannot proceed with scraping");
-    }
-    if (!anafData.name) {
-      throw new Error("ANAF returned no company name - cannot proceed with scraping");
-    }
-    if (!anafData.cui) {
-      throw new Error("ANAF returned no CUI - cannot proceed with scraping");
-    }
-    
-    console.log(`ANAF returned name: ${anafData.name}`);
-    console.log(`ANAF returned CUI: ${anafData.cui}`);
-    console.log(`ANAF status: ${anafData.inactive ? "INACTIVE" : "ACTIVE"}`);
-    
-    // Return normalized data
-    const company = anafData.name.toUpperCase();
-    const cif = anafData.cui.toString();
-    const active = !anafData.inactive;
-    
-    return { company, cif, active, anafData };
-  } else {
-    // Use cached data
+
+  if (cachedData?.summary?.cif) {
     console.log(`Using cached company data for CIF: ${cachedData.summary.cif}`);
     const anafData = cachedData.anaf;
-    
+
     console.log(`Cached name: ${anafData.name}`);
     console.log(`Cached CUI: ${anafData.cui}`);
     console.log(`Cached status: ${anafData.inactive ? "INACTIVE" : "ACTIVE"}`);
-    
+
     const company = anafData.name.toUpperCase();
     const cif = anafData.cui.toString();
     const active = !anafData.inactive;
-    
+
     return { company, cif, active, anafData };
   }
+
+  console.log(`Fetching company data for CIF: ${COMPANY_CIF}`);
+  const anafData = await getCompanyFromANAF(COMPANY_CIF);
+
+  if (!anafData) {
+    throw new Error("No data from ANAF - cannot proceed with scraping");
+  }
+  if (!anafData.name) {
+    throw new Error("ANAF returned no company name - cannot proceed with scraping");
+  }
+
+  console.log(`ANAF returned name: ${anafData.name}`);
+  console.log(`ANAF returned CUI: ${anafData.cui}`);
+  console.log(`ANAF status: ${anafData.inactive ? "INACTIVE" : "ACTIVE"}`);
+
+  const company = anafData.name.toUpperCase();
+  const cif = anafData.cui.toString();
+  const active = !anafData.inactive;
+
+  return { company, cif, active, anafData };
 }
 
 // ============================================================================
