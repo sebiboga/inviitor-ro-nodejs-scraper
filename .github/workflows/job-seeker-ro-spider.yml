@@ -8,7 +8,9 @@ on:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    
+    permissions:
+      contents: write
+
     steps:
       - uses: actions/checkout@v5
       
@@ -19,7 +21,21 @@ jobs:
           
       - name: Install dependencies
         run: npm install
-        
+
+      - name: Pre-scrape — Unit Tests
+        run: |
+          npm run test:unit
+          cp test-report.html docs/test-results/pre-scrape-unit.html || true
+        env:
+          SOLR_AUTH: ${{ secrets.SOLR_AUTH }}
+
+      - name: Pre-scrape — Integration Tests
+        run: |
+          npm run test:integration
+          cp test-report.html docs/test-results/pre-scrape-integration.html || true
+        env:
+          SOLR_AUTH: ${{ secrets.SOLR_AUTH }}
+
       - name: Run scraper
         run: npm run scrape
         env:
@@ -33,6 +49,30 @@ jobs:
           else
             echo "No new jobs or scrape failed"
           fi
+
+      - name: Post-scrape — E2E Tests
+        run: |
+          npm run test:e2e
+          cp test-report.html docs/test-results/post-scrape.html || true
+        env:
+          SOLR_AUTH: ${{ secrets.SOLR_AUTH }}
+
+      - name: Upload test artifacts
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: test-results
+          path: docs/test-results/
+          retention-days: 30
+
+      - name: Push test results to docs/
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/test-results/
+          git commit -m "[skip ci] Update test results" || echo "No changes to commit"
+          git push
           
       - name: Upload jobs JSON
         if: always()

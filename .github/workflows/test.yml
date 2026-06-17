@@ -106,7 +106,7 @@ jobs:
       - name: Run Unit Tests
         run: |
           npm run test:unit
-          mv test-report.html test-results-unit.html || true
+          cp test-report.html docs/test-results/pre-scrape-unit.html || true
         env:
           SOLR_AUTH: ${{ secrets.SOLR_AUTH }}
           
@@ -114,13 +114,13 @@ jobs:
         uses: actions/upload-artifact@v7
         with:
           name: unit-test-results
-          path: test-results-unit.html
+          path: docs/test-results/pre-scrape-unit.html
           retention-days: 30
 
       - name: Run Integration Tests
         run: |
           npm run test:integration
-          mv test-report.html test-results-integration.html || true
+          cp test-report.html docs/test-results/pre-scrape-integration.html || true
         env:
           SOLR_AUTH: ${{ secrets.SOLR_AUTH }}
           
@@ -128,13 +128,13 @@ jobs:
         uses: actions/upload-artifact@v7
         with:
           name: integration-test-results
-          path: test-results-integration.html
+          path: docs/test-results/pre-scrape-integration.html
           retention-days: 30
 
       - name: Run E2E Tests
         run: |
           npm run test:e2e
-          mv test-report.html test-results-e2e.html || true
+          cp test-report.html docs/test-results/post-scrape.html || true
         env:
           SOLR_AUTH: ${{ secrets.SOLR_AUTH }}
           
@@ -142,5 +142,14 @@ jobs:
         uses: actions/upload-artifact@v7
         with:
           name: e2e-test-results
-          path: test-results-e2e.html
+          path: docs/test-results/post-scrape.html
           retention-days: 30
+
+      - name: Push test results to docs/
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/test-results/
+          git commit -m "[skip ci] Update test results" || echo "No changes to commit"
+          git push

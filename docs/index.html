@@ -249,6 +249,28 @@
     </a>
     <h1 data-i18n="pageTitle">EPAM Jobs</h1>
     <p data-i18n="subtitle">Scraper automat pentru job-urile EPAM Romania</p>
+
+    <div style="margin: 15px 0; display:flex; flex-wrap:wrap; gap:8px; justify-content:center;">
+      <a href="https://github.com/sebiboga/epam-systems-international-srl-nodejs-scraper/actions/workflows/job-seeker-ro-spider.yml" target="_blank">
+        <img src="https://github.com/sebiboga/epam-systems-international-srl-nodejs-scraper/actions/workflows/job-seeker-ro-spider.yml/badge.svg" alt="Scraper Status">
+      </a>
+      <a href="https://github.com/sebiboga/epam-systems-international-srl-nodejs-scraper/actions/workflows/test.yml" target="_blank">
+        <img src="https://github.com/sebiboga/epam-systems-international-srl-nodejs-scraper/actions/workflows/test.yml/badge.svg" alt="Tests Status">
+      </a>
+      <a href="https://github.com/sebiboga/epam-systems-international-srl-nodejs-scraper/blob/main/LICENSE" target="_blank">
+        <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License">
+      </a>
+      <a href="https://ecma-international.org/" target="_blank">
+        <img src="https://img.shields.io/badge/javascript-ESM-F7DF1E?logo=javascript&logoColor=black" alt="JavaScript ESM">
+      </a>
+      <a href="https://nodejs.org/" target="_blank">
+        <img src="https://img.shields.io/badge/node-24-339933?logo=nodedotjs&logoColor=white" alt="Node.js 24">
+      </a>
+      <a href="test-results/" target="_blank">
+        <img src="https://img.shields.io/badge/test--results-HTML-9b59b6" alt="Test Results">
+      </a>
+    </div>
+
     <div class="scraper-tag">job_seeker_ro_spider</div>
   </header>
 
@@ -291,9 +313,12 @@
     </div>
   </div>
 
-  <div class="btn-wrapper">
+  <div class="btn-wrapper" style="display:flex; gap:0.75rem; justify-content:center; flex-wrap:wrap;">
     <a class="btn" href="https://github.com/sebiboga/epam-systems-international-srl-nodejs-scraper/actions/workflows/job-seeker-ro-spider.yml" target="_blank">
       <span>&#9654;</span> <span data-i18n="runBtn">Rulează Scraper</span>
+    </a>
+    <a class="btn" href="test-results/" style="background:#7d6b5a;">
+      <span>&#128203;</span> <span data-i18n="testResults">Rezultate Teste</span>
     </a>
   </div>
 
@@ -335,6 +360,7 @@ const i18n = {
     jobsEmpty: "Loading...",
     docs: "Documentation",
     companyLoading: "Loading...",
+    testResults: "Test Results",
   },
   ro: {
     pageTitle: "EPAM Jobs — peviitor.ro",
@@ -353,6 +379,7 @@ const i18n = {
     jobsEmpty: "Se încarcă...",
     docs: "Documentație",
     companyLoading: "Se încarcă...",
+    testResults: "Rezultate Teste",
   }
 };
 
@@ -424,7 +451,7 @@ async function loadStats() {
       const docs = data.response?.docs || [];
       if (docs.length === 0) { hasMore = false; break; }
 
-      docs.forEach(job => {
+      docs.forEach((job, idx) => {
         if (job.cif !== COMPANY_CIF) return;
         ourCount++;
         const div = document.createElement("div");
@@ -432,6 +459,7 @@ async function loadStats() {
         const loc = Array.isArray(job.location) ? job.location.join(", ") : "";
         const wm = job.workmode || "";
         div.innerHTML = `
+          <span style="color:#9a8a7a; font-size:0.8rem; font-weight:600; margin-right:0.5rem;">${ourCount}.</span>
           <a href="${job.url}" target="_blank">${job.title}</a>
           <div class="job-meta">
             ${loc ? `<span>&#128205; ${loc}</span>` : ""}

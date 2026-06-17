@@ -1,0 +1,164 @@
+<html><head><meta charset="utf-8"/><title>Test Report - EPAM Integration Tests</title><style type="text/css">html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+body {
+  padding: 2rem 1rem;
+  font-size: 0.85rem;
+}
+.jesthtml-content {
+  margin: 0 auto;
+  max-width: 70rem;
+}
+header {
+  display: flex;
+  align-items: center;
+}
+#title {
+  margin: 0;
+  flex-grow: 1;
+}
+#logo {
+  height: 4rem;
+}
+#timestamp {
+  color: #777;
+  margin-top: 0.5rem;
+}
+#summary {
+  color: #333;
+  margin: 2rem 0;
+  display: flex;
+  font-family: monospace;
+  font-size: 1rem;
+}
+#summary > div {
+  margin-right: 2rem;
+  background: #eee;
+  padding: 1rem;
+  min-width: 15rem;
+}
+#summary > div:last-child {
+  margin-right: 0;
+}
+@media only screen and (max-width: 720px) {
+  #summary {
+    flex-direction: column;
+  }
+  #summary > div {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+}
+#summary > div > div {
+  display: flex;
+  align-items: baseline;
+}
+#summary > div > div > * {
+  margin-right: 0.5rem;
+}
+#summary > div > div:first-child {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+#summary .summary-stat {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+#summary .summary-label {
+  font-size: 0.85rem;
+  color: #777;
+  font-weight: normal;
+}
+#summary .success {
+  color: #1d831d;
+}
+#summary .fail {
+  color: #ba1f1f;
+}
+.suite-container {
+  border: 1px solid #e0e0e0;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+}
+.suite-info {
+  padding: 0.5rem 1rem;
+  background: #f5f5f5;
+  cursor: pointer;
+}
+.suite-info:hover {
+  background: #e8e8e8;
+}
+.suite-path {
+  font-size: 0.8rem;
+  color: #777;
+  margin-top: 0.2rem;
+}
+.suite-results {
+  padding: 1rem;
+}
+.suite-results.hidden {
+  display: none;
+}
+.test-result {
+  padding: 0.5rem;
+  margin-bottom: 0.25rem;
+  border-radius: 4px;
+}
+.test-result.passed {
+  background: #e8f5e9;
+}
+.test-result.failed {
+  background: #ffebee;
+}
+.test-result .test-name {
+  font-weight: 500;
+}
+.test-result .test-status {
+  float: right;
+  font-weight: bold;
+}
+.test-result.passed .test-status {
+  color: #1d831d;
+}
+.test-result.failed .test-status {
+  color: #ba1f1f;
+}
+.test-result .test-duration {
+  font-size: 0.8rem;
+  color: #777;
+  margin-left: 0.5rem;
+}
+</style></head><body>
+<div class="jesthtml-content">
+  <header>
+    <h1 id="title">Test Report</h1>
+  </header>
+  <div id="timestamp">Generat la: <span id="dynamicTime"></span></div>
+  <div id="summary">
+    <div>
+      <div class="summary-stat success">16</div>
+      <div class="summary-label">trecute</div>
+    </div>
+    <div>
+      <div class="summary-stat">0</div>
+      <div class="summary-label">eșuate</div>
+    </div>
+    <div>
+      <div class="summary-stat">16</div>
+      <div class="summary-label">total</div>
+    </div>
+  </div>
+  <div style="text-align:center;padding:3rem 1rem;color:#777;">
+    <p>Raportul complet va fi disponibil după prima rulare a scraper-ului.</p>
+  </div>
+</div>
+<script>
+document.getElementById('dynamicTime').textContent = new Date().toLocaleString('ro-RO');
+</script>
+</body></html>
