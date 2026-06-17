@@ -248,7 +248,7 @@
       <img src="https://peviitor.ro/assets/logo-DV2JQkir.svg" alt="peviitor" class="logo-img">
     </a>
     <h1 data-i18n="pageTitle">EPAM Jobs</h1>
-    <p data-i18n="subtitle">Scraper automat pentru job-urile EPAM Romania</p>
+    <p data-i18n="subtitle">Scraper automat pentru locurile de muncă EPAM Romania</p>
 
     <div style="margin: 15px 0; display:flex; flex-wrap:wrap; gap:8px; justify-content:center;">
       <a href="https://github.com/sebiboga/epam-systems-international-srl-nodejs-scraper/actions/workflows/job-seeker-ro-spider.yml" target="_blank">
@@ -323,7 +323,7 @@
   </div>
 
   <div class="card">
-    <div class="card-header" data-i18n="jobsTitle">Job-uri disponibile</div>
+    <div class="card-header" data-i18n="jobsTitle">Locuri de muncă disponibile</div>
     <div class="card-body" id="jobsContainer">
       <div id="jobsList"></div>
       <div class="empty-state" id="jobsEmpty" data-i18n="jobsEmpty">Se încarcă...</div>
@@ -364,18 +364,18 @@ const i18n = {
   },
   ro: {
     pageTitle: "EPAM Jobs — peviitor.ro",
-    subtitle: "Scraper automat pentru job-urile EPAM Romania",
-    jobsLabel: "Job-uri",
+    subtitle: "Scraper automat pentru locurile de muncă EPAM Romania",
+    jobsLabel: "Locuri de muncă",
     verifiedLabel: "Verificate",
     aboutTitle: "Despre acest scraper",
-    f1: "Extrage job-uri de pe EPAM Careers API",
+    f1: "Extrage locuri de muncă de pe EPAM Careers API",
     f2: "Parsează cu fetch (JSON API)",
     f3: "Validează compania via ANAF",
-    f4: "Verifică și elimină job-uri expirate",
+    f4: "Verifică și elimină locuri de muncă expirate",
     f5: "Salvează în SOLR pentru peviitor.ro",
     companyTitle: "Despre companie",
     runBtn: "Rulează Scraper",
-    jobsTitle: "Job-uri disponibile",
+    jobsTitle: "Locuri de muncă disponibile",
     jobsEmpty: "Se încarcă...",
     docs: "Documentație",
     companyLoading: "Se încarcă...",
@@ -473,7 +473,7 @@ async function loadStats() {
 
     document.getElementById("jobsCount").textContent = ourCount;
     if (ourCount === 0) {
-      empty.textContent = "Niciun job disponibil.";
+      empty.textContent = "Niciun loc de muncă disponibil.";
     } else {
       empty.style.display = "none";
     }
