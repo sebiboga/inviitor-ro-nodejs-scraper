@@ -30,6 +30,7 @@
 > - [tec-software-solutions-srl-nodejs-scraper](https://github.com/sebiboga/tec-software-solutions-srl-nodejs-scraper) — TEC SOFTWARE SOLUTIONS SRL (BambooHR API)
 > - [connatix-native-exchange-romania-srl-nodejs-scraper](https://github.com/sebiboga/connatix-native-exchange-romania-srl-nodejs-scraper) — CONNATIX NATIVE EXCHANGE ROMANIA SRL (Greenhouse API/JSON fetch)
 > - [cybertech-srl-nodejs-scraper](https://github.com/sebiboga/cybertech-srl-nodejs-scraper) — CYBERTECH SRL (ANOFM API)
+> - [principal33-srl-nodejs-scraper](https://github.com/sebiboga/principal33-srl-nodejs-scraper) — PRINCIPAL33 S.R.L. (Personio JSON API)
 
 ## Overview
 
@@ -189,6 +190,7 @@ Acest template a fost folosit cu succes pentru a deriva scraper-e pentru alte co
 | [connatix-native-exchange-romania-srl-nodejs-scraper](https://github.com/sebiboga/connatix-native-exchange-romania-srl-nodejs-scraper) | CONNATIX NATIVE EXCHANGE ROMANIA SRL | 35861771 | Greenhouse API (JSON fetch) | ✅ Live |
 | [farmec-sa-nodejs-scraper](https://github.com/sebiboga/farmec-sa-nodejs-scraper) | FARMEC SA | 199150 | HTML scraping (cheerio) + eJobs | ✅ Live |
 | [yardi-call-center-srl-nodejs-scraper](https://github.com/sebiboga/yardi-call-center-srl-nodejs-scraper) | YARDI CALL CENTER SRL | 32509291 | Breezy JSON API (JSON fetch) | ✅ Live |
+| [principal33-srl-nodejs-scraper](https://github.com/sebiboga/principal33-srl-nodejs-scraper) | PRINCIPAL33 S.R.L. | 42574513 | Personio JSON API | ✅ Live |
 
 **Învățăminte din derivări:**
 - Doar un singur fișier de editat pentru identitate: `config/company.json` ✅
