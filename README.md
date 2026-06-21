@@ -191,6 +191,7 @@ Acest template a fost folosit cu succes pentru a deriva scraper-e pentru alte co
 | [farmec-sa-nodejs-scraper](https://github.com/sebiboga/farmec-sa-nodejs-scraper) | FARMEC SA | 199150 | HTML scraping (cheerio) + eJobs | ✅ Live |
 | [yardi-call-center-srl-nodejs-scraper](https://github.com/sebiboga/yardi-call-center-srl-nodejs-scraper) | YARDI CALL CENTER SRL | 32509291 | Breezy JSON API (JSON fetch) | ✅ Live |
 | [principal33-srl-nodejs-scraper](https://github.com/sebiboga/principal33-srl-nodejs-scraper) | PRINCIPAL33 S.R.L. | 42574513 | Personio JSON API | ✅ Live |
+| [ulma-packaging-srl-nodejs-scraper](https://github.com/sebiboga/ulma-packaging-srl-nodejs-scraper) | ULMA PACKAGING S.R.L. | 47978792 | TalentClue HTML (cheerio) + ANOFM API | ✅ Live |
 
 **Învățăminte din derivări:**
 - Doar un singur fișier de editat pentru identitate: `config/company.json` ✅
