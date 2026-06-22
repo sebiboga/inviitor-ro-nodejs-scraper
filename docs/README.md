@@ -79,6 +79,7 @@ Acest template a fost folosit pentru a deriva scraper-e pentru alte companii:
 | [rapel-srl-nodejs-scraper](https://github.com/sebiboga/rapel-srl-nodejs-scraper) | RAPEL SRL | 5665609 | jobRapid.ro HTML + ANOFM API | ✅ Live |
 | [continental-hotels-srl-nodejs-scraper](https://github.com/sebiboga/continental-hotels-srl-nodejs-scraper) | CONTINENTAL HOTELS SA | 1559737 | POST AJAX → HTML (cheerio) | ✅ Live |
 | [coera-bc-srl-nodejs-scraper](https://github.com/sebiboga/coera-bc-srl-nodejs-scraper) | COERA BC SRL | 32519996 | HTML scraping (cheerio) | ✅ Live |
+| [stefanini-romania-srl-nodejs-scraper](https://github.com/sebiboga/stefanini-romania-srl-nodejs-scraper) | STEFANINI ROMANIA SRL | 16139707 | SmartSearchOnline HTML (cheerio) | ✅ Live |
 
 **Pitfall #12 — ANOFM job scraping by CIF:** API-ul public ANOFM (`/api/entity/vw_public_job_posting`) oferă job-uri gratis filtrate pe CIF. Adăugați `searchANOFM(cif)` în scraper pentru a nu pierde job-uri de pe această platformă. Location se returnează ca array (`[loc]`).
 
