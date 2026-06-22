@@ -187,6 +187,7 @@ Acest template a fost folosit cu succes pentru a deriva scraper-e pentru alte co
 | [gaminvest-srl-nodejs-scraper](https://github.com/sebiboga/gaminvest-srl-nodejs-scraper) | GAMINVEST SRL | 21913994 | HTML scraping (cheerio) | ✅ Live |
 | [tec-software-solutions-srl-nodejs-scraper](https://github.com/sebiboga/tec-software-solutions-srl-nodejs-scraper) | TEC SOFTWARE SOLUTIONS SRL | 32971419 | BambooHR API (JSON fetch) | ✅ Live |
 | [stefanini-romania-srl-nodejs-scraper](https://github.com/sebiboga/stefanini-romania-srl-nodejs-scraper) | STEFANINI ROMANIA SRL | 16139707 | SmartSearchOnline HTML (cheerio) | ✅ Live |
+| [metro-cash-carry-romania-srl-nodejs-scraper](https://github.com/sebiboga/metro-cash-carry-romania-srl-nodejs-scraper) | METRO CASH & CARRY ROMANIA SRL | 8119423 | HTML/cheerio | ✅ Live |
 
 **Învățăminte din derivări:**
 - Doar un singur fișier de editat pentru identitate: `config/company.json` ✅
