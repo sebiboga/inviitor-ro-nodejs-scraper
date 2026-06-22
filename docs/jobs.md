@@ -10,11 +10,11 @@
 | Location | IANCU DE HUNEDOARA, 48, Bucureşti Sectorul 1, Bucureşti |
 | Website | [https://www.epam.com](https://www.epam.com) |
 | Careers | [https://careers.epam.com](https://careers.epam.com) |
-| Last Scraped | 2026-06-21 |
+| Last Scraped | 2026-06-22 |
 
-## Current Job Listings (76)
+## Current Job Listings (79)
 
-_Generated: 2026-06-21T09:42:49.371Z_
+_Generated: 2026-06-22T11:44:46.161Z_
 
 ### Senior Full Stack ABAP/UI5 Developer
 
@@ -136,6 +136,14 @@ _Generated: 2026-06-21T09:42:49.371Z_
 - **Tags:** business analytics consulting
 - **Status:** scraped
 
+### Senior Full-Stack Developer (Golang/Kotlin/Python/Node.js)
+
+- **URL:** [https://careers.epam.com/en/vacancy/senior-full-stack-developer-golang-kotlin-python-node-js-blt35wgmhgw1rsxn6dh_en](https://careers.epam.com/en/vacancy/senior-full-stack-developer-golang-kotlin-python-node-js-blt35wgmhgw1rsxn6dh_en)
+- **Work Mode:** hybrid
+- **Location:** România
+- **Tags:** go language, docker, kubernetes, kotlin, node.js, python
+- **Status:** scraped
+
 ### SAP Logistics Consultant SD, S/4HANA
 
 - **URL:** [https://careers.epam.com/en/vacancy/sap-logistics-consultant-sd-s-4hana-blt3ru6uypbdwg3szz4_en](https://careers.epam.com/en/vacancy/sap-logistics-consultant-sd-s-4hana-blt3ru6uypbdwg3szz4_en)
@@ -222,6 +230,14 @@ _Generated: 2026-06-21T09:42:49.371Z_
 - **Work Mode:** remote
 - **Location:** România
 - **Tags:** presales consulting
+- **Status:** scraped
+
+### Senior DevOps Engineer
+
+- **URL:** [https://careers.epam.com/en/vacancy/senior-devops-engineer-blt7c7wi7y8n3zu6dwa_en](https://careers.epam.com/en/vacancy/senior-devops-engineer-blt7c7wi7y8n3zu6dwa_en)
+- **Work Mode:** remote
+- **Location:** România
+- **Tags:** google cloud platform, continuous integration, github actions, google kubernetes engine, infrastructure, terraform
 - **Status:** scraped
 
 ### Senior/Lead SAP Logistics VIM Consultant with Coupa expertise
@@ -430,6 +446,14 @@ _Generated: 2026-06-21T09:42:49.371Z_
 - **Work Mode:** remote
 - **Location:** România
 - **Tags:** sap mdm/mdg, sap retail master data, sap-is: retail solutions
+- **Status:** scraped
+
+### Senior C++ Developer
+
+- **URL:** [https://careers.epam.com/en/vacancy/senior-c-developer-bltmo7f2n57dc2wxou0_en](https://careers.epam.com/en/vacancy/senior-c-developer-bltmo7f2n57dc2wxou0_en)
+- **Work Mode:** hybrid
+- **Location:** Bucharest
+- **Tags:** c++, c++ stl containers, iterators, algorithms, cloud, docker, linux, tcp, udp, sctp, ci/cd, kubernetes, microsoft azure, postman
 - **Status:** scraped
 
 ### Lead SAP FICO Consultant
