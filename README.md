@@ -31,6 +31,7 @@
 > - [connatix-native-exchange-romania-srl-nodejs-scraper](https://github.com/sebiboga/connatix-native-exchange-romania-srl-nodejs-scraper) — CONNATIX NATIVE EXCHANGE ROMANIA SRL (Greenhouse API/JSON fetch)
 > - [cybertech-srl-nodejs-scraper](https://github.com/sebiboga/cybertech-srl-nodejs-scraper) — CYBERTECH SRL (ANOFM API)
 > - [principal33-srl-nodejs-scraper](https://github.com/sebiboga/principal33-srl-nodejs-scraper) — PRINCIPAL33 S.R.L. (Personio JSON API)
+> - [lseg-nodejs-scraper](https://github.com/sebiboga/lseg-nodejs-scraper) — LSEG BUSINESS SERVICES RM S.R.L. (Workday JSON API)
 
 ## Overview
 
@@ -190,6 +191,7 @@ Acest template a fost folosit cu succes pentru a deriva scraper-e pentru alte co
 | [metro-cash-carry-romania-srl-nodejs-scraper](https://github.com/sebiboga/metro-cash-carry-romania-srl-nodejs-scraper) | METRO CASH & CARRY ROMANIA SRL | 8119423 | HTML/cheerio | ✅ Live |
 | [qualitest-dc-ro-srl-nodejs-scraper](https://github.com/sebiboga/qualitest-dc-ro-srl-nodejs-scraper) | QUALITEST DC RO S.R.L. | 39814543 | Workable JSON API | ✅ Live |
 | [west-co-impex-srl-nodejs-scraper](https://github.com/sebiboga/west-co-impex-srl-nodejs-scraper) | WEST CO IMPEX SRL | 4565806 | WordPress HTML (cheerio) | ✅ Live |
+| [lseg-nodejs-scraper](https://github.com/sebiboga/lseg-nodejs-scraper) | LSEG BUSINESS SERVICES RM S.R.L. | 39176747 | Workday JSON API | ✅ Live |
 
 **Învățăminte din derivări:**
 - Doar un singur fișier de editat pentru identitate: `config/company.json` ✅
