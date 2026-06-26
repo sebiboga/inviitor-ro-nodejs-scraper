@@ -10,11 +10,11 @@
 | Location | IANCU DE HUNEDOARA, 48, Bucureşti Sectorul 1, Bucureşti |
 | Website | [https://www.epam.com](https://www.epam.com) |
 | Careers | [https://careers.epam.com](https://careers.epam.com) |
-| Last Scraped | 2026-06-25 |
+| Last Scraped | 2026-06-26 |
 
-## Current Job Listings (77)
+## Current Job Listings (79)
 
-_Generated: 2026-06-25T08:53:52.481Z_
+_Generated: 2026-06-26T08:56:47.596Z_
 
 ### Senior Full Stack ABAP/UI5 Developer
 
@@ -240,6 +240,14 @@ _Generated: 2026-06-25T08:53:52.481Z_
 - **Tags:** google cloud platform, continuous integration, github actions, google kubernetes engine, infrastructure, terraform
 - **Status:** scraped
 
+### Azure Systems Architect
+
+- **URL:** [https://careers.epam.com/en/vacancy/azure-systems-architect-blt7s4hxa97d9ozi6gc_en](https://careers.epam.com/en/vacancy/azure-systems-architect-blt7s4hxa97d9ozi6gc_en)
+- **Work Mode:** remote
+- **Location:** România
+- **Tags:** systems architecture
+- **Status:** scraped
+
 ### Senior/Lead SAP Logistics VIM Consultant with Coupa expertise
 
 - **URL:** [https://careers.epam.com/en/vacancy/senior-lead-sap-logistics-vim-consultant-with-coupa-expertise-blt90cf14088bf36d91_en](https://careers.epam.com/en/vacancy/senior-lead-sap-logistics-vim-consultant-with-coupa-expertise-blt90cf14088bf36d91_en)
@@ -414,6 +422,14 @@ _Generated: 2026-06-25T08:53:52.481Z_
 - **Work Mode:** remote
 - **Location:** România
 - **Tags:** business analytics consulting
+- **Status:** scraped
+
+### Technology Consultant
+
+- **URL:** [https://careers.epam.com/en/vacancy/technology-consultant-bltkraql7oy9yy8y8i7_en](https://careers.epam.com/en/vacancy/technology-consultant-bltkraql7oy9yy8y8i7_en)
+- **Work Mode:** remote
+- **Location:** România
+- **Tags:** advanced software engineering
 - **Status:** scraped
 
 ### Senior Python Full Stack Developer
