@@ -3,7 +3,7 @@ import { searchAndGetBestMatch } from "./src/anaf.js";
 import { buildCompanyRecord } from "./src/company-builder.js";
 import { buildJobRecord } from "./src/job-builder.js";
 import { validateCompanyRecord, validateJobRecord } from "./src/validators.js";
-import { upsertSolrDocs } from "./solr.js";
+import { upsertSolrDocs, findCompanyInSolr, jobUrlExists } from "./solr.js";
 
 const API_BASE = "https://api.laurentiumarian.ro/mobile";
 const PAGE_SIZE = 50;
@@ -19,6 +19,23 @@ async function fetchJobsPage(page) {
 }
 
 async function resolveCompany(name) {
+  // 1. Try Solr company core first (already indexed, no API calls)
+  try {
+    const solrCompany = await findCompanyInSolr(name);
+    if (solrCompany) {
+      console.log(`  ✅ ${name}: found in Solr company core`);
+      const brand = name;
+      const companyRecord = buildCompanyRecord(solrCompany, brand, { group: solrCompany._solrGroup || "" });
+      const v = validateCompanyRecord(companyRecord);
+      if (v.valid) {
+        // include _anafParsed so buildJobRecord can use full ANAF data if available
+        const anaf = solrCompany._anafParsed || solrCompany;
+        return { anaf, brand, companyRecord, fromSolr: true };
+      }
+    }
+  } catch {}
+
+  // 2. Fallback: ANAF → CUIFirma → cache
   let anaf = null;
   try {
     anaf = await searchAndGetBestMatch(name);
@@ -31,13 +48,13 @@ async function resolveCompany(name) {
     return null;
   }
   const brand = name;
-  const companyRecord = buildCompanyRecord(anaf, brand);
+  const companyRecord = buildCompanyRecord(anaf, brand, { group: "" });
   const v = validateCompanyRecord(companyRecord);
   if (!v.valid) {
     console.log(`  ⚠️ ${name}: validation failed: ${v.errors.join(", ")}`);
     return null;
   }
-  return { anaf, brand, companyRecord };
+  return { anaf, brand, companyRecord, fromSolr: false };
 }
 
 async function run() {
@@ -53,10 +70,22 @@ async function run() {
       console.log(`  Page ${page}: no jobs → done`);
       break;
     }
-    console.log(`\n--- Page ${page}: ${jobs.length} jobs ---`);
 
-    // 2. Resolve companies (cache reuse)
-    const uniqueNames = [...new Set(jobs.map(j => j.company_name).filter(Boolean))];
+    // 2. Filter out jobs already indexed (by URL)
+    const newJobs = [];
+    for (const job of jobs) {
+      const url = job.job_link || job.url || "";
+      if (!url) { newJobs.push(job); continue; }
+      const exists = await jobUrlExists(url);
+      if (exists) continue;
+      newJobs.push(job);
+    }
+    const skipped = jobs.length - newJobs.length;
+    console.log(`\n--- Page ${page}: ${jobs.length} jobs (${newJobs.length} new, ${skipped} skipped) ---`);
+    if (!newJobs.length) continue;
+
+    // 3. Resolve companies (cache reuse)
+    const uniqueNames = [...new Set(newJobs.map(j => j.company_name).filter(Boolean))];
     for (const name of uniqueNames) {
       if (!companyCache[name]) {
         console.log(`  Resolving: ${name}`);
@@ -64,11 +93,11 @@ async function run() {
       }
     }
 
-    // 3. Build Solr docs
+    // 4. Build Solr docs
     const companies = {};
     const jobDocs = [];
 
-    for (const job of jobs) {
+    for (const job of newJobs) {
       const name = job.company_name;
       const resolved = companyCache[name];
       if (!resolved) continue;
@@ -82,6 +111,8 @@ async function run() {
       jobDocs.push(jobRecord);
 
       const coKey = resolved.companyRecord.id;
+      // Skip company upsert if it was already in Solr (no need to re-index)
+      if (resolved.fromSolr) continue;
       if (!companies[coKey]) {
         companies[coKey] = { ...resolved.companyRecord, existingJobsCount: 0 };
       }
@@ -93,14 +124,14 @@ async function run() {
       return co;
     });
 
-    // 4. Upsert this batch
+    // 5. Upsert this batch (only new companies, only new jobs)
     if (companyList.length) {
       const r = await upsertSolrDocs("company", companyList);
-      console.log(`  → ${companyList.length} companies: ${r.status}`);
+      console.log(`  → ${companyList.length} companies upserted: ${r.status}`);
     }
     if (jobDocs.length) {
       const r = await upsertSolrDocs("job", jobDocs);
-      console.log(`  → ${jobDocs.length} jobs: ${r.status}`);
+      console.log(`  → ${jobDocs.length} jobs upserted: ${r.status}`);
     }
 
     totalJobs += jobDocs.length;

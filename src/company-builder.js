@@ -16,7 +16,7 @@ export function buildCompanyRecord(anafData, brandName, extra = {}) {
     location: localitate ? [localitate] : ["Romania"],
     website: website ? [website] : [],
     career: extra.careerUrls || [],
-    group: extra.group || "inviitor.ro",
+    group: extra.group || "",
     lastScraped: now,
     scraperFile: extra.scraperFile || "inviitor-ro-nodejs-scraper",
     address: address,

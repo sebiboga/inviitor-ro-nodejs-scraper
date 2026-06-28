@@ -91,6 +91,87 @@ export async function querySOLR(cif) {
 // ============================================================================
 
 /**
+ * Checks if a job URL already exists in Solr job core.
+ * @param {string} url - Job URL to check
+ * @returns {Promise<boolean>} true if the URL already exists
+ */
+export async function jobUrlExists(url) {
+  const AUTH = getSolrAuth();
+  const q = `url:"${url.replace(/"/g, '\\"')}"`;
+  const params = new URLSearchParams({ q, rows: 0, wt: "json" });
+  const res = await fetch(`${SOLR_URL}/select?${params}`, {
+    headers: {
+      "Authorization": "Basic " + Buffer.from(AUTH).toString("base64"),
+      "User-Agent": "job_seeker_ro_spider"
+    }
+  });
+  if (!res.ok) return false;
+  const data = await res.json();
+  return (data.response?.numFound || 0) > 0;
+}
+
+/**
+ * Searches for a company in Solr company core by name.
+ * Returns normalized data matching the shape from anaf.js normalizeCompany(),
+ * or null if not found.
+ * @param {string} brandName - Company name to search for
+ * @returns {Promise<Object|null>} Normalized company data with _solrGroup
+ */
+export async function findCompanyInSolr(brandName) {
+  const AUTH = getSolrAuth();
+  const q = `company:"${brandName.replace(/"/g, '\\"')}"`;
+  const params = new URLSearchParams({ q, rows: 5, wt: "json" });
+  const res = await fetch(`${SOLR_COMPANY_URL}/select?${params}`, {
+    headers: {
+      "Authorization": "Basic " + Buffer.from(AUTH).toString("base64"),
+      "User-Agent": "job_seeker_ro_spider"
+    }
+  });
+  if (!res.ok) return null;
+  const data = await res.json();
+  const docs = data.response?.docs || [];
+  if (!docs.length) return null;
+
+  const upper = brandName.toUpperCase().trim();
+  let best = null, bestScore = -1;
+  for (const doc of docs) {
+    const name = (doc.company || "").toUpperCase().trim();
+    let score = 0;
+    if (name === upper) score = 100;
+    else if (name.includes(upper) || upper.includes(name)) score = 50;
+    else continue;
+    if (score > bestScore) { bestScore = score; best = doc; }
+  }
+  if (!best) return null;
+
+  const cif = Array.isArray(best.cif) ? best.cif[0] : (best.cif || 0);
+  const website = Array.isArray(best.website) ? best.website[0] : (best.website || "");
+  const address = Array.isArray(best.address) ? best.address[0] : (best.address || "");
+  const locationArr = Array.isArray(best.location) ? best.location : [];
+
+  let anafParsed = null;
+  try {
+    if (best.anafData && best.anafData.length) {
+      anafParsed = JSON.parse(best.anafData[0]);
+    }
+  } catch {}
+
+  return {
+    cif,
+    cui: cif,
+    denumire: best.company || brandName,
+    company: best.company || brandName,
+    brand: best.brand || brandName.toUpperCase().trim(),
+    statusImpozit: best.status || "activ",
+    adresa: address,
+    localitate: locationArr.length ? locationArr[0].replace(/, Romania$/, "") : "",
+    website,
+    _solrGroup: best.group || "",
+    _anafParsed: anafParsed,
+  };
+}
+
+/**
  * Upserts (adds or updates) a company document to the SOLR company core
  * @param {Object} companyDoc - Company document with id, company, brand, status, location, etc.
  */
