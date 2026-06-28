@@ -26,6 +26,7 @@ jobs:
         run: npm run scrape
         env:
           SOLR_AUTH: ${{ secrets.SOLR_AUTH }}
+          MAX_PAGES: "1500"
 
       - name: Verify in Solr
         env:

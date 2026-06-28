@@ -7,13 +7,14 @@ import { upsertSolrDocs } from "./solr.js";
 
 const API_BASE = "https://api.laurentiumarian.ro/mobile";
 const PAGE_SIZE = 50;
-const MAX_PAGES = 2;
+const MAX_PAGES = parseInt(process.env.MAX_PAGES || "1500", 10);
 
 async function fetchJobsPage(page) {
   const url = `${API_BASE}/?page_size=${PAGE_SIZE}&page=${page}`;
   const res = await fetch(url, { headers: { "User-Agent": "job_seeker_ro_spider" } });
   if (!res.ok) throw new Error(`API error ${res.status}`);
   const data = await res.json();
+  if (data.detail === "Invalid page.") return [];
   return data.results || data;
 }
 
@@ -41,83 +42,75 @@ async function resolveCompany(name) {
 
 async function run() {
   console.log("=== inviitor.ro Scraper ===");
-
-  // 1. Fetch jobs
-  console.log("\n--- Fetching jobs ---");
-  let allJobs = [];
-  for (let page = 1; page <= MAX_PAGES; page++) {
-    const jobs = await fetchJobsPage(page);
-    allJobs = allJobs.concat(jobs);
-    console.log(`  Page ${page}: ${jobs.length} jobs`);
-  }
-  console.log(`Total: ${allJobs.length} jobs`);
-
-  // 2. Resolve unique companies
-  console.log("\n--- Resolving companies via ANAF ---");
-  const uniqueNames = [...new Set(allJobs.map(j => j.company_name).filter(Boolean))];
-  console.log(`Unique companies: ${uniqueNames.length} (${uniqueNames.join(", ")})`);
-
+  let totalJobs = 0;
+  let totalCompanies = 0;
   const companyCache = {};
-  for (const name of uniqueNames) {
-    console.log(`\n  ${name}:`);
-    companyCache[name] = await resolveCompany(name);
-  }
 
-  // 3. Build Solr docs
-  console.log("\n--- Building Solr documents ---");
-  const companies = {};
-  const jobs = [];
-
-  for (const job of allJobs) {
-    const name = job.company_name;
-    const resolved = companyCache[name];
-    if (!resolved) continue;
-
-    const jobRecord = buildJobRecord(job, resolved.anaf, resolved.brand);
-    const v = validateJobRecord(jobRecord);
-    if (!v.valid) {
-      console.log(`  ⚠️ Job validation failed: ${v.errors.join(", ")}`);
-      continue;
+  for (let page = 1; page <= MAX_PAGES; page++) {
+    // 1. Fetch one page
+    const jobs = await fetchJobsPage(page);
+    if (!jobs.length) {
+      console.log(`  Page ${page}: no jobs → done`);
+      break;
     }
-    jobs.push(jobRecord);
+    console.log(`\n--- Page ${page}: ${jobs.length} jobs ---`);
 
-    const coKey = resolved.companyRecord.id;
-    if (!companies[coKey]) {
-      companies[coKey] = { ...resolved.companyRecord, existingJobsCount: 0 };
+    // 2. Resolve companies (cache reuse)
+    const uniqueNames = [...new Set(jobs.map(j => j.company_name).filter(Boolean))];
+    for (const name of uniqueNames) {
+      if (!companyCache[name]) {
+        console.log(`  Resolving: ${name}`);
+        companyCache[name] = await resolveCompany(name);
+      }
     }
-    companies[coKey].existingJobsCount++;
+
+    // 3. Build Solr docs
+    const companies = {};
+    const jobDocs = [];
+
+    for (const job of jobs) {
+      const name = job.company_name;
+      const resolved = companyCache[name];
+      if (!resolved) continue;
+
+      const jobRecord = buildJobRecord(job, resolved.anaf, resolved.brand);
+      const v = validateJobRecord(jobRecord);
+      if (!v.valid) {
+        console.log(`  ⚠️ Job validation failed: ${v.errors.join(", ")}`);
+        continue;
+      }
+      jobDocs.push(jobRecord);
+
+      const coKey = resolved.companyRecord.id;
+      if (!companies[coKey]) {
+        companies[coKey] = { ...resolved.companyRecord, existingJobsCount: 0 };
+      }
+      companies[coKey].existingJobsCount++;
+    }
+
+    const companyList = Object.values(companies).map(co => {
+      co.existingJobsCount = co.existingJobsCount || 0;
+      return co;
+    });
+
+    // 4. Upsert this batch
+    if (companyList.length) {
+      const r = await upsertSolrDocs("company", companyList);
+      console.log(`  → ${companyList.length} companies: ${r.status}`);
+    }
+    if (jobDocs.length) {
+      const r = await upsertSolrDocs("job", jobDocs);
+      console.log(`  → ${jobDocs.length} jobs: ${r.status}`);
+    }
+
+    totalJobs += jobDocs.length;
+    totalCompanies += companyList.length;
   }
 
-  // Update job counts
-  const companyList = Object.values(companies);
-  companyList.forEach(co => {
-    co.existingJobsCount = co.existingJobsCount || 0;
-  });
-
-  console.log(`Companies to upsert: ${companyList.length}`);
-  console.log(`Jobs to upsert: ${jobs.length}`);
-
-  // 4. Upsert to Solr
-  console.log("\n--- Upserting to Solr ---");
-  if (companyList.length) {
-    const r = await upsertSolrDocs("company", companyList);
-    console.log(`  Companies: ${r.status} ${r.statusText} (${r.body})`);
-  }
-  if (jobs.length) {
-    const r = await upsertSolrDocs("job", jobs);
-    console.log(`  Jobs: ${r.status} ${r.statusText} (${r.body})`);
-  }
-
-  // 5. Verify
-  console.log("\n--- Verification ---");
-  const { querySOLR } = await import("./solr.js");
-  for (const co of companyList.slice(0, 3)) {
-    const result = await querySOLR(co.cif);
-    const count = result?.numFound || 0;
-    console.log(`  ${co.company}: ${count} jobs in Solr ${count > 0 ? "✅" : "❌"}`);
-  }
-
+  // 5. Final verification
   console.log("\n=== Done ===");
+  console.log(`Total companies upserted: ${totalCompanies}`);
+  console.log(`Total jobs upserted: ${totalJobs}`);
 }
 
 run().catch(err => {
