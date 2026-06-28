@@ -389,6 +389,36 @@ async function runCompanyQuery(args) {
 }
 
 // ============================================================================
+// GENERIC UPSERT - Upsert documents to any Solr core by name
+// ============================================================================
+
+const CORES = {
+  job: SOLR_URL,
+  company: SOLR_COMPANY_URL,
+};
+
+export async function upsertSolrDocs(core, docs) {
+  const AUTH = getSolrAuth();
+  const coreUrl = CORES[core];
+  if (!coreUrl) throw new Error(`Unknown Solr core: ${core}`);
+
+  const params = new URLSearchParams({ commit: "true", overwrite: "true" });
+
+  const res = await fetch(`${coreUrl}/update/json/docs?${params}`, {
+    method: "POST",
+    headers: {
+      "Authorization": "Basic " + Buffer.from(AUTH).toString("base64"),
+      "Content-Type": "application/json",
+      "User-Agent": "job_seeker_ro_spider"
+    },
+    body: JSON.stringify(docs)
+  });
+
+  const body = await res.text();
+  return { status: res.status, statusText: res.statusText, body };
+}
+
+// ============================================================================
 // STANDALONE MODE - Run solr.js directly for maintenance tasks
 // ============================================================================
 

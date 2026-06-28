@@ -1,6 +1,7 @@
 {
-  "name": "scraper-epam-ro",
-  "version": "1.5.0",
+  "name": "inviitor-ro-nodejs-scraper",
+  "version": "1.0.0",
+  "description": "Scraper job-uri de pe inviitor.ro pentru peviitor.ro",
   "type": "module",
   "main": "index.js",
   "scripts": {
