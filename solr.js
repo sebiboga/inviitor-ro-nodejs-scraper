@@ -9,8 +9,6 @@
  * - Querying jobs by company CIF
  * - Querying company data
  * - Adding/updating (upserting) jobs
- * - Deleting jobs by CIF or URL
- * - URL validation and cleanup
  * 
  * Solr Cores:
  * - job: Stores individual job listings
@@ -53,7 +51,7 @@ export function getSolrAuth() {
 }
 
 // ============================================================================
-// JOB OPERATIONS - Query, Add, Update, Delete
+// JOB OPERATIONS - Query, Add, Update
 // ============================================================================
 
 /**
@@ -231,73 +229,6 @@ export async function queryCompanySOLR(companyQuery) {
 }
 
 // ============================================================================
-// DELETE OPERATIONS - Remove jobs from Solr
-// ============================================================================
-
-/**
- * Deletes all jobs for a company by CIF
- * Used when a company becomes inactive in ANAF
- * @param {string} cif - Company CIF to delete jobs for
- */
-export async function deleteJobsByCIF(cif) {
-  const AUTH = getSolrAuth();
-
-  const params = new URLSearchParams({ commit: "true" });
-
-  // Use Solr delete by query
-  const deleteQuery = JSON.stringify({
-    delete: { query: `cif:${cif}` }
-  });
-
-  const res = await fetch(`${SOLR_URL}/update?${params}`, {
-    method: "POST",
-    headers: {
-      "Authorization": "Basic " + Buffer.from(AUTH).toString("base64"),
-      "Content-Type": "application/json",
-      "User-Agent": "job_seeker_ro_spider"
-    },
-    body: deleteQuery
-  });
-
-  if (!res.ok) {
-    const text = await res.text();
-    throw new Error(`SOLR delete error: ${res.status} - ${text}`);
-  }
-
-  console.log("✅ Jobs deleted from SOLR.");
-}
-
-/**
- * Deletes a single job by its URL
- * Used when a job posting is no longer available
- * @param {string} url - Job URL to delete
- */
-export async function deleteJobByUrl(url) {
-  const AUTH = getSolrAuth();
-
-  const params = new URLSearchParams({ commit: "true" });
-
-  const deleteQuery = JSON.stringify({
-    delete: { query: `url:"${url}"` }
-  });
-
-  const res = await fetch(`${SOLR_URL}/update?${params}`, {
-    method: "POST",
-    headers: {
-      "Authorization": "Basic " + Buffer.from(AUTH).toString("base64"),
-      "Content-Type": "application/json",
-      "User-Agent": "job_seeker_ro_spider"
-    },
-    body: deleteQuery
-  });
-
-  if (!res.ok) {
-    const text = await res.text();
-    throw new Error(`SOLR delete error: ${res.status} - ${text}`);
-  }
-}
-
-// ============================================================================
 // UPSERT OPERATIONS - Add or update jobs
 // ============================================================================
 
@@ -329,83 +260,6 @@ export async function upsertJobs(jobs) {
   }
 
   console.log(`✅ Upserted ${jobs.length} jobs to SOLR.`);
-}
-
-// ============================================================================
-// URL VALIDATION - Verify job URLs are still active
-// ============================================================================
-
-/**
- * Checks if a job URL is still valid (returns 200 OK)
- * @param {string} url - URL to check
- * @returns {Promise<Object>} - Status info {url, status, valid, error}
- */
-async function checkUrl(url) {
-  try {
-    const res = await fetch(url, {
-      method: "HEAD",
-      timeout: TIMEOUT,
-      headers: { "User-Agent": "job_seeker_ro_spider" }
-    });
-    return { url, status: res.status, valid: res.ok };
-  } catch (err) {
-    return { url, status: 0, valid: false, error: err.message };
-  }
-}
-
-// ============================================================================
-// VERIFICATION WORKFLOW - Check and clean up invalid URLs
-// ============================================================================
-
-/**
- * Verifies job URLs in jobs_existing.json and removes invalid ones
- * This is used for post-scrape cleanup of expired job postings
- */
-async function runVerification(cif) {
-  console.log("=== Verify SOLR Jobs ===\n");
-
-  // Get current jobs from Solr
-  const result = await querySOLR(cif);
-  console.log(`Total jobs in SOLR for CIF ${cif}: ${result.numFound}`);
-
-  console.log("\nFirst 5 jobs:");
-  result.docs.slice(0, 5).forEach((job, i) => {
-    console.log(`${i+1}. ${job.title} (${job.location?.join(', ')}) - ${job.workmode}`);
-  });
-
-  // Check jobs from backup file
-  if (fs.existsSync("tmp/jobs_existing.json")) {
-    console.log("\n=== Verify existing URLs ===\n");
-    const existing = JSON.parse(fs.readFileSync("tmp/jobs_existing.json", "utf-8"));
-    const existingJobs = existing.jobs || [];
-    console.log(`Checking ${existingJobs.length} URLs...`);
-
-    // Check each URL
-    const invalidUrls = [];
-    for (let i = 0; i < existingJobs.length; i++) {
-      const job = existingJobs[i];
-      const res = await checkUrl(job.url);
-      console.log(`[${i+1}/${existingJobs.length}] ${res.status > 0 ? res.status : 'ERR'} - ${job.url}`);
-      if (!res.valid) invalidUrls.push(job.url);
-    }
-
-    // Delete invalid URLs from Solr
-    if (invalidUrls.length > 0) {
-      console.log(`\n⚠️ ${invalidUrls.length} invalid URLs found - deleting from SOLR...`);
-      for (const url of invalidUrls) {
-        await deleteJobByUrl(url);
-      }
-      console.log(`✅ Deleted ${invalidUrls.length} invalid jobs from SOLR`);
-    }
-
-    // Clean up backup file
-    if (invalidUrls.length === 0) {
-      console.log("\n✅ All URLs valid - deleting tmp/jobs_existing.json");
-      fs.unlinkSync("tmp/jobs_existing.json");
-    } else {
-      console.log("⚠️ Keeping tmp/jobs_existing.json for reference");
-    }
-  }
 }
 
 // ============================================================================
@@ -505,7 +359,6 @@ export async function upsertSolrDocs(core, docs) {
 
 /**
  * Usage:
- *   node solr.js <CIF>              - Verify jobs for a company
  *   node solr.js extract <CIF>      - Extract jobs to backup file
  *   node solr.js company            - Query companies
  */
@@ -513,7 +366,6 @@ if (import.meta.url === `file://${process.argv[1]}` || process.argv[1]?.endsWith
   const args = process.argv.slice(2);
   
   if (args.includes("extract")) {
-    // Extract mode: backup jobs to file
     const cif = args[1] || null;
     if (!cif) {
       console.error("Error: CIF required. Usage: node solr.js extract <CIF>");
@@ -521,15 +373,8 @@ if (import.meta.url === `file://${process.argv[1]}` || process.argv[1]?.endsWith
     }
     await runExtract(cif);
   } else if (args.includes("company")) {
-    // Company query mode
     await runCompanyQuery(args);
   } else {
-    // Verification mode
-    const cif = args[0] || null;
-    if (!cif) {
-      console.error("Error: CIF required. Usage: node solr.js <CIF>");
-      process.exit(1);
-    }
-    await runVerification(cif);
+    console.log("Usage: node solr.js extract <CIF> | company");
   }
 }
