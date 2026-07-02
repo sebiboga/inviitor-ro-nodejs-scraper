@@ -21,7 +21,7 @@ function normalizeCompany(raw, brandName) {
     brand: upper,
     statusImpozit: raw.statusImpozit || raw.status || raw.statusLabel || "activ",
     adresa: raw.adresa || raw.address || "",
-    localitate: raw.localitate || raw.locality || "",
+    localitate: raw.localitate || raw.locality || raw.headquartersAddress?.locality || "",
     website: raw.website || "",
   };
 }

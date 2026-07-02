@@ -13,7 +13,7 @@ API inviitor.ro (paginated) → dedupe companies → ANAF lookup per company
 ## Solr production schema (peviitor.ro)
 
 ### Company core
-- `id`: `company-{cif}` (string)
+- `id`: `{cif}` (string)
 - `company`: legal name (string)
 - `cif`: plongs (number)
 - `brand`: uppercase (string)

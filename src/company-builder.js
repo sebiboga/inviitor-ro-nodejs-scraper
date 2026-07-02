@@ -8,7 +8,7 @@ export function buildCompanyRecord(anafData, brandName, extra = {}) {
   const website = anafData.website || "";
 
   return {
-    id: `company-${cif}`,
+    id: `${cif}`,
     company: companyName,
     cif: cif,
     brand: brand,
@@ -18,7 +18,7 @@ export function buildCompanyRecord(anafData, brandName, extra = {}) {
     career: extra.careerUrls || [],
     group: extra.group || "",
     lastScraped: now,
-    scraperFile: extra.scraperFile || "inviitor-ro-nodejs-scraper",
+    scraperFile: extra.scraperFile || "https://raw.githubusercontent.com/sebiboga/inviitor-ro-nodejs-scraper/main/.github/workflows/job-seeker-ro-spider.yml",
     address: address,
     anafData: JSON.stringify(anafData),
     existingJobsCount: extra.jobCount || 0,
