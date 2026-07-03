@@ -24,11 +24,14 @@ export async function searchAndGetBestMatchFallback(brandName) {
   }
 
   const queries = [brandName];
+  // try without S.C. prefix
+  const noSC = brandName.replace(/^S\.?\s*C\.?\s*/i, "").trim();
+  if (noSC !== brandName) queries.push(noSC);
   // try without legal suffix (SRL, S.R.L., SA, S.A.)
-  const stripped = brandName.replace(/[.\s]*(S\.?R\.?L\.?|S\.?A\.?)\s*$/i, "").trim();
-  if (stripped && stripped !== brandName) queries.push(stripped);
+  const stripped = (noSC !== brandName ? noSC : brandName).replace(/[.\s]*(S\.?R\.?L\.?|S\.?A\.?)\s*$/i, "").trim();
+  if (stripped && stripped !== brandName && stripped !== noSC) queries.push(stripped);
   // try just the first 2-3 words
-  const words = brandName.split(/\s+/).filter(Boolean);
+  const words = (stripped || brandName).split(/\s+/).filter(Boolean);
   if (words.length > 3) queries.push(words.slice(0, 3).join(" "));
   if (words.length > 2) queries.push(words.slice(0, 2).join(" "));
 
