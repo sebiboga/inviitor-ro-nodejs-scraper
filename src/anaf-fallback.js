@@ -3,6 +3,17 @@ import fs from "fs";
 
 const API_URL = "https://cinesunt.on-forge.com/api";
 const CACHE_FILE = "data/anaf-cache.json";
+const FETCH_TIMEOUT = 5000;
+
+async function fetchWithTimeout(url, opts = {}) {
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), FETCH_TIMEOUT);
+  try {
+    return await fetch(url, { ...opts, signal: ctrl.signal });
+  } finally {
+    clearTimeout(timer);
+  }
+}
 
 function loadCache() {
   try { return JSON.parse(fs.readFileSync(CACHE_FILE, "utf-8")); } catch { return {}; }
@@ -37,7 +48,7 @@ export async function searchAndGetBestMatchFallback(brandName) {
 
   let results = [];
   for (const q of queries) {
-    const res = await fetch(`${API_URL}/search?q=${encodeURIComponent(q)}`, {
+    const res = await fetchWithTimeout(`${API_URL}/search?q=${encodeURIComponent(q)}`, {
       headers: { "User-Agent": "job_seeker_ro_spider" }
     });
     if (!res.ok) continue;

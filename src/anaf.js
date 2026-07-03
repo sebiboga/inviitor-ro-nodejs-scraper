@@ -3,11 +3,22 @@ import { searchAndGetBestMatchFallback } from "./anaf-fallback.js";
 
 const ANAF_API_URL = "https://demoanaf.ro/api/company/";
 const ANAF_SEARCH_URL = "https://demoanaf.ro/api/search";
-const MAX_RETRIES = 2;
-const RETRY_DELAY_MS = 2000;
+const MAX_RETRIES = 1;
+const RETRY_DELAY_MS = 500;
+const FETCH_TIMEOUT = 5000;
 
 async function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+async function fetchWithTimeout(url, opts = {}) {
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), FETCH_TIMEOUT);
+  try {
+    return await fetch(url, { ...opts, signal: ctrl.signal });
+  } finally {
+    clearTimeout(timer);
+  }
 }
 
 function normalizeCompany(raw, brandName) {
@@ -31,7 +42,7 @@ export async function getCompanyFromANAF(cif) {
   for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
     try {
       const url = `${ANAF_API_URL}${cif}`;
-      const res = await fetch(url, {
+      const res = await fetchWithTimeout(url, {
         headers: { "User-Agent": "job_seeker_ro_spider" }
       });
       if (!res.ok) {
@@ -56,14 +67,14 @@ export async function getCompanyFromANAF(cif) {
 
 export async function searchCompany(brandName) {
   const url = `${ANAF_SEARCH_URL}?q=${encodeURIComponent(brandName)}`;
-  const res = await fetch(url, {
-    headers: { "User-Agent": "job_seeker_ro_spider" }
-  });
-  if (!res.ok) {
-    throw new Error(`ANAF search error: ${res.status}`);
-  }
-  const json = await res.json();
-  return (json.data || []).map(c => normalizeCompany(c));
+  try {
+    const res = await fetchWithTimeout(url, {
+      headers: { "User-Agent": "job_seeker_ro_spider" }
+    });
+    if (!res.ok) return [];
+    const json = await res.json();
+    return (json.data || []).map(c => normalizeCompany(c));
+  } catch { return []; }
 }
 
 export async function searchAndGetBestMatch(brandName) {

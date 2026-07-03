@@ -1,6 +1,17 @@
 import fetch from "node-fetch";
 
 const UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36";
+const TIMEOUT = 5000;
+
+async function fetchWithTimeout(url, opts = {}) {
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), TIMEOUT);
+  try {
+    return await fetch(url, { ...opts, signal: ctrl.signal });
+  } finally {
+    clearTimeout(timer);
+  }
+}
 
 function cleanBrand(brandName) {
   return brandName.replace(/[.\s]*(S\.?R\.?L\.?|S\.?A\.?|PFA|PF)\s*$/i, "").trim().toLowerCase();
@@ -10,7 +21,7 @@ async function tryDuckDuckGo(companyName) {
   const query = `${companyName} site oficial`.slice(0, 200);
   const url = `https://html.duckduckgo.com/html/?q=${encodeURIComponent(query)}`;
   try {
-    const res = await fetch(url, { headers: { "User-Agent": UA } });
+    const res = await fetchWithTimeout(url, { headers: { "User-Agent": UA } });
     if (!res.ok) return "";
     const html = await res.text();
     const match = html.match(/class="result__url"[^>]*>([^<]+)</);
@@ -34,7 +45,7 @@ async function tryPatterns(brandName) {
   ];
   for (const url of patterns) {
     try {
-      const res = await fetch(url, { method: "HEAD", headers: { "User-Agent": UA }, timeout: 5000 });
+      const res = await fetchWithTimeout(url, { method: "HEAD", headers: { "User-Agent": UA } });
       if (res.status >= 200 && res.status < 400) return url;
     } catch {}
   }
