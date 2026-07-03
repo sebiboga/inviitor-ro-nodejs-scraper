@@ -104,6 +104,10 @@ export async function searchAndGetBestMatch(brandName) {
       const matchCount = words.filter(w => name.includes(w)).length;
       score = (matchCount / words.length) * 50;
     }
+    // company that hires is active → strong preference
+    const status = (c.statusImpozit || c.status || c.statusLabel || "").toLowerCase();
+    const isInactive = status === "inactiv" || status.startsWith("inactiv") || status === "dissolved" || status.startsWith("dissolv") || status === "radiat" || status.startsWith("radiat");
+    if (isInactive) score -= 100;
     if (score > bestScore) {
       bestScore = score;
       match = c;

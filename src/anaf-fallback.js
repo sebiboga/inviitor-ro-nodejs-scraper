@@ -23,16 +23,32 @@ export async function searchAndGetBestMatchFallback(brandName) {
     return cache[upper];
   }
 
-  const res = await fetch(`${API_URL}/search?q=${encodeURIComponent(brandName)}`, {
-    headers: { "User-Agent": "job_seeker_ro_spider" }
-  });
-  if (!res.ok) return null;
+  const queries = [brandName];
+  // try without legal suffix (SRL, S.R.L., SA, S.A.)
+  const stripped = brandName.replace(/[.\s]*(S\.?R\.?L\.?|S\.?A\.?)\s*$/i, "").trim();
+  if (stripped && stripped !== brandName) queries.push(stripped);
+  // try just the first 2-3 words
+  const words = brandName.split(/\s+/).filter(Boolean);
+  if (words.length > 3) queries.push(words.slice(0, 3).join(" "));
+  if (words.length > 2) queries.push(words.slice(0, 2).join(" "));
 
-  const data = await res.json();
-  const results = data.results || [];
+  let results = [];
+  for (const q of queries) {
+    const res = await fetch(`${API_URL}/search?q=${encodeURIComponent(q)}`, {
+      headers: { "User-Agent": "job_seeker_ro_spider" }
+    });
+    if (!res.ok) continue;
+    const data = await res.json();
+    results = data.results || [];
+    if (results.length) break;
+  }
+
   if (!results.length) return null;
 
-  const match = results.find(r => r.is_exact_match) || results[0];
+  // prefer active companies among exact matches, then any active
+  const exact = results.filter(r => r.is_exact_match);
+  const active = results.filter(r => r.is_active);
+  const match = exact.find(r => r.is_active) || active[0] || results[0];
   const cif = parseInt(match.cui) || 0;
 
   const result = {

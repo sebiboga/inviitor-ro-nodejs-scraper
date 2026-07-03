@@ -29,9 +29,9 @@ try {
 // CONFIGURATION
 // ============================================================================
 
-// Solr core URLs
-const SOLR_URL = "https://solr.peviitor.ro/solr/job";        // Job listings core
-const SOLR_COMPANY_URL = "https://solr.peviitor.ro/solr/company"; // Company core
+// Solr core URLs (override via SOLR_URL / SOLR_COMPANY_URL env vars)
+const SOLR_URL = process.env.SOLR_URL || "https://solr.peviitor.ro/solr/job";
+const SOLR_COMPANY_URL = process.env.SOLR_COMPANY_URL || "https://solr.peviitor.ro/solr/company";
 
 // HTTP request timeout in milliseconds
 const TIMEOUT = 10000;
