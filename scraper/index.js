@@ -2,6 +2,7 @@ import fetch from "node-fetch";
 import { searchCompanyByName, upsertCompany, upsertJobs } from "./api.js";
 import { searchAndGetBestMatch } from "./anaf.js";
 import { buildCompanyRecord } from "./company-builder.js";
+import { buildJobRecord } from "./job-builder.js";
 import { findWebsite } from "./web-search.js";
 
 const companyCache = {};
@@ -13,38 +14,6 @@ const MAX_TOTAL_JOBS = parseInt(process.env.MAX_TOTAL_JOBS || "0", 10);
 const UPLOAD_BATCH = parseInt(process.env.UPLOAD_BATCH || "500", 10);
 
 const sleep = (ms) => new Promise(r => setTimeout(r, ms));
-
-const DIACRITICS_MAP = {
-  ă: "a", â: "a", î: "i", ș: "s", ț: "t",
-  Ă: "A", Â: "A", Î: "I", Ș: "S", Ț: "T",
-};
-
-function removeDiacritics(s) {
-  return s.replace(/[ăâîșțĂÂÎȘȚ]/g, ch => DIACRITICS_MAP[ch] || ch);
-}
-
-function cleanCity(cityRaw) {
-  if (!cityRaw) return "";
-  return cityRaw.split(",")[0].trim();
-}
-
-function extractTags(title, companyName) {
-  const tagSet = new Set();
-  const cleanCo = removeDiacritics(companyName.toLowerCase()).trim();
-  if (cleanCo) tagSet.add(cleanCo);
-  tagSet.add("inviitor.ro");
-  if (title) {
-    const words = removeDiacritics(title.toLowerCase())
-      .replace(/[^a-z0-9\s-]/g, "")
-      .split(/\s+/)
-      .filter(w => w.length > 2 && !["pentru","pent","prin","dupa","chiar","care","catre","este","sunt","fara","mai","mult","foarte","peste","toate","toata","toate","sub","pana"].includes(w));
-    for (const w of words.slice(0, 10)) {
-      if (tagSet.size >= 20) break;
-      tagSet.add(w);
-    }
-  }
-  return [...tagSet].slice(0, 20);
-}
 
 function normalizePeviitorCompany(apiCompany) {
   const cif = parseInt(apiCompany.id) || 0;
@@ -90,47 +59,6 @@ async function lookupCompany(companyName) {
 
   companyCache[upper] = null;
   return null;
-}
-
-function buildJobRecord(rawJob, companyInfo) {
-  const url = rawJob.job_link || "";
-  const title = (rawJob.job_title || "").trim() || "Unknown Position";
-  const rawCompany = (rawJob.company_name || "").trim() || "Unknown Company";
-  const companyName = (companyInfo && companyInfo.company) ? companyInfo.company.toUpperCase().trim() : rawCompany.toUpperCase();
-  const cif = (companyInfo && companyInfo.cif) ? String(companyInfo.cif) : "";
-  const city = cleanCity(rawJob.city || "");
-  const remoteVal = (rawJob.remote || "").trim() || "";
-
-  const location = city ? [`${city}, Romania`] : ["Romania"];
-
-  let workmode = "on-site";
-  const rl = remoteVal.toLowerCase();
-  if (rl.includes("remote") || rl.includes("hybrid")) {
-    workmode = rl.includes("hybrid") ? "hybrid" : "remote";
-  }
-
-  let salary = "";
-  const smin = rawJob.salary_min;
-  const smax = rawJob.salary_max;
-  const scurr = rawJob.salary_currency || "RON";
-  if (smin != null && smax != null) salary = `${smin}-${smax} ${scurr}`;
-  else if (smin != null) salary = `${smin} ${scurr}`;
-  else if (smax != null) salary = `${smax} ${scurr}`;
-
-  const record = {
-    url,
-    title,
-    company: companyName,
-    cif,
-    location,
-    tags: extractTags(title, companyName),
-    workmode,
-    date: new Date().toISOString(),
-    status: "scraped",
-    source: "inviitor.ro",
-  };
-  if (salary) record.salary = salary;
-  return record;
 }
 
 async function fetchJobsPage(page) {

@@ -4,7 +4,6 @@ export function buildCompanyRecord(anafData, brandName, extra = {}) {
   const companyName = anafData.denumire || anafData.company || brandName;
   const brand = brandName.toUpperCase().trim();
   const localitate = anafData.localitate || anafData.city || "";
-  const address = anafData.adresa || anafData.address || "";
   const website = anafData.website || "";
 
   return {
@@ -18,8 +17,5 @@ export function buildCompanyRecord(anafData, brandName, extra = {}) {
     group: extra.group || "",
     lastScraped: now,
     scraperFile: extra.scraperFile || "https://raw.githubusercontent.com/sebiboga/inviitor-ro-nodejs-scraper/main/.github/workflows/job-seeker-ro-spider.yml",
-    address: address,
-    anafData: JSON.stringify(anafData),
-    existingJobsCount: extra.jobCount || 0,
   };
 }
