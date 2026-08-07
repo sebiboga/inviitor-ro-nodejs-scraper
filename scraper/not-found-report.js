@@ -1,3 +1,23 @@
+export function generateNotFoundJson(notFoundByCompany, { generatedAt } = {}) {
+  const names = Object.keys(notFoundByCompany).sort();
+  const totalJobs = Object.values(notFoundByCompany).reduce((sum, jobs) => sum + jobs.length, 0);
+
+  return {
+    generatedAt: (generatedAt || new Date()).toISOString(),
+    totalCompanies: names.length,
+    totalJobs,
+    companies: names.map((name, idx) => ({
+      name,
+      jobCount: notFoundByCompany[name].length,
+      jobs: notFoundByCompany[name].map(job => ({
+        title: job.title || "",
+        city: job.city || "",
+        url: job.url || "",
+      })),
+    })),
+  };
+}
+
 export function generateNotFoundReport(notFoundByCompany, { generatedAt } = {}) {
   const names = Object.keys(notFoundByCompany).sort();
   const totalJobs = Object.values(notFoundByCompany).reduce((sum, jobs) => sum + jobs.length, 0);

@@ -91,6 +91,30 @@ export function classifyPlatform(hostname) {
   return { type: "company", name: hostname };
 }
 
+export function generatePlatformJson(platforms, { generatedAt } = {}) {
+  const dateStr = (generatedAt || new Date()).toISOString();
+  const entries = [...platforms.values()]
+    .map(e => ({ ...e }))
+    .sort((a, b) => b.count - a.count);
+
+  const aggregators = entries.filter(e => e.type === "aggregator");
+  const ats = entries.filter(e => e.type === "ats");
+  const company = entries.filter(e => e.type === "company");
+
+  return {
+    generatedAt: dateStr,
+    totalDomains: entries.length,
+    counts: {
+      aggregators: aggregators.length,
+      ats: ats.length,
+      companies: company.length,
+    },
+    aggregators,
+    ats,
+    companies: company,
+  };
+}
+
 export function generatePlatformReport(platforms, { generatedAt } = {}) {
   const dateStr = (generatedAt || new Date()).toISOString();
   const entries = [...platforms.values()].sort((a, b) => b.count - a.count);

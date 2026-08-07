@@ -5,8 +5,8 @@ import { searchAndGetBestMatch } from "./anaf.js";
 import { buildCompanyRecord } from "./company-builder.js";
 import { buildJobRecord } from "./job-builder.js";
 import { findWebsite } from "./web-search.js";
-import { generateNotFoundReport } from "./not-found-report.js";
-import { extractHostname, classifyPlatform, generatePlatformReport } from "./platform-report.js";
+import { generateNotFoundReport, generateNotFoundJson } from "./not-found-report.js";
+import { extractHostname, classifyPlatform, generatePlatformReport, generatePlatformJson } from "./platform-report.js";
 
 const companyCache = {};
 
@@ -191,7 +191,8 @@ async function run() {
     const report = generateNotFoundReport(notFoundByCompany);
     mkdirSync("docs", { recursive: true });
     writeFileSync("docs/companii-negasite.md", report, "utf-8");
-    console.log("Saved docs/companii-negasite.md");
+    writeFileSync("docs/companii-negasite.json", JSON.stringify(generateNotFoundJson(notFoundByCompany), null, 2), "utf-8");
+    console.log("Saved docs/companii-negasite.md + docs/companii-negasite.json");
   } catch (e) {
     console.log(`⚠️ Nu am putut scrie raportul: ${e.message}`);
   }
@@ -202,7 +203,8 @@ async function run() {
   try {
     const platformReport = generatePlatformReport(platforms);
     writeFileSync("docs/platforme.md", platformReport, "utf-8");
-    console.log("Saved docs/platforme.md");
+    writeFileSync("docs/platforme.json", JSON.stringify(generatePlatformJson(platforms), null, 2), "utf-8");
+    console.log("Saved docs/platforme.md + docs/platforme.json");
   } catch (e) {
     console.log(`⚠️ Nu am putut scrie raportul de platforme: ${e.message}`);
   }
