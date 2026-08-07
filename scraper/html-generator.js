@@ -100,6 +100,13 @@ export function generateHtml({ platforms, notFound } = {}) {
     .summary { display: flex; gap: 1.5rem; flex-wrap: wrap; margin-bottom: .75rem; }
     .summary strong { color: #c44536; }
     .empty { color: #9a8a7a; font-size: .9rem; }
+    .btn-wrapper { text-align: center; margin: 1rem 0; }
+    .btn { display: inline-flex; align-items: center; gap: .5rem; background: #c44536; color: #fff; text-decoration: none; padding: .8rem 1.6rem; border-radius: 10px; font-weight: 600; font-size: .9rem; margin: .25rem; }
+    .btn:hover { background: #a83828; }
+    .btn-green { background: #4a7c59; }
+    .btn-green:hover { background: #3d6848; }
+    .btn-red { background: #c44536; }
+    .btn-red:hover { background: #a83828; }
     footer { text-align: center; padding: 2rem 0; color: #9a8a7a; font-size: .8rem; }
     footer a { color: #c44536; text-decoration: none; }
   </style>
@@ -143,6 +150,12 @@ export function generateHtml({ platforms, notFound } = {}) {
       </div>
       ${nfTable}
     </div>
+  </div>
+
+  <div class="btn-wrapper">
+    <a class="btn" href="test-results/index.html" target="_blank"><span>&#10004;</span> Testare</a>
+    <a class="btn btn-green" href="platforme.md" target="_blank"><span>&#128196;</span> Raport platforme (MD)</a>
+    <a class="btn btn-red" href="companii-negasite.md" target="_blank"><span>&#128203;</span> Companii negăsite (MD)</a>
   </div>
 
   <footer>
