@@ -148,26 +148,6 @@
       font-weight: 700;
     }
 
-    .company-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-      gap: 0.6rem;
-    }
-    .company-item {
-      background: #f5ede6;
-      padding: 0.55rem 0.85rem;
-      border-radius: 8px;
-      font-size: 0.82rem;
-    }
-    .company-item strong {
-      color: #c44536;
-    }
-    .company-item a {
-      color: #c44536;
-      text-decoration: none;
-    }
-    .company-item a:hover { text-decoration: underline; }
-
     .btn {
       display: inline-flex;
       align-items: center;
@@ -232,7 +212,6 @@
       .lang-toggle { position: static; margin-bottom: 0.75rem; }
       header { display: flex; flex-direction: column; align-items: center; }
       .stats { grid-template-columns: 1fr; }
-      .company-grid { grid-template-columns: 1fr; }
     }
   </style>
 </head>
@@ -248,19 +227,19 @@
       <img src="https://peviitor.ro/assets/logo-DV2JQkir.svg" alt="peviitor" class="logo-img">
     </a>
     <h1 data-i18n="pageTitle">Locuri de muncă</h1>
-    <p data-i18n="subtitle">Scraper automat pentru locurile de muncă EPAM Romania</p>
+    <p data-i18n="subtitle">Scraper automat pentru job-urile de pe inviitor.ro în peviitor.ro</p>
 
     <div style="margin: 15px 0; display:flex; flex-wrap:wrap; gap:8px; justify-content:center;">
-      <a href="https://github.com/sebiboga/epam-systems-international-srl-nodejs-scraper/actions/workflows/job-seeker-ro-spider.yml" target="_blank">
-        <img src="https://github.com/sebiboga/epam-systems-international-srl-nodejs-scraper/actions/workflows/job-seeker-ro-spider.yml/badge.svg" alt="Scraper Status">
+      <a href="https://github.com/sebiboga/inviitor-ro-nodejs-scraper/actions/workflows/job-seeker-ro-spider.yml" target="_blank">
+        <img src="https://github.com/sebiboga/inviitor-ro-nodejs-scraper/actions/workflows/job-seeker-ro-spider.yml/badge.svg" alt="Scraper Status">
       </a>
-      <a href="https://github.com/sebiboga/epam-systems-international-srl-nodejs-scraper/actions/workflows/automation-testing.yml" target="_blank">
-        <img src="https://github.com/sebiboga/epam-systems-international-srl-nodejs-scraper/actions/workflows/automation-testing.yml/badge.svg" alt="Tests Status">
+      <a href="https://github.com/sebiboga/inviitor-ro-nodejs-scraper/actions/workflows/automation-testing.yml" target="_blank">
+        <img src="https://github.com/sebiboga/inviitor-ro-nodejs-scraper/actions/workflows/automation-testing.yml/badge.svg" alt="Tests Status">
       </a>
-      <a href="https://github.com/sebiboga/epam-systems-international-srl-nodejs-scraper/blob/main/CHANGELOG.md" target="_blank">
-        <img src="https://img.shields.io/github/package-json/v/sebiboga/epam-systems-international-srl-nodejs-scraper?label=version&color=blue" alt="Version">
+      <a href="https://github.com/sebiboga/inviitor-ro-nodejs-scraper/blob/main/README.md" target="_blank">
+        <img src="https://img.shields.io/github/package-json/v/sebiboga/inviitor-ro-nodejs-scraper?label=version&color=blue" alt="Version">
       </a>
-      <a href="https://github.com/sebiboga/epam-systems-international-srl-nodejs-scraper/blob/main/LICENSE" target="_blank">
+      <a href="https://github.com/sebiboga/inviitor-ro-nodejs-scraper/blob/main/LICENSE" target="_blank">
         <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License">
       </a>
       <a href="https://ecma-international.org/" target="_blank">
@@ -300,31 +279,30 @@
     <div class="card-header" data-i18n="aboutTitle">Despre acest scraper</div>
     <div class="card-body">
       <ul class="features-list" data-i18n="featuresList">
-        <li data-i18n="f1">Extrage job-uri de pe EPAM Careers API</li>
-        <li data-i18n="f2">Parsează cu fetch (JSON API)</li>
-        <li data-i18n="f3">Validează compania via ANAF</li>
-        <li data-i18n="f4">Verifică și elimină job-uri expirate</li>
-        <li data-i18n="f5">Salvează în SOLR pentru peviitor.ro</li>
+        <li data-i18n="f1">Extrage job-uri multi-companie din API-ul inviitor.ro</li>
+        <li data-i18n="f2">Deduplicare după job_link (uniqueKey)</li>
+        <li data-i18n="f3">Lookup companii: peviitor v1 → ANAF → cuiscan/cuifirma</li>
+        <li data-i18n="f4">Upsert companii + job-uri prin API-ul peviitor v1</li>
+        <li data-i18n="f5">Rapoarte: companii negăsite + platforme sursă</li>
       </ul>
     </div>
   </div>
 
-  <div class="card" id="companyCard">
-    <div class="card-header" data-i18n="companyTitle">Despre companie</div>
-    <div class="card-body">
-      <div class="company-grid" id="companyDetails"></div>
-    </div>
-  </div>
-
   <div class="btn-wrapper" style="display:flex; gap:0.75rem; justify-content:center; flex-wrap:wrap;">
-    <a class="btn" href="https://github.com/sebiboga/epam-systems-international-srl-nodejs-scraper/actions/workflows/job-seeker-ro-spider.yml" target="_blank">
+    <a class="btn" href="https://github.com/sebiboga/inviitor-ro-nodejs-scraper/actions/workflows/job-seeker-ro-spider.yml" target="_blank">
       <span>&#9654;</span> <span data-i18n="runBtn">Rulează Scraper</span>
     </a>
-    <a class="btn" href="test-results/" style="background:#7d6b5a;">
-      <span>&#128203;</span> <span data-i18n="testResults">Rezultate Teste</span>
+    <a class="btn" href="companii-negasite.md" target="_blank" style="background:#c44536;">
+      <span>&#128203;</span> <span data-i18n="notFoundReport">Companii negăsite</span>
     </a>
-    <a class="btn" href="jobs.md" target="_blank" style="background:#4a7c59;">
-      <span>&#128196;</span> <span data-i18n="jobsMd">Jobs MD</span>
+    <a class="btn" href="platforme.md" target="_blank" style="background:#4a7c59;">
+      <span>&#128196;</span> <span data-i18n="platformsReport">Raport platforme</span>
+    </a>
+    <a class="btn" href="test-results/" style="background:#7d6b5a;">
+      <span>&#128269;</span> <span data-i18n="testResults">Rezultate Teste</span>
+    </a>
+    <a class="btn" href="README.md" target="_blank" style="background:#4a6b7c;">
+      <span>&#128214;</span> <span data-i18n="docs">Documentație</span>
     </a>
   </div>
 
@@ -337,84 +315,56 @@
   </div>
 
   <footer>
-    <a href="https://github.com/sebiboga/epam-systems-international-srl-nodejs-scraper" target="_blank">GitHub</a> &middot;
-    <a href="https://github.com/sebiboga/epam-systems-international-srl-nodejs-scraper/blob/main/docs/README.md" target="_blank" data-i18n="docs">Documentație</a> &middot;
+    <a href="https://github.com/sebiboga/inviitor-ro-nodejs-scraper" target="_blank">GitHub</a> &middot;
+    <a href="https://github.com/sebiboga/inviitor-ro-nodejs-scraper/blob/main/docs/README.md" target="_blank" data-i18n="docs">Documentație</a> &middot;
     <a href="https://peviitor.ro/" target="_blank">peviitor.ro</a>
   </footer>
 
 </div>
 
 <script>
-// Loaded from docs/company.json (regenerated on every scrape)
-let COMPANY = "EPAM SYSTEMS INTERNATIONAL SRL";
-let COMPANY_CIF = "33159615";
-
-async function loadCompanyConfig() {
-  try {
-    const res = await fetch("./company.json", { cache: "no-cache" });
-    if (!res.ok) return;
-    const cfg = await res.json();
-    if (cfg.legalName) COMPANY = cfg.legalName;
-    if (cfg.cif) COMPANY_CIF = cfg.cif;
-  } catch (e) {
-    console.warn("company.json not available, using fallback constants");
-  }
-}
+const SOURCE = "inviitor.ro";
 
 const i18n = {
   en: {
-    pageTitle: "EPAM Jobs — peviitor.ro",
-    subtitle: "Automated scraper for EPAM Romania jobs",
+    pageTitle: "Jobs — peviitor.ro",
+    subtitle: "Automated scraper for inviitor.ro jobs",
     jobsLabel: "Jobs",
     verifiedLabel: "Verified",
     aboutTitle: "About this scraper",
-    f1: "Extracts jobs from EPAM Careers API",
-    f2: "Parses with fetch (JSON API)",
-    f3: "Validates company via ANAF",
-    f4: "Checks and removes expired jobs",
-    f5: "Saves to SOLR for peviitor.ro",
-    companyTitle: "About the company",
+    f1: "Extracts multi-company jobs from the inviitor.ro API",
+    f2: "Deduplicates by job_link (uniqueKey)",
+    f3: "Company lookup: peviitor v1 → ANAF → cuiscan/cuifirma",
+    f4: "Upserts companies and jobs via the peviitor v1 API",
+    f5: "Reports: not-found companies + source platforms",
     runBtn: "Run Scraper",
     jobsTitle: "Available jobs",
     jobsEmpty: "Loading...",
     docs: "Documentation",
-    companyLoading: "Loading...",
     testResults: "Test Results",
+    notFoundReport: "Not Found Companies",
+    platformsReport: "Platforms Report",
   },
   ro: {
     pageTitle: "Locuri de muncă — peviitor.ro",
-    subtitle: "Scraper automat pentru locurile de muncă EPAM Romania",
+    subtitle: "Scraper automat pentru job-urile de pe inviitor.ro în peviitor.ro",
     jobsLabel: "Locuri de muncă",
     verifiedLabel: "Verificate",
     aboutTitle: "Despre acest scraper",
-    f1: "Extrage locuri de muncă de pe EPAM Careers API",
-    f2: "Parsează cu fetch (JSON API)",
-    f3: "Validează compania via ANAF",
-    f4: "Verifică și elimină locuri de muncă expirate",
-    f5: "Salvează în SOLR pentru peviitor.ro",
-    companyTitle: "Despre companie",
+    f1: "Extrage job-uri multi-companie din API-ul inviitor.ro",
+    f2: "Deduplicare după job_link (uniqueKey)",
+    f3: "Lookup companii: peviitor v1 → ANAF → cuiscan/cuifirma",
+    f4: "Upsert companii + job-uri prin API-ul peviitor v1",
+    f5: "Rapoarte: companii negăsite + platforme sursă",
     runBtn: "Rulează Scraper",
     jobsTitle: "Locuri de muncă disponibile",
     jobsEmpty: "Se încarcă...",
     docs: "Documentație",
-    companyLoading: "Se încarcă...",
     testResults: "Rezultate Teste",
+    notFoundReport: "Companii negăsite",
+    platformsReport: "Raport platforme",
   }
 };
-
-function applyDynamicTitle() {
-  const name = window.__companyName;
-  if (!name) return;
-  const lang = document.documentElement.lang;
-  const h1 = document.querySelector("h1[data-i18n='pageTitle']");
-  if (lang === "ro") {
-    document.title = `Locuri de muncă de la ${name} — peviitor.ro`;
-    if (h1) h1.textContent = `Locuri de muncă de la ${name}`;
-  } else {
-    document.title = `${name} Jobs — peviitor.ro`;
-    if (h1) h1.textContent = `${name} Jobs`;
-  }
-}
 
 function setLang(lang) {
   document.querySelectorAll("[data-i18n]").forEach(el => {
@@ -427,7 +377,6 @@ function setLang(lang) {
   document.getElementById("lang-" + lang).classList.add("active");
   document.documentElement.lang = lang;
   localStorage.setItem("peviitor-lang", lang);
-  applyDynamicTitle();
 }
 
 const saved = localStorage.getItem("peviitor-lang");
@@ -436,36 +385,12 @@ else setLang("ro");
 
 async function loadStats() {
   try {
-    const cRes = await fetch(`https://api.peviitor.ro/v1/company/?cif=${COMPANY_CIF}`, {
-      headers: { origin: "https://peviitor.ro", referer: "https://peviitor.ro/" }
-    });
-    const cData = await cRes.json();
-    const comp = cData.company;
-    if (comp) {
-      const grid = document.getElementById("companyDetails");
-      grid.innerHTML = `
-        <div class="company-item"><strong>CIF:</strong> ${comp.id}</div>
-        <div class="company-item"><strong>Brand:</strong> ${comp.brand}</div>
-        <div class="company-item"><strong>Status:</strong> ${comp.status}</div>
-        <div class="company-item"><strong>Orașe:</strong> ${(comp.location || []).join(", ") || "—"}</div>
-        <div class="company-item"><strong>Website:</strong> <a href="${(comp.website || [])[0] || "#"}" target="_blank">${(comp.website || [])[0] || "—"}</a></div>
-        <div class="company-item"><strong>Career:</strong> <a href="${(comp.career || [])[0] || "#"}" target="_blank">${(comp.career || [])[0] || "—"}</a></div>
-        <div class="company-item"><strong>Ultimul scrape:</strong> ${comp.lastScraped || "—"}</div>
-      `;
-
-      window.__companyName = comp.company || COMPANY;
-      applyDynamicTitle();
-    }
-  } catch (e) {
-    console.error("Company load failed:", e);
-  }
-
-  try {
-    const vRes = await fetch(`https://api.peviitor.ro/v1/search/?company=${encodeURIComponent(COMPANY)}&status=verified&page=1`, {
-      headers: { origin: "https://peviitor.ro", referer: "https://peviitor.ro/" }
+    const vRes = await fetch(`https://api.peviitor.ro/v1/search/?source=${encodeURIComponent(SOURCE)}&status=verified&rows=1`, {
+      headers: { origin: "https://peviitor.ro", referer: "https://peviitor.ro/", "User-Agent": "job_seeker_ro_spider" }
     });
     const vData = await vRes.json();
-    document.getElementById("verifiedCount").textContent = vData.response.numFound;
+    const num = vData.response?.numFound;
+    document.getElementById("verifiedCount").textContent = (typeof num === "number") ? num : "?";
   } catch { document.getElementById("verifiedCount").textContent = "?"; }
 
   const now = new Date();
@@ -481,24 +406,25 @@ async function loadStats() {
     let hasMore = true;
 
     while (hasMore) {
-      const res = await fetch(`https://api.peviitor.ro/v1/search/?company=${encodeURIComponent(COMPANY)}&page=${page}`, {
-        headers: { origin: "https://peviitor.ro", referer: "https://peviitor.ro/" }
+      const res = await fetch(`https://api.peviitor.ro/v1/search/?source=${encodeURIComponent(SOURCE)}&page=${page}`, {
+        headers: { origin: "https://peviitor.ro", referer: "https://peviitor.ro/", "User-Agent": "job_seeker_ro_spider" }
       });
       const data = await res.json();
       const docs = data.response?.docs || [];
       if (docs.length === 0) { hasMore = false; break; }
 
       docs.forEach((job, idx) => {
-        if (job.cif !== COMPANY_CIF) return;
         ourCount++;
         const div = document.createElement("div");
         div.className = "job-item";
         const loc = Array.isArray(job.location) ? job.location.join(", ") : "";
         const wm = job.workmode || "";
+        const company = job.company || "";
         div.innerHTML = `
           <span style="color:#9a8a7a; font-size:0.8rem; font-weight:600; margin-right:0.5rem;">${ourCount}.</span>
           <a href="${job.url}" target="_blank">${job.title}</a>
           <div class="job-meta">
+            ${company ? `<span>&#127970; ${company}</span>` : ""}
             ${loc ? `<span>&#128205; ${loc}</span>` : ""}
             ${wm ? `<span>&#128188; ${wm}</span>` : ""}
           </div>
@@ -521,7 +447,7 @@ async function loadStats() {
   }
 }
 
-loadCompanyConfig().then(loadStats);
+loadStats();
 setInterval(loadStats, 30000);
 </script>
 </body>

@@ -6,6 +6,7 @@ import { buildCompanyRecord } from "./company-builder.js";
 import { buildJobRecord } from "./job-builder.js";
 import { findWebsite } from "./web-search.js";
 import { generateNotFoundReport } from "./not-found-report.js";
+import { extractHostname, classifyPlatform, generatePlatformReport } from "./platform-report.js";
 
 const companyCache = {};
 
@@ -87,6 +88,19 @@ async function run() {
   const seenUrls = new Set();
   const newJobs = [];
   const notFoundByCompany = {};
+  const platforms = new Map();
+
+  function trackPlatform(url) {
+    const host = extractHostname(url);
+    if (!host) return;
+    const existing = platforms.get(host);
+    if (existing) {
+      existing.count += 1;
+    } else {
+      const cls = classifyPlatform(host);
+      platforms.set(host, { host, count: 1, url, type: cls.type, name: cls.name });
+    }
+  }
 
   for (let page = 1; page <= MAX_PAGES; page++) {
     const jobs = await fetchJobsPage(page);
@@ -100,6 +114,7 @@ async function run() {
       const url = job.job_link || "";
       if (!url || seenUrls.has(url)) continue;
       seenUrls.add(url);
+      trackPlatform(url);
       fresh.push(job);
     }
 
@@ -179,6 +194,17 @@ async function run() {
     console.log("Saved docs/companii-negasite.md");
   } catch (e) {
     console.log(`⚠️ Nu am putut scrie raportul: ${e.message}`);
+  }
+
+  const aggregatorCount = [...platforms.values()].filter(p => p.type === "aggregator").length;
+  console.log(`\nPlatforms found: ${platforms.size} (${aggregatorCount} aggregator portals)`);
+
+  try {
+    const platformReport = generatePlatformReport(platforms);
+    writeFileSync("docs/platforme.md", platformReport, "utf-8");
+    console.log("Saved docs/platforme.md");
+  } catch (e) {
+    console.log(`⚠️ Nu am putut scrie raportul de platforme: ${e.message}`);
   }
 
   console.log("\n=== Done ===");

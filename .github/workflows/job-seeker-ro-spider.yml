@@ -27,17 +27,17 @@ jobs:
         env:
           MAX_PAGES: "1500"
 
-      - name: Publish docs/companii-negasite.md
+      - name: Publish docs reports
         run: |
-          if git status --porcelain | grep -q "docs/companii-negasite.md"; then
+          if git status --porcelain | grep -q "docs/"; then
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add docs/companii-negasite.md
-            git commit -m "[skip ci] Update companies-not-found report" --no-verify
+            git add docs/companii-negasite.md docs/platforme.md
+            git commit -m "[skip ci] Update docs reports" --no-verify || echo "Nothing to commit"
             git push
-            echo "Report published."
+            echo "Reports published."
           else
-            echo "No changes to report."
+            echo "No changes to reports."
           fi
 
       - name: Verify in Solr
