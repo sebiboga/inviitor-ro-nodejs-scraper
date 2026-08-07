@@ -1,515 +1,85 @@
 <!DOCTYPE html>
 <html lang="ro">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title data-i18n="pageTitle">Locuri de muncă — inviitor.ro</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
-  <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    body {
-      font-family: 'Inter', -apple-system, sans-serif;
-      background: linear-gradient(135deg, #fdf6f0 0%, #f5e6d3 50%, #f0dcc8 100%);
-      color: #2d2a24;
-      min-height: 100vh;
-      line-height: 1.6;
-    }
-    .container { max-width: 960px; margin: 0 auto; padding: 2rem 1.5rem 4rem; }
-
-    header {
-      text-align: center;
-      padding: 1.5rem 0 2rem;
-      position: relative;
-    }
-    .logo-link { display: inline-block; line-height: 0; }
-    .logo-img { height: 32px; width: auto; transition: opacity 0.2s; }
-    .logo-img:hover { opacity: 0.8; }
-    header h1 {
-      font-size: 1.5rem;
-      font-weight: 700;
-      color: #c44536;
-      letter-spacing: -0.02em;
-      margin: 0.5rem 0 0.25rem;
-    }
-    header p { color: #7d6b5a; font-size: 0.9rem; }
-    header .scraper-tag {
-      display: inline-block;
-      margin-top: 0.5rem;
-      padding: 0.3rem 0.85rem;
-      background: #e8d5c4;
-      border-radius: 8px;
-      font-family: 'Fira Code', monospace;
-      font-size: 0.8rem;
-      color: #5a4a3a;
-    }
-
-    .lang-toggle {
-      position: absolute;
-      top: 0;
-      right: 0;
-      display: inline-flex;
-      background: #e8d5c4;
-      border-radius: 8px;
-      overflow: hidden;
-    }
-    .lang-toggle button {
-      border: none;
-      background: transparent;
-      padding: 0.35rem 0.75rem;
-      font-family: 'Inter', sans-serif;
-      font-size: 0.8rem;
-      font-weight: 600;
-      color: #7d6b5a;
-      cursor: pointer;
-      transition: all 0.2s;
-    }
-    .lang-toggle button.active { background: #c44536; color: #fff; }
-    .lang-toggle button:not(.active):hover { color: #5a4a3a; }
-
-    .card {
-      background: #fffcf9;
-      border-radius: 16px;
-      box-shadow: 0 4px 24px rgba(90, 60, 40, 0.10);
-      overflow: hidden;
-      margin-bottom: 1.25rem;
-    }
-    .card-header {
-      padding: 1.1rem 1.5rem;
-      border-bottom: 1px solid #f0e4d8;
-      font-weight: 600;
-      font-size: 0.9rem;
-      color: #5a4a3a;
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-      justify-content: space-between;
-    }
-    .card-header .badge {
-      font-weight: 600;
-      font-size: 0.75rem;
-      padding: 0.2rem 0.6rem;
-      border-radius: 12px;
-    }
-    .badge-green { background: #e8f5ec; color: #2e7d32; }
-    .badge-red { background: #fdecec; color: #c44536; }
-    .badge-blue { background: #e8f0fe; color: #1a56db; }
-    .card-body { padding: 1.5rem; }
-
-    .stats { display: grid; grid-template-columns: repeat(5, 1fr); gap: 1rem; }
-    .stat {
-      background: linear-gradient(135deg, #f0faf3, #e8f5ec);
-      border-radius: 12px;
-      padding: 1.25rem 1rem;
-      text-align: center;
-    }
-    .stat-value { font-size: 1.4rem; font-weight: 700; color: #2e7d32; line-height: 1.2; }
-    .stat-label { font-size: 0.78rem; color: #558b5a; font-weight: 500; margin-top: 0.2rem; }
-    .stat-time { background: linear-gradient(135deg, #fef8f0, #fdf0e0); }
-    .stat-time .stat-value { color: #c44536; font-size: 1.1rem; }
-    .stat-time .stat-label { color: #a07050; }
-
-    .table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
-    .table th {
-      text-align: left;
-      padding: 0.55rem 0.75rem;
-      color: #7d6b5a;
-      font-size: 0.75rem;
-      text-transform: uppercase;
-      letter-spacing: 0.03em;
-      border-bottom: 1px solid #f0e4d8;
-    }
-    .table td {
-      padding: 0.55rem 0.75rem;
-      border-bottom: 1px solid #f5ede6;
-      vertical-align: top;
-    }
-    .table tr:last-child td { border-bottom: none; }
-    .table a { color: #c44536; text-decoration: none; font-weight: 500; }
-    .table a:hover { text-decoration: underline; }
-    .table .num { text-align: right; font-weight: 600; color: #2e7d32; white-space: nowrap; }
-    .domain { font-family: 'Fira Code', monospace; font-size: 0.8rem; color: #5a4a3a; }
-    .company-name { font-weight: 600; color: #c44536; }
-    .nf-summary { display: flex; gap: 1.5rem; flex-wrap: wrap; margin-bottom: 0.75rem; font-size: 0.9rem; }
-    .nf-summary strong { color: #c44536; }
-    .section-title { margin: 1.25rem 0 0.5rem; font-size: 1rem; color: #3a2f28; }
-    .company-heading { margin: 1rem 0 0.5rem; font-size: 0.95rem; color: #5a4a3a; font-weight: 700; }
-
-    .empty-state { text-align: center; padding: 1.5rem 0; color: #9a8a7a; font-size: 0.9rem; }
-    .btn-wrapper { text-align: center; margin: 1rem 0; }
-    .btn {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.5rem;
-      background: #c44536;
-      color: #fff;
-      border: none;
-      padding: 0.8rem 1.6rem;
-      border-radius: 10px;
-      font-family: 'Inter', sans-serif;
-      font-size: 0.9rem;
-      font-weight: 600;
-      cursor: pointer;
-      text-decoration: none;
-      transition: background 0.2s, transform 0.15s;
-    }
-    .btn:hover { background: #a83828; transform: translateY(-1px); }
-
-    .code-block {
-      background: #f7efe7;
-      border: 1px solid #efe2d4;
-      border-radius: 12px;
-      padding: 1rem 1.25rem;
-      font-family: 'Fira Code', monospace;
-      font-size: 0.78rem;
-      line-height: 1.7;
-      overflow-x: auto;
-      color: #5a4a3a;
-    }
-    .steps { margin: 0; padding-left: 1.25rem; }
-    .steps li { margin-bottom: 0.5rem; }
-    .steps li:last-child { margin-bottom: 0; }
-    .steps strong { color: #c44536; }
-    .note { color: #7d6b5a; font-size: 0.9rem; margin: 0.75rem 0 0; }
-
-    footer {
-      text-align: center;
-      padding: 2rem 0;
-      color: #9a8a7a;
-      font-size: 0.8rem;
-    }
-    footer a { color: #c44536; text-decoration: none; }
-    footer a:hover { text-decoration: underline; }
-
-    @media (max-width: 600px) {
-      .lang-toggle { position: static; margin-bottom: 0.75rem; }
-      header { display: flex; flex-direction: column; align-items: center; }
-      .stats { grid-template-columns: 1fr; }
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Locuri de muncă — inviitor.ro</title>
+<style>
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#fdf6f0;color:#2d2a24;line-height:1.6;padding:2rem 1rem}
+  .container{max-width:960px;margin:0 auto}
+  h1{color:#c44536;font-size:1.5rem;margin-bottom:.25rem}
+  h2{color:#3a2f28;font-size:1.15rem;margin:1.5rem 0 .75rem}
+  .sub{color:#7d6b5a;font-size:.9rem;margin-bottom:1.5rem}
+  .card{background:#fffcf9;border-radius:16px;box-shadow:0 4px 24px rgba(90,60,40,.10);overflow:hidden;margin-bottom:1.25rem}
+  .card-header{padding:1rem 1.5rem;border-bottom:1px solid #f0e4d8;font-weight:600;color:#5a4a3a;display:flex;justify-content:space-between;align-items:center}
+  .badge{font-size:.75rem;padding:.2rem .6rem;border-radius:12px;font-weight:600}
+  .b-green{background:#e8f5ec;color:#2e7d32}.b-blue{background:#e8f0fe;color:#1a56db}.b-red{background:#fdecec;color:#c44536}
+  .card-body{padding:1.5rem}
+  .stats{display:flex;flex-wrap:wrap;gap:.75rem}
+  .stat{background:#f0faf3;border-radius:12px;padding:1rem;text-align:center;flex:1;min-width:140px}
+  .stat b{display:block;font-size:1.5rem;color:#2e7d32}.stat span{font-size:.8rem;color:#558b5a}
+  .table{width:100%;border-collapse:collapse;font-size:.85rem}
+  .table th{text-align:left;padding:.55rem .75rem;color:#7d6b5a;font-size:.75rem;text-transform:uppercase;border-bottom:1px solid #f0e4d8}
+  .table td{padding:.55rem .75rem;border-bottom:1px solid #f5ede6;vertical-align:top}
+  .table a{color:#c44536;text-decoration:none;font-weight:500}
+  .num{text-align:right;font-weight:600;color:#2e7d32;white-space:nowrap}
+  .domain{font-family:monospace;font-size:.8rem;color:#5a4a3a}
+  .company-name{font-weight:600;color:#c44536}
+  .company-heading{margin:1rem 0 .5rem;font-size:.95rem;color:#5a4a3a}
+  .summary{display:flex;gap:1.5rem;flex-wrap:wrap;margin-bottom:.75rem}
+  .summary strong{color:#c44536}
+  footer{text-align:center;padding:2rem 0;color:#9a8a7a;font-size:.8rem}
+  footer a{color:#c44536;text-decoration:none}
+</style>
 </head>
 <body>
 <div class="container">
+  <h1>Locuri de muncă — inviitor.ro</h1>
+  <p class="sub">Scraper automat multi-companie pentru job-urile de pe inviitor.ro</p>
 
-  <header>
-    <div class="lang-toggle">
-      <button onclick="setLang('en')" id="lang-en">EN</button>
-      <button onclick="setLang('ro')" id="lang-ro" class="active">RO</button>
+  <div class="card"><div class="card-body">
+    <div class="stats">
+      <div class="stat"><b>10</b><span>Agregatori</span></div>
+      <div class="stat"><b>2</b><span>Platforme ATS</span></div>
+      <div class="stat"><b>7</b><span>Site-uri companii</span></div>
+      <div class="stat"><b>19</b><span>Domenii distincte</span></div>
+      <div class="stat"><b>07.08.2026 15:16</b><span>Raport generat la</span></div>
     </div>
-    <a href="https://peviitor.ro" target="_blank" class="logo-link">
-      <img src="https://peviitor.ro/assets/logo-DV2JQkir.svg" alt="peviitor" class="logo-img">
-    </a>
-    <h1 data-i18n="pageTitle">Locuri de muncă — inviitor.ro</h1>
-    <p data-i18n="subtitle">Scraper automat multi-companie pentru job-urile de pe inviitor.ro</p>
-
-    <div style="margin: 15px 0; display:flex; flex-wrap:wrap; gap:8px; justify-content:center;">
-      <a href="https://github.com/sebiboga/inviitor-ro-nodejs-scraper/actions/workflows/job-seeker-ro-spider.yml" target="_blank">
-        <img src="https://github.com/sebiboga/inviitor-ro-nodejs-scraper/actions/workflows/job-seeker-ro-spider.yml/badge.svg" alt="Scraper Status">
-      </a>
-      <a href="https://github.com/sebiboga/inviitor-ro-nodejs-scraper/actions/workflows/automation-testing.yml" target="_blank">
-        <img src="https://github.com/sebiboga/inviitor-ro-nodejs-scraper/actions/workflows/automation-testing.yml/badge.svg" alt="Tests Status">
-      </a>
-      <a href="https://github.com/sebiboga/inviitor-ro-nodejs-scraper/blob/main/README.md" target="_blank">
-        <img src="https://img.shields.io/github/package-json/v/sebiboga/inviitor-ro-nodejs-scraper?label=version&color=blue" alt="Version">
-      </a>
-      <a href="https://github.com/sebiboga/inviitor-ro-nodejs-scraper/blob/main/LICENSE" target="_blank">
-        <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License">
-      </a>
-      <a href="https://ecma-international.org/" target="_blank">
-        <img src="https://img.shields.io/badge/javascript-ESM-F7DF1E?logo=javascript&logoColor=black" alt="JavaScript ESM">
-      </a>
-      <a href="https://nodejs.org/" target="_blank">
-        <img src="https://img.shields.io/badge/node-24-339933?logo=nodedotjs&logoColor=white" alt="Node.js 24">
-      </a>
-    </div>
-
-    <div class="scraper-tag">job_seeker_ro_spider</div>
-  </header>
+  </div></div>
 
   <div class="card">
+    <div class="card-header"><span>Agregatori (portale de job-uri)</span><span class="badge b-green">10</span></div>
+    <div class="card-body"><table class="table"><thead><tr><th>#</th><th>Platformă</th><th>Domeniu</th><th>Job-uri</th><th>Exemplu URL</th></tr></thead><tbody><tr><td>1</td><td>CareerJet (tracking)</td><td><span class="domain">jobviewtrack.com</span></td><td><span class="num">26</span></td><td><a href="https://jobviewtrack.com/v2/4w_1ih9ESqTT8kuJkHB-evSShTfKv0-rFTeCDUckMJUMie_rODNgO8SGrGNBUgH3eEm3fWWMNTsB68dS-k_F8PBe_4hHISEewLDLsrk45Fo9piw9KQrHhxYtEgFo9NbnWPLn3S7xhjX-W5FdFDZerV3fBfbuXt8kdNwCN0bRF0Ppj6KfSKwomZ3jhCJleG4qtYTgJPMBSW9Tm2tmLV2Rz7krtP4a-SBwih2v7_TQiL4" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>2</td><td>ANOFM (mediere)</td><td><span class="domain">mediere.anofm.ro</span></td><td><span class="num">16</span></td><td><a href="https://mediere.anofm.ro/app/module/mediere/job/3182713" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>3</td><td>BestJobs.eu</td><td><span class="domain">bestjobs.eu</span></td><td><span class="num">15</span></td><td><a href="https://www.bestjobs.eu/loc-de-munca/consilier-vanzari-bijuterii-teilor-13" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>4</td><td>Hipo.ro</td><td><span class="domain">hipo.ro</span></td><td><span class="num">7</span></td><td><a href="https://www.hipo.ro/locuri-de-munca/locuri_de_munca/269181/Siemens-Energy/Finance-Process-Governance-Expert-for-Supply-Chain" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>5</td><td>Undelucram.ro</td><td><span class="domain">undelucram.ro</span></td><td><span class="num">5</span></td><td><a href="https://www.undelucram.ro/ro/locuri-de-munca/brand-consumer-junior-advisor-with-german-full-time-or-part-time/98653" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>6</td><td>JobRadar24.ro</td><td><span class="domain">jobradar24.ro</span></td><td><span class="num">4</span></td><td><a href="https://www.jobradar24.ro/anunt/consilieri-vanzari-8mpq6z" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>7</td><td>MultiJobs.ro</td><td><span class="domain">multijobs.ro</span></td><td><span class="num">2</span></td><td><a href="https://multijobs.ro/job/casier-lucrator-comercial-shopgo-vatra-luminoasa/4254" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>8</td><td>Helperz.ro</td><td><span class="domain">helperz.ro</span></td><td><span class="num">2</span></td><td><a href="https://helperz.ro/locuri-de-munca/anunt/6a2d577bba94d4000204799c" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>9</td><td>IAJob.ro</td><td><span class="domain">iajob.ro</span></td><td><span class="num">2</span></td><td><a href="https://www.iajob.ro/locuri-de-munca/00mzfj" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>10</td><td>eJobs.ro</td><td><span class="domain">ejobs.ro</span></td><td><span class="num">1</span></td><td><a href="https://www.ejobs.ro/user/locuri-de-munca/asistent-medical-puncte-de-recoltare-bucuresti-ilfov/1976726" target="_blank" rel="noopener noreferrer">link</a></td></tr></tbody></table></div>
+  </div>
+
+  <div class="card">
+    <div class="card-header"><span>Platforme ATS/cariere</span><span class="badge b-blue">2</span></div>
+    <div class="card-body"><table class="table"><thead><tr><th>#</th><th>Platformă</th><th>Domeniu</th><th>Job-uri</th><th>Exemplu URL</th></tr></thead><tbody><tr><td>1</td><td>Teamtailor</td><td><span class="domain">everymatrix.teamtailor.com</span></td><td><span class="num">1</span></td><td><a href="https://everymatrix.teamtailor.com/jobs/7900320-automation-qa-tester" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>2</td><td>Lever</td><td><span class="domain">jobs.eu.lever.co</span></td><td><span class="num">1</span></td><td><a href="https://jobs.eu.lever.co/hkr/2cf0b6bd-58b6-419b-baee-0f1319342a8c" target="_blank" rel="noopener noreferrer">link</a></td></tr></tbody></table></div>
+  </div>
+
+  <div class="card">
+    <div class="card-header"><span>Site-uri companii</span><span class="badge b-blue">7</span></div>
+    <div class="card-body"><table class="table"><thead><tr><th>#</th><th>Domeniu</th><th>Job-uri</th><th>Exemplu URL</th></tr></thead><tbody><tr><td>1</td><td><span class="domain">jobs.worldline.com</span></td><td><span class="num">7</span></td><td><a href="https://jobs.worldline.com/job/Full-Stack-Developer-%28Java-with-Camel-&amp;-Vue_js%29/303151-en_US" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>2</td><td><span class="domain">cariere.lidl.ro</span></td><td><span class="num">6</span></td><td><a href="https://cariere.lidl.ro/jobs/vanzator-ghiroda-f-m-ghiroda-730421" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>3</td><td><span class="domain">hitachienergy.com</span></td><td><span class="num">1</span></td><td><a href="https://www.hitachienergy.com/careers/open-jobs/details/JID3-203453" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>4</td><td><span class="domain">job.leroymerlin.ro</span></td><td><span class="num">1</span></td><td><a href="https://job.leroymerlin.ro/jobs/8017420-lider-performan-a-magazin" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>5</td><td><span class="domain">careers.allianz.com</span></td><td><span class="num">1</span></td><td><a href="https://careers.allianz.com/global/en/job/95435" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>6</td><td><span class="domain">chorus.ro</span></td><td><span class="num">1</span></td><td><a href="https://www.chorus.ro/Careers/JobApplication/35?job=Stivuitorist" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>7</td><td><span class="domain">careers.honeywell.com</span></td><td><span class="num">1</span></td><td><a href="https://careers.honeywell.com/en/sites/Honeywell/job/146570" target="_blank" rel="noopener noreferrer">link</a></td></tr></tbody></table></div>
+  </div>
+
+  <div class="card">
+    <div class="card-header"><span>Companii negăsite</span><span class="badge b-red">2</span></div>
     <div class="card-body">
-      <div class="stats" id="statsContainer">
-        <div class="stat">
-          <div class="stat-value" id="aggregatorStat">—</div>
-          <div class="stat-label" data-i18n="aggregatorsLabel">Agregatori</div>
-        </div>
-        <div class="stat">
-          <div class="stat-value" id="atsStat">—</div>
-          <div class="stat-label" data-i18n="atsStatLabel">Platforme ATS</div>
-        </div>
-        <div class="stat">
-          <div class="stat-value" id="companiesStat">—</div>
-          <div class="stat-label" data-i18n="companiesStatLabel">Site-uri companii</div>
-        </div>
-        <div class="stat">
-          <div class="stat-value" id="domainStat">—</div>
-          <div class="stat-label" data-i18n="domainsLabel">Platforme distincte</div>
-        </div>
-        <div class="stat stat-time">
-          <div class="stat-value" id="lastRunTime">—</div>
-          <div class="stat-label" id="lastRunDate">—</div>
-        </div>
+      <div class="summary">
+        <div><strong>Total companii negăsite:</strong> 2</div>
+        <div><strong>Total job-uri afectate:</strong> 15</div>
       </div>
+      <table class="table"><thead><tr><th>#</th><th>Companie</th><th>Job-uri</th></tr></thead><tbody><tr><td>1</td><td><span class="company-name">CAREERJET</span></td><td><span class="num">14</span></td></tr><tr><td>2</td><td><span class="company-name">PSBH</span></td><td><span class="num">1</span></td></tr></tbody></table>
+      <h2>Detalii job-uri</h2>
+      <h3 class="company-heading">CAREERJET</h3><table class="table"><thead><tr><th>#</th><th>Titlu</th><th>Oraș</th><th>URL</th></tr></thead><tbody><tr><td>1</td><td>Muncitor necalificat la spargerea si taierea materialelor de constructii</td><td>Ilfov</td><td><a href="https://jobviewtrack.com/v2/4w_1ih9ESqTT8kuJkHB-evSShTfKv0-rFTeCDUckMJUMie_rODNgO8SGrGNBUgH3eEm3fWWMNTsB68dS-k_F8PBe_4hHISEewLDLsrk45Fo9piw9KQrHhxYtEgFo9NbnWPLn3S7xhjX-W5FdFDZerV3fBfbuXt8kdNwCN0bRF0Ppj6KfSKwomZ3jhCJleG4qtYTgJPMBSW9Tm2tmLV2Rz7krtP4a-SBwih2v7_TQiL4" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>2</td><td>Agent Imobiliar -Imozone Business Consulting</td><td>Bucuresti</td><td><a href="https://jobviewtrack.com/v2/c7t8Bw00Nc2NpV0tG09KY51IGr71tDGRxyPvSsoESg5p2_OL_zLS9hRPrOHfSrsatd7LnZmgVCDBSdH2DzQem2WgPNM21Bfj_vxWluD-INAtbhk4WRlFPm2uVRXBGG1AuMm_yr80QwXFDXI4fwf--xXkbRuW65IKS3lknA8msU2HQfWzaShvY78N3pIRmdaji7bXZRmP8lBe_yk6S_FtAoJ6nX6wfEgjBamDQKbv7jQ" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>3</td><td>Operator etichetare produse</td><td>Bucuresti</td><td><a href="https://jobviewtrack.com/v2/dNJ5dbZZ29M7OD2w-6kgSGxbQPUAc0HSzNRomjiMc1c2BVBkU-BRSXfSU6wDAoYg6wCBBZhx_HzsuivMpx6z-4exwI1Th-FSkvNHe-pLi2dKzZ-qqwaxsQMhCEihGUjDUhc-3BV6ZgcLfLAkEX6r8Fn2n0ZugDkapd420O2HSfSOUjVjq0yo8JeJfm2_igQ85yvXl1lFFvy3QNa2o5x_xJ2t8ALmplkdnZ04w6-3u0Y" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>4</td><td>Agenti Securitate Sector 3</td><td>Bucuresti</td><td><a href="https://jobviewtrack.com/v2/pmuMCErG-COVVQ4s3q-XD-B8TBBOmHEnRIm1rW6FJriYMtvQ5gZT27nugeObBRGmcUXAiHxko5OxobVyRgDbxtGMtd3wuTK8Lsw74nnAD5iPM1X8tGxNAj_wQ1ovapYKt_keZ-guBzEuF0P-iV181D3SSlTt1UUxuzDxMmrAO8p0SSOdXrZuKKQKY_xh2ejujM8AJaiWNk4XOjCuwRpN7KyJOub3xaP4pZM4mwlUovk" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>5</td><td>Branch Manager - Braila</td><td>Braila</td><td><a href="https://jobviewtrack.com/v2/PimR9WA7hxgjMQ-MocMxQAb8JV7zi52rmhwFycE3OMMvErRraGB5rTL9zWGkaz0ueSt80VXamcFQD5Nb-MucigRjXObqrI_TSMpYOWubnUOxefqa8gRZYZq4Tgx22i_LA8t4AGbTjHzRx3z5T6Hn77mjfmEKWJ0jvRAwdoyBBoOfm8D1-j3Sb2eicw8vPrR3URJR3jPYQdMNRj6oyCsnaXt-ls3LPoPR35iu2n-Vebo" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>6</td><td>Bucatar</td><td>Bucuresti</td><td><a href="https://jobviewtrack.com/v2/1taE5t37j8-6P_t2tvTXVqnOwr647zkvzSZq00aDlajERQa0WAbVv4XKaRD33jXBVuAgdIk4OsCa2Lpv3nILdELBlc3qS6O_qtVGfGmV6YrGlYJnUchdEPoWD3PzjyGZBAYpD8hPzoP18VWF5ICOGsITthhqelhFSJ-D1G5HkIDtZvEf5MPo3yDClmsnj5HZkHl-2yypaxx_cF8envzkXnnmyKSs2uaCGQlRdIzrc8w" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>7</td><td>Femeie de serviciu</td><td>Bucuresti</td><td><a href="https://jobviewtrack.com/v2/gEqHj0X6611fNUnWUAHFhjQbruvr91wIE6leTmmyiKOIjqqEJjqmUd0S31kk5u_9zsndOTeMG7LUuhTeRiDQzAccTAms1Zj3lzzaKnZYdowCyNWqpo0aQjOg64YVso8SYSuhpc9ysbMu_D0V-kjbkjQG6ofSo4i2FMpVNhSp9i7eBRONxqvnoh-A7Rr3LmViNQ6sTVmpJZeS3k0n6NhsngcXD1mmZFNT6k8GG2As0AA" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>8</td><td>Agenti de securitate</td><td>Bucuresti</td><td><a href="https://jobviewtrack.com/v2/0Vm7eze_zfFRh-DqnXj2T-KSaD46qs2Sa5x8nvEcwGjmeoCWe63N4wIRm3wihLwVJGf46_yWiG5fdrMGJtbBgz6qiLoo1HO5MBah-BkwM07mTjbFRa3IEA8oHje1bawLw-iILDMoviaHuypiSFSSG0iddsNMyPouVdCcA6Q6xb0d2Z-fb4_9coNGMx7BWDU-rbo7kK59vb4F3NZ1EZJhdpmiqNoU-xCUe8SoU3t4aZU" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>9</td><td>Lucratori in Productie- Fabrica/ Iesire Sector 6</td><td>Bucuresti</td><td><a href="https://jobviewtrack.com/v2/zeSZc_HFtL7TVd4livs6t0V2rW4viUhaIGTvsjlWVP2JnLW-lcFVdNQ39RgC9w1NjycbbCV55uCPd81i5ePaM_224tax1-UkgYION2LrkOFpnQggxq5vnc69y1fkMrbGz0eIMeHPP6ZEEJt1yu9KD0qAJdQgB02MpSu6v5JMJtANS_bG4B7KObEG0ccnQHsMUNyeoI8kIsQpyIhcd5psb6bybSLRNmeYiWM4UrqHVSI" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>10</td><td>Personal de noapte pentru hotel</td><td>Ilfov</td><td><a href="https://jobviewtrack.com/v2/xoZs4GbixFc712q7JqfUblXH7L1kVrC3dHG2ceVOts8ANEPOpZnqRED84iyxZhdYA4g8PtkB9v5J8eiKZjLbc9C_bU56-MPryjy7XL_H7Q_ntfOsywkUnyN6pyEM1CjNsFQ2LDCf2lIsnT6dlJq5MRB0pyYG4ZRo4JvrFYDq75I9nLI87iBT17HxLSQkW64yIXbtJBUwj8G1EVWnvebVUxpjbm1uA-mXeKdYZIC3Usg" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>11</td><td>Personal depozit colete - Transport de la Pacii</td><td>Bucuresti - Pitesti, Arges</td><td><a href="https://jobviewtrack.com/v2/3vmigUvpLm6ZR_FGsLAoZlG1Fe_mdaYgwZyET0RyhJAcoVSOVOSZMyahHArE0sh9uuZEMmlV2RPYaqdzAeIE8IT4m1BcoetQl9Y5i4WUChwG7C0aC2sqCRrtjQPNk5t8IQZKAb4Cx3hNvFPMVvenImO031-9We1gJkH2L-ghjUT_KVZ82eVEiwzbb08thgIUyiWhuF03AlYTPSBnFCq9W17z3-JsP0L469RROEdqzyM" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>12</td><td>Personal curatenie</td><td>Bucuresti</td><td><a href="https://jobviewtrack.com/v2/qTiI8-tFVw1A4dM8qERUHO_hcVEnFQd6roGFDLSeXeNUB3A-QeeaCLUjXTpq7jDHc0lQLDUEn-qj0An7NNZ3xPoY7P1bLTwn6rK89vBQCWB1OzAsTDBT3zqeQpVhSZ2UdhjX_cWGmLTZaTYkDPo0lFKDevGSDTVX5BQHbF_UGarf9TW7iKvi8X4FmDMAcJBk9c0SRc28xW2XhTL88SF7OT0xtQGs0VZY8Uho-uh-kDE" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>13</td><td>Tamplar avansat pentru executie mobilier Pal si Mdf</td><td>Pantelimon, Ilfov</td><td><a href="https://jobviewtrack.com/v2/fK-HkGVMn2zHdCBul_XE9tH7HDQHP2vQbYuAAjmYKK3_Zj23fVvVt8zN-LB_QWasoqaTMnxA6qCMSp9DW7Y9-hweA36zCkxzqvvqBK2Jt-OxUk-aH7wYycHiXPp4E_cuTkXCjU04ZWr0tHgSpyrHLPJHFKyCPLckyMugdEjG6gufIYcAgDFU01naNWEvpeC6ar159MKpMNCj-WIVT5Aw_bPCJ873wtF2RBkH29iZafY" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>14</td><td>Mecanic intretinere utilaje - Fabrica pavaje - Sector 6</td><td>Bucuresti</td><td><a href="https://jobviewtrack.com/v2/_bOgmAs9a5VVfGs5e9W2K7l9fs8iC5CoO-Xto5EUI-LJe8wnGiRsJMI-AEDbhQrRmHCjTZew7C40Ro-gBsWTu3zwd4nuBSFwCqw_3N0DoiagdFXklKrz83ivuiXla8KEwbnn8jNTAxgSXoCSsspRj_JHzvOuXsxzzgpuFDGPnq-bs-Cegg6JTOgclUVVl3kMZ4KgTn0diMIVyt3iubVBSR6FgdYAxTPD4sEi-708h5M" target="_blank" rel="noopener noreferrer">link</a></td></tr></tbody></table><h3 class="company-heading">PSBH</h3><table class="table"><thead><tr><th>#</th><th>Titlu</th><th>Oraș</th><th>URL</th></tr></thead><tbody><tr><td>1</td><td>Specialist HR/Inspector resurse umane</td><td>Strada Remus, Bucuresti, Romania</td><td><a href="https://www.bestjobs.eu/loc-de-munca/specialist-hr-inspector-resurse-umane-4" target="_blank" rel="noopener noreferrer">link</a></td></tr></tbody></table>
     </div>
-  </div>
-
-  <div class="card">
-    <div class="card-header">
-      <span data-i18n="aggregatorsTitle">Agregatori (portale de job-uri)</span>
-      <span class="badge badge-green" id="aggregatorCount">0</span>
-    </div>
-    <div class="card-body">
-      <div id="aggregatorsList"><div class="empty-state" data-i18n="loading">Se încarcă...</div></div>
-    </div>
-  </div>
-
-  <div class="card">
-    <div class="card-header">
-      <span data-i18n="atsTitle">Platforme ATS/cariere</span>
-      <span class="badge badge-blue" id="atsCount">0</span>
-    </div>
-    <div class="card-body">
-      <div id="atsList"><div class="empty-state" data-i18n="loading">Se încarcă...</div></div>
-    </div>
-  </div>
-
-  <div class="card">
-    <div class="card-header">
-      <span data-i18n="companiesTitle">Site-uri companii</span>
-      <span class="badge badge-blue" id="companiesCount">0</span>
-    </div>
-    <div class="card-body">
-      <div id="companiesList"><div class="empty-state" data-i18n="loading">Se încarcă...</div></div>
-    </div>
-  </div>
-
-  <div class="card">
-    <div class="card-header">
-      <span data-i18n="notFoundTitle">Companii negăsite</span>
-      <span class="badge badge-red" id="notFoundCompanyCount">0</span>
-    </div>
-    <div class="card-body">
-      <div id="notFoundList"><div class="empty-state" data-i18n="loading">Se încarcă...</div></div>
-    </div>
-  </div>
-
-  <div class="btn-wrapper" style="display:flex; gap:0.75rem; justify-content:center; flex-wrap:wrap;">
-    <a class="btn" href="https://github.com/sebiboga/inviitor-ro-nodejs-scraper/actions/workflows/job-seeker-ro-spider.yml" target="_blank">
-      <span>&#9654;</span> <span data-i18n="runBtn">Rulează Scraper</span>
-    </a>
-    <a class="btn" href="platforme.md" target="_blank" style="background:#4a7c59;">
-      <span>&#128196;</span> <span data-i18n="platformsReport">Raport platforme (MD)</span>
-    </a>
-    <a class="btn" href="companii-negasite.md" target="_blank" style="background:#c44536;">
-      <span>&#128203;</span> <span data-i18n="notFoundReport">Companii negăsite (MD)</span>
-    </a>
   </div>
 
   <footer>
     <a href="https://github.com/sebiboga/inviitor-ro-nodejs-scraper" target="_blank">GitHub</a> &middot;
-    <a href="https://github.com/sebiboga/inviitor-ro-nodejs-scraper/blob/main/docs/README.md" target="_blank" data-i18n="docs">Documentație</a> &middot;
     <a href="https://peviitor.ro/" target="_blank">peviitor.ro</a>
   </footer>
-
 </div>
-
-<script>
-const i18n = {
-  en: {
-    pageTitle: "Locuri de muncă — inviitor.ro",
-    subtitle: "Automated multi-company scraper for inviitor.ro jobs",
-    aggregatorsLabel: "Aggregators",
-    atsStatLabel: "ATS platforms",
-    companiesStatLabel: "Company sites",
-    domainsLabel: "Distinct platforms",
-    aggregatorsTitle: "Aggregators (job boards)",
-    atsTitle: "ATS/careers platforms",
-    companiesTitle: "Company websites",
-    notFoundTitle: "Companies not found",
-    loading: "Loading...",
-    runBtn: "Run Scraper",
-    platformsReport: "Platforms report (MD)",
-    notFoundReport: "Not-found companies (MD)",
-    docs: "Documentation",
-    aggEmpty: "No aggregators detected yet.",
-    atsEmpty: "No ATS platform detected.",
-    coEmpty: "No company websites detected.",
-    nfEmpty: "No missing companies — all resolved.",
-    nfTotalCompanies: "Total companies not found:",
-    nfTotalJobs: "Affected jobs:",
-    jobDetails: "Job details",
-    thCompany: "Company",
-    thTitle: "Title",
-    thCity: "City",
-    thUrl: "Link",
-    thExampleUrl: "Example URL",
-    lastRunLabel: "Last run",
-  },
-  ro: {
-    pageTitle: "Locuri de muncă — inviitor.ro",
-    subtitle: "Scraper automat multi-companie pentru job-urile de pe inviitor.ro",
-    aggregatorsLabel: "Agregatori",
-    atsStatLabel: "Platforme ATS",
-    companiesStatLabel: "Site-uri companii",
-    domainsLabel: "Platforme distincte",
-    aggregatorsTitle: "Agregatori (portale de job-uri)",
-    atsTitle: "Platforme ATS/cariere",
-    companiesTitle: "Site-uri companii",
-    notFoundTitle: "Companii negăsite",
-    loading: "Se încarcă...",
-    runBtn: "Rulează Scraper",
-    platformsReport: "Raport platforme (MD)",
-    notFoundReport: "Companii negăsite (MD)",
-    docs: "Documentație",
-    aggEmpty: "Niciun agregator detectat încă.",
-    atsEmpty: "Nicio platformă ATS detectată.",
-    coEmpty: "Niciun site de companie detectat.",
-    nfEmpty: "Nicio companie negăsită — toate rezolvate.",
-    nfTotalCompanies: "Total companii negăsite:",
-    nfTotalJobs: "Total job-uri afectate:",
-    jobDetails: "Detalii job-uri",
-    thCompany: "Companie",
-    thTitle: "Titlu",
-    thCity: "Oraș",
-    thUrl: "link",
-    thExampleUrl: "Exemplu URL",
-    lastRunLabel: "Ultimul run",
-  }
-};
-
-let currentLang = "ro";
-
-function setLang(lang) {
-  currentLang = lang;
-  document.querySelectorAll("[data-i18n]").forEach(el => {
-    const key = el.getAttribute("data-i18n");
-    if (i18n[lang] && i18n[lang][key] !== undefined) el.innerHTML = i18n[lang][key];
-  });
-  document.querySelectorAll(".lang-toggle button").forEach(btn => btn.classList.remove("active"));
-  document.getElementById("lang-" + lang).classList.add("active");
-  document.documentElement.lang = lang;
-  localStorage.setItem("peviitor-lang", lang);
-}
-
-const saved = localStorage.getItem("peviitor-lang");
-if (saved === "en" || saved === "ro") setLang(saved);
-
-async function loadData() {
-  let platformData = null;
-  let notFoundData = null;
-
-  try {
-    const pRes = await fetch("./platforme.json", { cache: "no-cache" });
-    if (pRes.ok) platformData = await pRes.json();
-  } catch (e) { console.warn("platforme.json unavailable:", e); }
-
-  try {
-    const nRes = await fetch("./companii-negasite.json", { cache: "no-cache" });
-    if (nRes.ok) notFoundData = await nRes.json();
-  } catch (e) { console.warn("companii-negasite.json unavailable:", e); }
-
-  const lastRun = platformData?.generatedAt || notFoundData?.generatedAt || new Date().toISOString();
-  const runDate = new Date(lastRun);
-  document.getElementById("lastRunTime").textContent = runDate.toLocaleTimeString("ro-RO", { hour: "2-digit", minute: "2-digit" });
-  document.getElementById("lastRunDate").textContent = runDate.toLocaleDateString("ro-RO", { day: "2-digit", month: "2-digit", year: "numeric" });
-
-  if (platformData) {
-    document.getElementById("aggregatorStat").textContent = platformData.counts?.aggregators ?? 0;
-    document.getElementById("atsStat").textContent = platformData.counts?.ats ?? 0;
-    document.getElementById("companiesStat").textContent = platformData.counts?.companies ?? 0;
-    document.getElementById("domainStat").textContent = platformData.totalDomains ?? "—";
-
-    const renderTable = (items, elId, countId, emptyKey) => {
-      const wrap = document.getElementById(elId);
-      if (!wrap) return;
-      document.getElementById(countId).textContent = items.length ?? 0;
-      if (!items.length) {
-        wrap.innerHTML = `<div class="empty-state">${i18n[currentLang][emptyKey]}</div>`;
-      } else {
-        wrap.innerHTML = `
-          <table class="table">
-            <thead><tr>
-              <th>#</th>
-              <th data-i18n="thPlatform">Platformă</th>
-              <th>Domeniu</th>
-              <th>Job-uri</th>
-              <th data-i18n="thExampleUrl">Exemplu URL</th>
-            </tr></thead>
-            <tbody>${items.map((a, i) => `
-              <tr>
-                <td>${i + 1}</td>
-                <td>${a.name || a.host}</td>
-                <td class="domain">${a.host}</td>
-                <td class="num">${a.count}</td>
-                <td>${a.url ? `<a href="${a.url}" target="_blank" rel="noopener noreferrer">${i18n[currentLang].thUrl}</a>` : "—"}</td>
-              </tr>`).join("")}
-            </tbody>
-          </table>`;
-      }
-    };
-
-    renderTable(platformData.aggregators || [], "aggregatorsList", "aggregatorCount", "aggEmpty");
-    renderTable(platformData.ats || [], "atsList", "atsCount", "atsEmpty");
-    renderTable(platformData.companies || [], "companiesList", "companiesCount", "coEmpty");
-  } else {
-    document.getElementById("aggregatorsList").innerHTML = `<div class="empty-state">${i18n[currentLang].loading}</div>`;
-    document.getElementById("atsList").innerHTML = `<div class="empty-state">${i18n[currentLang].loading}</div>`;
-    document.getElementById("companiesList").innerHTML = `<div class="empty-state">${i18n[currentLang].loading}</div>`;
-  }
-
-  if (notFoundData) {
-    document.getElementById("notFoundCompanyCount").textContent = notFoundData.totalCompanies ?? 0;
-
-    const companies = notFoundData.companies || [];
-    const wrap = document.getElementById("notFoundList");
-    if (!companies.length) {
-      wrap.innerHTML = `<div class="empty-state">${i18n[currentLang].nfEmpty}</div>`;
-    } else {
-      wrap.innerHTML = `
-        <div class="nf-summary">
-          <div><strong data-i18n="nfTotalCompanies">Total companii negăsite:</strong> ${notFoundData.totalCompanies ?? companies.length}</div>
-          <div><strong data-i18n="nfTotalJobs">Total job-uri afectate:</strong> ${notFoundData.totalJobs ?? companies.reduce((s, c) => s + (c.jobCount || 0), 0)}</div>
-        </div>
-        <table class="table">
-          <thead><tr>
-            <th>#</th>
-            <th data-i18n="thCompany">Companie</th>
-            <th>Job-uri</th>
-          </tr></thead>
-          <tbody>${companies.map((c, i) => `
-            <tr>
-              <td>${i + 1}</td>
-              <td class="company-name">${c.name}</td>
-              <td class="num">${c.jobCount}</td>
-            </tr>`).join("")}
-          </tbody>
-        </table>
-        <h3 class="section-title" data-i18n="jobDetails">Detalii job-uri</h3>
-        ${companies.map((c) => `
-          <h4 class="company-heading">${c.name}</h4>
-          <table class="table">
-            <thead><tr>
-              <th>#</th>
-              <th data-i18n="thTitle">Titlu</th>
-              <th data-i18n="thCity">Oraș</th>
-              <th data-i18n="thUrl">URL</th>
-            </tr></thead>
-            <tbody>${(c.jobs || []).map((j, i) => `
-              <tr>
-                <td>${i + 1}</td>
-                <td>${j.title}</td>
-                <td>${j.city || "—"}</td>
-                <td><a href="${j.url}" target="_blank" rel="noopener noreferrer">${i18n[currentLang].thUrl.toLowerCase()}</a></td>
-              </tr>`).join("")}
-            </tbody>
-          </table>`).join("")}`;
-    }
-  } else {
-    document.getElementById("notFoundList").innerHTML = `<div class="empty-state">${i18n[currentLang].loading}</div>`;
-  }
-}
-
-loadData();
-</script>
 </body>
 </html>
