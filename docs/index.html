@@ -1,37 +1,39 @@
 <!DOCTYPE html>
 <html lang="ro">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Locuri de muncă — inviitor.ro</title>
-<style>
-  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-  body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#fdf6f0;color:#2d2a24;line-height:1.6;padding:2rem 1rem}
-  .container{max-width:960px;margin:0 auto}
-  h1{color:#c44536;font-size:1.5rem;margin-bottom:.25rem}
-  h2{color:#3a2f28;font-size:1.15rem;margin:1.5rem 0 .75rem}
-  .sub{color:#7d6b5a;font-size:.9rem;margin-bottom:1.5rem}
-  .card{background:#fffcf9;border-radius:16px;box-shadow:0 4px 24px rgba(90,60,40,.10);overflow:hidden;margin-bottom:1.25rem}
-  .card-header{padding:1rem 1.5rem;border-bottom:1px solid #f0e4d8;font-weight:600;color:#5a4a3a;display:flex;justify-content:space-between;align-items:center}
-  .badge{font-size:.75rem;padding:.2rem .6rem;border-radius:12px;font-weight:600}
-  .b-green{background:#e8f5ec;color:#2e7d32}.b-blue{background:#e8f0fe;color:#1a56db}.b-red{background:#fdecec;color:#c44536}
-  .card-body{padding:1.5rem}
-  .stats{display:flex;flex-wrap:wrap;gap:.75rem}
-  .stat{background:#f0faf3;border-radius:12px;padding:1rem;text-align:center;flex:1;min-width:140px}
-  .stat b{display:block;font-size:1.5rem;color:#2e7d32}.stat span{font-size:.8rem;color:#558b5a}
-  .table{width:100%;border-collapse:collapse;font-size:.85rem}
-  .table th{text-align:left;padding:.55rem .75rem;color:#7d6b5a;font-size:.75rem;text-transform:uppercase;border-bottom:1px solid #f0e4d8}
-  .table td{padding:.55rem .75rem;border-bottom:1px solid #f5ede6;vertical-align:top}
-  .table a{color:#c44536;text-decoration:none;font-weight:500}
-  .num{text-align:right;font-weight:600;color:#2e7d32;white-space:nowrap}
-  .domain{font-family:monospace;font-size:.8rem;color:#5a4a3a}
-  .company-name{font-weight:600;color:#c44536}
-  .company-heading{margin:1rem 0 .5rem;font-size:.95rem;color:#5a4a3a}
-  .summary{display:flex;gap:1.5rem;flex-wrap:wrap;margin-bottom:.75rem}
-  .summary strong{color:#c44536}
-  footer{text-align:center;padding:2rem 0;color:#9a8a7a;font-size:.8rem}
-  footer a{color:#c44536;text-decoration:none}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Locuri de muncă — inviitor.ro</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #fdf6f0; color: #2d2a24; line-height: 1.6; padding: 2rem 1rem; }
+    .container { max-width: 960px; margin: 0 auto; }
+    h1 { color: #c44536; font-size: 1.5rem; margin-bottom: .25rem; }
+    .sub { color: #7d6b5a; font-size: .9rem; margin-bottom: 1.5rem; }
+    .card { background: #fffcf9; border-radius: 16px; box-shadow: 0 4px 24px rgba(90,60,40,.10); overflow: hidden; margin-bottom: 1.25rem; }
+    .card-header { padding: 1rem 1.5rem; border-bottom: 1px solid #f0e4d8; font-weight: 600; color: #5a4a3a; display: flex; justify-content: space-between; align-items: center; }
+    .badge { font-size: .75rem; padding: .2rem .6rem; border-radius: 12px; font-weight: 600; }
+    .b-green { background: #e8f5ec; color: #2e7d32; }
+    .b-blue { background: #e8f0fe; color: #1a56db; }
+    .b-red { background: #fdecec; color: #c44536; }
+    .card-body { padding: 1.5rem; }
+    .stats { display: flex; flex-wrap: wrap; gap: .75rem; }
+    .stat { background: #f0faf3; border-radius: 12px; padding: 1rem; text-align: center; flex: 1; min-width: 140px; }
+    .stat b { display: block; font-size: 1.5rem; color: #2e7d32; }
+    .stat span { font-size: .8rem; color: #558b5a; }
+    .table { width: 100%; border-collapse: collapse; font-size: .85rem; }
+    .table th { text-align: left; padding: .55rem .75rem; color: #7d6b5a; font-size: .75rem; text-transform: uppercase; border-bottom: 1px solid #f0e4d8; }
+    .table td { padding: .55rem .75rem; border-bottom: 1px solid #f5ede6; vertical-align: top; }
+    .table a { color: #c44536; text-decoration: none; font-weight: 500; }
+    .num { text-align: right; font-weight: 600; color: #2e7d32; white-space: nowrap; }
+    .domain { font-family: monospace; font-size: .8rem; color: #5a4a3a; }
+    .company-name { font-weight: 600; color: #c44536; }
+    .summary { display: flex; gap: 1.5rem; flex-wrap: wrap; margin-bottom: .75rem; }
+    .summary strong { color: #c44536; }
+    .empty { color: #9a8a7a; font-size: .9rem; }
+    footer { text-align: center; padding: 2rem 0; color: #9a8a7a; font-size: .8rem; }
+    footer a { color: #c44536; text-decoration: none; }
+  </style>
 </head>
 <body>
 <div class="container">
@@ -50,17 +52,17 @@
 
   <div class="card">
     <div class="card-header"><span>Agregatori (portale de job-uri)</span><span class="badge b-green">10</span></div>
-    <div class="card-body"><table class="table"><thead><tr><th>#</th><th>Platformă</th><th>Domeniu</th><th>Job-uri</th><th>Exemplu URL</th></tr></thead><tbody><tr><td>1</td><td>CareerJet (tracking)</td><td><span class="domain">jobviewtrack.com</span></td><td><span class="num">26</span></td><td><a href="https://jobviewtrack.com/v2/4w_1ih9ESqTT8kuJkHB-evSShTfKv0-rFTeCDUckMJUMie_rODNgO8SGrGNBUgH3eEm3fWWMNTsB68dS-k_F8PBe_4hHISEewLDLsrk45Fo9piw9KQrHhxYtEgFo9NbnWPLn3S7xhjX-W5FdFDZerV3fBfbuXt8kdNwCN0bRF0Ppj6KfSKwomZ3jhCJleG4qtYTgJPMBSW9Tm2tmLV2Rz7krtP4a-SBwih2v7_TQiL4" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>2</td><td>ANOFM (mediere)</td><td><span class="domain">mediere.anofm.ro</span></td><td><span class="num">16</span></td><td><a href="https://mediere.anofm.ro/app/module/mediere/job/3182713" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>3</td><td>BestJobs.eu</td><td><span class="domain">bestjobs.eu</span></td><td><span class="num">15</span></td><td><a href="https://www.bestjobs.eu/loc-de-munca/consilier-vanzari-bijuterii-teilor-13" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>4</td><td>Hipo.ro</td><td><span class="domain">hipo.ro</span></td><td><span class="num">7</span></td><td><a href="https://www.hipo.ro/locuri-de-munca/locuri_de_munca/269181/Siemens-Energy/Finance-Process-Governance-Expert-for-Supply-Chain" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>5</td><td>Undelucram.ro</td><td><span class="domain">undelucram.ro</span></td><td><span class="num">5</span></td><td><a href="https://www.undelucram.ro/ro/locuri-de-munca/brand-consumer-junior-advisor-with-german-full-time-or-part-time/98653" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>6</td><td>JobRadar24.ro</td><td><span class="domain">jobradar24.ro</span></td><td><span class="num">4</span></td><td><a href="https://www.jobradar24.ro/anunt/consilieri-vanzari-8mpq6z" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>7</td><td>MultiJobs.ro</td><td><span class="domain">multijobs.ro</span></td><td><span class="num">2</span></td><td><a href="https://multijobs.ro/job/casier-lucrator-comercial-shopgo-vatra-luminoasa/4254" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>8</td><td>Helperz.ro</td><td><span class="domain">helperz.ro</span></td><td><span class="num">2</span></td><td><a href="https://helperz.ro/locuri-de-munca/anunt/6a2d577bba94d4000204799c" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>9</td><td>IAJob.ro</td><td><span class="domain">iajob.ro</span></td><td><span class="num">2</span></td><td><a href="https://www.iajob.ro/locuri-de-munca/00mzfj" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>10</td><td>eJobs.ro</td><td><span class="domain">ejobs.ro</span></td><td><span class="num">1</span></td><td><a href="https://www.ejobs.ro/user/locuri-de-munca/asistent-medical-puncte-de-recoltare-bucuresti-ilfov/1976726" target="_blank" rel="noopener noreferrer">link</a></td></tr></tbody></table></div>
+    <div class="card-body"><table class="table"><thead><tr><th>#</th><th>Platformă</th><th>Domeniu</th><th>Job-uri</th><th>Exemplu URL</th></tr></thead><tbody><tr><td>1</td><td>CareerJet (tracking)</td><td class="domain">jobviewtrack.com</td><td class="num">26</td><td><a href="https://jobviewtrack.com/v2/4w_1ih9ESqTT8kuJkHB-evSShTfKv0-rFTeCDUckMJUMie_rODNgO8SGrGNBUgH3eEm3fWWMNTsB68dS-k_F8PBe_4hHISEewLDLsrk45Fo9piw9KQrHhxYtEgFo9NbnWPLn3S7xhjX-W5FdFDZerV3fBfbuXt8kdNwCN0bRF0Ppj6KfSKwomZ3jhCJleG4qtYTgJPMBSW9Tm2tmLV2Rz7krtP4a-SBwih2v7_TQiL4" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>2</td><td>ANOFM (mediere)</td><td class="domain">mediere.anofm.ro</td><td class="num">16</td><td><a href="https://mediere.anofm.ro/app/module/mediere/job/3182713" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>3</td><td>BestJobs.eu</td><td class="domain">bestjobs.eu</td><td class="num">15</td><td><a href="https://www.bestjobs.eu/loc-de-munca/consilier-vanzari-bijuterii-teilor-13" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>4</td><td>Hipo.ro</td><td class="domain">hipo.ro</td><td class="num">7</td><td><a href="https://www.hipo.ro/locuri-de-munca/locuri_de_munca/269181/Siemens-Energy/Finance-Process-Governance-Expert-for-Supply-Chain" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>5</td><td>Undelucram.ro</td><td class="domain">undelucram.ro</td><td class="num">5</td><td><a href="https://www.undelucram.ro/ro/locuri-de-munca/brand-consumer-junior-advisor-with-german-full-time-or-part-time/98653" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>6</td><td>JobRadar24.ro</td><td class="domain">jobradar24.ro</td><td class="num">4</td><td><a href="https://www.jobradar24.ro/anunt/consilieri-vanzari-8mpq6z" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>7</td><td>MultiJobs.ro</td><td class="domain">multijobs.ro</td><td class="num">2</td><td><a href="https://multijobs.ro/job/casier-lucrator-comercial-shopgo-vatra-luminoasa/4254" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>8</td><td>Helperz.ro</td><td class="domain">helperz.ro</td><td class="num">2</td><td><a href="https://helperz.ro/locuri-de-munca/anunt/6a2d577bba94d4000204799c" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>9</td><td>IAJob.ro</td><td class="domain">iajob.ro</td><td class="num">2</td><td><a href="https://www.iajob.ro/locuri-de-munca/00mzfj" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>10</td><td>eJobs.ro</td><td class="domain">ejobs.ro</td><td class="num">1</td><td><a href="https://www.ejobs.ro/user/locuri-de-munca/asistent-medical-puncte-de-recoltare-bucuresti-ilfov/1976726" target="_blank" rel="noopener noreferrer">link</a></td></tr></tbody></table></div>
   </div>
 
   <div class="card">
     <div class="card-header"><span>Platforme ATS/cariere</span><span class="badge b-blue">2</span></div>
-    <div class="card-body"><table class="table"><thead><tr><th>#</th><th>Platformă</th><th>Domeniu</th><th>Job-uri</th><th>Exemplu URL</th></tr></thead><tbody><tr><td>1</td><td>Teamtailor</td><td><span class="domain">everymatrix.teamtailor.com</span></td><td><span class="num">1</span></td><td><a href="https://everymatrix.teamtailor.com/jobs/7900320-automation-qa-tester" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>2</td><td>Lever</td><td><span class="domain">jobs.eu.lever.co</span></td><td><span class="num">1</span></td><td><a href="https://jobs.eu.lever.co/hkr/2cf0b6bd-58b6-419b-baee-0f1319342a8c" target="_blank" rel="noopener noreferrer">link</a></td></tr></tbody></table></div>
+    <div class="card-body"><table class="table"><thead><tr><th>#</th><th>Platformă</th><th>Domeniu</th><th>Job-uri</th><th>Exemplu URL</th></tr></thead><tbody><tr><td>1</td><td>Teamtailor</td><td class="domain">everymatrix.teamtailor.com</td><td class="num">1</td><td><a href="https://everymatrix.teamtailor.com/jobs/7900320-automation-qa-tester" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>2</td><td>Lever</td><td class="domain">jobs.eu.lever.co</td><td class="num">1</td><td><a href="https://jobs.eu.lever.co/hkr/2cf0b6bd-58b6-419b-baee-0f1319342a8c" target="_blank" rel="noopener noreferrer">link</a></td></tr></tbody></table></div>
   </div>
 
   <div class="card">
     <div class="card-header"><span>Site-uri companii</span><span class="badge b-blue">7</span></div>
-    <div class="card-body"><table class="table"><thead><tr><th>#</th><th>Domeniu</th><th>Job-uri</th><th>Exemplu URL</th></tr></thead><tbody><tr><td>1</td><td><span class="domain">jobs.worldline.com</span></td><td><span class="num">7</span></td><td><a href="https://jobs.worldline.com/job/Full-Stack-Developer-%28Java-with-Camel-&amp;-Vue_js%29/303151-en_US" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>2</td><td><span class="domain">cariere.lidl.ro</span></td><td><span class="num">6</span></td><td><a href="https://cariere.lidl.ro/jobs/vanzator-ghiroda-f-m-ghiroda-730421" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>3</td><td><span class="domain">hitachienergy.com</span></td><td><span class="num">1</span></td><td><a href="https://www.hitachienergy.com/careers/open-jobs/details/JID3-203453" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>4</td><td><span class="domain">job.leroymerlin.ro</span></td><td><span class="num">1</span></td><td><a href="https://job.leroymerlin.ro/jobs/8017420-lider-performan-a-magazin" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>5</td><td><span class="domain">careers.allianz.com</span></td><td><span class="num">1</span></td><td><a href="https://careers.allianz.com/global/en/job/95435" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>6</td><td><span class="domain">chorus.ro</span></td><td><span class="num">1</span></td><td><a href="https://www.chorus.ro/Careers/JobApplication/35?job=Stivuitorist" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>7</td><td><span class="domain">careers.honeywell.com</span></td><td><span class="num">1</span></td><td><a href="https://careers.honeywell.com/en/sites/Honeywell/job/146570" target="_blank" rel="noopener noreferrer">link</a></td></tr></tbody></table></div>
+    <div class="card-body"><table class="table"><thead><tr><th>#</th><th>Domeniu</th><th>Job-uri</th><th>Exemplu URL</th></tr></thead><tbody><tr><td>1</td><td class="domain">jobs.worldline.com</td><td class="num">7</td><td><a href="https://jobs.worldline.com/job/Full-Stack-Developer-%28Java-with-Camel-&amp;amp;-Vue_js%29/303151-en_US" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>2</td><td class="domain">cariere.lidl.ro</td><td class="num">6</td><td><a href="https://cariere.lidl.ro/jobs/vanzator-ghiroda-f-m-ghiroda-730421" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>3</td><td class="domain">hitachienergy.com</td><td class="num">1</td><td><a href="https://www.hitachienergy.com/careers/open-jobs/details/JID3-203453" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>4</td><td class="domain">job.leroymerlin.ro</td><td class="num">1</td><td><a href="https://job.leroymerlin.ro/jobs/8017420-lider-performan-a-magazin" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>5</td><td class="domain">careers.allianz.com</td><td class="num">1</td><td><a href="https://careers.allianz.com/global/en/job/95435" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>6</td><td class="domain">chorus.ro</td><td class="num">1</td><td><a href="https://www.chorus.ro/Careers/JobApplication/35?job=Stivuitorist" target="_blank" rel="noopener noreferrer">link</a></td></tr><tr><td>7</td><td class="domain">careers.honeywell.com</td><td class="num">1</td><td><a href="https://careers.honeywell.com/en/sites/Honeywell/job/146570" target="_blank" rel="noopener noreferrer">link</a></td></tr></tbody></table></div>
   </div>
 
   <div class="card">
@@ -70,8 +72,8 @@
         <div><strong>Total companii negăsite:</strong> 2</div>
         <div><strong>Total job-uri afectate:</strong> 15</div>
       </div>
-      <table class="table"><thead><tr><th>#</th><th>Companie</th><th>Job-uri</th></tr></thead><tbody><tr><td>1</td><td><span class="company-name">CAREERJET</span></td><td><span class="num">14</span></td></tr><tr><td>2</td><td><span class="company-name">PSBH</span></td><td><span class="num">1</span></td></tr></tbody></table>
-      </div>
+      <table class="table"><thead><tr><th>#</th><th>Companie</th><th>Job-uri</th></tr></thead><tbody><tr><td>1</td><td class="company-name">CAREERJET</td><td class="num">14</td></tr><tr><td>2</td><td class="company-name">PSBH</td><td class="num">1</td></tr></tbody></table>
+    </div>
   </div>
 
   <footer>

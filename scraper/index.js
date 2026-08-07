@@ -7,6 +7,7 @@ import { buildJobRecord } from "./job-builder.js";
 import { findWebsite } from "./web-search.js";
 import { generateNotFoundReport, generateNotFoundJson } from "./not-found-report.js";
 import { extractHostname, classifyPlatform, generatePlatformReport, generatePlatformJson } from "./platform-report.js";
+import { generateHtmlFile } from "./html-generator.js";
 
 const companyCache = {};
 
@@ -207,6 +208,12 @@ async function run() {
     console.log("Saved docs/platforme.md + docs/platforme.json");
   } catch (e) {
     console.log(`⚠️ Nu am putut scrie raportul de platforme: ${e.message}`);
+  }
+
+  try {
+    generateHtmlFile();
+  } catch (e) {
+    console.log(`⚠️ Nu am putut scrie docs/index.html: ${e.message}`);
   }
 
   console.log("\n=== Done ===");
