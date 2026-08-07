@@ -130,6 +130,10 @@
     .table .num { text-align: right; font-weight: 600; color: #2e7d32; white-space: nowrap; }
     .domain { font-family: 'Fira Code', monospace; font-size: 0.8rem; color: #5a4a3a; }
     .company-name { font-weight: 600; color: #c44536; }
+    .nf-summary { display: flex; gap: 1.5rem; flex-wrap: wrap; margin-bottom: 0.75rem; font-size: 0.9rem; }
+    .nf-summary strong { color: #c44536; }
+    .section-title { margin: 1.25rem 0 0.5rem; font-size: 1rem; color: #3a2f28; }
+    .company-heading { margin: 1rem 0 0.5rem; font-size: 0.95rem; color: #5a4a3a; font-weight: 700; }
 
     .empty-state { text-align: center; padding: 1.5rem 0; color: #9a8a7a; font-size: 0.9rem; }
     .btn-wrapper { text-align: center; margin: 1rem 0; }
@@ -304,6 +308,12 @@ const i18n = {
     atsEmpty: "No ATS platform detected.",
     coEmpty: "No company websites detected.",
     nfEmpty: "No missing companies — all resolved.",
+    nfTotalCompanies: "Total companies not found:",
+    nfTotalJobs: "Affected jobs:",
+    jobDetails: "Job details",
+    thTitle: "Title",
+    thCity: "City",
+    thUrl: "Link",
     lastRunLabel: "Last run",
   },
   ro: {
@@ -324,6 +334,12 @@ const i18n = {
     atsEmpty: "Nicio platformă ATS detectată.",
     coEmpty: "Niciun site de companie detectat.",
     nfEmpty: "Nicio companie negăsită — toate rezolvate.",
+    nfTotalCompanies: "Total companii negăsite:",
+    nfTotalJobs: "Total job-uri afectate:",
+    jobDetails: "Detalii job-uri",
+    thTitle: "Titlu",
+    thCity: "Oraș",
+    thUrl: "link",
     lastRunLabel: "Ultimul run",
   }
 };
@@ -413,6 +429,10 @@ async function loadData() {
       wrap.innerHTML = `<div class="empty-state">${i18n[currentLang].nfEmpty}</div>`;
     } else {
       wrap.innerHTML = `
+        <div class="nf-summary">
+          <div><strong data-i18n="nfTotalCompanies">Total companii negăsite:</strong> ${notFoundData.totalCompanies ?? companies.length}</div>
+          <div><strong data-i18n="nfTotalJobs">Total job-uri afectate:</strong> ${notFoundData.totalJobs ?? companies.reduce((s, c) => s + (c.jobCount || 0), 0)}</div>
+        </div>
         <table class="table">
           <thead><tr>
             <th>#</th>
@@ -426,7 +446,26 @@ async function loadData() {
               <td class="num">${c.jobCount}</td>
             </tr>`).join("")}
           </tbody>
-        </table>`;
+        </table>
+        <h3 class="section-title" data-i18n="jobDetails">Detalii job-uri</h3>
+        ${companies.map((c) => `
+          <h4 class="company-heading">${c.name}</h4>
+          <table class="table">
+            <thead><tr>
+              <th>#</th>
+              <th data-i18n="thTitle">Titlu</th>
+              <th data-i18n="thCity">Oraș</th>
+              <th data-i18n="thUrl">URL</th>
+            </tr></thead>
+            <tbody>${(c.jobs || []).map((j, i) => `
+              <tr>
+                <td>${i + 1}</td>
+                <td>${j.title}</td>
+                <td>${j.city || "—"}</td>
+                <td><a href="${j.url}" target="_blank" rel="noopener noreferrer">${i18n[currentLang].thUrl.toLowerCase()}</a></td>
+              </tr>`).join("")}
+            </tbody>
+          </table>`).join("")}`;
     }
   } else {
     document.getElementById("notFoundList").innerHTML = `<div class="empty-state">${i18n[currentLang].loading}</div>`;
