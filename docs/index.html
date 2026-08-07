@@ -336,6 +336,7 @@ async function loadData() {
   document.getElementById("lastRunDate").textContent = runDate.toLocaleDateString("ro-RO", { day: "2-digit", month: "2-digit", year: "numeric" });
 
   if (platformData) {
+    document.getElementById("aggregatorStat").textContent = platformData.counts?.aggregators ?? 0;
     document.getElementById("domainStat").textContent = platformData.totalDomains ?? "—";
     document.getElementById("aggregatorCount").textContent = platformData.counts?.aggregators ?? 0;
 
