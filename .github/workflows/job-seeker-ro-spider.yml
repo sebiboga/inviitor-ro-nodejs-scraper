@@ -25,8 +25,20 @@ jobs:
       - name: Run scraper
         run: npm run scrape
         env:
-          SOLR_AUTH: ${{ secrets.SOLR_AUTH }}
           MAX_PAGES: "1500"
+
+      - name: Publish docs/companii-negasite.md
+        run: |
+          if git status --porcelain | grep -q "docs/companii-negasite.md"; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add docs/companii-negasite.md
+            git commit -m "[skip ci] Update companies-not-found report" --no-verify
+            git push
+            echo "Report published."
+          else
+            echo "No changes to report."
+          fi
 
       - name: Verify in Solr
         env:

@@ -1,9 +1,11 @@
 import fetch from "node-fetch";
+import { writeFileSync, mkdirSync } from "fs";
 import { searchCompanyByName, upsertCompany, upsertJobs } from "./api.js";
 import { searchAndGetBestMatch } from "./anaf.js";
 import { buildCompanyRecord } from "./company-builder.js";
 import { buildJobRecord } from "./job-builder.js";
 import { findWebsite } from "./web-search.js";
+import { generateNotFoundReport } from "./not-found-report.js";
 
 const companyCache = {};
 
@@ -84,6 +86,7 @@ async function run() {
   let totalNew = 0;
   const seenUrls = new Set();
   const newJobs = [];
+  const notFoundByCompany = {};
 
   for (let page = 1; page <= MAX_PAGES; page++) {
     const jobs = await fetchJobsPage(page);
@@ -132,15 +135,25 @@ async function run() {
       }
     }
 
-    const jobDocs = fresh.map(job => {
+    for (const job of fresh) {
       const rawName = (job.company_name || "").trim().toUpperCase();
-      const record = buildJobRecord(job, companyMap[rawName]);
-      if (record.title.length > 200) record.title = record.title.slice(0, 200);
-      return record;
-    });
+      const companyInfo = companyMap[rawName];
 
-    newJobs.push(...jobDocs);
-    totalNew += jobDocs.length;
+      if (!companyInfo || !companyInfo.cif) {
+        if (!notFoundByCompany[rawName]) notFoundByCompany[rawName] = [];
+        notFoundByCompany[rawName].push({
+          url: job.job_link || "",
+          title: job.job_title || job.title || "",
+          city: job.city || "",
+        });
+        continue;
+      }
+
+      const record = buildJobRecord(job, companyInfo, rawName);
+      if (record.title.length > 200) record.title = record.title.slice(0, 200);
+      newJobs.push(record);
+      totalNew++;
+    }
 
     if (newJobs.length >= UPLOAD_BATCH) {
       const toUpload = newJobs.splice(0, UPLOAD_BATCH);
@@ -154,6 +167,19 @@ async function run() {
   }
 
   if (newJobs.length) await uploadJobsBatch(newJobs);
+
+  const notFoundCount = Object.values(notFoundByCompany).reduce((sum, jobs) => sum + jobs.length, 0);
+  console.log(`\nCompanies not found: ${Object.keys(notFoundByCompany).length}`);
+  console.log(`Jobs skipped (company not found): ${notFoundCount}`);
+
+  try {
+    const report = generateNotFoundReport(notFoundByCompany);
+    mkdirSync("docs", { recursive: true });
+    writeFileSync("docs/companii-negasite.md", report, "utf-8");
+    console.log("Saved docs/companii-negasite.md");
+  } catch (e) {
+    console.log(`⚠️ Nu am putut scrie raportul: ${e.message}`);
+  }
 
   console.log("\n=== Done ===");
   console.log(`New jobs collected: ${totalNew}`);
