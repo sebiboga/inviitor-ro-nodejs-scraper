@@ -96,14 +96,14 @@
     .badge-blue { background: #e8f0fe; color: #1a56db; }
     .card-body { padding: 1.5rem; }
 
-    .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+    .stats { display: grid; grid-template-columns: repeat(5, 1fr); gap: 1rem; }
     .stat {
       background: linear-gradient(135deg, #f0faf3, #e8f5ec);
       border-radius: 12px;
       padding: 1.25rem 1rem;
       text-align: center;
     }
-    .stat-value { font-size: 1.75rem; font-weight: 700; color: #2e7d32; line-height: 1.2; }
+    .stat-value { font-size: 1.4rem; font-weight: 700; color: #2e7d32; line-height: 1.2; }
     .stat-label { font-size: 0.78rem; color: #558b5a; font-weight: 500; margin-top: 0.2rem; }
     .stat-time { background: linear-gradient(135deg, #fef8f0, #fdf0e0); }
     .stat-time .stat-value { color: #c44536; font-size: 1.1rem; }
@@ -154,6 +154,23 @@
       transition: background 0.2s, transform 0.15s;
     }
     .btn:hover { background: #a83828; transform: translateY(-1px); }
+
+    .code-block {
+      background: #f7efe7;
+      border: 1px solid #efe2d4;
+      border-radius: 12px;
+      padding: 1rem 1.25rem;
+      font-family: 'Fira Code', monospace;
+      font-size: 0.78rem;
+      line-height: 1.7;
+      overflow-x: auto;
+      color: #5a4a3a;
+    }
+    .steps { margin: 0; padding-left: 1.25rem; }
+    .steps li { margin-bottom: 0.5rem; }
+    .steps li:last-child { margin-bottom: 0; }
+    .steps strong { color: #c44536; }
+    .note { color: #7d6b5a; font-size: 0.9rem; margin: 0.75rem 0 0; }
 
     footer {
       text-align: center;
@@ -217,6 +234,14 @@
           <div class="stat-label" data-i18n="aggregatorsLabel">Agregatori</div>
         </div>
         <div class="stat">
+          <div class="stat-value" id="atsStat">—</div>
+          <div class="stat-label" data-i18n="atsStatLabel">Platforme ATS</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value" id="companiesStat">—</div>
+          <div class="stat-label" data-i18n="companiesStatLabel">Site-uri companii</div>
+        </div>
+        <div class="stat">
           <div class="stat-value" id="domainStat">—</div>
           <div class="stat-label" data-i18n="domainsLabel">Platforme distincte</div>
         </div>
@@ -225,6 +250,87 @@
           <div class="stat-label" id="lastRunDate">—</div>
         </div>
       </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header"><span data-i18n="aboutTitle">Ce face</span></div>
+    <div class="card-body">
+      <ol class="steps">
+        <li data-i18n="step1"><strong>Fetch-uiește job-urile</strong> — API-ul public inviitor.ro (paginated, 50 job-uri/pagină) care conține job-uri de la sute de companii</li>
+        <li data-i18n="step2"><strong>Dedupe la nivel de URL</strong> — <code>job_link</code> este uniqueKey; duplicatele dintre pagini sunt filtrate cu un Set local</li>
+        <li data-i18n="step3"><strong>Caută companiile</strong> — fiecare companie descoperită e căutată mai întâi în company core (API peviitor v1), apoi în ANAF/cuiscan/cuifirma</li>
+        <li data-i18n="step4"><strong>Upsert companii</strong> — <code>PUT /v1/firme/company/add/</code>, cu website găsit automat (web search) când lipsește</li>
+        <li data-i18n="step5"><strong>Upsert job-uri în batch</strong> — <code>POST /v1/scraper/jobs/upload/</code> (batch-uri de 500), fără acces direct la Solr</li>
+      </ol>
+      <p class="note" data-i18n="solrNote">Nu se mai folosește acces direct la Solr și nici secretul <code>SOLR_AUTH</code> — toate upsert-urile trec prin API-ul peviitor v1.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header"><span data-i18n="flowTitle">Flux</span></div>
+    <div class="card-body">
+      <pre class="code-block">API inviitor.ro (paginated) → dedupe URL (Set local)
+→ lookup company (peviitor v1 → ANAF/cuiscan/cuifirma)
+→ upsert company (PUT /firme/company/add/)
+→ upsert jobs (POST /scraper/jobs/upload/, batch 500)</pre>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header"><span data-i18n="structureTitle">Structură proiect</span></div>
+    <div class="card-body">
+      <pre class="code-block">├── scraper/
+│   ├── index.js             # Orchestrator principal
+│   ├── api.js               # API peviitor v1 (search company, upsert company/jobs)
+│   ├── anaf.js              # Căutare companie: ANAF → cuiscan → cuifirma
+│   ├── company-builder.js   # Construiește documentul company
+│   ├── job-builder.js       # Construiește documentul job
+│   ├── job-validator.js     # validateByHead / validateByContent
+│   ├── markdown-generator.js
+│   ├── validators.js        # Validare company/job records
+│   └── web-search.js        # Website fallback (URL patterns + DuckDuckGo)
+├── tests/
+│   └── unit/                # Teste unitare
+├── docs/                    # Documentație + rezultate teste
+└── .github/workflows/
+    ├── job-seeker-ro-spider.yml    # Rulează zilnic la 08:00 + manual
+    └── automation-testing.yml      # Teste la push</pre>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header"><span data-i18n="apisTitle">API-uri folosite</span></div>
+    <div class="card-body">
+      <table class="table">
+        <thead><tr>
+          <th data-i18n="thApi">API</th>
+          <th data-i18n="thUrlApi">URL</th>
+          <th data-i18n="thAuth">Autentificare</th>
+        </tr></thead>
+        <tbody>
+          <tr><td>inviitor.ro</td><td class="domain">https://api.laurentiumarian.ro/mobile</td><td>Public</td></tr>
+          <tr><td>Peviitor v1</td><td class="domain">https://api.peviitor.ro/v1/</td><td>Public</td></tr>
+          <tr><td>ANAF (demoanaf)</td><td class="domain">https://demoanaf.ro/api/...</td><td>Public</td></tr>
+          <tr><td>cuiscan</td><td class="domain">https://cuiscan.ro/api.php</td><td>Public</td></tr>
+          <tr><td>cuifirma</td><td class="domain">https://cuifirma.ro/api/search</td><td>Public</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header"><span data-i18n="testTitle">Testare</span></div>
+    <div class="card-body">
+      <pre class="code-block">npm test           # toate testele
+npm run test:unit  # doar unitare</pre>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header"><span data-i18n="ciTitle">CI</span></div>
+    <div class="card-body">
+      <p class="note" data-i18n="ciText">GitHub Actions rulează zilnic la 08:00 (UTC+3) și manual (<code>workflow_dispatch</code>). Nu necesită secrete — API-ul peviitor v1 e public.</p>
     </div>
   </div>
 
@@ -294,7 +400,25 @@ const i18n = {
     pageTitle: "Locuri de muncă — inviitor.ro",
     subtitle: "Automated multi-company scraper for inviitor.ro jobs",
     aggregatorsLabel: "Aggregators",
+    atsStatLabel: "ATS platforms",
+    companiesStatLabel: "Company sites",
     domainsLabel: "Distinct platforms",
+    aboutTitle: "What it does",
+    step1: "<strong>Fetches jobs</strong> — public inviitor.ro API (paginated, 50 jobs/page) containing jobs from hundreds of companies",
+    step2: "<strong>URL-level dedupe</strong> — <code>job_link</code> is the uniqueKey; duplicates across pages are filtered with a local Set",
+    step3: "<strong>Searches companies</strong> — each discovered company is looked up first in the company core (peviitor v1 API), then in ANAF/cuiscan/cuifirma",
+    step4: "<strong>Upserts companies</strong> — <code>PUT /v1/firme/company/add/</code>, with website auto-discovered (web search) when missing",
+    step5: "<strong>Batches job upserts</strong> — <code>POST /v1/scraper/jobs/upload/</code> (500 per batch), no direct Solr access",
+    solrNote: "No direct Solr access and no <code>SOLR_AUTH</code> secret anymore — all upserts go through the peviitor v1 API.",
+    flowTitle: "Flow",
+    structureTitle: "Project structure",
+    apisTitle: "APIs used",
+    thApi: "API",
+    thUrlApi: "URL",
+    thAuth: "Authentication",
+    testTitle: "Testing",
+    ciTitle: "CI",
+    ciText: "GitHub Actions runs daily at 08:00 (UTC+3) and manually (<code>workflow_dispatch</code>). No secrets needed — the peviitor v1 API is public.",
     aggregatorsTitle: "Aggregators (job boards)",
     atsTitle: "ATS/careers platforms",
     companiesTitle: "Company websites",
@@ -314,13 +438,32 @@ const i18n = {
     thTitle: "Title",
     thCity: "City",
     thUrl: "Link",
+    thExampleUrl: "Example URL",
     lastRunLabel: "Last run",
   },
   ro: {
     pageTitle: "Locuri de muncă — inviitor.ro",
     subtitle: "Scraper automat multi-companie pentru job-urile de pe inviitor.ro",
     aggregatorsLabel: "Agregatori",
+    atsStatLabel: "Platforme ATS",
+    companiesStatLabel: "Site-uri companii",
     domainsLabel: "Platforme distincte",
+    aboutTitle: "Ce face",
+    step1: "<strong>Fetch-uiește job-urile</strong> — API-ul public inviitor.ro (paginated, 50 job-uri/pagină) care conține job-uri de la sute de companii",
+    step2: "<strong>Dedupe la nivel de URL</strong> — <code>job_link</code> este uniqueKey; duplicatele dintre pagini sunt filtrate cu un Set local",
+    step3: "<strong>Caută companiile</strong> — fiecare companie descoperită e căutată mai întâi în company core (API peviitor v1), apoi în ANAF/cuiscan/cuifirma",
+    step4: "<strong>Upsert companii</strong> — <code>PUT /v1/firme/company/add/</code>, cu website găsit automat (web search) când lipsește",
+    step5: "<strong>Upsert job-uri în batch</strong> — <code>POST /v1/scraper/jobs/upload/</code> (batch-uri de 500), fără acces direct la Solr",
+    solrNote: "Nu se mai folosește acces direct la Solr și nici secretul <code>SOLR_AUTH</code> — toate upsert-urile trec prin API-ul peviitor v1.",
+    flowTitle: "Flux",
+    structureTitle: "Structură proiect",
+    apisTitle: "API-uri folosite",
+    thApi: "API",
+    thUrlApi: "URL",
+    thAuth: "Autentificare",
+    testTitle: "Testare",
+    ciTitle: "CI",
+    ciText: "GitHub Actions rulează zilnic la 08:00 (UTC+3) și manual (<code>workflow_dispatch</code>). Nu necesită secrete — API-ul peviitor v1 e public.",
     aggregatorsTitle: "Agregatori (portale de job-uri)",
     atsTitle: "Platforme ATS/cariere",
     companiesTitle: "Site-uri companii",
@@ -340,6 +483,7 @@ const i18n = {
     thTitle: "Titlu",
     thCity: "Oraș",
     thUrl: "link",
+    thExampleUrl: "Exemplu URL",
     lastRunLabel: "Ultimul run",
   }
 };
@@ -382,6 +526,8 @@ async function loadData() {
 
   if (platformData) {
     document.getElementById("aggregatorStat").textContent = platformData.counts?.aggregators ?? 0;
+    document.getElementById("atsStat").textContent = platformData.counts?.ats ?? 0;
+    document.getElementById("companiesStat").textContent = platformData.counts?.companies ?? 0;
     document.getElementById("domainStat").textContent = platformData.totalDomains ?? "—";
 
     const renderTable = (items, elId, countId, emptyKey) => {
@@ -398,6 +544,7 @@ async function loadData() {
               <th data-i18n="thPlatform">Platformă</th>
               <th>Domeniu</th>
               <th>Job-uri</th>
+              <th data-i18n="thExampleUrl">Exemplu URL</th>
             </tr></thead>
             <tbody>${items.map((a, i) => `
               <tr>
@@ -405,6 +552,7 @@ async function loadData() {
                 <td>${a.name || a.host}</td>
                 <td class="domain">${a.host}</td>
                 <td class="num">${a.count}</td>
+                <td>${a.url ? `<a href="${a.url}" target="_blank" rel="noopener noreferrer">${i18n[currentLang].thUrl}</a>` : "—"}</td>
               </tr>`).join("")}
             </tbody>
           </table>`;
