@@ -6,7 +6,7 @@ import { buildCompanyRecord } from "./company-builder.js";
 import { buildJobRecord } from "./job-builder.js";
 import { findWebsite } from "./web-search.js";
 import { generateNotFoundReport, generateNotFoundJson } from "./not-found-report.js";
-import { extractHostname, classifyPlatform, generatePlatformReport, generatePlatformJson } from "./platform-report.js";
+import { extractHostname, finalizePlatform, generatePlatformReport, generatePlatformJson } from "./platform-report.js";
 import { generateHtmlFile } from "./html-generator.js";
 
 const companyCache = {};
@@ -91,15 +91,15 @@ async function run() {
   const notFoundByCompany = {};
   const platforms = new Map();
 
-  function trackPlatform(url) {
+  function trackPlatform(url, companyName) {
     const host = extractHostname(url);
     if (!host) return;
     const existing = platforms.get(host);
     if (existing) {
       existing.count += 1;
+      if (companyName) existing.companies.add(companyName.toUpperCase());
     } else {
-      const cls = classifyPlatform(host);
-      platforms.set(host, { host, count: 1, url, type: cls.type, name: cls.name });
+      platforms.set(host, { host, count: 1, url, companies: new Set(companyName ? [companyName.toUpperCase()] : []) });
     }
   }
 
@@ -115,7 +115,7 @@ async function run() {
       const url = job.job_link || "";
       if (!url || seenUrls.has(url)) continue;
       seenUrls.add(url);
-      trackPlatform(url);
+      trackPlatform(url, job.company_name || "");
       fresh.push(job);
     }
 
@@ -198,8 +198,11 @@ async function run() {
     console.log(`⚠️ Nu am putut scrie raportul: ${e.message}`);
   }
 
+  for (const entry of platforms.values()) finalizePlatform(entry);
+
   const aggregatorCount = [...platforms.values()].filter(p => p.type === "aggregator").length;
-  console.log(`\nPlatforms found: ${platforms.size} (${aggregatorCount} aggregator portals)`);
+  const atsCount = [...platforms.values()].filter(p => p.type === "ats").length;
+  console.log(`\nPlatforms found: ${platforms.size} (${aggregatorCount} aggregators, ${atsCount} ATS, ${platforms.size - aggregatorCount - atsCount} company sites)`);
 
   try {
     const platformReport = generatePlatformReport(platforms);
