@@ -55,11 +55,6 @@ export function generateHtml({ platforms, notFound } = {}) {
     ? table(["#", "Platformă", "Domeniu", "Job-uri", "Exemplu URL"], platformRows(p.ats, true))
     : '<div class="empty">Nicio platformă ATS detectată.</div>';
 
-  const companies = table(
-    ["#", "Domeniu", "Job-uri", "Exemplu URL"],
-    platformRows(p.companies || [], false)
-  );
-
   const nfTable = table(
     ["#", "Companie", "Job-uri"],
     (nf.companies || []).map((c, i) =>
@@ -120,7 +115,6 @@ export function generateHtml({ platforms, notFound } = {}) {
     <div class="stats">
       <div class="stat"><b>${p.counts?.aggregators ?? p.aggregators?.length ?? 0}</b><span>Agregatori</span></div>
       <div class="stat"><b>${p.counts?.ats ?? p.ats?.length ?? 0}</b><span>Platforme ATS</span></div>
-      <div class="stat"><b>${p.counts?.companies ?? p.companies?.length ?? 0}</b><span>Site-uri companii</span></div>
       <div class="stat"><b>${p.totalDomains}</b><span>Domenii distincte</span></div>
       <div class="stat"><b>${dateStr} ${timeStr}</b><span>Raport generat la</span></div>
     </div>
@@ -134,11 +128,6 @@ export function generateHtml({ platforms, notFound } = {}) {
   <div class="card">
     <div class="card-header"><span>Platforme ATS/cariere</span><span class="badge b-blue">${p.ats?.length ?? 0}</span></div>
     <div class="card-body">${atsTable}</div>
-  </div>
-
-  <div class="card">
-    <div class="card-header"><span>Site-uri companii</span><span class="badge b-blue">${p.companies?.length ?? 0}</span></div>
-    <div class="card-body">${companies}</div>
   </div>
 
   <div class="card">
