@@ -1,4 +1,4 @@
-import { validateCompanyRecord, validateJobRecord } from "../../src/validators.js";
+import { validateCompanyRecord, validateJobRecord } from "../../scraper/validators.js";
 
 describe("validateCompanyRecord", () => {
   it("accepts valid company record", () => {

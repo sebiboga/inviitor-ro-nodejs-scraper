@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Scraper job-uri de pe inviitor.ro pentru peviitor.ro",
   "type": "module",
-  "main": "index.js",
+  "main": "scraper/index.js",
   "scripts": {
-    "scrape": "node --no-deprecation index.js",
+    "scrape": "node --no-deprecation scraper/index.js",
     "test": "node --no-deprecation --experimental-vm-modules node_modules/jest/bin/jest.js",
     "test:unit": "node --no-deprecation --experimental-vm-modules node_modules/jest/bin/jest.js --testPathPattern=unit",
     "test:integration": "node --no-deprecation --experimental-vm-modules node_modules/jest/bin/jest.js --testPathPattern=integration",

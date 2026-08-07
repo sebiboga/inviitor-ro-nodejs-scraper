@@ -1,8 +1,8 @@
 import fetch from "node-fetch";
-import { upsertSolrDocs, jobUrlExists, findCompanyInSolr, upsertCompany } from "./solr.js";
-import { searchAndGetBestMatch } from "./src/anaf.js";
-import { buildCompanyRecord } from "./src/company-builder.js";
-import { findWebsite } from "./src/web-search.js";
+import { searchCompanyByName, upsertCompany, upsertJobs } from "./api.js";
+import { searchAndGetBestMatch } from "./anaf.js";
+import { buildCompanyRecord } from "./company-builder.js";
+import { findWebsite } from "./web-search.js";
 
 const companyCache = {};
 
@@ -10,16 +10,9 @@ const API_BASE = "https://api.laurentiumarian.ro/mobile";
 const PAGE_SIZE = parseInt(process.env.PAGE_SIZE || "50", 10);
 const MAX_PAGES = parseInt(process.env.MAX_PAGES || "2000", 10);
 const MAX_TOTAL_JOBS = parseInt(process.env.MAX_TOTAL_JOBS || "0", 10);
-let apiRequestCount = 0;
+const UPLOAD_BATCH = parseInt(process.env.UPLOAD_BATCH || "500", 10);
 
-async function rateLimitedRequest(url, options = {}) {
-  apiRequestCount++;
-  if (apiRequestCount % 300 === 0) {
-    console.log(`  ⏳ Rate limit pause (${apiRequestCount} API requests so far)...`);
-    await new Promise(r => setTimeout(r, 2000));
-  }
-  return fetch(url, options);
-}
+const sleep = (ms) => new Promise(r => setTimeout(r, ms));
 
 const DIACRITICS_MAP = {
   ă: "a", â: "a", î: "i", ș: "s", ț: "t",
@@ -53,20 +46,40 @@ function extractTags(title, companyName) {
   return [...tagSet].slice(0, 20);
 }
 
+function normalizePeviitorCompany(apiCompany) {
+  const cif = parseInt(apiCompany.id) || 0;
+  const location = Array.isArray(apiCompany.location) ? apiCompany.location : [];
+  const website = Array.isArray(apiCompany.website) ? apiCompany.website : [];
+  return {
+    cif,
+    cui: cif,
+    denumire: apiCompany.company || "",
+    company: apiCompany.company || "",
+    brand: apiCompany.brand || "",
+    statusImpozit: apiCompany.status || "activ",
+    adresa: location[0] || "",
+    localitate: (location[0] || "").replace(/, Romania$/, ""),
+    website: website[0] || "",
+    _fromPeviitor: true,
+  };
+}
+
 async function lookupCompany(companyName) {
   const upper = companyName.toUpperCase().trim();
-  if (companyCache[upper]) return companyCache[upper];
+  if (companyCache[upper] !== undefined) return companyCache[upper];
 
-  // Try Solr company core first
   try {
-    const fromSolr = await findCompanyInSolr(companyName);
-    if (fromSolr && fromSolr.cif) {
-      companyCache[upper] = fromSolr;
-      return fromSolr;
+    const matches = await searchCompanyByName(companyName);
+    if (matches && matches.length) {
+      const best = matches.find(m => (m.company || "").toUpperCase().trim() === upper) || matches[0];
+      const info = normalizePeviitorCompany(best);
+      if (info.cif) {
+        companyCache[upper] = info;
+        return info;
+      }
     }
   } catch {}
 
-  // Fallback: ANAF / cuifirme.ro
   try {
     const fromAnaf = await searchAndGetBestMatch(companyName);
     if (fromAnaf && fromAnaf.cif) {
@@ -85,8 +98,7 @@ function buildJobRecord(rawJob, companyInfo) {
   const rawCompany = (rawJob.company_name || "").trim() || "Unknown Company";
   const companyName = (companyInfo && companyInfo.company) ? companyInfo.company.toUpperCase().trim() : rawCompany.toUpperCase();
   const cif = (companyInfo && companyInfo.cif) ? String(companyInfo.cif) : "";
-  const cityRaw = (rawJob.city || "").trim() || "";
-  const city = cleanCity(cityRaw);
+  const city = cleanCity(rawJob.city || "");
   const remoteVal = (rawJob.remote || "").trim() || "";
 
   const location = city ? [`${city}, Romania`] : ["Romania"];
@@ -101,15 +113,9 @@ function buildJobRecord(rawJob, companyInfo) {
   const smin = rawJob.salary_min;
   const smax = rawJob.salary_max;
   const scurr = rawJob.salary_currency || "RON";
-  if (smin != null && smax != null) {
-    salary = `${smin}-${smax} ${scurr}`;
-  } else if (smin != null) {
-    salary = `${smin} ${scurr}`;
-  } else if (smax != null) {
-    salary = `${smax} ${scurr}`;
-  }
-
-  const now = new Date();
+  if (smin != null && smax != null) salary = `${smin}-${smax} ${scurr}`;
+  else if (smin != null) salary = `${smin} ${scurr}`;
+  else if (smax != null) salary = `${smax} ${scurr}`;
 
   const record = {
     url,
@@ -119,7 +125,7 @@ function buildJobRecord(rawJob, companyInfo) {
     location,
     tags: extractTags(title, companyName),
     workmode,
-    date: now.toISOString(),
+    date: new Date().toISOString(),
     status: "scraped",
     source: "inviitor.ro",
   };
@@ -129,21 +135,27 @@ function buildJobRecord(rawJob, companyInfo) {
 
 async function fetchJobsPage(page) {
   const url = `${API_BASE}/?page_size=${PAGE_SIZE}&page=${page}`;
-  const res = await rateLimitedRequest(url, { headers: { "User-Agent": "job_seeker_ro_spider" } });
+  const res = await fetch(url, { headers: { "User-Agent": "job_seeker_ro_spider" } });
+  if (res.status === 404 || res.status === 400) return [];
   if (!res.ok) throw new Error(`API error ${res.status}`);
   const data = await res.json();
   if (data.detail === "Invalid page.") return [];
   return data.results || data;
 }
 
-async function sleep(ms) {
-  return new Promise(r => setTimeout(r, ms));
+async function uploadJobsBatch(jobs) {
+  for (let i = 0; i < jobs.length; i += UPLOAD_BATCH) {
+    const chunk = jobs.slice(i, i + UPLOAD_BATCH);
+    const r = await upsertJobs(chunk);
+    console.log(`  → ${chunk.length} jobs upserted via API (${i + chunk.length}/${jobs.length})`);
+  }
 }
 
 async function run() {
-  console.log("=== inviitor.ro → peviitor Solr (job core only) ===");
+  console.log("=== inviitor.ro → peviitor (job core via API v1) ===");
   let totalNew = 0;
-  let totalSkipped = 0;
+  const seenUrls = new Set();
+  const newJobs = [];
 
   for (let page = 1; page <= MAX_PAGES; page++) {
     const jobs = await fetchJobsPage(page);
@@ -152,21 +164,19 @@ async function run() {
       break;
     }
 
-    const results = await Promise.all(jobs.map(async (job) => {
+    const fresh = [];
+    for (const job of jobs) {
       const url = job.job_link || "";
-      if (!url) return { job, exists: true };
-      const exists = await jobUrlExists(url);
-      return { job, exists };
-    }));
-    const newJobs = results.filter(r => !r.exists).map(r => r.job);
-    totalSkipped += results.filter(r => r.exists).length;
+      if (!url || seenUrls.has(url)) continue;
+      seenUrls.add(url);
+      fresh.push(job);
+    }
 
-    console.log(`Page ${page}: ${jobs.length} jobs (${newJobs.length} new, ${jobs.length - newJobs.length} skipped)`);
+    console.log(`Page ${page}: ${jobs.length} jobs (${fresh.length} new this page)`);
 
-    if (!newJobs.length) continue;
+    if (!fresh.length) continue;
 
-    // Look up companies in parallel (deduplicated by name)
-    const uniqueCompanies = [...new Set(newJobs.map(j => (j.company_name || "").trim().toUpperCase()).filter(Boolean))];
+    const uniqueCompanies = [...new Set(fresh.map(j => (j.company_name || "").trim().toUpperCase()).filter(Boolean))];
     const companyInfos = await Promise.all(uniqueCompanies.map(async name => {
       const info = await lookupCompany(name);
       return { name, info };
@@ -176,9 +186,8 @@ async function run() {
       companyMap[ci.name] = ci.info;
     }
 
-    // Upsert companii noi în company core
     for (const ci of companyInfos) {
-      if (!ci.info) continue;
+      if (!ci.info || ci.info._fromPeviitor) continue;
       try {
         const companyDoc = buildCompanyRecord(ci.info, ci.name, { scraperFile: "inviitor-ro-nodejs-scraper" });
         if (!companyDoc.website || !companyDoc.website.length) {
@@ -189,33 +198,37 @@ async function run() {
           }
         }
         await upsertCompany(companyDoc);
+        console.log(`✅ Company "${companyDoc.company}" upserted via API.`);
       } catch (e) {
         console.log(`  ⚠️ Nu am putut upserta compania ${ci.name}: ${e.message}`);
       }
     }
 
-    const jobDocs = newJobs.map(job => {
+    const jobDocs = fresh.map(job => {
       const rawName = (job.company_name || "").trim().toUpperCase();
       const record = buildJobRecord(job, companyMap[rawName]);
       if (record.title.length > 200) record.title = record.title.slice(0, 200);
       return record;
     });
 
-    if (jobDocs.length) {
-      const r = await upsertSolrDocs("job", jobDocs);
-      console.log(`  → ${jobDocs.length} jobs upserted: ${r.status}`);
+    newJobs.push(...jobDocs);
+    totalNew += jobDocs.length;
+
+    if (newJobs.length >= UPLOAD_BATCH) {
+      const toUpload = newJobs.splice(0, UPLOAD_BATCH);
+      await uploadJobsBatch(toUpload);
     }
 
-    totalNew += jobDocs.length;
     if (MAX_TOTAL_JOBS > 0 && totalNew >= MAX_TOTAL_JOBS) {
       console.log(`Reached limit of ${MAX_TOTAL_JOBS} new jobs, stopping.`);
       break;
     }
   }
 
+  if (newJobs.length) await uploadJobsBatch(newJobs);
+
   console.log("\n=== Done ===");
-  console.log(`New jobs upserted: ${totalNew}`);
-  console.log(`Skipped (already in Solr): ${totalSkipped}`);
+  console.log(`New jobs collected: ${totalNew}`);
 }
 
 run().catch(err => {
