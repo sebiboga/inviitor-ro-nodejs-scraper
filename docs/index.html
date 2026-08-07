@@ -93,6 +93,7 @@
     }
     .badge-green { background: #e8f5ec; color: #2e7d32; }
     .badge-red { background: #fdecec; color: #c44536; }
+    .badge-blue { background: #e8f0fe; color: #1a56db; }
     .card-body { padding: 1.5rem; }
 
     .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
@@ -235,6 +236,26 @@
 
   <div class="card">
     <div class="card-header">
+      <span data-i18n="atsTitle">Platforme ATS/cariere</span>
+      <span class="badge badge-blue" id="atsCount">0</span>
+    </div>
+    <div class="card-body">
+      <div id="atsList"><div class="empty-state" data-i18n="loading">Se încarcă...</div></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <span data-i18n="companiesTitle">Site-uri companii</span>
+      <span class="badge badge-blue" id="companiesCount">0</span>
+    </div>
+    <div class="card-body">
+      <div id="companiesList"><div class="empty-state" data-i18n="loading">Se încarcă...</div></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
       <span data-i18n="notFoundTitle">Companii negăsite</span>
       <span class="badge badge-red" id="notFoundCompanyCount">0</span>
     </div>
@@ -271,6 +292,8 @@ const i18n = {
     aggregatorsLabel: "Aggregators",
     domainsLabel: "Distinct platforms",
     aggregatorsTitle: "Aggregators (job boards)",
+    atsTitle: "ATS/careers platforms",
+    companiesTitle: "Company websites",
     notFoundTitle: "Companies not found",
     loading: "Loading...",
     runBtn: "Run Scraper",
@@ -278,6 +301,8 @@ const i18n = {
     notFoundReport: "Not-found companies (MD)",
     docs: "Documentation",
     aggEmpty: "No aggregators detected yet.",
+    atsEmpty: "No ATS platform detected.",
+    coEmpty: "No company websites detected.",
     nfEmpty: "No missing companies — all resolved.",
     lastRunLabel: "Last run",
   },
@@ -287,6 +312,8 @@ const i18n = {
     aggregatorsLabel: "Agregatori",
     domainsLabel: "Platforme distincte",
     aggregatorsTitle: "Agregatori (portale de job-uri)",
+    atsTitle: "Platforme ATS/cariere",
+    companiesTitle: "Site-uri companii",
     notFoundTitle: "Companii negăsite",
     loading: "Se încarcă...",
     runBtn: "Rulează Scraper",
@@ -294,6 +321,8 @@ const i18n = {
     notFoundReport: "Companii negăsite (MD)",
     docs: "Documentație",
     aggEmpty: "Niciun agregator detectat încă.",
+    atsEmpty: "Nicio platformă ATS detectată.",
+    coEmpty: "Niciun site de companie detectat.",
     nfEmpty: "Nicio companie negăsită — toate rezolvate.",
     lastRunLabel: "Ultimul run",
   }
@@ -338,33 +367,41 @@ async function loadData() {
   if (platformData) {
     document.getElementById("aggregatorStat").textContent = platformData.counts?.aggregators ?? 0;
     document.getElementById("domainStat").textContent = platformData.totalDomains ?? "—";
-    document.getElementById("aggregatorCount").textContent = platformData.counts?.aggregators ?? 0;
 
-    const agg = platformData.aggregators || [];
-    const wrap = document.getElementById("aggregatorsList");
-    if (!agg.length) {
-      wrap.innerHTML = `<div class="empty-state">${i18n[currentLang].aggEmpty}</div>`;
-    } else {
-      wrap.innerHTML = `
-        <table class="table">
-          <thead><tr>
-            <th>#</th>
-            <th data-i18n="thPlatform">Platformă</th>
-            <th>Domeniu</th>
-            <th>Job-uri</th>
-          </tr></thead>
-          <tbody>${agg.map((a, i) => `
-            <tr>
-              <td>${i + 1}</td>
-              <td>${a.name || a.host}</td>
-              <td class="domain">${a.host}</td>
-              <td class="num">${a.count}</td>
-            </tr>`).join("")}
-          </tbody>
-        </table>`;
-    }
+    const renderTable = (items, elId, countId, emptyKey) => {
+      const wrap = document.getElementById(elId);
+      if (!wrap) return;
+      document.getElementById(countId).textContent = items.length ?? 0;
+      if (!items.length) {
+        wrap.innerHTML = `<div class="empty-state">${i18n[currentLang][emptyKey]}</div>`;
+      } else {
+        wrap.innerHTML = `
+          <table class="table">
+            <thead><tr>
+              <th>#</th>
+              <th data-i18n="thPlatform">Platformă</th>
+              <th>Domeniu</th>
+              <th>Job-uri</th>
+            </tr></thead>
+            <tbody>${items.map((a, i) => `
+              <tr>
+                <td>${i + 1}</td>
+                <td>${a.name || a.host}</td>
+                <td class="domain">${a.host}</td>
+                <td class="num">${a.count}</td>
+              </tr>`).join("")}
+            </tbody>
+          </table>`;
+      }
+    };
+
+    renderTable(platformData.aggregators || [], "aggregatorsList", "aggregatorCount", "aggEmpty");
+    renderTable(platformData.ats || [], "atsList", "atsCount", "atsEmpty");
+    renderTable(platformData.companies || [], "companiesList", "companiesCount", "coEmpty");
   } else {
     document.getElementById("aggregatorsList").innerHTML = `<div class="empty-state">${i18n[currentLang].loading}</div>`;
+    document.getElementById("atsList").innerHTML = `<div class="empty-state">${i18n[currentLang].loading}</div>`;
+    document.getElementById("companiesList").innerHTML = `<div class="empty-state">${i18n[currentLang].loading}</div>`;
   }
 
   if (notFoundData) {
