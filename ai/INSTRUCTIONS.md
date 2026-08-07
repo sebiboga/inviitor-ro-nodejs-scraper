@@ -55,6 +55,7 @@ When working on this scraper:
 5. **Build job records** - follow the job model contract exactly (see `ai/job-model.md`)
 6. **Upload jobs** - `POST /v1/scraper/jobs/upload/` in batches of 500
 7. **Report skipped** - companies not found are written to `docs/companii-negasite.md` (their jobs are NOT uploaded)
+8. **Report platforms** - job-link domains are classified and written to `docs/platforme.md` (aggregators / ATS / company sites)
 
 ## Key Decision: Jobs Without a Company Are NOT Uploaded
 
@@ -100,6 +101,8 @@ lookupCompany(name) per unique company
     │                        └──► buildJobRecord() ──► upsertJobs (POST /scraper/jobs/upload/, batch 500)
     │
     └── company NOT found ──► job skipped ──► docs/companii-negasite.md (committed by CI)
+
+all job URLs ──► extractHostname() ──► classifyPlatform() ──► docs/platforme.md (committed by CI)
 ```
 
 ## File Responsibilities
@@ -111,7 +114,8 @@ lookupCompany(name) per unique company
 | `scraper/anaf.js` | Company resolution: ANAF search + company details, cuiscan/cuifirma fallback; `searchAndGetBestMatch` |
 | `scraper/company-builder.js` | Builds company documents per the company model contract |
 | `scraper/job-builder.js` | Builds job documents per the job model contract (extracts tags, workmode, salary) |
-| `scraper/not-found-report.js` | Generates `docs/companii-negasite.md` grouped by unresolved company |
+| `scraper/not-found-report.js` | Generates `docs/companii-negasite.md` + `docs/companii-negasite.json` grouped by unresolved company |
+| `scraper/platform-report.js` | Classifies job-link domains (aggregator/ATS/company) and generates `docs/platforme.md` + `docs/platforme.json` |
 | `scraper/web-search.js` | Website discovery for companies missing a website |
 | `scraper/validators.js` | Validates company/job records |
 | `scraper/job-validator.js` | Job URL validation primitives (`validateByHead`, `validateByContent`) |

@@ -4,12 +4,13 @@
 
 | File | Description |
 |------|-------------|
-| `scraper/index.js` | Main scraper — fetch pages → dedup by URL → lookup companies → upsert companies → upsert jobs (batch 500) → write not-found report |
+| `scraper/index.js` | Main scraper — fetch pages → dedup by URL → lookup companies → upsert companies → upsert jobs (batch 500) → write not-found report + platform report (MD + JSON) |
 | `scraper/api.js` | Peviitor API v1 operations — `searchCompanyByName`, `upsertCompany`, `upsertJobs`. Retry (3x) on transient errors. |
 | `scraper/anaf.js` | Company resolution — ANAF search + company details, cuiscan/cuifirma fallback (no retries). Exports `getCompanyFromANAF`, `searchCompany`, `searchAndGetBestMatch` |
 | `scraper/company-builder.js` | Builds company documents per the company model contract |
 | `scraper/job-builder.js` | Builds job documents per the job model contract — extracts tags, workmode, salary, location |
-| `scraper/not-found-report.js` | Generates `docs/companii-negasite.md` grouped by unresolved company (title, city, url) |
+| `scraper/not-found-report.js` | Generates `docs/companii-negasite.md` + `docs/companii-negasite.json` grouped by unresolved company (title, city, url) |
+| `scraper/platform-report.js` | Classifies job-link domains (aggregator/ATS/company) and generates `docs/platforme.md` + `docs/platforme.json` |
 | `scraper/web-search.js` | Website discovery for companies missing a website |
 | `scraper/validators.js` | Validates company/job records against the models |
 | `scraper/job-validator.js` | Job URL validation primitives — `validateByHead`, `validateByContent`, `DEFAULT_EXPIRED_KEYWORDS` |
@@ -33,7 +34,9 @@
 | `ai/VERIFY.md` | Step-by-step verification checklist after changes |
 | `ai/ISSUES.md` | Issue tracking conventions |
 | `docs/README.md` | Detailed project documentation |
-| `docs/companii-negasite.md` | **Generated report** — companies not resolved + their jobs (committed by CI) |
+| `docs/index.html` | GitHub Pages dashboard — shows aggregators + not-found companies (reads `platforme.json` / `companii-negasite.json`) |
+| `docs/companii-negasite.md` / `.json` | **Generated reports** — companies not resolved + their jobs (committed by CI) |
+| `docs/platforme.md` / `.json` | **Generated reports** — source platforms (aggregators / ATS / company sites) (committed by CI) |
 
 ## Configuration / Metadata
 
@@ -53,7 +56,8 @@
 | File | Description |
 |------|-------------|
 | `data/anaf-cache.json` | ANAF cache for company lookups |
-| `docs/companii-negasite.md` | Not-found company report — jobs that could NOT be uploaded because their company was not resolved |
+| `docs/companii-negasite.md` / `.json` | Not-found company report — jobs that could NOT be uploaded because their company was not resolved |
+| `docs/platforme.md` / `.json` | Source platforms report — aggregators, ATS and company sites encountered |
 
 ## Notes
 

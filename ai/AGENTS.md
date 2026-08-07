@@ -21,8 +21,9 @@ This scraper imports **many companies at once** from one source (inviitor.ro). I
 
 ### 3. Company not found → do NOT upload the job
 - A job **must** have a `cif` and the company's legal name (`company`) to be uploaded.
-- If the company cannot be resolved, the job is **skipped** and added to `docs/companii-negasite.md` (grouped by company, with title/city/url).
-- The report is committed to the repo by CI.
+- If the company cannot be resolved, the job is **skipped** and added to `docs/companii-negasite.md`/`.json` (grouped by company, with title/city/url).
+- Every job-link domain is also classified (aggregator/ATS/company) into `docs/platforme.md`/`.json`.
+- The reports are committed to the repo by CI and shown on the GitHub Pages dashboard (`docs/index.html`).
 
 ### 4. Company lookup order (no retries)
 1. Peviitor company core — `GET /v1/firme/company/?name=...`
@@ -38,6 +39,12 @@ This scraper imports **many companies at once** from one source (inviitor.ro). I
 - `https://api.laurentiumarian.ro/mobile?page_size=50&page=N`
 - `404` or `400` = end of list (stop gracefully, do NOT treat as error).
 - API returns **~65k records but only ~42k unique URLs** — duplicates between pages are normal.
+
+### 6b. GitHub Pages dashboard (`docs/index.html`)
+- Does NOT list jobs. It renders the generated reports:
+  - `platforme.json` → aggregators table
+  - `companii-negasite.json` → not-found companies table
+- Do NOT query `api.peviitor.ro/v1/search` for counts — `numFound` ignores the `source=` filter and returns the whole system count.
 
 ### 7. User-Agent
 - Every HTTP request uses `User-Agent: job_seeker_ro_spider`.

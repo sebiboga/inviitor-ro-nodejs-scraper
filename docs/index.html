@@ -330,12 +330,13 @@ async function loadData() {
     if (nRes.ok) notFoundData = await nRes.json();
   } catch (e) { console.warn("companii-negasite.json unavailable:", e); }
 
-  const now = new Date();
-  document.getElementById("lastRunTime").textContent = now.toLocaleTimeString("ro-RO", { hour: "2-digit", minute: "2-digit" });
-  document.getElementById("lastRunDate").textContent = now.toLocaleDateString("ro-RO", { day: "2-digit", month: "2-digit", year: "numeric" });
+  const lastRun = platformData?.generatedAt || notFoundData?.generatedAt || new Date().toISOString();
+  const runDate = new Date(lastRun);
+  document.getElementById("lastRunTime").textContent = runDate.toLocaleTimeString("ro-RO", { hour: "2-digit", minute: "2-digit" });
+  document.getElementById("lastRunDate").textContent = runDate.toLocaleDateString("ro-RO", { day: "2-digit", month: "2-digit", year: "numeric" });
 
   if (platformData) {
-    document.getElementById("domainCount").textContent = platformData.totalDomains ?? "—";
+    document.getElementById("domainStat").textContent = platformData.totalDomains ?? "—";
     document.getElementById("aggregatorCount").textContent = platformData.counts?.aggregators ?? 0;
 
     const agg = platformData.aggregators || [];
@@ -367,7 +368,6 @@ async function loadData() {
 
   if (notFoundData) {
     document.getElementById("notFoundCompanyCount").textContent = notFoundData.totalCompanies ?? 0;
-    document.getElementById("jobCount").textContent = notFoundData.totalJobs ?? "—";
 
     const companies = notFoundData.companies || [];
     const wrap = document.getElementById("notFoundList");
