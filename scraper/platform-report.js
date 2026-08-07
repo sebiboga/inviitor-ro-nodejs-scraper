@@ -40,7 +40,13 @@ const AGGREGATORS = {
   "jobboom.ro": "JobBoom.ro",
   "jobfix.ro": "JobFix.ro",
   "lucru.ro": "Lucru.ro",
-  "taleo.net": "Oracle Taleo (ATS aggregator)"
+  "taleo.net": "Oracle Taleo (ATS aggregator)",
+  "undelucram.ro": "Undelucram.ro",
+  "jobradar24.ro": "JobRadar24.ro",
+  "multijobs.ro": "MultiJobs.ro",
+  "helperz.ro": "Helperz.ro",
+  "iajob.ro": "IAJob.ro",
+  "mediere.anofm.ro": "ANOFM (mediere)"
 };
 
 const ATS_PLATFORMS = {
@@ -85,9 +91,17 @@ export function extractHostname(url) {
   }
 }
 
+function matchMap(hostname, map) {
+  if (map[hostname]) return map[hostname];
+  const key = Object.keys(map).find(k => hostname.endsWith("." + k));
+  return key ? map[key] : null;
+}
+
 export function classifyPlatform(hostname) {
-  if (AGGREGATORS[hostname]) return { type: "aggregator", name: AGGREGATORS[hostname] };
-  if (ATS_PLATFORMS[hostname]) return { type: "ats", name: ATS_PLATFORMS[hostname] };
+  const agg = matchMap(hostname, AGGREGATORS);
+  if (agg) return { type: "aggregator", name: agg };
+  const ats = matchMap(hostname, ATS_PLATFORMS);
+  if (ats) return { type: "ats", name: ats };
   return { type: "company", name: hostname };
 }
 

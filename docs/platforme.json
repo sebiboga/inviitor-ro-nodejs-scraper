@@ -2,9 +2,9 @@
   "generatedAt": "2026-08-07T12:16:02.406Z",
   "totalDomains": 19,
   "counts": {
-    "aggregators": 4,
-    "ats": 0,
-    "companies": 15
+    "aggregators": 10,
+    "ats": 2,
+    "companies": 7
   },
   "aggregators": [
     {
@@ -13,6 +13,13 @@
       "url": "https://jobviewtrack.com/v2/4w_1ih9ESqTT8kuJkHB-evSShTfKv0-rFTeCDUckMJUMie_rODNgO8SGrGNBUgH3eEm3fWWMNTsB68dS-k_F8PBe_4hHISEewLDLsrk45Fo9piw9KQrHhxYtEgFo9NbnWPLn3S7xhjX-W5FdFDZerV3fBfbuXt8kdNwCN0bRF0Ppj6KfSKwomZ3jhCJleG4qtYTgJPMBSW9Tm2tmLV2Rz7krtP4a-SBwih2v7_TQiL4",
       "type": "aggregator",
       "name": "CareerJet (tracking)"
+    },
+    {
+      "host": "mediere.anofm.ro",
+      "count": 16,
+      "url": "https://mediere.anofm.ro/app/module/mediere/job/3182713",
+      "type": "aggregator",
+      "name": "ANOFM (mediere)"
     },
     {
       "host": "bestjobs.eu",
@@ -29,6 +36,41 @@
       "name": "Hipo.ro"
     },
     {
+      "host": "undelucram.ro",
+      "count": 5,
+      "url": "https://www.undelucram.ro/ro/locuri-de-munca/brand-consumer-junior-advisor-with-german-full-time-or-part-time/98653",
+      "type": "aggregator",
+      "name": "Undelucram.ro"
+    },
+    {
+      "host": "jobradar24.ro",
+      "count": 4,
+      "url": "https://www.jobradar24.ro/anunt/consilieri-vanzari-8mpq6z",
+      "type": "aggregator",
+      "name": "JobRadar24.ro"
+    },
+    {
+      "host": "multijobs.ro",
+      "count": 2,
+      "url": "https://multijobs.ro/job/casier-lucrator-comercial-shopgo-vatra-luminoasa/4254",
+      "type": "aggregator",
+      "name": "MultiJobs.ro"
+    },
+    {
+      "host": "helperz.ro",
+      "count": 2,
+      "url": "https://helperz.ro/locuri-de-munca/anunt/6a2d577bba94d4000204799c",
+      "type": "aggregator",
+      "name": "Helperz.ro"
+    },
+    {
+      "host": "iajob.ro",
+      "count": 2,
+      "url": "https://www.iajob.ro/locuri-de-munca/00mzfj",
+      "type": "aggregator",
+      "name": "IAJob.ro"
+    },
+    {
       "host": "ejobs.ro",
       "count": 1,
       "url": "https://www.ejobs.ro/user/locuri-de-munca/asistent-medical-puncte-de-recoltare-bucuresti-ilfov/1976726",
@@ -36,15 +78,23 @@
       "name": "eJobs.ro"
     }
   ],
-  "ats": [],
-  "companies": [
+  "ats": [
     {
-      "host": "mediere.anofm.ro",
-      "count": 16,
-      "url": "https://mediere.anofm.ro/app/module/mediere/job/3182713",
-      "type": "company",
-      "name": "mediere.anofm.ro"
+      "host": "everymatrix.teamtailor.com",
+      "count": 1,
+      "url": "https://everymatrix.teamtailor.com/jobs/7900320-automation-qa-tester",
+      "type": "ats",
+      "name": "Teamtailor"
     },
+    {
+      "host": "jobs.eu.lever.co",
+      "count": 1,
+      "url": "https://jobs.eu.lever.co/hkr/2cf0b6bd-58b6-419b-baee-0f1319342a8c",
+      "type": "ats",
+      "name": "Lever"
+    }
+  ],
+  "companies": [
     {
       "host": "jobs.worldline.com",
       "count": 7,
@@ -60,41 +110,6 @@
       "name": "cariere.lidl.ro"
     },
     {
-      "host": "undelucram.ro",
-      "count": 5,
-      "url": "https://www.undelucram.ro/ro/locuri-de-munca/brand-consumer-junior-advisor-with-german-full-time-or-part-time/98653",
-      "type": "company",
-      "name": "undelucram.ro"
-    },
-    {
-      "host": "jobradar24.ro",
-      "count": 4,
-      "url": "https://www.jobradar24.ro/anunt/consilieri-vanzari-8mpq6z",
-      "type": "company",
-      "name": "jobradar24.ro"
-    },
-    {
-      "host": "multijobs.ro",
-      "count": 2,
-      "url": "https://multijobs.ro/job/casier-lucrator-comercial-shopgo-vatra-luminoasa/4254",
-      "type": "company",
-      "name": "multijobs.ro"
-    },
-    {
-      "host": "helperz.ro",
-      "count": 2,
-      "url": "https://helperz.ro/locuri-de-munca/anunt/6a2d577bba94d4000204799c",
-      "type": "company",
-      "name": "helperz.ro"
-    },
-    {
-      "host": "iajob.ro",
-      "count": 2,
-      "url": "https://www.iajob.ro/locuri-de-munca/00mzfj",
-      "type": "company",
-      "name": "iajob.ro"
-    },
-    {
       "host": "hitachienergy.com",
       "count": 1,
       "url": "https://www.hitachienergy.com/careers/open-jobs/details/JID3-203453",
@@ -102,25 +117,11 @@
       "name": "hitachienergy.com"
     },
     {
-      "host": "everymatrix.teamtailor.com",
-      "count": 1,
-      "url": "https://everymatrix.teamtailor.com/jobs/7900320-automation-qa-tester",
-      "type": "company",
-      "name": "everymatrix.teamtailor.com"
-    },
-    {
       "host": "job.leroymerlin.ro",
       "count": 1,
       "url": "https://job.leroymerlin.ro/jobs/8017420-lider-performan-a-magazin",
       "type": "company",
       "name": "job.leroymerlin.ro"
-    },
-    {
-      "host": "jobs.eu.lever.co",
-      "count": 1,
-      "url": "https://jobs.eu.lever.co/hkr/2cf0b6bd-58b6-419b-baee-0f1319342a8c",
-      "type": "company",
-      "name": "jobs.eu.lever.co"
     },
     {
       "host": "careers.allianz.com",
