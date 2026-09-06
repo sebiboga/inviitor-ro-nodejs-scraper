@@ -1,462 +1,415 @@
 # Platforme sursă — inviitor.ro
 
-Raport generat la: 2026-09-05T12:02:38.403Z
+Raport generat la: 2026-09-06T12:04:21.977Z
 
-Total domenii distincte: **438**
+Total domenii distincte: **391**
 
-- **Agregatoare** (portale de joburi): 26
-- **Platforme ATS/cariere**: 68
-- **Site-uri companii**: 344
+- **Agregatoare** (portale de joburi): 17
+- **Platforme ATS/cariere**: 67
+- **Site-uri companii**: 307
 
 ## Agregatoare (portale de joburi)
 
 | Platformă | Domeniu | Job-uri | Exemplu URL |
 |-----------|---------|---------|-------------|
-| jobviewtrack.com | `jobviewtrack.com` | 11246 | [link](https://jobviewtrack.com/v2/hj5JkuoZSpv3tdrhI3m2QRdl3EByQimluYyZYdcTIB4lP94rdXkm1xl-aRmLZ_mS8XPjvCaaqgKIhJ7kgfENUL8tdXIzbLHOD6Sjb4VOJjWImGMYSEr9y9x1mrnxJcv8sIFocUpjqkiIb-NwFuzAIN46WpqOUkpV-4qgdGSheEr8L3XmdWs8J2uX6mZsqDczWAHF8HXd2MwCsY8H8dY7G6NBGoDu68vsZzJWYOLdxXk) |
-| iajob.ro | `iajob.ro` | 7005 | [link](https://www.iajob.ro/locuri-de-munca/grk1gl) |
-| mediere.anofm.ro | `mediere.anofm.ro` | 4588 | [link](https://mediere.anofm.ro/app/module/mediere/job/3354191) |
-| bestjobs.eu | `bestjobs.eu` | 4259 | [link](https://www.bestjobs.eu/loc-de-munca/sales-specialist-dezvoltare) |
-| multijobs.ro | `multijobs.ro` | 2888 | [link](https://multijobs.ro/job/farmacist/3238) |
-| hipo.ro | `hipo.ro` | 1249 | [link](https://www.hipo.ro/locuri-de-munca/locuri_de_munca/270216/Societe-Generale-Global-Solution-Centre/Java-Fullstack-Developer-with-React-Native) |
-| undelucram.ro | `undelucram.ro` | 831 | [link](https://www.undelucram.ro/ro/locuri-de-munca/customer-support-service-assistant-german-dutch/99625) |
-| jobradar24.ro | `jobradar24.ro` | 763 | [link](https://www.jobradar24.ro/anunt/operator-ambalare-tablouri-electrice-7jpzwz) |
-| ejobs.ro | `ejobs.ro` | 747 | [link](https://www.ejobs.ro/user/locuri-de-munca/legal-compliance-counsel/1980643) |
-| 8ore.ro | `8ore.ro` | 272 | [link](https://8ore.ro/locuri-de-munca/agent-comercial) |
-| fjobs.ro | `fjobs.ro` | 134 | [link](https://fjobs.ro/job/muncitori-tamplarie-aluminiu-cu-experienta-pt-fatade-cladiri/) |
-| targuldecariere.ro | `targuldecariere.ro` | 91 | [link](https://www.targuldecariere.ro/companii/genpact/16849/junior-fa-specialist-with-french) |
-| dreamjobs.ro | `dreamjobs.ro` | 80 | [link](https://dreamjobs.ro/ro/job/douce-hydro-romania/operator-cnc-strungfreza) |
-| randstad.ro | `randstad.ro` | 49 | [link](https://www.randstad.ro/locuri-de-munca/office-senior-engineer_bucuresti_5320/) |
-| jobs.engie.com | `jobs.engie.com` | 47 | [link](https://jobs.engie.com/job/Specialist-operatiuni-BESS/70393/) |
-| olx.ro | `olx.ro` | 42 | [link](https://www.olx.ro/oferta/loc-de-munca/inginer-instalatii-hvac-coordonare-santiere-IDkLz2A.html) |
-| usamvjobs.ro | `usamvjobs.ro` | 41 | [link](https://usamvjobs.ro/job/afumati-ilfov-6-specialist-suport-clienti/) |
-| jobs.ashbyhq.com | `jobs.ashbyhq.com` | 40 | [link](https://jobs.ashbyhq.com/ruby-labs/5fb76187-efa5-486d-8ceb-5309ac0fefd4) |
-| jobzz.ro | `jobzz.ro` | 40 | [link](https://jobzz.ro/angajam-sofer-camion-in-pitesti-salariu-6500-lei-anunt_889270.html) |
-| oferimdemunca.ro | `oferimdemunca.ro` | 38 | [link](https://oferimdemunca.ro/job/electrician/) |
-| careers-page.com | `careers-page.com` | 33 | [link](https://www.careers-page.com/be-shaping-the-future/job/L349YV6W) |
-| wd3.myworkdaysite.com | `wd3.myworkdaysite.com` | 23 | [link](https://wd3.myworkdaysite.com/en-US/recruiting/magna/Magna/job/Timisoara-RO/Data-Engineer_R00256992) |
-| jobs.porsche.com | `jobs.porsche.com` | 22 | [link](https://jobs.porsche.com/index.php?ac=jobad&id=19968) |
-| edujobs.ro | `edujobs.ro` | 21 | [link](https://edujobs.ro/job-page/88f4d6ed-8bf3-4b39-a5f6-4b67502bfa25) |
-| jobs.ea.com | `jobs.ea.com` | 14 | [link](https://jobs.ea.com/en_US/careers/JobDetail/Senior-AI-Solutions-Lead-Software-Quality/211830) |
-| devjob.ro | `devjob.ro` | 5 | [link](https://devjob.ro/jobs/Talent-Spotter-Mid--Senior-Full-Stack-Developer--Java--ReactAngular) |
+| iajob.ro | `iajob.ro` | 398 | [link](https://www.iajob.ro/locuri-de-munca/uxizer) |
+| hipo.ro | `hipo.ro` | 176 | [link](https://www.hipo.ro/locuri-de-munca/locuri_de_munca/270444/Continental/IAM-Engineer---Tires) |
+| bestjobs.eu | `bestjobs.eu` | 75 | [link](https://www.bestjobs.eu/loc-de-munca/agent-vanzari-dambovita-5) |
+| jobradar24.ro | `jobradar24.ro` | 67 | [link](https://www.jobradar24.ro/anunt/operator-productie-popesti-leordeni-if-j65kd4) |
+| ejobs.ro | `ejobs.ro` | 55 | [link](https://www.ejobs.ro/user/locuri-de-munca/customer-service-representative-telecom-digital-services/1983168) |
+| jobviewtrack.com | `jobviewtrack.com` | 49 | [link](https://jobviewtrack.com/v2/42umq-lTT8o6NI4dGjzjqdEjnwVFKFEnssB-GFBdQr-oZaHOisuzuoYYMt1YwWquWWS0f-AjSt2N0oxCdWukAc5ata32tvgFgwo1Fnu6D3iVRiRVw2Zl0ysIhS-qmHP6I5ChLVq4gMZLT0n6uljnJzTWQQmi2LBA02Lh3PAds14RZ4RyyDlBJYAq_XWlWxnTk0kDfbjYsEzd-2I5XQ5fRfzXjuchHuH53MArAEcuYtY) |
+| jobs.engie.com | `jobs.engie.com` | 41 | [link](https://jobs.engie.com/job/Data-Expert/71267/) |
+| undelucram.ro | `undelucram.ro` | 36 | [link](https://www.undelucram.ro/ro/locuri-de-munca/asistent-vanzari-brasov-full-time-sau-part-time/45067) |
+| jobs.ashbyhq.com | `jobs.ashbyhq.com` | 33 | [link](https://jobs.ashbyhq.com/ruby-labs/308d1182-35b0-458c-a6af-f283a552e35c) |
+| jobs.porsche.com | `jobs.porsche.com` | 27 | [link](https://jobs.porsche.com/index.php?ac=jobad&id=1389) |
+| wd3.myworkdaysite.com | `wd3.myworkdaysite.com` | 26 | [link](https://wd3.myworkdaysite.com/en-US/recruiting/mdlz/External/job/Bucharest-Romania/Taste-The-Future---Customer-Service-Internship--m-f-x-_R-174355-2) |
+| careers-page.com | `careers-page.com` | 16 | [link](https://www.careers-page.com/be-shaping-the-future/job/W355968W) |
+| jobs.ea.com | `jobs.ea.com` | 14 | [link](https://jobs.ea.com/en_US/careers/JobDetail/Associate-Cinematics-Designer-EA-Sports-FC/215782) |
+| targuldecariere.ro | `targuldecariere.ro` | 11 | [link](https://www.targuldecariere.ro/companii/bearingpoint/18469/coupa-senior-consultant) |
+| 8ore.ro | `8ore.ro` | 6 | [link](https://8ore.ro/locuri-de-munca/angajam-tehnician-service-cnc-plasma-laser) |
+| oferimdemunca.ro | `oferimdemunca.ro` | 2 | [link](https://oferimdemunca.ro/job/angajam-urgent-agenti-asistenta-rutiera-limba-germana-c1/) |
+| olx.ro | `olx.ro` | 2 | [link](https://www.olx.ro/oferta/loc-de-munca/operator-utilitati-fabrica-pepsico-IDkNx0p.html) |
 
 ## Platforme ATS/cariere
 
 | Platformă | Domeniu | Job-uri | Exemplu URL |
 |-----------|---------|---------|-------------|
-| SmartRecruiters | `jobs.smartrecruiters.com` | 158 | [link](https://jobs.smartrecruiters.com/Ubisoft2/744000143504187-data-engineer-the-division-2-) |
-| Workday | `ing.wd3.myworkdayjobs.com` | 53 | [link](https://ing.wd3.myworkdayjobs.com/en-US/ICSGBLCOR/job/Bucharest---Dacia-One/Solution-Architect---IPA-Pricing-Engines---Post-processing--ING-Hubs-Romania_REQ-10119712) |
-| SmartRecruiters | `smartrecruiters.com` | 44 | [link](https://www.smartrecruiters.com/Eurofins/744000138080529) |
-| Lever | `jobs.lever.co` | 40 | [link](https://jobs.lever.co/ajax/c2e5945b-5a14-4396-83a2-7a8c9c1f7067) |
-| Workday | `lseg.wd3.myworkdayjobs.com` | 36 | [link](https://lseg.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest---Iuliu-Maniu-Boulevard/Lead-NSO-Developer_R0120469-1) |
-| Oracle Cloud (OIC) | `egup.fa.us2.oraclecloud.com` | 32 | [link](https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/requisitions/preview/20280276) |
-| Workday | `nxp.wd3.myworkdayjobs.com` | 30 | [link](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Bucharest/DevOps-Intern_R-10066169) |
-| Greenhouse | `job-boards.greenhouse.io` | 27 | [link](https://job-boards.greenhouse.io/awin/jobs/7827526003) |
-| Jobvite | `jobs.jobvite.com` | 21 | [link](https://jobs.jobvite.com/pragmaticplay/job/opvQyfw2) |
-| Workday | `kone.wd3.myworkdayjobs.com` | 20 | [link](https://kone.wd3.myworkdayjobs.com/en-US/Careers/job/Paris/Technicien-Maintenance-Ascenseurs-H-F_R0664277) |
-| Workday | `michelinhr.wd3.myworkdayjobs.com` | 18 | [link](https://michelinhr.wd3.myworkdayjobs.com/en-US/Michelin/job/Voluntari/HR-Analyst-with-French_R-2026015660) |
-| Oracle | `careers.oracle.com` | 18 | [link](https://careers.oracle.com/jobs/#en/sites/jobsearch/job/338884) |
-| Workday | `thales.wd3.myworkdayjobs.com` | 15 | [link](https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/Generative---Agentic-AI-Engineer---Air-Traffic-Management-Innovation_R0334039) |
-| Recruitee | `tbibankro.recruitee.com` | 13 | [link](https://tbibankro.recruitee.com/o/consilier-vanzari-targu-mures-1) |
-| Workday | `zentiva.wd3.myworkdayjobs.com` | 13 | [link](https://zentiva.wd3.myworkdayjobs.com/en-US/Zentiva/job/Romania--Bucharest/Quality-Assurance-in-Production_R2469455) |
-| Teamtailor | `everymatrix.teamtailor.com` | 10 | [link](https://everymatrix.teamtailor.com/jobs/8166541-product-manager) |
-| Workday | `cgm.wd3.myworkdayjobs.com` | 9 | [link](https://cgm.wd3.myworkdayjobs.com/en-US/cgm/job/Iasi/IT-Security-Engineer--m-f-d-_JR108575) |
-| Workday | `theaccessgroup.wd103.myworkdayjobs.com` | 9 | [link](https://theaccessgroup.wd103.myworkdayjobs.com/en-US/Access_Group_External_Careers/job/Romania-Remote/Web-Specialist_JR003813-1) |
+| SmartRecruiters | `jobs.smartrecruiters.com` | 207 | [link](https://jobs.smartrecruiters.com/Coface/744000103728876) |
+| Workday | `ing.wd3.myworkdayjobs.com` | 61 | [link](https://ing.wd3.myworkdayjobs.com/en-US/ICSGBLCOR/job/Bucharest---Dacia-One/IT-OpsRisk-Engineer---ING-Hubs-Romania_REQ-10090278) |
+| Lever | `jobs.lever.co` | 59 | [link](https://jobs.lever.co/trustyou/2a8ac378-13b2-4f54-a55b-2ecfd139921d) |
+| SmartRecruiters | `smartrecruiters.com` | 46 | [link](https://www.smartrecruiters.com/Eurofins/744000137654858) |
+| Workday | `lseg.wd3.myworkdayjobs.com` | 41 | [link](https://lseg.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest---Iuliu-Maniu-Boulevard/Lead-NSO-Developer_R0120469-1) |
+| Oracle Cloud (OIC) | `egup.fa.us2.oraclecloud.com` | 35 | [link](https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/requisitions/preview/20276455) |
+| Greenhouse | `job-boards.greenhouse.io` | 34 | [link](https://job-boards.greenhouse.io/showpad/jobs/8105332) |
+| Workday | `nxp.wd3.myworkdayjobs.com` | 21 | [link](https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Bangalore/Business-Process-Expert--BPE----S2P-COUPA_R-10061728) |
+| Workday | `zentiva.wd3.myworkdayjobs.com` | 18 | [link](https://zentiva.wd3.myworkdayjobs.com/en-US/Zentiva/job/Czechia--Praha/Category-Leader---IT_R2469434) |
+| Workday | `michelinhr.wd3.myworkdayjobs.com` | 17 | [link](https://michelinhr.wd3.myworkdayjobs.com/en-US/Michelin/job/Voluntari/FIN--SWE--DEU--NDL-Integrated-Business-Planning-Manager--IBP_R-2026027426) |
+| Jobvite | `jobs.jobvite.com` | 16 | [link](https://jobs.jobvite.com/pragmaticplay/job/oUsBAfwh) |
+| Recruitee | `tbibankro.recruitee.com` | 16 | [link](https://tbibankro.recruitee.com/o/senior-product-manager-lending-1) |
+| Oracle Cloud (OIC) | `ehth.fa.em2.oraclecloud.com` | 14 | [link](https://ehth.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/14843/?location=Romania&locationId=300000000275207&locationLevel=country&mode=location) |
+| Workday | `solenis.wd1.myworkdayjobs.com` | 13 | [link](https://solenis.wd1.myworkdayjobs.com/en-US/Solenis/job/Bucharest-Romania/Senior-Customer-Service-Representative-with-advanced-french_R0032127) |
+| Teamtailor | `everymatrix.teamtailor.com` | 11 | [link](https://everymatrix.teamtailor.com/jobs/8053834-l2-support-engineer) |
+| Workday | `thales.wd3.myworkdayjobs.com` | 11 | [link](https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/C-C---Software-Engineer---Defence-Naval-Business_R0190603-1) |
+| Workday | `kone.wd3.myworkdayjobs.com` | 11 | [link](https://kone.wd3.myworkdayjobs.com/en-US/Careers/job/Espoo/Purchasing-Manager---Professional-Services_R0664274) |
 | Workday | `iqvia.wd1.myworkdayjobs.com` | 9 | [link](https://iqvia.wd1.myworkdayjobs.com/IQVIA/job/Bucuresti-Romania/Clinical-Research-Associate-Sponsor-Dedicated-Team-Romania_R1560512) |
-| Workday | `prysmiangroup.wd3.myworkdayjobs.com` | 8 | [link](https://prysmiangroup.wd3.myworkdayjobs.com/en-US/Careers/job/Slatina-Olt/Slatina-Quality-Engineer_R-35129) |
-| Oracle Cloud (OIC) | `ehth.fa.em2.oraclecloud.com` | 8 | [link](https://ehth.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/12685/?location=Romania&locationId=300000000275207&locationLevel=country&mode=location) |
-| Workday | `solenis.wd1.myworkdayjobs.com` | 8 | [link](https://solenis.wd1.myworkdayjobs.com/en-US/Solenis/job/Bucharest-Romania/Technical-Service-Engineer_R0032082) |
-| Workday | `alliancewd.wd3.myworkdayjobs.com` | 7 | [link](https://alliancewd.wd3.myworkdayjobs.com/ro-RO/renault-group-careers/job/Bucuresti/XMLNAME--Internship--Specialist-comunicare-extern--F-M-_JOBREQ_50275203) |
-| Lever | `jobs.eu.lever.co` | 6 | [link](https://jobs.eu.lever.co/hkr/2c8f2199-8f04-4759-b98f-a338f32145af) |
-| SmartRecruiters | `careers.smartrecruiters.com` | 6 | [link](https://careers.smartrecruiters.com/Ramboll3/jobs/744000073788708) |
-| Workable | `apply.workable.com` | 6 | [link](https://apply.workable.com/flowxai/j/3FA15647E1/) |
-| Workday | `ag.wd3.myworkdayjobs.com` | 6 | [link](https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Bucharest/Dev-Ops-Engineer--middle-level-_JR10429307) |
-| Workday | `hitachi.wd1.myworkdayjobs.com` | 6 | [link](https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Bucharest-Bucharest-Romania/Commissioning-Engineer-HV-Substation-Primary-Equipment_R0127575) |
-| Workday | `maersk.wd3.myworkdayjobs.com` | 6 | [link](https://maersk.wd3.myworkdayjobs.com/en-US/Maersk_Careers/job/Romania-Constanta-900746/Electrician--SF-_R169138) |
-| Oracle Taleo | `molgroup.taleo.net` | 5 | [link](https://molgroup.taleo.net/careersection/external/jobdetail.ftl?job=258394&tz=GMT%2B02%3A00&tzname=Europe%2FBucharest) |
-| Workday | `levistraussandco.wd5.myworkdayjobs.com` | 5 | [link](https://levistraussandco.wd5.myworkdayjobs.com/ro-RO/External/job/LS-PARK-LAKE-Bucharest-Romania/Stylist-Bucharest-Park-Lake-Romania-full-time_R-0154024-1) |
-| Workday | `medtronic.wd1.myworkdayjobs.com` | 5 | [link](https://medtronic.wd1.myworkdayjobs.com/en-US/medtroniccareers/job/Bucharest-Bucharest-Romania/Neurovascular-and-Peripheral-Vascular-Sr-Technical-Consultant_R69437-1) |
-| Workday | `ptc.wd1.myworkdayjobs.com` | 5 | [link](https://ptc.wd1.myworkdayjobs.com/en-US/PTC/job/ROM-Bucharest-PO/Accounts-Payable-Administrator--Senior_JR112632) |
-| Workday | `hp.wd5.myworkdayjobs.com` | 4 | [link](https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Bucharest-Bucureti-Romania/HP-Qualcomm-Retail-Experience-Lead--EMEA_3161440-1) |
-| Workday | `monnoyeur.wd103.myworkdayjobs.com` | 4 | [link](https://monnoyeur.wd103.myworkdayjobs.com/ro-RO/Monnoyeur/job/MOGOSOAIA-IPS/Digital-Enabling-Functions-Business-Partner--Marketing--Sales---Customer-Experience-_JR2266?hiringCompany=e9240506062810102069e15158e50000) |
-| Workday | `ecolab.wd1.myworkdayjobs.com` | 4 | [link](https://ecolab.wd1.myworkdayjobs.com/en-US/Ecolab_External/job/ROU---Victoria---Victoria/Operations-Controller-Manufacturing_R00290721) |
-| Workday | `kei.wd1.myworkdayjobs.com` | 4 | [link](https://kei.wd1.myworkdayjobs.com/en-US/GlobalKimballCareers/job/Kimball-Electronics-Romania/Production-Operator-Backend_R20261295) |
-| Teamtailor | `veoneerro.teamtailor.com` | 3 | [link](https://veoneerro.teamtailor.com/jobs/8296611-it-security-engineer) |
-| Workday | `borgwarner.wd5.myworkdayjobs.com` | 3 | [link](https://borgwarner.wd5.myworkdayjobs.com/en-US/BorgWarner_Careers/job/Bucharest---Romania/SAP-PP-QM---Systems-Analyst-Senior_R2025-4271-1) |
-| Workday | `ttiemea.wd3.myworkdayjobs.com` | 3 | [link](https://ttiemea.wd3.myworkdayjobs.com/ro-RO/TTI/job/Field-Based-Romania/Job-Site-Solutions-Specialist-Plumbing-Milwaukee-Romania_JR4153) |
-| Workday | `nvent.wd5.myworkdayjobs.com` | 3 | [link](https://nvent.wd5.myworkdayjobs.com/job/Brasov-RO/Buyer-Analyst-with-English---German_R21175) |
-| Oracle Cloud (OIC) | `ehpv.fa.em2.oraclecloud.com` | 3 | [link](https://ehpv.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/preview/25625/?location=Romania&locationId=300000000275207&locationLevel=country&mode=location) |
+| Workday | `theaccessgroup.wd103.myworkdayjobs.com` | 8 | [link](https://theaccessgroup.wd103.myworkdayjobs.com/en-US/Access_Group_External_Careers/job/Timisoara/Cloud-Security-Engineer_JR001852-3) |
+| Workday | `maersk.wd3.myworkdayjobs.com` | 7 | [link](https://maersk.wd3.myworkdayjobs.com/en-US/Maersk_Careers/job/Romania-Bucharest-011853/Accountant--1-Year-_R190541) |
+| Workday | `hitachi.wd1.myworkdayjobs.com` | 6 | [link](https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Bucharest-Bucharest-Romania/Product-Management-Specialist-GA_R0114540) |
+| Oracle Cloud (OIC) | `ehpv.fa.em2.oraclecloud.com` | 6 | [link](https://ehpv.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/preview/25625/?location=Romania&locationId=300000000275207&locationLevel=country&mode=location) |
+| Workday | `kei.wd1.myworkdayjobs.com` | 6 | [link](https://kei.wd1.myworkdayjobs.com/en-US/GlobalKimballCareers/job/Kimball-Electronics-Romania/Production-Operator-Backend_R20261295) |
+| Oracle | `careers.oracle.com` | 6 | [link](https://careers.oracle.com/jobs/#en/sites/jobsearch/job/342042) |
+| Workday | `ag.wd3.myworkdayjobs.com` | 6 | [link](https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Bucharest/Engineering-PMO-for-Space--Engineering-Data-Management-Specialist--_JR10436363) |
+| Workday | `alliancewd.wd3.myworkdayjobs.com` | 5 | [link](https://alliancewd.wd3.myworkdayjobs.com/ro-RO/renault-group-careers/job/Mioveni/XMLNAME--Internship--Contabilitate-Furnizori--F-M-_JOBREQ_50271968) |
+| Workday | `prysmiangroup.wd3.myworkdayjobs.com` | 5 | [link](https://prysmiangroup.wd3.myworkdayjobs.com/en-US/Careers/job/Milcov/Medium-IT-Logistics-Business-Analyst_R-34312) |
+| Workday | `cgm.wd3.myworkdayjobs.com` | 5 | [link](https://cgm.wd3.myworkdayjobs.com/en-US/cgm/job/Iasi/Senior-Network-Engineer--Security---Zero-Trust-_JR110128) |
+| Workable | `apply.workable.com` | 4 | [link](https://apply.workable.com/fioneer/j/5A478673D9) |
+| Workday | `medtronic.wd1.myworkdayjobs.com` | 4 | [link](https://medtronic.wd1.myworkdayjobs.com/en-US/medtroniccareers/job/Bucharest-Bucharest-Romania/Sales-Manager-Accelerated-Technologies-Romania---Moldova_R69434-1) |
+| Workday | `ecolab.wd1.myworkdayjobs.com` | 4 | [link](https://ecolab.wd1.myworkdayjobs.com/en-US/Ecolab_External/job/ROU---Victoria---Victoria/Emergency-Situations-Specialist_R00292196) |
+| Workday | `premierresearch.wd12.myworkdayjobs.com` | 4 | [link](https://premierresearch.wd12.myworkdayjobs.com/en-US/PremierResearch/job/Romania/Program-Data-Manager---FS_R6738?locations=9e662c32237d10020998e40b53a80000) |
+| Oracle Taleo | `molgroup.taleo.net` | 4 | [link](https://molgroup.taleo.net/careersection/external/jobdetail.ftl?job=272116&tz=GMT%2B02%3A00&tzname=Europe%2FBucharest) |
+| Workday | `levistraussandco.wd5.myworkdayjobs.com` | 4 | [link](https://levistraussandco.wd5.myworkdayjobs.com/ro-RO/External/job/LS-SHOPPING-CITY-Timisoara-Romania/Sales-Stylist-Timisoara-Full-Time_R-0153648) |
+| Oracle Cloud (OIC) | `fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com` | 4 | [link](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/38102/?location=Romania&locationId=300000000471997&locationLevel=country&mode=location&sortBy=POSTING_DATES_DESC) |
+| Lever | `jobs.eu.lever.co` | 3 | [link](https://jobs.eu.lever.co/hkr/16948633-307b-4dea-994c-7d69584cb080) |
+| Workday | `nvent.wd5.myworkdayjobs.com` | 3 | [link](https://nvent.wd5.myworkdayjobs.com/job/Brasov-RO/Category-Leader-Electronics_R23212) |
 | iCIMS | `emea-apj-riverbed.icims.com` | 3 | [link](https://emea-apj-riverbed.icims.com/jobs/7930/software-engineer%2c-saas/job?in_iframe=1) |
-| Workday | `hcmportal.wd5.myworkdayjobs.com` | 2 | [link](https://hcmportal.wd5.myworkdayjobs.com/en-US/Search/job/RO---HENRI-COANDA-INTERNATIONAL-AIRPORT-ROOPN/Lucrtor-Depozit---Otopeni--Program-diminea-a----UPS_R26027069) |
-| Workday | `mitel.wd3.myworkdayjobs.com` | 2 | [link](https://mitel.wd3.myworkdayjobs.com/en-US/MitelCareers/job/Brasov/Technical-Support-Specialist_R012209) |
-| Greenhouse | `job-boards.eu.greenhouse.io` | 2 | [link](https://job-boards.eu.greenhouse.io/bitpanda/jobs/4936846101) |
-| Oracle Cloud (OIC) | `fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com` | 2 | [link](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/29795/?location=Romania&locationId=300000000471997&locationLevel=country&mode=location&sortBy=POSTING_DATES_DESC) |
-| Workday | `slihrms.wd3.myworkdayjobs.com` | 2 | [link](https://slihrms.wd3.myworkdayjobs.com/en-US/Careers/job/INBangaloreAVTowers/OAC-Reporting-Engineer_R-160163) |
-| Workday | `premierresearch.wd12.myworkdayjobs.com` | 2 | [link](https://premierresearch.wd12.myworkdayjobs.com/en-US/PremierResearch/job/United-Kingdom/Vice-President--Medical-Affairs--Psychiatry-_R6636?locations=9e662c32237d10020998e40b53a80000) |
-| Workday | `sec.wd3.myworkdayjobs.com` | 2 | [link](https://sec.wd3.myworkdayjobs.com/en-US/Samsung_Careers/job/Metroffice-Bucharest-2-Romania/Finance-Subject-Matter-Expert_R118200) |
-| Workday | `analogdevices.wd1.myworkdayjobs.com` | 2 | [link](https://analogdevices.wd1.myworkdayjobs.com/en-US/External/job/Romania-Cluj-Napoca/Principal-Engineer--Embedded-Software_R262716) |
-| Workday | `crowdstrike.wd5.myworkdayjobs.com` | 2 | [link](https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/Romania---Remote/Technical-Support-Engineer---Cloud--Remote--ROU-_R29716) |
-| Workday | `adient.wd3.myworkdayjobs.com` | 1 | [link](https://adient.wd3.myworkdayjobs.com/en-US/External/job/RomaniaJimbolia/Manufacturing-Engineering_R-29291) |
-| Workday | `transperfect.wd5.myworkdayjobs.com` | 1 | [link](https://transperfect.wd5.myworkdayjobs.com/en-US/transperfect/job/RO-Bucharest/Backend-Developer--NET-C--_R2025-243424) |
-| Workday | `morningstar.wd5.myworkdayjobs.com` | 1 | [link](https://morningstar.wd5.myworkdayjobs.com/en-US/Morningstar/job/Bucharest/Resilience-and-Continuity-Analyst_REQ-051825) |
-| Workday | `8x8inc.wd5.myworkdayjobs.com` | 1 | [link](https://8x8inc.wd5.myworkdayjobs.com/en-US/8x8_External_Careers/job/Romania-Cluj-Office/Senior-Data-Engineer_R2719) |
-| ADP | `workforcenow.adp.com` | 1 | [link](https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=41a778b2-3a5e-42c7-9770-87f62458fb3e&ccId=9200871461420_2&jobId=9201032729634_1&lang=en_US) |
-| BambooHR | `heimdalsecurity.bamboohr.com` | 1 | [link](https://heimdalsecurity.bamboohr.com/careers/253) |
-| Workday | `dennemeyer.wd3.myworkdayjobs.com` | 1 | [link](https://dennemeyer.wd3.myworkdayjobs.com/en-US/dennemeyer_careers/job/Brasov/Intellectual-Property-Docketing-Specialist--f-m-d-_2026-0015-1) |
-| Workday | `nngroup.wd3.myworkdayjobs.com` | 1 | [link](https://nngroup.wd3.myworkdayjobs.com/en-US/WDExternal/job/Bucuresti/Health--Life-Claim-Handler_REQ2708133) |
+| Workday | `stryker.wd1.myworkdayjobs.com` | 3 | [link](https://stryker.wd1.myworkdayjobs.com/en-US/StrykerCareers/job/Bucharest-Romania/Clinical-Support-Specialist---Bucharest_R563971) |
+| Teamtailor | `veoneerro.teamtailor.com` | 3 | [link](https://veoneerro.teamtailor.com/jobs/2855066-hardware-engineer) |
+| Workday | `hp.wd5.myworkdayjobs.com` | 3 | [link](https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Bucharest-Bucureti-Romania/HP-Qualcomm-Retail-Experience-Lead--EMEA_3161440-1) |
+| Workday | `dennemeyer.wd3.myworkdayjobs.com` | 3 | [link](https://dennemeyer.wd3.myworkdayjobs.com/en-US/dennemeyer_careers/job/Brasov/Specialist-in-Intellectual-Property---Patent-Annuities_2025-0303-1) |
+| Workday | `ttiemea.wd3.myworkdayjobs.com` | 2 | [link](https://ttiemea.wd3.myworkdayjobs.com/ro-RO/TTI/job/Field-Based-Romania/Job-Site-Solutions-Specialist-Plumbing-Milwaukee-Romania_JR4153) |
+| Workday | `crowdstrike.wd5.myworkdayjobs.com` | 2 | [link](https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/Ireland---Remote/Sr-Engineer-II---Sensors-Team--Remote-_R24071) |
+| Workday | `slihrms.wd3.myworkdayjobs.com` | 2 | [link](https://slihrms.wd3.myworkdayjobs.com/en-US/Careers/job/GBWMD2-Chamberlain-SquareBirmingham/Senior-Power-System-Studies-Engineer_R-152754) |
+| Workday | `sec.wd3.myworkdayjobs.com` | 2 | [link](https://sec.wd3.myworkdayjobs.com/en-US/Samsung_Careers/job/Metroffice-Bucharest-2-Romania/Payroll-Partner_R119822) |
+| Workday | `ptc.wd1.myworkdayjobs.com` | 2 | [link](https://ptc.wd1.myworkdayjobs.com/en-US/PTC/job/ROM-Bucharest-PO/Accounts-Payable-Administrator--Senior_JR112632) |
+| Workday | `flextronics.wd1.myworkdayjobs.com` | 2 | [link](https://flextronics.wd1.myworkdayjobs.com/ro-RO/Careers/job/Romania-Timisoara/Design-Quality-Process-Engineer_WD228210) |
+| Workday | `monnoyeur.wd103.myworkdayjobs.com` | 2 | [link](https://monnoyeur.wd103.myworkdayjobs.com/ro-RO/Monnoyeur/job/BRAILA-IPS/Tehnician-Service-Braila_JR1596-1?hiringCompany=e9240506062810102069e15158e50000) |
+| Workday | `finastra.wd3.myworkdayjobs.com` | 2 | [link](https://finastra.wd3.myworkdayjobs.com/en-US/FINC/job/Bucharest/Senior-Database-Administrator_REQ0626_0037672) |
 | Teamtailor | `partnerd.teamtailor.com` | 1 | [link](https://partnerd.teamtailor.com/jobs/7086732-live-casino-presenter-3500-8000-net) |
-| Workable | `jobs.workable.com` | 1 | [link](https://jobs.workable.com/view/jyqhgcUk5z8Bt2HinAqf8k/employer-branding-specialist---fixed-term---18-months-(maternity-cover)-in-cluj-napoca-at-mindera) |
-| Workday | `motorolasolutions.wd5.myworkdayjobs.com` | 1 | [link](https://motorolasolutions.wd5.myworkdayjobs.com/en-US/Careers/job/Germany-Offsite-ZWG99/Technical-Architect-PreSales-Europe_R67839-1) |
-| Workday | `csl.wd1.myworkdayjobs.com` | 1 | [link](https://csl.wd1.myworkdayjobs.com/en-US/CSL_External/job/EMEA-RO-Cluj-Napoca-CSL-Vifor/Head-of-Finance--Romania_R-280390) |
-| Workday | `flextronics.wd1.myworkdayjobs.com` | 1 | [link](https://flextronics.wd1.myworkdayjobs.com/ro-RO/Careers/job/Romania-Timisoara/System-Architect-Power-Electronics_WD227559) |
-| BambooHR | `bengenro.bamboohr.com` | 1 | [link](https://bengenro.bamboohr.com/careers/146) |
+| Workday | `morningstar.wd5.myworkdayjobs.com` | 1 | [link](https://morningstar.wd5.myworkdayjobs.com/en-US/Morningstar/job/Bucharest/Resilience-and-Continuity-Analyst_REQ-051825) |
 | Oracle Cloud (OIC) | `eedu.fa.em3.oraclecloud.com` | 1 | [link](https://eedu.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/202603893/?lastSelectedFacet=LOCATIONS&selectedLocationsFacet=300000000346767) |
-| Workday | `trimble.wd1.myworkdayjobs.com` | 1 | [link](https://trimble.wd1.myworkdayjobs.com/en-US/TrimbleCareers/job/Poland---Cracow/Workday-Reporting-Analyst--People-Analytics-_R56377) |
+| BambooHR | `bengenro.bamboohr.com` | 1 | [link](https://bengenro.bamboohr.com/careers/146) |
+| Workday | `motorolasolutions.wd5.myworkdayjobs.com` | 1 | [link](https://motorolasolutions.wd5.myworkdayjobs.com/en-US/Careers/job/Germany-Offsite-ZWG99/Technical-Architect-PreSales-Europe_R67839-1) |
+| Workday | `borgwarner.wd5.myworkdayjobs.com` | 1 | [link](https://borgwarner.wd5.myworkdayjobs.com/en-US/BorgWarner_Careers/job/Bucharest---Romania/AI---Automation-Engineer_R2026-3180) |
+| Workday | `transperfect.wd5.myworkdayjobs.com` | 1 | [link](https://transperfect.wd5.myworkdayjobs.com/en-US/transperfect/job/RO-Bucharest/Backend-Developer--NET-C--_R2025-243424) |
+| Workday | `analogdevices.wd1.myworkdayjobs.com` | 1 | [link](https://analogdevices.wd1.myworkdayjobs.com/en-US/External/job/Romania-Cluj-Napoca/Principal-Engineer--Embedded-Software_R262716) |
+| Workday | `8x8inc.wd5.myworkdayjobs.com` | 1 | [link](https://8x8inc.wd5.myworkdayjobs.com/en-US/8x8_External_Careers/job/Romania-Cluj-Office/Senior-Data-Engineer_R2719) |
+| Workday | `snyk.wd103.myworkdayjobs.com` | 1 | [link](https://snyk.wd103.myworkdayjobs.com/External/job/Romania---Bucharest-Office/Technical-Success-Manager-1-Many_JR100794) |
+| Workday | `mitel.wd3.myworkdayjobs.com` | 1 | [link](https://mitel.wd3.myworkdayjobs.com/en-US/MitelCareers/job/Brasov/Technical-Support-Specialist_R012209) |
+| Workday | `hcmportal.wd5.myworkdayjobs.com` | 1 | [link](https://hcmportal.wd5.myworkdayjobs.com/en-US/Search/job/RO---HENRI-COANDA-INTERNATIONAL-AIRPORT-ROOPN/Facilities---Maintenance-Specialist_R26029252) |
+| ADP | `workforcenow.adp.com` | 1 | [link](https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=41a778b2-3a5e-42c7-9770-87f62458fb3e&ccId=9200871461420_2&jobId=9201263590928_1&lang=en_US) |
+| Workday | `nngroup.wd3.myworkdayjobs.com` | 1 | [link](https://nngroup.wd3.myworkdayjobs.com/en-US/WDExternal/job/Bucuresti/Health--Life-Claim-Handler_REQ2708133) |
+| BambooHR | `heimdalsecurity.bamboohr.com` | 1 | [link](https://heimdalsecurity.bamboohr.com/careers/253) |
+| Workable | `jobs.workable.com` | 1 | [link](https://jobs.workable.com/view/jyqhgcUk5z8Bt2HinAqf8k/employer-branding-specialist---fixed-term---18-months-(maternity-cover)-in-cluj-napoca-at-mindera) |
+| BambooHR | `tecss.bamboohr.com` | 1 | [link](https://tecss.bamboohr.com/careers/72) |
 
 ## Site-uri companii
 
 | Domeniu | Job-uri | Exemplu URL |
 |---------|---------|-------------|
-| `anuntul.ro` | 644 | [link](https://www.anuntul.ro/anunt-angajare-muncitori-in-constructii-zMGWlQ) |
-| `prohuman.ro` | 535 | [link](https://www.prohuman.ro/candidati/jobs/StoreManager) |
-| `publi24.ro` | 436 | [link](https://www.publi24.ro/anunturi/locuri-de-munca/constructii-arhitectura-design/tamplari-montatori-mobilier/anunt/montator-pentru-mobilier-in-serie-in-orasul-iasi/ei34i0295ihg70e8130h4fed67eg5dfg.html) |
-| `teamland.ro` | 388 | [link](https://www.teamland.ro/apply.php?id=750#content) |
-| `helperz.ro` | 222 | [link](https://helperz.ro/locuri-de-munca/anunt/6a6f5011f453460002d98e3b) |
-| `leohr.ro` | 207 | [link](https://www.leohr.ro/jobs/recruitment-and-development-specialist/397/) |
-| `lajumate.ro` | 135 | [link](https://lajumate.ro/ad/angajez-sofer-categoria-ce-17017325) |
-| `cariere.lidl.ro` | 98 | [link](https://cariere.lidl.ro/jobs/lucrator-depozit-lugoj-per.-det.-3-luni-f-m-lugoj-736841) |
-| `jobs.siemens-energy.com` | 92 | [link](https://jobs.siemens-energy.com/en_US/jobs/FolderDetail/EQS-Manager-GT-Service-f-m-d/301707) |
-| `accenture.com` | 82 | [link](https://www.accenture.com/ro-en/careers/jobdetails?id=R00352011_en&title=Ethics+and+Compliance+Counsel+Data+Privacy+Specialist) |
-| `cariere.reginamaria.ro` | 79 | [link](https://cariere.reginamaria.ro/company/regina-maria-1/jobs/reprezentant-vanzari-stem-backup) |
-| `d-career.org` | 78 | [link](https://d-career.org/Draexlmaier/job/Codlea-Brasov-CNC-Operator-505100/1371396933/) |
-| `careers.ing.com` | 76 | [link](https://careers.ing.com/en/job/bucharest/data-analyst-ing-hubs-romania/3121/42899691072) |
-| `capgemini.com` | 74 | [link](https://www.capgemini.com/ro-en/jobs/512948-en_GB_SAPBTP/senior-pd-engineer) |
-| `cariere.kaufland.rohttps` | 73 | [link](https://cariere.kaufland.rohttps://cariere.kaufland.ro/jobs/lucrator-comercial-oradea-rogerius-f-m-oradea-406698) |
-| `jobs.keysight.com` | 67 | [link](https://jobs.keysight.com/external/jobs/53781) |
-| `aecom.jobs` | 65 | [link](https://aecom.jobs/bucharest-rom/senior-hvac-engineer-data-center/BDFBEEEC254F455BBD635A255BE1CDE8/job/) |
-| `apply.deloittece.com` | 63 | [link](https://apply.deloittece.com/en_US/careers/JobDetail/SAP-DRC-Tax-Consultant-Business-Delivery-Solutions/17938) |
-| `career.luxoft.com` | 62 | [link](https://career.luxoft.com/jobs/technical-test-manager-sap-26781) |
-| `careers.db.com` | 52 | [link](https://careers.db.com/professionals/search-roles/#/professional/job/67622) |
-| `jobs.worldline.com` | 50 | [link](https://jobs.worldline.com/job/Senior-Information-Security-Officer/303691-en_US) |
-| `elytis-hospital.ro` | 48 | [link](https://elytis-hospital.ro/cariere/fizioterapeut-cu-experienta-in-patologia-oncologica/) |
-| `ijcjobs.com` | 47 | [link](https://ijcjobs.com/job/key-account-coordinator-sef-serviciu-relatii-clienti/) |
-| `drmaxromania.com` | 46 | [link](https://drmaxromania.com/job/farmacist-dr-max-zarnesti/) |
-| `careers.hcltech.com` | 45 | [link](https://careers.hcltech.com/job/Administrator-Program-&amp;-Project-Management/158239-en_US) |
-| `jobs.bosch.com` | 44 | [link](https://jobs.bosch.com/en/job/REF292958S-order-management-analyst-with-german) |
-| `urbanconnect.ro` | 41 | [link](https://urbanconnect.ro/jobsid/senior-java-developer/) |
-| `recrutaresiselectie.ro` | 39 | [link](https://recrutaresiselectie.ro/job/coordonator-departament-ofertare-constructii/) |
-| `jobs.arcadis.com` | 39 | [link](https://jobs.arcadis.com/careers/job/563671531072566) |
-| `jobs.schaeffler.com` | 35 | [link](https://jobs.schaeffler.com/job/Brasov-SPSLEAN-Profess_-507075/1375890633/) |
-| `careers.honeywell.com` | 34 | [link](https://careers.honeywell.com/en/sites/Honeywell/job/154949) |
-| `careers.nttdata.ro` | 34 | [link](https://careers.nttdata.ro/nttdataromania/job/Remote-Senior-Embedded-Developer-QNXLinux/1428551133/) |
-| `globallogic.com` | 34 | [link](https://www.globallogic.com/careers/senior-ml-ai-data-scientists-irc301293-2/) |
-| `librabank.ro` | 33 | [link](https://www.librabank.ro/Cariere/AI+Engineer/1473) |
-| `recrutare.dedeman.ro` | 32 | [link](https://recrutare.dedeman.ro/detalii-post?job=consultant+vanzari&id=7dbde867-6f31-47ea-bc2c-72234c5df500) |
-| `cariere.penny.ro` | 32 | [link](https://cariere.penny.ro/joburi/aplica/vanzari#20) |
-| `jobs.continental.com` | 31 | [link](https://jobs.continental.com/en/detail-page/job-detail/REF98744S-p-b2676d2a46c230dbb1f2cdf117a51f14/pi-construction-engineer-tires) |
-| `ppc.jobful.io` | 30 | [link](https://ppc.jobful.io/company/ppc-energy/jobs/short-term-trader-bess-specialist) |
-| `cariere.raiffeisen.ro` | 29 | [link](https://cariere.raiffeisen.ro/company/raiffeisen-bank/jobs/software-developer-professional-it-platforms-3) |
-| `careers.n-ix.com` | 29 | [link](https://careers.n-ix.com/jobs/4508531101-data-management-senior/) |
-| `joboreca.ro` | 29 | [link](https://joboreca.ro/job/barman-si-bucatar-chef-la-montis-hotel-spa-din-muntele-mic/) |
-| `crowe.mingle.ro` | 29 | [link](https://crowe.mingle.ro/en/apply/Evy82Q) |
-| `cni.ro` | 27 | [link](https://www.cni.ro/noutati/anunturi/-id-2151-cmsid-66) |
-| `jobs.vodafone.com` | 27 | [link](https://jobs.vodafone.com/careers/job/563018696586264) |
-| `jobs.atos.net` | 26 | [link](https://jobs.atos.net/job/Timisoara-Data-Engineer-Databricks/1410732733/) |
-| `lugera.ro` | 26 | [link](https://www.lugera.ro/jobex/public/ro/job-details/financial-controller_7124.html) |
-| `jobs-cee.pwc.com` | 26 | [link](https://jobs-cee.pwc.com/ce/en/job/747997WD) |
-| `erpahr.ro` | 25 | [link](https://erpahr.ro/jobs?ref=603&title=key-account-manager) |
-| `jobs.rinf.tech` | 24 | [link](https://jobs.rinf.tech/230966) |
-| `inetum.com` | 23 | [link](https://www.inetum.com/global/en/careers/d7f74305-c3e8-4ea1-a32b-3017df6126d5.html) |
-| `digitalcareers.infosys.com` | 23 | [link](https://digitalcareers.infosys.com/global-careers/company-job/description/reqid/151734BR) |
-| `selgros.mingle.ro` | 23 | [link](https://selgros.mingle.ro/ro/embed/apply/I5bPMQ) |
-| `jobs.bunge.com` | 21 | [link](https://jobs.bunge.com/job/Bucharest-Silo-Logistic-Assistant-Bucharest-Office-077199/1417592233/) |
-| `techtalent.ro` | 21 | [link](https://www.techtalent.ro/careers/devops-engineer-automotive/) |
-| `eu.rsystems.com` | 21 | [link](https://eu.rsystems.com/senior-devops-engineer-id-15072/) |
-| `career.softserveinc.com` | 20 | [link](https://career.softserveinc.com/en-us/vacancy/senior-business-analyst-life-sciences-90045) |
-| `careers.quality-ai.com` | 20 | [link](https://careers.quality-ai.com//job/Bucharest-Office-Admin/56248144/) |
-| `antal.com` | 20 | [link](https://www.antal.com/job-search/CP_11-08-2026-hr-director) |
-| `skk.erecruiter.pl` | 20 | [link](https://skk.erecruiter.pl/Offer.aspx?oid=4947711&cfg=5CF1057684834EAF9639234516F6481A&ejoId=558545&ejorId=229339&comId=20136094) |
-| `careers.allianz.com` | 20 | [link](https://careers.allianz.com/global/en/job/104723) |
-| `careers.glovoapp.com` | 19 | [link](https://careers.glovoapp.com/job/senior-account-manager-cluj-in-cluj-romania-jid-744000144302999/) |
-| `careers.ses.com` | 16 | [link](https://careers.ses.com/job/Bucharest-Accountant%2C-Accounts-Payable/1413329533/) |
-| `makitajobs.ro` | 16 | [link](https://makitajobs.ro/lacatus-mecanic/) |
-| `netromsoftware.ro` | 16 | [link](https://www.netromsoftware.ro/Cariere/cpp-developer-timisoara/) |
-| `signal-iduna.ro` | 15 | [link](https://www.signal-iduna.ro/ro/cariere/Operator%20Call%20Center) |
-| `jobsearch.alstom.com` | 15 | [link](https://jobsearch.alstom.com/job/Bucharest-Project-Material-Manager-B/1389155133/) |
-| `omniasig.mingle.ro` | 15 | [link](https://omniasig.mingle.ro/ro/apply/scusEQ) |
-| `dualitsoft.com` | 15 | [link](https://dualitsoft.com/careers/frontend-developer/) |
-| `bioclinica.ro` | 15 | [link](https://bioclinica.ro/compania/cariere/asistent-medical-de-laborator-bucuresti) |
-| `jobs.infineon.com` | 14 | [link](https://jobs.infineon.com/careers/job/563808970880120) |
-| `jobboerse.strabag.at` | 14 | [link](https://jobboerse.strabag.at/job-detail.php?ReqId=req78756&language=RO&source=) |
-| `irum.ro` | 14 | [link](https://www.irum.ro/posturi-vacante/referent-achizitii/) |
-| `romaero.com` | 13 | [link](https://romaero.com/cariere/anunt-angajare-pregatitor-completator-echipamente-tehnice-si-dispozitive/) |
-| `careers.wipro.com` | 13 | [link](https://careers.wipro.com/job/RFX-&amp;-Contract-Admin-Buyer-Direct-Buyer-with-French%2C-TimisoaraBucharest/156965-en_US) |
-| `cariere.decathlon.ro` | 13 | [link](https://cariere.decathlon.ro/jobs/tehnician-reparatii-biciclete-decathlon-pallady-cdQx) |
-| `jobs.jti.com` | 12 | [link](https://jobs.jti.com/job/BUCHAREST-e-Commerce-Operations-Manager-020335/1427573333/) |
-| `cariere.agricover.ro` | 12 | [link](https://cariere.agricover.ro/job/VOLUNTARI-RESPONSABIL-DAUNE-IF/1358108757/) |
-| `careers.yazaki.com` | 12 | [link](https://careers.yazaki.com/job/EHS-Specialist-L1/1361807055/) |
-| `kpmg-romania.talentlyft.com` | 12 | [link](https://kpmg-romania.talentlyft.com/jobs/id249312-junior-payroll-and-hr-assistant-ckqn) |
-| `bolt.eu` | 12 | [link](https://bolt.eu/en/careers/positions/6229a8e1-edc5-4bc1-9c14-34e7629730e9/) |
-| `crosswork.sincron.biz` | 11 | [link](https://crosswork.sincron.biz/jobs/details/662/travel-agent-with-german-english) |
-| `careers.celestica.com` | 11 | [link](https://careers.celestica.com/job/Oradea-Optical-Inspection-NPI-Process-Engineer_-BH/1412253533/) |
-| `careers.htecgroup.com` | 11 | [link](https://careers.htecgroup.com/jobs/system-software-engineer-9ey) |
-| `careers.ey.com` | 11 | [link](https://careers.ey.com/ey/job/Bucharest-Valuation-and-Modelling-Senior-Consultant-011171/1427839833/) |
-| `careers.veeam.com` | 11 | [link](https://careers.veeam.com/job/bucharest/inside-channel-manager-for-sweden/22681/99393835440) |
-| `jobsearch.harman.com` | 11 | [link](https://jobsearch.harman.com/en_US/careers/JobDetail/Embedded-Linux-SW-Engineer/30683) |
-| `bookingholdings-coe.com` | 10 | [link](https://www.bookingholdings-coe.com/bookingholdings-coe/jobs/30019?lang=en-us) |
-| `careers-ro.forvismazars.com` | 10 | [link](https://careers-ro.forvismazars.com/job-offer/junior-it-auditor/) |
-| `jobs.lenovo.com` | 10 | [link](https://jobs.lenovo.com/careers/JobDetail/Software-developer-Junior/75921) |
+| `prohuman.ro` | 670 | [link](https://www.prohuman.ro/candidati/jobs/Technical-Manager) |
+| `teamland.ro` | 463 | [link](https://www.teamland.ro/apply.php?id=1401#content) |
+| `leohr.ro` | 347 | [link](https://www.leohr.ro/jobs/rd-product-development-responsible/517/) |
+| `helperz.ro` | 212 | [link](https://helperz.ro/locuri-de-munca/anunt/6a5e3eb391f2860002ffb4ee) |
+| `careers.db.com` | 82 | [link](https://careers.db.com/professionals/search-roles/#/professional/job/74267) |
+| `d-career.org` | 79 | [link](https://d-career.org/Draexlmaier/job/Timisoara-NPI-Application-Engineer-Printing-&-Reflow-300714/1428537133/) |
+| `capgemini.com` | 77 | [link](https://www.capgemini.com/ro-en/jobs/521585-en_GB_SAPBTP/senior-process-associate---credit-management-o2c-with-polish) |
+| `jobs.keysight.com` | 75 | [link](https://jobs.keysight.com/external/jobs/53386) |
+| `cariere.lidl.ro` | 68 | [link](https://cariere.lidl.ro/jobs/vanzator-chitila-f-m-chitila-697256) |
+| `jobs.worldline.com` | 66 | [link](https://jobs.worldline.com/job/Senior-Java-Developer-%28Spring%29/303462-en_US) |
+| `career.luxoft.com` | 65 | [link](https://career.luxoft.com/jobs/design-verification-engineer-data-fabric-systems-12815) |
+| `apply.deloittece.com` | 65 | [link](https://apply.deloittece.com/en_US/careers/JobDetail/Reff-Associates-is-looking-for-a-5-12-years-Attorney-at-Law-Dispute-Resolution/19908) |
+| `accenture.com` | 64 | [link](https://www.accenture.com/ro-en/careers/jobdetails?id=R00348727_en&title=SAP+SuccessFactors+EC) |
+| `careers.ing.com` | 61 | [link](https://careers.ing.com/en/job/bucharest/java-engineer-src-halo-ing-hubs-romania/3121/42795416640) |
+| `jobs.siemens-energy.com` | 58 | [link](https://jobs.siemens-energy.com/en_US/jobs/FolderDetail/Senior-Procurement-Consultant/301284) |
+| `aecom.jobs` | 58 | [link](https://aecom.jobs/bucharest-rom/principal-engineer-rams/339FB081FD77413CA09283155A0F70DB/job/) |
+| `careers.hcltech.com` | 53 | [link](https://careers.hcltech.com/job/Analyst-Technical-diagnosis-and-troubleshooting/144264-en_US) |
+| `jobs.bosch.com` | 51 | [link](https://jobs.bosch.com/en/job/REF294390K-working-student-support-for-production) |
+| `cariere.reginamaria.ro` | 46 | [link](https://cariere.reginamaria.ro/company/regina-maria-1/jobs/asistent-medical-generalist-policlinica-baneasa-1) |
+| `cariere.kaufland.rohttps` | 46 | [link](https://cariere.kaufland.rohttps://cariere.kaufland.ro/jobs/functionar-informatii-clienti-part-time-arad-sega-f-m-arad-406741) |
+| `globallogic.com` | 45 | [link](https://www.globallogic.com/careers/lead-ai-evangelist-ai-architect-healthcare-business-unit-emea-irc300899-2/) |
+| `jobs.continental.com` | 44 | [link](https://jobs.continental.com/en/detail-page/job-detail/REF98941B-p-b2676d2a46c230dbb1f2cdf117a51f14/sap-hr-it-authorization-security-consultant-tires) |
+| `jobs-cee.pwc.com` | 44 | [link](https://jobs-cee.pwc.com/ce/en/job/743860WD) |
+| `drmaxromania.com` | 43 | [link](https://drmaxromania.com/job/farmacist-dr-max-tarnaveni/) |
+| `recrutaresiselectie.ro` | 40 | [link](https://recrutaresiselectie.ro/job/consilier-juridic-2/) |
+| `cariere.raiffeisen.ro` | 40 | [link](https://cariere.raiffeisen.ro/company/raiffeisen-bank/jobs/expert-clienti-pf-satu-mare-2) |
+| `jobs.arcadis.com` | 40 | [link](https://jobs.arcadis.com/careers/job/563671532956172) |
+| `careers.honeywell.com` | 37 | [link](https://careers.honeywell.com/en/sites/Honeywell/job/153185) |
+| `careers.allianz.com` | 36 | [link](https://careers.allianz.com/global/en/job/105251) |
+| `urbanconnect.ro` | 36 | [link](https://urbanconnect.ro/jobsid/backend-engineer-banking/) |
+| `jobs.vodafone.com` | 35 | [link](https://jobs.vodafone.com/careers/job/563018697833831) |
+| `elytis-hospital.ro` | 35 | [link](https://elytis-hospital.ro/cariere/biolog-chimist-biochimist/) |
+| `careers.n-ix.com` | 34 | [link](https://careers.n-ix.com/jobs/4476010101-php-middle/) |
+| `jobs.bunge.com` | 32 | [link](https://jobs.bunge.com/job/Bucharest-Experienced-Contract-Administrator-Specialist-Bucharest-office-077199/1393349633/) |
+| `careers.nttdata.ro` | 31 | [link](https://careers.nttdata.ro/nttdataromania/job/Bucuresti-Site-Reliability-Engineer/1395478133/) |
+| `romaero.com` | 30 | [link](https://romaero.com/cariere/anunt-angajare-fochist/) |
+| `cni.ro` | 30 | [link](https://www.cni.ro/noutati/anunturi/-id-97-cmsid-66) |
+| `cariere.penny.ro` | 30 | [link](https://cariere.penny.ro/joburi/aplica/vanzari#15) |
+| `librabank.ro` | 28 | [link](https://www.librabank.ro/Cariere/IT+Architect+-+Divizia+IT/1439) |
+| `cariere.mega-image.ro` | 28 | [link](https://cariere.mega-image.ro/post-vacant/462/lucrator-comercial-marasesti-1) |
+| `erpahr.ro` | 25 | [link](https://erpahr.ro/jobs?ref=540&title=reglor-setter-2) |
+| `ppc.jobful.io` | 24 | [link](https://ppc.jobful.io/company/ppc-energy/jobs/controlor-financiar-senior) |
+| `recrutare.dedeman.ro` | 23 | [link](https://recrutare.dedeman.ro/detalii-post?job=agent+securitate+incinte&id=769b9ede-84a5-437a-a634-cedbc81a751b) |
+| `lugera.ro` | 23 | [link](https://www.lugera.ro/jobex/public/ro/job-details/inginer-proiectant-fotovoltaice_7043.html) |
+| `selgros.mingle.ro` | 22 | [link](https://selgros.mingle.ro/ro/embed/apply/EQZYZw) |
+| `skk.erecruiter.pl` | 22 | [link](https://skk.erecruiter.pl/Offer.aspx?oid=4939148&cfg=5CF1057684834EAF9639234516F6481A&ejoId=573021&ejorId=235335&comId=20136094) |
+| `jobs.rinf.tech` | 22 | [link](https://jobs.rinf.tech/219299) |
+| `inetum.com` | 22 | [link](https://www.inetum.com/global/en/careers/e1c08750-68aa-455c-b6c7-56b7ab2cb758.html) |
+| `careers.ey.com` | 22 | [link](https://careers.ey.com/ey/job/Bucharest-Financial-Fraud-Analyst-011171/1427889433/) |
+| `careers.wipro.com` | 22 | [link](https://careers.wipro.com/job/Account-Payable-Executive-with-Polish/160272-en_US) |
+| `hn-services.com` | 21 | [link](https://www.hn-services.com/en/we-recruit/it-operations-engineer-with-german/) |
+| `jobs.atos.net` | 21 | [link](https://jobs.atos.net/job/Timisoara-Senior-Data-QA-Engineer/1427465633/) |
+| `jobs.infineon.com` | 21 | [link](https://jobs.infineon.com/careers/job/563808971617532) |
+| `hella.csod.com` | 21 | [link](https://hella.csod.com/ux/ats/careersite/3/home/requisition/18549?c=hella) |
+| `crowe.mingle.ro` | 21 | [link](https://crowe.mingle.ro/en/apply/rg_y7A) |
+| `careers.quality-ai.com` | 20 | [link](https://careers.quality-ai.com//job/Bucharest-International-Field-Engineer/58838444/) |
+| `career.softserveinc.com` | 19 | [link](https://career.softserveinc.com/en-us/vacancy/big-data-architect-gcp-89876) |
+| `techtalent.ro` | 18 | [link](https://www.techtalent.ro/careers/dataops-engineer/) |
+| `amazon.jobs` | 18 | [link](https://www.amazon.jobs/en/jobs/10502261/ahs-specialist-ita-account-health-support) |
+| `antal.com` | 17 | [link](https://www.antal.com/job-search/1CSMR-country-sales-manager) |
+| `digitalcareers.infosys.com` | 17 | [link](https://digitalcareers.infosys.com/global-careers/company-job/description/reqid/152477BR) |
+| `jobs.schaeffler.com` | 16 | [link](https://jobs.schaeffler.com/job/Brasov-Pregatitor-verificatoare-507075/1428182333/) |
+| `tremend.com` | 16 | [link](https://tremend.com/career/data-analyst-senior-associate-7/) |
+| `msg-systems.ro` | 16 | [link](https://www.msg-systems.ro/en/careers/job-offerings/senior-java-developer/) |
+| `careers.adobe.com` | 15 | [link](https://careers.adobe.com/us/en/job/R168701) |
+| `teamtailor.salesconsulting.ro` | 15 | [link](https://teamtailor.salesconsulting.ro/jobs/8291001-team-manager-german-english) |
+| `makitajobs.ro` | 15 | [link](https://makitajobs.ro/inginer-productie/) |
+| `fancourier.ro` | 15 | [link](https://www.fancourier.ro/cariere/logistica/manipulant-marfa-fm-logistica/) |
+| `careers.ses.com` | 15 | [link](https://careers.ses.com/job/Bucharest-Engineer%2C-Cyber-Security-Engineering-%28Zero-Trust%29/1248580701/) |
+| `explore-jobs.ciklum.com` | 14 | [link](https://explore-jobs.ciklum.com/en/sites/ciklum-career/job/3762) |
+| `jobsearch.alstom.com` | 14 | [link](https://jobsearch.alstom.com/job/Bucharest-Depot-Manager/1405626333/) |
+| `jobsearch.harman.com` | 13 | [link](https://jobsearch.harman.com/en_US/careers/JobDetail/Hardware-Engineer/32134) |
+| `irum.ro` | 13 | [link](https://www.irum.ro/posturi-vacante/lacatus-mecanic/) |
+| `careers.veeam.com` | 13 | [link](https://careers.veeam.com/job/bucharest/sales-development-representative-with-italian/22681/99712103184) |
+| `hrsro.com` | 13 | [link](https://www.hrsro.com/job-posts/specialist-licitatii-publice) |
+| `bookingholdings-coe.com` | 12 | [link](https://www.bookingholdings-coe.com/bookingholdings-coe/jobs/29899?lang=en-us) |
+| `clevertech.biz` | 12 | [link](https://clevertech.biz/remote-jobs/data-engineer-data-solutions-architect-technical-lead-859) |
+| `cariere.decathlon.ro` | 11 | [link](https://cariere.decathlon.ro/jobs/tehnician-reparatii-biciclete-decathlon-pallady-cdQx) |
+| `cariere.porr.ro` | 11 | [link](https://cariere.porr.ro/joburi-porr/joburi/8717) |
+| `careers.htecgroup.com` | 11 | [link](https://careers.htecgroup.com/jobs/cybersecurity-engineer-ckmi) |
+| `jobs.lenovo.com` | 11 | [link](https://jobs.lenovo.com/careers/JobDetail/Java-Developer-mid-level/77541) |
+| `leoni.ro` | 11 | [link](https://www.leoni.ro/en/jobs-portal/detail/senior-expert-ultrasonic-welding-m-f-d-sr744000137106200) |
+| `leviatan.ro` | 10 | [link](https://leviatan.ro/inginer-proiectant-cfdp-cai-ferate-drumuri-si-poduri/) |
+| `atp-group.ro` | 10 | [link](https://atp-group.ro/cariere/job/director-v%C3%A2nz%C4%83ri-%E2%80%93-parteneriate-interna%C8%9Bionale-ID44) |
+| `cariere.bancatransilvania.ro` | 10 | [link](https://cariere.bancatransilvania.ro/joburi-disponibile/analist-risc-icaap-si-rwa-3) |
+| `careers.idemia.com` | 10 | [link](https://careers.idemia.com/job/Bucharest-Operator%28French-Speaker%29-60044/1429117933/) |
+| `jobs.zollner.ro` | 10 | [link](https://jobs.zollner.ro/jobposting/25add68530ef246e3ea2391cb7a933d9bfb490cf0) |
+| `signal-iduna.ro` | 10 | [link](https://www.signal-iduna.ro/ro/cariere/job-subscriitor-casco) |
+| `careers.glovoapp.com` | 10 | [link](https://careers.glovoapp.com/job/growth-data-analyst-they-she-he-in-bucharest-romania-jid-744000137905009/) |
 | `acrom.mingle.ro` | 10 | [link](https://acrom.mingle.ro/en/apply/AV8mzw) |
-| `hella.csod.com` | 9 | [link](https://hella.csod.com/ux/ats/careersite/3/home/requisition/17438?c=hella) |
-| `careers.conectys.com` | 9 | [link](https://careers.conectys.com/jobs/customer-support-with-english-office-based/) |
-| `chorus.ro` | 9 | [link](https://www.chorus.ro/Careers/JobApplication/37?job=Operator%20comenzi%20Transport) |
-| `updivision.com` | 9 | [link](https://updivision.com/careers/fullstack-web-developer-laravel-apis-vuejs) |
-| `corporate.stihl.ro` | 9 | [link](https://corporate.stihl.ro/ro/cariera/locuri-de-munca/detalii-job/2524014) |
-| `ad01.com` | 9 | [link](https://www.ad01.com/vacature/225/sap-successfactors-talent-pmgm-lms-configurator) |
-| `explore-jobs.ciklum.com` | 9 | [link](https://explore-jobs.ciklum.com/en/sites/ciklum-career/job/3723) |
-| `cariere.porr.ro` | 9 | [link](https://cariere.porr.ro/joburi-porr/joburi/8939) |
-| `rolandberger.jobs` | 9 | [link](https://rolandberger.jobs/en/REF3863Q) |
-| `leoni.ro` | 9 | [link](https://www.leoni.ro/en/jobs-portal/detail/lead-specialist-quality-engineer-m-f-d-sr744000136217209) |
-| `cona.ro` | 9 | [link](https://cona.ro/cariere/#heading_997759) |
+| `eu.rsystems.com` | 10 | [link](https://eu.rsystems.com/senior-devops-engineer-id-15072/) |
+| `netromsoftware.ro` | 10 | [link](https://www.netromsoftware.ro/Cariere/cpp-developer-timisoara/) |
 | `dentesse.ro` | 9 | [link](https://dentesse.ro/cariere/#4) |
-| `gomag.ro` | 8 | [link](https://www.gomag.ro/blog/cautam-coleg-colega-account-manager/) |
-| `humanrise.ro` | 8 | [link](https://humanrise.ro/job/sr-c-engineer-iasi/) |
-| `suvoda.com` | 8 | [link](https://www.suvoda.com/careers/job-openings?gh_jid=8701253002) |
-| `bento.normahr.ro` | 8 | [link](https://bento.normahr.ro/careers-site/branch/c33e7207-eb18-4ac1-b01c-19276c41e562/jobs/2b7b40d0-2065-415a-9e52-4ed6410f323d) |
-| `teamtailor.salesconsulting.ro` | 8 | [link](https://teamtailor.salesconsulting.ro/jobs/8291001-team-manager-german-english) |
-| `novartis.com` | 8 | [link](https://www.novartis.com/ro-ro/careers/career-search/job/details/req-10081002-process-validation-expert) |
-| `job.leroymerlin.ro` | 7 | [link](https://job.leroymerlin.ro/jobs/8240437-consilier-supply-chain-magazin-lujerului) |
-| `eaton.eightfold.ai` | 7 | [link](https://eaton.eightfold.ai/careers/job/687237537974) |
-| `careerromania.autoliv.com` | 7 | [link](https://careerromania.autoliv.com/jobs/8216817-senior-systems-engineer) |
-| `jobs.hamilton.ch` | 7 | [link](https://jobs.hamilton.ch/en/job-posting/operator-logistica_jr-6148/) |
-| `careers.coca-colahellenic.com` | 7 | [link](https://careers.coca-colahellenic.com/ro_RO/careers/ProjectDetail/Business-Developer-Sibiu/26213) |
-| `fancourier.ro` | 7 | [link](https://www.fancourier.ro/cariere/logistica/sofer-profesionist-cat-c-ce-brasov-fm-logistica/) |
-| `careers.adobe.com` | 7 | [link](https://careers.adobe.com/us/en/job/R166437) |
-| `electromontaj.mingle.ro` | 7 | [link](https://electromontaj.mingle.ro/ro/apply/stHTwQ) |
-| `jobs.elastic.co` | 7 | [link](https://jobs.elastic.co/jobs?gh_jid=8001191&gh_jid=8001191) |
-| `takeandeat.ro` | 7 | [link](https://takeandeat.ro/cariere/sef-de-tura/) |
-| `corporate.e-jumbo.gr` | 7 | [link](https://corporate.e-jumbo.gr/ro/job-opportunities/theseis-ergasias/responsabil-verificare-articole-jumbo-timisoara-1-ghiroda-aeroportului-159274/?job=159274&country=romania) |
-| `betterstack.com` | 7 | [link](https://betterstack.com/careers#developer-advocate) |
-| `adecco.com` | 7 | [link](https://www.adecco.com/ro-ro/job-search/asistent-manager-cluj-napoca-cluj/JN-042026-1011186) |
-| `ceragon.com` | 7 | [link](https://www.ceragon.com/about-ceragon/careers/engineering-intern-validation-verification-c5-767) |
-| `888sparkware.ro` | 6 | [link](https://888sparkware.ro/career/?uid=90.F6D) |
-| `careers.idemia.com` | 6 | [link](https://careers.idemia.com/job/Bucharest-Operator%28French-Speaker%29-60044/1429117933/) |
-| `atp-group.ro` | 6 | [link](https://atp-group.ro/cariere/job/manager-atelier-confec%C8%9Bii-metalice-ID42) |
-| `pgcareers.com` | 6 | [link](https://www.pgcareers.com/global/en/job/R000155582) |
-| `tremend.com` | 6 | [link](https://tremend.com/career/front-office-business-and-integration-analyst-murex-specialist-energy-commodities-3/) |
-| `meteocontrol.jobs.personio.de` | 6 | [link](https://meteocontrol.jobs.personio.de/job/2720299?language=en%3Flanguage%3D&display=en) |
-| `clevertech.biz` | 6 | [link](https://clevertech.biz/remote-jobs/ai-engineer-ai-engineer-551) |
-| `artvertising.com.ro` | 6 | [link](https://www.artvertising.com.ro/cariere/senior-graphic-designer-iasi) |
-| `leviatan.ro` | 6 | [link](https://leviatan.ro/inginer-proiectant-cfdp-cai-ferate-drumuri-si-poduri/) |
-| `careers.eon.com` | 6 | [link](https://careers.eon.com/job/Electrician-Mentenanță-Înaltă-Tensiune/1421261833/) |
-| `cegeka.com` | 6 | [link](https://www.cegeka.com/en/ro/jobs/all-jobs/senior-d365-bc-developer-8030) |
-| `reo-medical.ro` | 6 | [link](https://reo-medical.ro/cariere/logistic-specialist/) |
-| `careers.loreal.com` | 6 | [link](https://careers.loreal.com/en_US/jobs/JobDetail/Junior-Key-Account-Manager/253258) |
+| `jobboerse.strabag.at` | 9 | [link](https://jobboerse.strabag.at/job-detail.php?ReqId=req78922&language=RO&source=) |
+| `jobs.jti.com` | 9 | [link](https://jobs.jti.com/job/BUCHAREST-IT-Resilience-Manager-020335/1380810033/) |
+| `ad01.com` | 9 | [link](https://www.ad01.com/vacature/225/sap-successfactors-talent-pmgm-lms-configurator) |
+| `chorus.ro` | 9 | [link](https://www.chorus.ro/Careers/JobApplication/45?job=Inginer%20Ofertare%20Scule%20Electrice) |
+| `veridion.com` | 9 | [link](https://veridion.com/company/careers/economic-data-scientist) |
+| `kpmg-romania.talentlyft.com` | 9 | [link](https://kpmg-romania.talentlyft.com/jobs/id250304-tax-consultant-global-mobility-services-ckGT) |
+| `careers-ro.forvismazars.com` | 9 | [link](https://careers-ro.forvismazars.com/job-offer/junior-tax-consultant-transfer-pricing/) |
+| `careers.eon.com` | 9 | [link](https://careers.eon.com/job/Manager-Urmărire-Lucrări-Gaz-(Perioadă-Determinată)/1403942833/) |
+| `omniasig.mingle.ro` | 9 | [link](https://omniasig.mingle.ro/ro/apply/sw_fpQ) |
+| `hellojets.com` | 9 | [link](https://hellojets.com/ro/cariere/auditori-calitate/) |
+| `careers.celestica.com` | 9 | [link](https://careers.celestica.com/job/Oradea-Accounts-Payable-Associate-1-BH/1428831233/) |
+| `rolandberger.jobs` | 9 | [link](https://rolandberger.jobs/en/REF3863Q) |
+| `bento.normahr.ro` | 8 | [link](https://bento.normahr.ro/careers-site/branch/c33e7207-eb18-4ac1-b01c-19276c41e562/jobs/6522e2fd-23d1-4d26-9196-fea12b08a169) |
+| `bakertilly.ro` | 8 | [link](https://www.bakertilly.ro/2024/06/28/tax-senior/) |
+| `careers.yazaki.com` | 8 | [link](https://careers.yazaki.com/job/Logistics-Technician/1365135655/) |
+| `bolt.eu` | 8 | [link](https://bolt.eu/en/careers/positions/2cfb8cab-2ca8-486a-859a-1d82f9c91b6f/) |
+| `crosswork.sincron.biz` | 8 | [link](https://crosswork.sincron.biz/jobs/details/743/macaragiu-pod-rulant) |
+| `apavital.ro` | 8 | [link](https://www.apavital.ro/cariere/rezultate-finale-concurs-pentru-ocuparea-unui-post-de-inginer-in-cadrul-atelierului-gestiune-contoare-punct-de-lucru-roman) |
+| `rian-partners.com` | 8 | [link](https://rian-partners.com/en/job/quality-controller/) |
+| `autocobalcescu.ro` | 8 | [link](https://www.autocobalcescu.ro/mecanic-auto-pitesti) |
+| `adecco.com` | 8 | [link](https://www.adecco.com/ro-ro/job-search/asistent-manager-cluj-napoca-cluj/JN-072026-1137431) |
+| `henkel.ro` | 7 | [link](https://www.henkel.ro/cariere/joburi-si-aplicare/2215616-2215616) |
+| `ceragon.com` | 7 | [link](https://www.ceragon.com/about-ceragon/careers/software-applications-qa-engineer-p11278-65-567) |
+| `cariere.agricover.ro` | 7 | [link](https://cariere.agricover.ro/job/VOLUNTARI-OFITER-COLECTARE-AMIABILA-IF/1370184757/) |
+| `ddroidd.com` | 7 | [link](https://www.ddroidd.com/vacancies/devops-engineer) |
+| `novartis.com` | 7 | [link](https://www.novartis.com/ro-ro/careers/career-search/job/details/req-10082599-medical-science-liaison-cluj) |
+| `ionos-group.com` | 7 | [link](https://www.ionos-group.com/jobs-career/4955734101-full-stack-working-student-for-productivity-solutions-team-hybrid.html) |
+| `jobs.vitesco-technologies.com` | 7 | [link](https://jobs.vitesco-technologies.com/job/Ghimbav-Facility-Maintenance-Internship/1370459357/) |
+| `quantrabbit.com` | 7 | [link](https://quantrabbit.com/2018/07/customer-service-agent/) |
+| `eaton.eightfold.ai` | 7 | [link](https://eaton.eightfold.ai/careers/job/687237633526) |
+| `erstegroup-careers.com` | 6 | [link](https://erstegroup-careers.com/bcr/job/Bucuresti-Senior-Specialized-Financing-Manage/1405841433/) |
+| `pgcareers.com` | 6 | [link](https://www.pgcareers.com/global/en/job/R000158277) |
+| `careers.conectys.com` | 6 | [link](https://careers.conectys.com/jobs/customer-support-back-office-with-arabic-and-english-part-time/) |
+| `job.leroymerlin.ro` | 6 | [link](https://job.leroymerlin.ro/jobs/8059825-consilier-supply-chain-out-magazin-pantelimon) |
+| `careers.bat.com` | 6 | [link](https://careers.bat.com/en/job/bucharest/treasury-project-manager/1045/43599443968) |
+| `connect44.com` | 6 | [link](https://www.connect44.com/careers/front-office-engineer) |
+| `romania.cgsinc.com` | 6 | [link](https://romania.cgsinc.com/joburi/consultant-relatii-clienti-targu-jiu/) |
+| `meteocontrol.jobs.personio.de` | 6 | [link](https://meteocontrol.jobs.personio.de/job/2678324?language=en%3Flanguage%3D&display=en) |
+| `careers.coca-colahellenic.com` | 6 | [link](https://careers.coca-colahellenic.com/ro_RO/careers/ProjectDetail/Commercial-Assistant/25805) |
+| `careers.mahle.com` | 6 | [link](https://careers.mahle.com/job/Timisoara-Project-Controller/1426404633/) |
+| `join.generalicee.com` | 6 | [link](https://join.generalicee.com/job/Bucuresti-Aplica-Spontan/776472202/) |
+| `cariere.groupama.ro` | 6 | [link](https://cariere.groupama.ro/job/Botosani-Manager-Agenti/1040607401/) |
+| `careers.te.com` | 6 | [link](https://careers.te.com/job/Quality-Manager/158177-en_US) |
+| `unixauto.ro` | 6 | [link](https://www.unixauto.ro/cariera/locuri-de-munca/18/1065) |
+| `jobs.hamilton.ch` | 6 | [link](https://jobs.hamilton.ch/en/job-posting/operator-producie_jr-5994/) |
 | `interra.ro` | 6 | [link](https://www.interra.ro/angajari/agent-ticketing-oferte-personalizate-7) |
-| `plexus.eightfold.ai` | 6 | [link](https://plexus.eightfold.ai/careers/job/1099555714435) |
-| `apavital.ro` | 6 | [link](https://www.apavital.ro/cariere/concurs-pentru-ocuparea-unui-post-de-operator-la-tratarea-si-epurarea-apelor-uzate-in-cadrul-statiei-de-epurare-iasi-sectia-epurare) |
-| `bakertilly.ro` | 6 | [link](https://www.bakertilly.ro/2024/03/26/junior-legal-advisor-bucharest-office/) |
-| `jobs.tdcx.com` | 5 | [link](https://jobs.tdcx.com/job-invite/138898/) |
-| `careers.ibm.com` | 5 | [link](https://careers.ibm.com/careers/JobDetail?jobId=126148) |
-| `ascentjobs.ro` | 5 | [link](https://www.ascentjobs.ro/inginer-constructor/) |
-| `jobs.vitesco-technologies.com` | 5 | [link](https://jobs.vitesco-technologies.com/job/Ghimbav-Quality-Customer-Engineer/1369181957/) |
-| `recrutare.evolvetoday.ro` | 5 | [link](https://recrutare.evolvetoday.ro/jobs/8066689-site-manager-civil-mechanical-electrical) |
-| `careers.mahle.com` | 5 | [link](https://careers.mahle.com/job/Timisoara-Commodity-Buyer/1420383333/) |
-| `careers.bat.com` | 5 | [link](https://careers.bat.com/en/job/ploiesti/tehnician-mecanic-fochist/1045/43655393088) |
-| `jobs.pirelli.com` | 5 | [link](https://jobs.pirelli.com/job/IT-Infrastructure-Specialist-_Craiova-1/23069-en_GB/) |
-| `boatyardx.hirehive.com` | 5 | [link](https://boatyardx.hirehive.com/network-monitoring-systems-aiops-engineer-iasi-cluj-napoca-brasov-7m5UQB) |
-| `smartbill.ro` | 5 | [link](https://www.smartbill.ro/cariere/job/consultant_vanzari_soft_contabilitate) |
+| `recrutare.evolvetoday.ro` | 6 | [link](https://recrutare.evolvetoday.ro/jobs/8096332-software-architect) |
+| `artvertising.com.ro` | 6 | [link](https://www.artvertising.com.ro/cariere/job-marketing-manager) |
+| `reo-medical.ro` | 6 | [link](https://reo-medical.ro/cariere/logistic-specialist/) |
+| `cariere.bookster.ro` | 5 | [link](https://cariere.bookster.ro/view/wannabe) |
+| `inspet.ro` | 5 | [link](https://www.inspet.ro/job/sudor/) |
+| `humanrise.ro` | 5 | [link](https://humanrise.ro/job/sr-mle/) |
+| `careers.segulatechnologies.com` | 5 | [link](https://careers.segulatechnologies.com/ro/annonce/4534557-pilot-transport-post-vanzare-cu-franceza-engleza-117545-oarja) |
+| `bcrasigviata.ro` | 5 | [link](https://www.bcrasigviata.ro/cariere#3) |
+| `careers.opentext.com` | 5 | [link](https://careers.opentext.com/us/en/job/51927/lead-premium-support-engineer) |
+| `career.hirschmann-automotive.com` | 5 | [link](https://career.hirschmann-automotive.com/en/job-detail/purchasing-global) |
+| `plexus.eightfold.ai` | 5 | [link](https://plexus.eightfold.ai/careers/job/1099554692341) |
+| `ambalajulperfect.ro` | 5 | [link](https://ambalajulperfect.ro/area-sales-manager-dep-agricol-3-3/) |
+| `gmv.csod.com` | 5 | [link](https://gmv.csod.com/ux/ats/careersite/4/home/requisition/3307?c=gmv&lang=en-US) |
+| `jobs.systematic.com` | 5 | [link](https://jobs.systematic.com/job/Bucharest-Mid-Level-Software-Developer-Grow-Your-Skills-With-Us-010631/1390461233/) |
+| `pepsicojobs.com` | 5 | [link](https://www.pepsicojobs.com/jobs/469098?lang=ro-ro) |
+| `jobs.ericsson.com` | 5 | [link](https://jobs.ericsson.com/careers/job/563121776862490) |
+| `hogarth.com` | 5 | [link](https://www.hogarth.com//careers/job/senior-account-manager-6143103004) |
 | `brinel.ro` | 5 | [link](https://www.brinel.ro/cariere#job-3) |
-| `bcrasigviata.ro` | 5 | [link](https://www.bcrasigviata.ro/cariere#6) |
-| `edurom.ro` | 5 | [link](https://www.edurom.ro/jobs/software-engineer-iasi/) |
-| `join.generalicee.com` | 5 | [link](https://join.generalicee.com/job/Bucuresti-Aplica-Spontan/776472202/) |
-| `hrsro.com` | 5 | [link](https://www.hrsro.com/job-posts/senior-accountant-ifrs) |
-| `careers.evolution.com` | 5 | [link](https://careers.evolution.com/job/744000105084275/) |
-| `careers.fedex.com` | 5 | [link](https://careers.fedex.com/operations-support-agent-advanced/job/6450B91B830243F01EA78F0DB9DA801E) |
-| `hogarth.com` | 4 | [link](https://www.hogarth.com//careers/job/account-manager-6109666004) |
-| `softlead.ro` | 4 | [link](https://softlead.ro/cariere/senior-sales-business-developer) |
-| `conlangrup.ro` | 4 | [link](https://conlangrup.ro/job/angajam-inginer-proiectant-instalatii-electrice/) |
-| `cariere.solo.ro` | 4 | [link](https://cariere.solo.ro/job/antreprenor-wannabe) |
+| `career.preh.com` | 5 | [link](https://career.preh.com/en/job-openings/current-job-offers.html?yid=3761) |
+| `boatyardx.hirehive.com` | 5 | [link](https://boatyardx.hirehive.com/data-scientist-iasi-cluj-napoca-brasov-mLrhVO) |
+| `jobs.pirelli.com` | 5 | [link](https://jobs.pirelli.com/job/IT-Infrastructure-Specialist-_Craiova-1/23069-en_GB/) |
+| `careers.amd.com` | 4 | [link](https://careers.amd.com/careers-home/jobs/89527) |
+| `career.globant.com` | 4 | [link](https://career.globant.com/?country=RO#114) |
+| `assaabloy.jobs2web.com` | 4 | [link](https://assaabloy.jobs2web.com//job/Service-Operations-Leader-062202/1432629333/) |
+| `jobs.gem.com` | 4 | [link](https://jobs.gem.com/senndertechnologies-gmbh/am9icG9zdDo9mwpHZw2Ratp0K9fPstGL) |
 | `cariere.arabesque.ro` | 4 | [link](https://cariere.arabesque.ro/jobs/job/?oras=Toate&categorie=Vanzari&job_id=476) |
-| `careers.marriott.com` | 4 | [link](https://careers.marriott.com/executive-assistant/job/15AB6829D3A7BC26C2D74CA81EEE8200) |
-| `jobs.tenneco.com` | 4 | [link](https://jobs.tenneco.com//job/Bucharest-Buyer-with-German/1416501400/) |
-| `careers.egger.com` | 4 | [link](https://careers.egger.com/job/Radauti-Specialist-Achizi%C8%9Bii-Tehnice/1360207855/) |
-| `msg-systems.ro` | 4 | [link](https://www.msg-systems.ro/en/careers/job-offerings/business-consultant-payments/) |
-| `boostuphr.com` | 4 | [link](https://www.boostuphr.com/jobs/recruitment-partner) |
-| `erstegroup-careers.com` | 4 | [link](https://erstegroup-careers.com/bcr/job/Satu-Mare-Senior-Corporate-Relationship-Manager-%28Satu-Mare%29/1427938433/) |
-| `careers.olinio.com.cy` | 4 | [link](https://careers.olinio.com.cy/jobs/4955099-backend-developer) |
-| `jobs.zollner.ro` | 4 | [link](https://jobs.zollner.ro/jobposting/0fd340ae59da265d62cae7d92aef6d0fb353f8020) |
-| `jobs.hungrybytes.co` | 4 | [link](https://jobs.hungrybytes.co/careers/marketing-specialist-romania/) |
-| `jobs.gecareers.com` | 4 | [link](https://jobs.gecareers.com/aviation/global/en/job/R5039729/) |
-| `careers.reckitt.com` | 4 | [link](https://careers.reckitt.com//job/Bucharest-Demand-&-Supply-Planner-Bucu-NA/1427435233/) |
-| `cariere.bookster.ro` | 4 | [link](https://cariere.bookster.ro/view/CEO) |
-| `careers.primark.com` | 4 | [link](https://careers.primark.com/ro/post-vacant/timisoara/retail-assistant-consilier-vanzari-retail-assistant/8171/100111725856) |
-| `cariere.groupama.ro` | 4 | [link](https://cariere.groupama.ro/job/Bucuresti-Administrator-Servere-Senior/1433275033/) |
-| `jobs.systematic.com` | 4 | [link](https://jobs.systematic.com/job/Bucharest-Senior-QA-Engineer-010631/1398131333/) |
-| `jobs.ericsson.com` | 4 | [link](https://jobs.ericsson.com/careers/job/563121777143855) |
-| `plan-net.ro` | 4 | [link](https://www.plan-net.ro/ro/cariera/jobs/job-detail.1741771369.social-media-advertising-specialist.html) |
-| `connect44.com` | 4 | [link](https://www.connect44.com/careers/back-office-nfvi-engineer) |
 | `mcro.tech` | 4 | [link](https://mcro.tech//careers/marketing-manager/) |
-| `atek.ro` | 4 | [link](https://atek.ro/apply-ai-dev.html) |
-| `hubgets.com` | 4 | [link](https://www.hubgets.com/jobs/#job-133) |
-| `esolutions.tech` | 4 | [link](https://www.esolutions.tech/big-data-developer) |
-| `careers.chainiq.com` | 3 | [link](https://careers.chainiq.com/job/Bucharest-Contract-Specialist/1424833033/) |
-| `pepsicojobs.com` | 3 | [link](https://www.pepsicojobs.com/jobs/405869?lang=en-us) |
-| `exiger.com` | 3 | [link](https://www.exiger.com/careers/6173563004?gh_jid=6173563004) |
-| `noodlepack.ro` | 3 | [link](https://noodlepack.ro/aplica-manager-restaurant/) |
-| `romania.cgsinc.com` | 3 | [link](https://romania.cgsinc.com/joburi/german-english-technical-customer-support/) |
-| `maviprod.ro` | 3 | [link](https://www.maviprod.ro/despre-noi/cariere/economist/) |
-| `careers-ro.jdepeets.com` | 3 | [link](https://careers-ro.jdepeets.com/job-posting-detail/?id=744000136463823&return_url=/job-search/) |
-| `zonkwave.com` | 3 | [link](https://zonkwave.com/job/technical-support-level-1/) |
-| `revolutpeople.com` | 3 | [link](https://revolutpeople.com/pago/public/careers/position/cybersecurity-engineer-852711ec-ff9d-40b5-8ee2-9d2a11981795) |
-| `jobs.gem.com` | 3 | [link](https://jobs.gem.com/senndertechnologies-gmbh/am9icG9zdDoXP_LkO5xsYneP2LIcwQWJ) |
-| `careers.astrazeneca.com` | 3 | [link](https://careers.astrazeneca.com/job/bucharest/cee-ba-leadership-trainee-program-romania/7684/94999081136) |
-| `teams.emag.ro` | 3 | [link](https://teams.emag.ro/jobs/?gh_jid=4957649101) |
-| `kronsoft.ro` | 3 | [link](https://www.kronsoft.ro/ro/cariera/frontend-developer-mostly-angular) |
-| `ramadaiasi.ro` | 3 | [link](http://www.ramadaiasi.ro/cariere/#3) |
-| `career.hirschmann-automotive.com` | 3 | [link](https://career.hirschmann-automotive.com/en/job-detail/unsolicited-application) |
-| `gts.ro` | 3 | [link](https://www.gts.ro/ro/jobs/noc-technical-leader) |
-| `exesoftware.ro` | 3 | [link](https://www.exesoftware.ro/jobs/spfx-developer) |
-| `bbcollection.ro` | 3 | [link](https://www.bbcollection.ro/cariera-consilier-vanzari.html) |
-| `cariere.bancatransilvania.ro` | 3 | [link](https://cariere.bancatransilvania.ro/joburi-disponibile/responsabil-relatii-clienti-4) |
-| `jobs.sap.com` | 3 | [link](https://jobs.sap.com/job/Bucharest-SmartRecruiters-Business-Processes-Senior-Consultant-0030144/1402264933/) |
-| `recruitingapp-5150.de.umantis.com` | 3 | [link](https://recruitingapp-5150.de.umantis.com/Vacancies/1295/Description/1) |
-| `one-it.ro` | 3 | [link](https://www.one-it.ro/blog/ne-marim-echipa-cautam-coleg-nou-la-one-it-account-manager-business-to-business/?cariere) |
-| `expertware.net` | 3 | [link](https://www.expertware.net/Careers/Project-manager) |
-| `rottaprint.com` | 3 | [link](https://rottaprint.com/ro/cariere/operator-productie/) |
-| `careers.hpe.com` | 3 | [link](https://careers.hpe.com/us/en/job/1202872/Sales-Graduate) |
-| `tss-yonder.com` | 3 | [link](https://tss-yonder.com/job/python-developer-af51cd8c) |
-| `career.alpla.com` | 3 | [link](https://career.alpla.com/en/jobs/romania/brasov/senior-data-center-architect-all-genders-brasov) |
-| `pentest-tools.com` | 3 | [link](https://pentest-tools.com/careers/technical-support-lead) |
-| `romania-career.wavestone.com` | 3 | [link](https://romania-career.wavestone.com/jobs/56299322/SAP-FI-CO-Senior-Consultant-with-German-all-genders-/) |
-| `slb.eightfold.ai` | 3 | [link](https://slb.eightfold.ai/careers/job/563499734277532) |
-| `consensys.io` | 3 | [link](https://consensys.io/open-roles/7743627) |
-| `careers.danone.com` | 3 | [link](https://careers.danone.com/en-global/jobs/automation-electrical-engineer-bucharest-factory-25468-en-us.html) |
-| `careers.segulatechnologies.com` | 3 | [link](https://careers.segulatechnologies.com/ro/annonce/4429697-lacatus-mecanic-115400-mioveni) |
-| `career.globant.com` | 3 | [link](https://career.globant.com/?country=RO#128) |
+| `bioclinica.ro` | 4 | [link](https://bioclinica.ro/compania/cariere/biolog-chimist-biochimist) |
+| `exesoftware.ro` | 4 | [link](https://www.exesoftware.ro/jobs/spfx-developer) |
+| `careers.olinio.com.cy` | 4 | [link](https://careers.olinio.com.cy/jobs/6995634-penetration-tester) |
+| `888sparkware.ro` | 4 | [link](https://888sparkware.ro/career/?uid=CC.F6C) |
+| `soweloconsulting.applytojob.com` | 4 | [link](https://soweloconsulting.applytojob.com/apply/jobs/details/1aZPu3Wgqu?&) |
+| `tss-yonder.com` | 4 | [link](https://tss-yonder.com/job/python-developer-af51cd8c) |
+| `careers.conduent.com` | 4 | [link](https://careers.conduent.com/us/en/job/24515) |
+| `zonkwave.com` | 4 | [link](https://zonkwave.com/job/it-sales-specialist/) |
+| `suvoda.com` | 4 | [link](https://www.suvoda.com/careers/job-openings?gh_jid=8655889002) |
+| `catena.ro` | 4 | [link](https://www.catena.ro/cariere/asistent-de-farmacie) |
+| `sinaps.ro` | 4 | [link](https://www.sinaps.ro/cariere/#job-1) |
+| `gts.ro` | 4 | [link](https://www.gts.ro/ro/jobs/network-service-operations-director) |
+| `heidelbergmaterials.ro` | 4 | [link](https://www.heidelbergmaterials.ro/ro/sofer-autopompa-beton-navodari) |
+| `jobs.hungrybytes.co` | 4 | [link](https://jobs.hungrybytes.co/careers/marketing-specialist-romania/) |
+| `avaelgo.ro` | 4 | [link](https://avaelgo.ro/job/microsoft-azure-cloud-engineer) |
+| `softlead.ro` | 4 | [link](https://softlead.ro/cariere/senior-sales-business-developer) |
+| `jobs.siemens-healthineers.com` | 3 | [link](https://jobs.siemens-healthineers.com/en_US/searchjobs/JobDetail/504916) |
+| `consensys.io` | 3 | [link](https://consensys.io/open-roles/8138475) |
+| `careers.loreal.com` | 3 | [link](https://careers.loreal.com/en_US/jobs/JobDetail/Sales-Representative-Bucharest/253059) |
+| `jobs.elastic.co` | 3 | [link](https://jobs.elastic.co/jobs?gh_jid=8001191&gh_jid=8001191) |
+| `jobs.sap.com` | 3 | [link](https://jobs.sap.com/job/Bucharest-Senior-Security-Analyst-0030144/1429197133/) |
+| `careers.reckitt.com` | 3 | [link](https://careers.reckitt.com//job/Bucharest-Key-Account-Manager-Bucu-NA/1428138733/) |
+| `autonom.ro` | 3 | [link](https://www.autonom.ro/cariere/job/agent-servicii-client-bistrita/bistrita_1) |
 | `delonghigroup.com` | 3 | [link](https://www.delonghigroup.com/en/frontend-developer-fiori-btp) |
-| `saladbox.ro` | 3 | [link](https://saladbox.ro/ro/cariere#3) |
-| `unixauto.ro` | 3 | [link](https://www.unixauto.ro/cariera/locuri-de-munca/7/1086) |
-| `biofarm.mingle.ro` | 3 | [link](https://biofarm.mingle.ro/ro/embed/apply/sob_uQ) |
-| `careers.agilefreaks.com` | 3 | [link](https://careers.agilefreaks.com/jobs/8161134-android-developer-intern) |
-| `rsm.global` | 3 | [link](https://www.rsm.global//romania/ro/node/157) |
-| `ambalajulperfect.ro` | 3 | [link](https://ambalajulperfect.ro/specialist-achizitii/) |
+| `electromontaj.mingle.ro` | 3 | [link](https://electromontaj.mingle.ro/ro/apply/r1wRig) |
+| `windsoft.ro` | 3 | [link](https://www.windsoft.ro/jobs/4666/consultant-implementare-erp) |
+| `brd.ro` | 3 | [link](https://brd.ro/cariere/retail-relationship-banking-manager) |
+| `teams.emag.ro` | 3 | [link](https://teams.emag.ro/jobs/?gh_jid=4903469101) |
+| `careers.marriott.com` | 3 | [link](https://careers.marriott.com/jw-steakhouse-waiter/job/0AB42587F69C4E25A1A9BBA6A8345ADA) |
+| `autototal.ro` | 3 | [link](https://www.autototal.ro/agent-vanzari-turisme-camioane/) |
+| `join.pmicareers.com` | 3 | [link](https://join.pmicareers.com/gb/en/job/32424) |
+| `careers.astrazeneca.com` | 3 | [link](https://careers.astrazeneca.com/job/bucharest/key-account-manager-rare-diseases-bucharest/7684/94285850400) |
+| `rsm.global` | 3 | [link](https://www.rsm.global//romania/ro/senior-auditor) |
+| `reevotech.com` | 3 | [link](https://reevotech.com/careers/frontend-developer/) |
+| `jobs.kws.com` | 3 | [link](https://jobs.kws.com/job/Bucure%C8%99ti-Lead-Marketing-&-Comunicare-%28mfd%29-Bucu/1429610733/) |
+| `yopeso.com` | 3 | [link](https://www.yopeso.com/open-positions/sap-eppm-consultant) |
+| `career.ascom.com` | 3 | [link](https://career.ascom.com/jobs/6615280-software-developer) |
+| `wsagroup.ro` | 3 | [link](https://wsagroup.ro/locuri-de-munca/angajam-operator-aoi-rasnov-jud-brasov/) |
+| `pentest-tools.com` | 3 | [link](https://pentest-tools.com/careers/technical-support-lead) |
+| `careers.cargill.com` | 3 | [link](https://careers.cargill.com/en/job/bucharest/food-safety-quality-and-regulatory-specialist/23251/99151916848) |
+| `jobs.tdcx.com` | 3 | [link](https://jobs.tdcx.com/job-invite/138898/) |
+| `careers.ibm.com` | 3 | [link](https://careers.ibm.com/careers/JobDetail?jobId=129976) |
+| `careers.evolution.com` | 3 | [link](https://careers.evolution.com/job/744000145948809/) |
+| `jobs.tenneco.com` | 3 | [link](https://jobs.tenneco.com//job/Bucharest-Supply-Chain-Analyst-with-German/1419999700/) |
+| `fltechnics.com` | 3 | [link](https://fltechnics.com/careers/lmcc-engineer/) |
+| `careers.chainiq.com` | 3 | [link](https://careers.chainiq.com/job/Bucharest-IT-Risk-&-Security/1405032333/) |
+| `p-a.ro` | 3 | [link](https://www.p-a.ro/inginer-calcul-structural-senior/) |
+| `rottaprint.com` | 3 | [link](https://rottaprint.com/ro/cariere/operator-productie/) |
 | `adosfresh.ro` | 3 | [link](https://www.adosfresh.ro/cariera/mecanic/) |
 | `ag-prime.com` | 3 | [link](https://ag-prime.com/careers/medium-php-developer/) |
-| `careers.te.com` | 3 | [link](https://careers.te.com/job/MAINTENANCE-TECHNICIAN/153143-en_US) |
-| `reevotech.com` | 3 | [link](https://reevotech.com/careers/frontend-developer/) |
-| `windsoft.ro` | 3 | [link](https://www.windsoft.ro/jobs/4666/consultant-implementare-erp) |
-| `colorcontrol.ro` | 3 | [link](https://colorcontrol.ro/vacancies#mechanical) |
-| `pimcopy.ro` | 3 | [link](https://pimcopy.ro/cariere#2) |
-| `avaelgo.ro` | 3 | [link](https://avaelgo.ro/job/microsoft-azure-cloud-engineer) |
-| `hellojets.com` | 3 | [link](https://hellojets.com/ro/cariere/auditori-calitate/) |
-| `henkel.ro` | 2 | [link](https://www.henkel.ro/cariere/joburi-si-aplicare/2205514-2205514) |
 | `bytex.net` | 2 | [link](https://bytex.net/careers/office-it-admin/) |
-| `lucanet.com` | 2 | [link](https://www.lucanet.com/en/careers/jobs/?gh_jid=4944204101) |
-| `soweloconsulting.applytojob.com` | 2 | [link](https://soweloconsulting.applytojob.com/apply/jobs/details/FTCV0oDkTj?&) |
-| `spyro-soft.com` | 2 | [link](https://spyro-soft.com/career/backend-citrix-specialist-ro) |
-| `careers.se.com` | 2 | [link](https://careers.se.com/jobs/116354?lang=en-us) |
-| `careerscenter.ro` | 2 | [link](https://www.careerscenter.ro/jobs/reprezentant-vanzari-franciza-vodafone/) |
-| `splendor.ro` | 2 | [link](https://www.splendor.ro/cariera.html#2) |
-| `jobs.aon.com` | 2 | [link](https://jobs.aon.com/jobs/104725?lang=en-us) |
-| `heidelbergmaterials.ro` | 2 | [link](https://www.heidelbergmaterials.ro/ro/electrician-intretinere-si-reparatii-5) |
-| `hennlich.ro` | 2 | [link](https://www.hennlich.ro/cariera/toate-locurile-de-munca/pozitii-disponibile/asistent-comercial-vanzari) |
-| `autosiena.ro` | 2 | [link](https://autosiena.ro/cariera/#1) |
-| `careers.opentext.com` | 2 | [link](https://careers.opentext.com/us/en/job/52944/digital-renewal-specialist-with-german) |
-| `tehnoglobal.ro` | 2 | [link](https://www.tehnoglobal.ro/job/inginer-vanzari-actionari-electrice/12) |
-| `bdo.ro` | 2 | [link](https://www.bdo.ro/ro-ro/cariere/jobs/junior-auditor-6724cc9ccd3d21534a6836d84a8feac5-4997bca6c74962357fe4783129b2a535) |
-| `intrainterim.ro` | 2 | [link](https://www.intrainterim.ro/oferte-de-munca/romania/livrator-glovo-bucuresti-2025-05-27-8901) |
-| `jobs.siemens-healthineers.com` | 2 | [link](https://jobs.siemens-healthineers.com/en_US/searchjobs/JobDetail/504916) |
-| `assaabloy.jobs2web.com` | 2 | [link](https://assaabloy.jobs2web.com//job/Procurement-&-Logistics-Specialist-062202/1431898033/) |
-| `metamob.ro` | 2 | [link](https://www.metamob.ro/ro/companie/cariera/1376-sofer-5) |
-| `careers.amd.com` | 2 | [link](https://careers.amd.com/careers-home/jobs/80305) |
-| `xerox.avature.net` | 2 | [link](https://xerox.avature.net/en_US/careers/JobDetail/Bucure-ti-Romania-Data-Validator/51614) |
-| `eurotech-iasi.ro` | 2 | [link](https://eurotech-iasi.ro/tehnician-service-motoare-termice-2-si-4-timpi/) |
-| `sinaps.ro` | 2 | [link](https://www.sinaps.ro/cariere/#job-3) |
-| `konecranes.careers` | 2 | [link](https://konecranes.careers/job/salesman-in-timisoara-romania-jid-2151) |
-| `careers.abbvie.com` | 2 | [link](https://careers.abbvie.com/en/job/medical-director-romania-in-bucharest-bucharest-jid-32434) |
-| `career.ascom.com` | 2 | [link](https://career.ascom.com/jobs/6615280-software-developer) |
-| `berg-software.com` | 2 | [link](https://www.berg-software.com/en/jobs/frestyle-application/) |
-| `webmarc.io` | 2 | [link](https://webmarc.io/hiring#job-card-2) |
-| `hn-services.com` | 2 | [link](https://www.hn-services.com/en/we-recruit/it-project-manager-fr/) |
-| `jobs.kellanova.com` | 2 | [link](https://jobs.kellanova.com/job/Bucharest-GBS-Continuous-Improvement-Process-Lead-14254/1424285100/) |
-| `fltechnics.com` | 2 | [link](https://fltechnics.com/careers/lmcc-engineer/) |
-| `arcadiamedical.ro` | 2 | [link](https://www.arcadiamedical.ro/cariere#2) |
-| `panifcom.ro` | 2 | [link](https://panifcom.ro/cariere/#1) |
-| `bitsoftware.eu` | 2 | [link](https://www.bitsoftware.eu/cariere-la-bitsoftware-solutii-software-de-business-erp-crm-bi-wms/##3) |
+| `inside.wpriders.com` | 2 | [link](https://inside.wpriders.com/careers/account-based-sales-specialist-abss/) |
 | `linde.csod.com` | 2 | [link](https://linde.csod.com/ux/ats/careersite/20/home/requisition/31626?c=linde) |
-| `leadlion.ro` | 2 | [link](https://leadlion.ro/cariere/business-development-specialist/) |
-| `careers.nshift.com` | 1 | [link](https://careers.nshift.com/jobs/7909534-technical-support-engineer) |
-| `careers.hilti.group` | 1 | [link](https://careers.hilti.group/ro/locuri-de-munca/19819-en/sales-representative-hilti-store/) |
-| `careers.merckgroup.com` | 1 | [link](https://careers.merckgroup.com/global/en/job/303055) |
-| `careers.cargill.com` | 1 | [link](https://careers.cargill.com/en/job/bucharest/commercial-merchandising-trainee/23251/99401013552) |
-| `romcim.ro` | 1 | [link](https://www.romcim.ro/cariere/locuri-de-munca-si-stagii/#:~:text=Inginer%20produc%C8%9Bie%2C%20Sta%C8%9Bii%20betoane%20-%20Timi%C8%99oara%2C%20Ploie%C8%99ti%2C%20Constan%C8%9Ba) |
-| `decorfloor.ro` | 1 | [link](https://decorfloor.ro/sales-specialist-ofertare/) |
-| `pago.ro` | 1 | [link](https://pago.ro/jobs/ai-product-engineer) |
-| `jobs.webasto.com` | 1 | [link](https://jobs.webasto.com/job/Operator-productie/36727/) |
-| `careers.synopsys.com` | 1 | [link](https://careers.synopsys.com/job/cluj-napoca/it-support-administrator/44408/99760751952) |
-| `cargus.ro` | 1 | [link](https://www.cargus.ro/cariere/contact-center-advisor/) |
-| `veridion.com` | 1 | [link](https://veridion.com/company/careers/data-assets-intern) |
-| `cariere.brinks.ro` | 1 | [link](https://cariere.brinks.ro/#0) |
-| `nolimits.ro` | 1 | [link](https://www.nolimits.ro/cariere.html) |
-| `careers.unilever.com` | 1 | [link](https://careers.unilever.com/en/job/suceava/culinary-adviser/34155/99799641296) |
-| `vetro.vet` | 1 | [link](https://vetro.vet/cariere/reprezentant-vanzari-ferme-zona-de-sud/) |
-| `careers.mastercard.com` | 1 | [link](https://careers.mastercard.com/us/en/job/R-286797) |
+| `betterstack.com` | 2 | [link](https://betterstack.com/careers#developer-advocate) |
+| `gomag.ro` | 2 | [link](https://www.gomag.ro/blog/se-cauta-coleg-colega-copywriter-in-baia-mare/) |
+| `mediere.anofm.ro` | 2 | [link](https://mediere.anofm.ro/app/module/mediere/job/3367526) |
+| `careers-ro.jdepeets.com` | 2 | [link](https://careers-ro.jdepeets.com/job-posting-detail/?id=744000135688069&return_url=/job-search/) |
+| `romania-career.wavestone.com` | 2 | [link](https://romania-career.wavestone.com/jobs/56299322/SAP-FI-CO-Senior-Consultant-with-German-all-genders-/) |
+| `jobs.kellanova.com` | 2 | [link](https://jobs.kellanova.com/job/Bucharest-Supply-Chain-Data-Visualization-Lead-14254/1414439900/) |
+| `careers.agilefreaks.com` | 2 | [link](https://careers.agilefreaks.com/jobs/7124343-backend-developer) |
+| `corporate.stihl.ro` | 2 | [link](https://corporate.stihl.ro/ro/cariera/locuri-de-munca/detalii-job/167448) |
+| `boostuphr.com` | 2 | [link](https://www.boostuphr.com/jobs/recruitment-partner) |
+| `spyro-soft.com` | 2 | [link](https://spyro-soft.com/career/recruitment-specialist-maternity-cover) |
+| `ascentjobs.ro` | 2 | [link](https://www.ascentjobs.ro/expert-achizitii/) |
+| `careers.primark.com` | 2 | [link](https://careers.primark.com/ro/post-vacant/bucuresti/people-and-culture-administrator-hr-administrator/8171/99658356592) |
+| `kronsoft.ro` | 2 | [link](https://www.kronsoft.ro/ro/joburi/ui-/-ux-designer) |
+| `comtimromania.ro` | 2 | [link](https://comtimromania.ro/cariera/area-coordinator/33) |
+| `jobs.aon.com` | 2 | [link](https://jobs.aon.com/jobs/105745?lang=en-us) |
+| `lucanet.com` | 2 | [link](https://www.lucanet.com/en/careers/jobs/?gh_jid=4944204101) |
+| `slb.eightfold.ai` | 2 | [link](https://slb.eightfold.ai/careers/job/563499734209450) |
+| `careers.abbvie.com` | 2 | [link](https://careers.abbvie.com/en/job/brand-manager-in-bucharest-bucharest-jid-31903) |
+| `atek.ro` | 2 | [link](https://atek.ro/apply-ai-dev.html) |
+| `careers.hpe.com` | 2 | [link](https://careers.hpe.com/us/en/job/1202872/Sales-Graduate) |
+| `jobs.foundever.com` | 2 | [link](https://jobs.foundever.com/job/RO-Remote%2C-any-Location%2C-RO-Team-Manager-with-German&English/1424759700/) |
+| `pkffinconta.ro` | 2 | [link](https://pkffinconta.ro/senior-auditor/) |
+| `biofarm.mingle.ro` | 2 | [link](https://biofarm.mingle.ro/ro/embed/apply/sVCtww) |
+| `xerox.avature.net` | 2 | [link](https://xerox.avature.net/en_US/careers/JobDetail/Bucure-ti-Romania-Data-Validator/51614) |
+| `careers.egger.com` | 2 | [link](https://careers.egger.com/job/Radauti-Specialist-Achizi%C8%9Bii-Tehnice/1360207855/) |
+| `careers.centric.eu` | 2 | [link](https://careers.centric.eu/ro/open-positions/ai-lead/) |
+| `cargotrack.ro` | 2 | [link](https://cargotrack.ro/technical-customer-support/) |
+| `cegeka.com` | 2 | [link](https://www.cegeka.com/en/ro/jobs/all-jobs/senior-storage-networking-engineer-all-cities-ro-8215) |
+| `careers.se.com` | 2 | [link](https://careers.se.com/jobs/116130?lang=en-us) |
+| `metamob.ro` | 2 | [link](https://www.metamob.ro/ro/companie/cariera/1376-sofer-5) |
+| `rombat.ro` | 2 | [link](https://www.rombat.ro/cariere#2) |
+| `hennlich.ro` | 2 | [link](https://www.hennlich.ro/cariera/toate-locurile-de-munca/pozitii-disponibile/asistent-comercial-vanzari) |
+| `conlangrup.ro` | 2 | [link](https://conlangrup.ro/job/angajam-inginer-proiectant-instalatii-electrice/) |
+| `jobs.gecareers.com` | 2 | [link](https://jobs.gecareers.com/aviation/global/en/job/R5037780/) |
+| `tehnoglobal.ro` | 2 | [link](https://www.tehnoglobal.ro/job/inginer-vanzari-actionari-electrice/12) |
 | `c4media.com` | 1 | [link](https://c4media.com/open-positions/mobile-developer-(react-native)/33) |
-| `edenred.ro` | 1 | [link](https://www.edenred.ro/ro/job/it-financial-controller) |
-| `autototal.ro` | 1 | [link](https://www.autototal.ro/sofer-distributie-cluj-napoca/) |
-| `etusoft.com` | 1 | [link](https://www.etusoft.com/locuridemunca.html#1) |
-| `careers.cbre.com` | 1 | [link](https://careers.cbre.com/en_US/careers/JobDetail/HSE-Anlyst-temporary-1-year-role/281678) |
-| `expertmind.ro` | 1 | [link](https://www.expertmind.ro/joburi/bucuresti-economist-team-lead/) |
-| `photonenergy.ro` | 1 | [link](https://www.photonenergy.ro/job-vacancy/senior-legal-counsel) |
-| `jobs.napa.fi` | 1 | [link](https://jobs.napa.fi/jobs/8030987-cybersecurity-datacom-specialist) |
-| `grab.careers` | 1 | [link](https://www.grab.careers/en/jobs/744000127629169/lead-edge-ai-engineer/) |
-| `careers.centric.eu` | 1 | [link](https://careers.centric.eu/ro/open-positions/software-architect/) |
-| `deltatelgroup.com` | 1 | [link](https://deltatelgroup.com//ro/cariere/montator-tehnician-telecom-ro) |
-| `neptun-gears.ro` | 1 | [link](https://www.neptun-gears.ro/cariere/) |
-| `c-scale.ro` | 1 | [link](https://www.c-scale.ro/careers#1) |
-| `gmv.csod.com` | 1 | [link](https://gmv.csod.com/ux/ats/careersite/4/home/requisition/4911?c=gmv&lang=en-US) |
-| `jobs.kws.com` | 1 | [link](https://jobs.kws.com/job/Bucure%C8%99ti-Reprezentant-de-V%C3%A2nz%C4%83ri-%28mfd%29-jude%C8%9Bul-Buz%C4%83u-Bucu/1430026733/) |
-| `softexco.ro` | 1 | [link](https://softexco.ro/p/cariere#aplica) |
-| `avangarde-software.com` | 1 | [link](https://avangarde-software.com/vacancies/unity-vr-ar-developer/) |
-| `wwf.ro` | 1 | [link](https://wwf.ro/despre-wwf/wwf-romania/cariere/fundraiser-full-time/) |
-| `join.pmicareers.com` | 1 | [link](https://join.pmicareers.com/gb/en/job/32424) |
-| `working4u.ro` | 1 | [link](https://www.working4u.ro/jobs/lucrator-gestionar/) |
-| `sii-group.com` | 1 | [link](https://sii-group.com/en-FR/node/22873) |
-| `yopeso.com` | 1 | [link](https://www.yopeso.com/open-positions/sap-eppm-consultant) |
-| `expresscredit.ro` | 1 | [link](https://www.expresscredit.ro/despre-express-credit-amanet/cariere/) |
-| `jobs.apple.com` | 1 | [link](https://jobs.apple.com/ro-ro/details/200667954-5501/channel-customer-communications-executive-romania-and-bulgaria?team=SLDEV) |
-| `nl.linkedin.com` | 1 | [link](https://nl.linkedin.com/company/bearingpoint) |
-| `cabuzau.ro` | 1 | [link](https://www.cabuzau.ro/despre-noi/cariere/operator-retele-canal-sect-buzau-sud-merei/) |
-| `inside.wpriders.com` | 1 | [link](https://inside.wpriders.com/careers/account-based-sales-specialist-abss/) |
-| `ionos-group.com` | 1 | [link](https://www.ionos-group.com/jobs-career/4955734101-full-stack-working-student-for-productivity-solutions-team-hybrid.html) |
-| `dpd.com` | 1 | [link](https://www.dpd.com/ro/ro/compania-dpd/cariere-profesionale-dpd-ro/#Curier) |
-| `autonom.ro` | 1 | [link](https://www.autonom.ro/cariere/job/analist-servicii-client-bucuresti/bucuresti) |
-| `sjobs.brassring.com` | 1 | [link](https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25416&siteid=5429&PageType=JobDetails&jobid=3384687) |
-| `rndautomatic.com` | 1 | [link](https://www.rndautomatic.com/en/careers#1) |
-| `autonet-group.ro` | 1 | [link](https://www.autonet-group.ro/pub/media/2024/12/lucratordepozit.pdf) |
-| `intelligentbee.com` | 1 | [link](https://intelligentbee.com/job/8/human-resources-inspector) |
-| `apply.corteva.com` | 1 | [link](https://apply.corteva.com/careers/job/893397477826) |
-| `intesasanpaolobank.ro` | 1 | [link](https://www.intesasanpaolobank.ro/document/documents/ISPROMANIA/cariere/Manager-relatii-clienti-persoane-juridice-sucursala-Galati.pdf) |
-| `rombat.ro` | 1 | [link](https://www.rombat.ro/cariere#1) |
-| `emp.jobylon.com` | 1 | [link](https://emp.jobylon.com/jobs/379137-basware-senior-analyst-fpa/) |
-| `canopy.ro` | 1 | [link](https://canopy.ro/online-marketing-jobs/) |
-| `join.com` | 1 | [link](https://join.com/companies/justrocket/16611618-customer-support-german-speaker-m-f-d) |
-| `jobs.zf.com` | 1 | [link](https://jobs.zf.com/job/Timisoara-Function-&amp;-Project-Controller-TM/1430820733/) |
-| `jobs.halliburton.com` | 1 | [link](https://jobs.halliburton.com/job/Ploiesti-Unit-Mgr-SDL%2C-Sr-Romania-PH-107025/1410445100/) |
-| `career.preh.com` | 1 | [link](https://career.preh.com/en/job-openings/current-job-offers.html?yid=3761) |
-| `cargotrack.ro` | 1 | [link](https://cargotrack.ro/angajam-contabil-economist/) |
-| `regnology.jobs.personio.de` | 1 | [link](https://regnology.jobs.personio.de/job/2570749?language=en) |
-| `thoughtworks.com` | 1 | [link](https://www.thoughtworks.com/careers/jobs/8155922) |
-| `hitachienergy.com` | 1 | [link](https://www.hitachienergy.com/careers/open-jobs/details/JID3-212587) |
-| `connectgroup.com` | 1 | [link](https://www.connectgroup.com/en/vacancies/roemeni%C3%AB/logistics-buyer) |
-| `wsagroup.ro` | 1 | [link](https://wsagroup.ro/locuri-de-munca/electrician-intretinere-si-reparatii-harman-brasov-romania/) |
-| `autocobalcescu.ro` | 1 | [link](https://www.autocobalcescu.ro/mecanic-auto-dacia-renault) |
-| `also.com` | 1 | [link](https://www.also.com/ec/cms5/en_6000/6000/company/career/open-positions/job_details_v2_2_252800.jsp) |
-| `careers.enea.com` | 1 | [link](https://careers.enea.com/jobs/8107517-software-engineer-bucharest) |
-| `evozon.com` | 1 | [link](https://www.evozon.com/jobs/senior-ai-engineer/) |
-| `careers.massmutualromania.com` | 1 | [link](https://careers.massmutualromania.com/job/bucharest/tax-and-gl-specialist/724/98126547440) |
-| `tcandc.com` | 1 | [link](https://www.tcandc.com/company/career/software-developer.html) |
-| `pkffinconta.ro` | 1 | [link](https://pkffinconta.ro/senior-tax-consultant/) |
-| `careers.steelcase.com` | 1 | [link](https://careers.steelcase.com/external/FolderDetail/Dealer-Business-Manager/10687) |
-| `careers.plasticomnium.com` | 1 | [link](https://careers.plasticomnium.com//job/Pitesti-Industrial-Project-Engineer/1420220533/) |
+| `genosdanmark.eu` | 1 | [link](https://www.genosdanmark.eu//vacancies/inspari-2020-08-30/business-inteligence/data-scientist) |
 | `conexdist.ro` | 1 | [link](https://conexdist.ro/cariere/lucrator-depozit-2/) |
+| `careers.enea.com` | 1 | [link](https://careers.enea.com/jobs/8107517-software-engineer-bucharest) |
+| `hitachienergy.com` | 1 | [link](https://www.hitachienergy.com/careers/open-jobs/details/JID3-194838) |
+| `decorfloor.ro` | 1 | [link](https://decorfloor.ro/sales-specialist-ofertare/) |
+| `careers.dlapiper.com` | 1 | [link](https://careers.dlapiper.com/jobs/2026/8145-junior-associate) |
+| `careers.abb` | 1 | [link](https://careers.abb/global/en/job/JR00039507/Project-Manager-Distribution-Solutions) |
+| `intesasanpaolobank.ro` | 1 | [link](https://www.intesasanpaolobank.ro/document/documents/ISPROMANIA/cariere/Manager-relatii-clienti-persoane-juridice-sucursala-Galati.pdf) |
+| `thoughtworks.com` | 1 | [link](https://www.thoughtworks.com/careers/jobs/8155922) |
+| `aeroportoradea.ro` | 1 | [link](https://www.aeroportoradea.ro/images/jobs/septembrie-2026/Anunt%20concurs%20ocupare%205%20posturi%20agenti%20de%20securitate%20aeroportuara.pdf#1) |
+| `jobs.halliburton.com` | 1 | [link](https://jobs.halliburton.com/job/Ploiesti-Romania-Operator-Assistant-I-Cementing-PH-107025/1410428200/) |
+| `smartree.com` | 1 | [link](https://smartree.com/cariere/specialist-salarizare/) |
+| `expertware.net` | 1 | [link](https://www.expertware.net/Careers/Project-Manager-European-Projects) |
+| `recruitingapp-5150.de.umantis.com` | 1 | [link](https://recruitingapp-5150.de.umantis.com/Vacancies/1295/Description/1) |
+| `careers.fedex.com` | 1 | [link](https://careers.fedex.com/operations-support-agent-advanced/job/6450B91B830243F01EA78F0DB9DA801E) |
+| `careers.danone.com` | 1 | [link](https://careers.danone.com/en-global/jobs/hr-business-partner-coordinator-support-functions-26847-en-us.html) |
+| `joinus.gknaerospace.com` | 1 | [link](https://joinus.gknaerospace.com/job/25808-en_US) |
+| `career.alpla.com` | 1 | [link](https://career.alpla.com/en/jobs/romania/brasov/senior-data-center-architect-all-genders-brasov) |
+| `career.hoffmann-group.com` | 1 | [link](https://career.hoffmann-group.com/Regional-Sales-Manager-mfx-Eastern-Romania-de-j1989.html) |
+| `grab.careers` | 1 | [link](https://www.grab.careers/en/jobs/744000140224356/lead-technical-program-manager/) |
+| `sii-group.com` | 1 | [link](https://sii-group.com/en-FR/node/22873) |
+| `apply.corteva.com` | 1 | [link](https://apply.corteva.com/careers/job/893397477826) |
+| `careers.massmutualromania.com` | 1 | [link](https://careers.massmutualromania.com/job/bucharest/tax-and-gl-specialist/724/98126547440) |
+| `careerscenter.ro` | 1 | [link](https://www.careerscenter.ro/jobs/contabil-cu-experienta-in-cabinet-de-contabilitate/) |
+| `exiger.com` | 1 | [link](https://www.exiger.com/careers/6129533004?gh_jid=6129533004) |
+| `also.com` | 1 | [link](https://www.also.com/ec/cms5/en_6000/6000/company/career/open-positions/job_details_v2_2_252800.jsp) |
+| `careers.merckgroup.com` | 1 | [link](https://careers.merckgroup.com/global/en/job/303055) |
+| `randstad.ro` | 1 | [link](https://www.randstad.ro/locuri-de-munca/hr-recruiter-blue-collar_brasov_4869/) |
+| `careerromania.autoliv.com` | 1 | [link](https://careerromania.autoliv.com/jobs/8216817-senior-systems-engineer) |
+| `wwf.ro` | 1 | [link](https://wwf.ro/despre-wwf/wwf-romania/cariere/youth-education-for-sustainable-development-junior-officer/) |
+| `nolimits.ro` | 1 | [link](https://www.nolimits.ro/cariere.html) |
+| `saladbox.ro` | 1 | [link](https://saladbox.ro/ro/cariere#1) |
+| `secondtex.ro` | 1 | [link](https://www.secondtex.ro/cariera) |
+| `intersnack.ro` | 1 | [link](https://www.intersnack.ro/cariere/oportunitati-de-cariera/operator-ambalare-procesare) |
+| `totalsoft.applytojob.com` | 1 | [link](https://totalsoft.applytojob.com/apply/vRVrdT9cLF/Head-Of-Healthcare) |
+| `lensa.mingle.ro` | 1 | [link](https://lensa.mingle.ro/ro/apply/pyPAlw) |
+| `cabuzau.ro` | 1 | [link](https://www.cabuzau.ro/despre-noi/cariere/operator-retele-canal-sect-buzau-sud-merei/) |
+| `emp.jobylon.com` | 1 | [link](https://emp.jobylon.com/jobs/380587-basware-ai-lead/) |
+| `wd5.myworkdaysite.com` | 1 | [link](https://wd5.myworkdaysite.com/en-US/recruiting/microchiphr/External/job/Romania---Bucharest/Sr-ServiceNow-Developer_R552-26) |
+| `kirchhoff-automotive.com` | 1 | [link](https://kirchhoff-automotive.com/job_advertisement/setter-reglor/) |
+| `expertmind.ro` | 1 | [link](https://www.expertmind.ro/joburi/bucuresti-economist-team-lead/) |
+| `neptun-gears.ro` | 1 | [link](https://www.neptun-gears.ro/cariere/) |
+| `updivision.com` | 1 | [link](https://updivision.com/careers/content-creator-with-an-eye-for-ux-design) |
+| `regnology.jobs.personio.de` | 1 | [link](https://regnology.jobs.personio.de/job/2570749?language=en) |
+| `intelligentbee.com` | 1 | [link](https://intelligentbee.com/job/8/human-resources-inspector) |
+| `rervest.ro` | 1 | [link](https://rervest.ro/job/2134/) |
+| `noodlepack.ro` | 1 | [link](https://noodlepack.ro/aplica-manager-restaurant/) |
+| `careers.hilti.group` | 1 | [link](https://careers.hilti.group/ro/locuri-de-munca/19819-en/sales-representative-hilti-store/) |
+| `photonenergy.ro` | 1 | [link](https://www.photonenergy.ro/job-vacancy/senior-legal-counsel) |
+| `careers.mastercard.com` | 1 | [link](https://careers.mastercard.com/us/en/job/R-286797) |
+| `evozon.com` | 1 | [link](https://www.evozon.com/jobs/senior-ai-engineer/) |
+| `edenred.ro` | 1 | [link](https://www.edenred.ro/ro/job/it-financial-controller) |
