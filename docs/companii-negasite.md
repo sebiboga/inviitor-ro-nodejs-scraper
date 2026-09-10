@@ -1,10 +1,10 @@
 # Companii negăsite
 
-Raport generat la: 2026-09-09T12:52:24.287Z
+Raport generat la: 2026-09-10T12:50:33.843Z
 
-Total companii negăsite: **36**
+Total companii negăsite: **35**
 
-Total job-uri afectate: **198**
+Total job-uri afectate: **195**
 
 ## Lista companiilor
 
@@ -12,40 +12,39 @@ Total job-uri afectate: **198**
 |---|----------|---------|
 | 1 | 888SPARKWARE | 8 |
 | 2 | AD01 | 6 |
-| 3 | ATKINSREALIS | 2 |
-| 4 | AUTOSIENA | 2 |
+| 3 | AGPRIME | 3 |
+| 4 | ATKINSREALIS | 2 |
 | 5 | BDOROMANIA | 2 |
-| 6 | BENGEN | 1 |
-| 7 | BESHAPINGTHEFUTURE | 7 |
-| 8 | BETTERSTACK | 2 |
-| 9 | BRINEL | 5 |
-| 10 | CGSROMANIA | 6 |
-| 11 | COCACOLAHBC | 6 |
-| 12 | CSCALE | 1 |
-| 13 | DECATHLON | 14 |
-| 14 | DRMAX | 38 |
-| 15 | EASPORTS | 5 |
-| 16 | GYMPASS | 1 |
-| 17 | HEIDELBERGCEMENT | 3 |
-| 18 | HTECGROUP | 10 |
-| 19 | HUNGRYBYTES | 5 |
-| 20 | INTERRATRAVEL | 6 |
-| 21 | INTHEPOCKET | 1 |
-| 22 | IONOSGROUP | 7 |
-| 23 | KELLANOVA | 2 |
-| 24 | ONTHEGOSYSTEMS | 2 |
-| 25 | PRAGMATICPLAY | 11 |
-| 26 | PROCTORANDGAMBLE | 6 |
+| 6 | BESHAPINGTHEFUTURE | 10 |
+| 7 | BETTERSTACK | 6 |
+| 8 | CGSROMANIA | 7 |
+| 9 | COCACOLAHBC | 4 |
+| 10 | CONNECTGROUP | 1 |
+| 11 | DECATHLON | 12 |
+| 12 | DELTATELGROUP | 1 |
+| 13 | DRMAX | 31 |
+| 14 | GKNAEROSPACE | 1 |
+| 15 | HEIDELBERGCEMENT | 4 |
+| 16 | HTECGROUP | 12 |
+| 17 | HUBGETS | 4 |
+| 18 | HUNGRYBYTES | 5 |
+| 19 | INTESASANPAOLOBANK | 1 |
+| 20 | INTHEPOCKET | 1 |
+| 21 | IONOSGROUP | 6 |
+| 22 | KELLANOVA | 4 |
+| 23 | OLINIO | 1 |
+| 24 | ONTHEGOSYSTEMS | 1 |
+| 25 | PRAGMATICPLAY | 14 |
+| 26 | PROCTORANDGAMBLE | 8 |
 | 27 | RAMADAIASI | 3 |
-| 28 | REFUNDME | 1 |
+| 28 | REMOFIRST | 2 |
 | 29 | SIEMENSHEALTHINEERS | 2 |
-| 30 | SOWELO | 3 |
-| 31 | SPEEDSERVICESATUMARE | 2 |
-| 32 | TCANDC | 4 |
-| 33 | THALESGROUP | 13 |
-| 34 | VITESCOTECHNOLOGIES | 4 |
-| 35 | WWF | 3 |
-| 36 | ZONKWAVE | 4 |
+| 30 | SOWELO | 1 |
+| 31 | TECAGENCY | 1 |
+| 32 | THALESGROUP | 19 |
+| 33 | VITESCOTECHNOLOGIES | 7 |
+| 34 | WWF | 4 |
+| 35 | XEBIA | 1 |
 
 ## Detalii job-uri
 
@@ -53,10 +52,10 @@ Total job-uri afectate: **198**
 
 | # | Titlu | Oraș | URL |
 |---|-------|------|-----|
-| 1 | Back-End Engineer Casino Infra | Bucuresti | [link](https://888sparkware.ro/career/?uid=03.E66) |
-| 2 | Full Stack Developer ePayments | Bucuresti | [link](https://888sparkware.ro/career/?uid=03.E64) |
-| 3 | Data Engineer | Bucuresti | [link](https://888sparkware.ro/career/?uid=A6.075) |
-| 4 | Fullstack Developer (2 years) | Bucuresti | [link](https://888sparkware.ro/career/?uid=36.075) |
+| 1 | Data Engineer | Bucuresti | [link](https://888sparkware.ro/career/?uid=A6.075) |
+| 2 | Back-End Engineer Casino Infra | Bucuresti | [link](https://888sparkware.ro/career/?uid=03.E66) |
+| 3 | Full Stack Developer ePayments | Bucuresti | [link](https://888sparkware.ro/career/?uid=03.E64) |
+| 4 | Fraud Strategy Manager | Bucuresti | [link](https://888sparkware.ro/career/?uid=CC.F6C) |
 | 5 | QA & Data Quality Engineer | Bucuresti | [link](https://888sparkware.ro/career/?uid=C1.B68) |
 | 6 | QA & Data Quality Engineer - Data Vault | Bucuresti | [link](https://888sparkware.ro/career/?uid=0D.060) |
 | 7 | Senior DevOps / SRE Engineer – AI-Driven Automation | Bucuresti | [link](https://888sparkware.ro/career/?uid=1F.C63) |
@@ -67,25 +66,26 @@ Total job-uri afectate: **198**
 | # | Titlu | Oraș | URL |
 |---|-------|------|-----|
 | 1 | Specialist PMO | București | [link](https://www.ad01.com/vacature/221/specialist-pmo) |
-| 2 | AI Engineer | București | [link](https://www.ad01.com/vacature/211/ai-engineer) |
-| 3 | Network Engineer | București | [link](https://www.ad01.com/vacature/192/network-engineer-1) |
-| 4 | Product Manager Azure Data Platform | București | [link](https://www.ad01.com/vacature/214/product-manager-azure-data-platform) |
-| 5 | SAP Finance Business Analyst | București | [link](https://www.ad01.com/vacature/209/sap-finance-business-analyst) |
-| 6 | SAP Finance Delivery Manager | București | [link](https://www.ad01.com/vacature/208/sap-finance-delivery-manager) |
+| 2 | SAP Finance Business Analyst | București | [link](https://www.ad01.com/vacature/209/sap-finance-business-analyst) |
+| 3 | SAP HANA & ABAP Developer | București | [link](https://www.ad01.com/vacature/219/sap-hana-abap-developer) |
+| 4 | DevOps Engineer | București | [link](https://www.ad01.com/vacature/155/devops-engineer-7) |
+| 5 | React Native Developer | București | [link](https://www.ad01.com/vacature/231/react-native-developer-1) |
+| 6 | Program Manager - Commerce Platform Modernization | București | [link](https://www.ad01.com/vacature/230/program-manager-commerce-platform-modernization) |
+
+### AGPRIME
+
+| # | Titlu | Oraș | URL |
+|---|-------|------|-----|
+| 1 | PHP Developer | Cluj-Napoca | [link](https://ag-prime.com/careers/medium-php-developer/) |
+| 2 | QA Tester | Cluj-Napoca | [link](https://ag-prime.com/careers/qa-tester/) |
+| 3 | WordPress Developer | Cluj-Napoca | [link](https://ag-prime.com/careers/wordpress-developer/) |
 
 ### ATKINSREALIS
 
 | # | Titlu | Oraș | URL |
 |---|-------|------|-----|
-| 1 | Senior Power System Studies Engineer | Bucuresti | [link](https://slihrms.wd3.myworkdayjobs.com/en-US/Careers/job/GBWMD2-Chamberlain-SquareBirmingham/Senior-Power-System-Studies-Engineer_R-152754) |
-| 2 | OAC Reporting Engineer | Bucuresti | [link](https://slihrms.wd3.myworkdayjobs.com/en-US/Careers/job/INBangaloreAVTowers/OAC-Reporting-Engineer_R-160163) |
-
-### AUTOSIENA
-
-| # | Titlu | Oraș | URL |
-|---|-------|------|-----|
-| 1 | Mecanic Auto | Oradea | [link](https://autosiena.ro/cariera/#1) |
-| 2 | Responsabil Curatenie | Oradea | [link](https://autosiena.ro/cariera/#2) |
+| 1 | OAC Reporting Engineer | Bucuresti | [link](https://slihrms.wd3.myworkdayjobs.com/en-US/Careers/job/INBangaloreAVTowers/OAC-Reporting-Engineer_R-160163) |
+| 2 | Senior Power System Studies Engineer | Bucuresti | [link](https://slihrms.wd3.myworkdayjobs.com/en-US/Careers/job/GBWMD2-Chamberlain-SquareBirmingham/Senior-Power-System-Studies-Engineer_R-152754) |
 
 ### BDOROMANIA
 
@@ -94,169 +94,158 @@ Total job-uri afectate: **198**
 | 1 | Junior Auditor | Bucuresti | [link](https://www.bdo.ro/ro-ro/cariere/jobs/junior-auditor-6724cc9ccd3d21534a6836d84a8feac5-4997bca6c74962357fe4783129b2a535) |
 | 2 | Senior Accounting Consultant | Bucuresti | [link](https://www.bdo.ro/ro-ro/cariere/jobs/senior-accounting-consultant1) |
 
-### BENGEN
-
-| # | Titlu | Oraș | URL |
-|---|-------|------|-----|
-| 1 | Senior Infrastructure Engineer | Bucuresti | [link](https://bengenro.bamboohr.com/careers/146) |
-
 ### BESHAPINGTHEFUTURE
 
 | # | Titlu | Oraș | URL |
 |---|-------|------|-----|
-| 1 | DLP Functional Administrator - (26000H28) | Bucuresti | [link](https://www.careers-page.com/be-shaping-the-future/job/W34RVRV6) |
-| 2 | Endur DevOps Engineer | Bucuresti | [link](https://www.careers-page.com/be-shaping-the-future/job/8X59R863) |
-| 3 | Avaloq Consultant | Bucuresti | [link](https://www.careers-page.com/be-shaping-the-future/job/W355968W) |
-| 4 | Business Analyst / Projektunterstützung Migration Dokumenten-Management | Bucuresti | [link](https://www.careers-page.com/be-shaping-the-future/job/Y63YRWX5) |
-| 5 | Developer (m/f/d) – Document Management System Migration | Bucuresti | [link](https://www.careers-page.com/be-shaping-the-future/job/RYV57836) |
-| 6 | Cloud Developer/Full Stack Developer | Iași | [link](https://www.careers-page.com/be-shaping-the-future/job/L349YV6W) |
-| 7 | COBOL DEVELOPER with French | Bucuresti | [link](https://www.careers-page.com/be-shaping-the-future/job/93949894) |
+| 1 | Developer (m/f/d) – Document Management System Migration | Bucuresti | [link](https://www.careers-page.com/be-shaping-the-future/job/RYV57836) |
+| 2 | Avaloq Consultant | Bucuresti | [link](https://www.careers-page.com/be-shaping-the-future/job/W355968W) |
+| 3 | DevOps Engineer - DBA PostgreSQL - (26000J69) | Bucuresti | [link](https://www.careers-page.com/be-shaping-the-future/job/7X5VRW93) |
+| 4 | DLP Functional Administrator - (26000H28) | Bucuresti | [link](https://www.careers-page.com/be-shaping-the-future/job/W34RVRV6) |
+| 5 | Endur DevOps Engineer | Bucuresti | [link](https://www.careers-page.com/be-shaping-the-future/job/8X59R863) |
+| 6 | AS400 Developer with RPG | Bucuresti | [link](https://www.careers-page.com/be-shaping-the-future/job/L343W35V) |
+| 7 | Cloud Engineer with Kubernetes | Iași | [link](https://www.careers-page.com/be-shaping-the-future/job/QWWW596W) |
+| 8 | Cloud Full-stack Senior Developer with French | Bucuresti | [link](https://www.careers-page.com/be-shaping-the-future/job/V6466YXR) |
+| 9 | Cobol & Java Developer | Bucuresti | [link](https://www.careers-page.com/be-shaping-the-future/job/X94X763Y) |
+| 10 | Business Analyst / Projektunterstützung Migration Dokumenten-Management | Bucuresti | [link](https://www.careers-page.com/be-shaping-the-future/job/Y63YRWX5) |
 
 ### BETTERSTACK
 
 | # | Titlu | Oraș | URL |
 |---|-------|------|-----|
-| 1 | Developer Advocate | - | [link](https://betterstack.com/careers#developer-advocate) |
-| 2 | Operations Executive | - | [link](https://betterstack.com/careers#operations-executive) |
-
-### BRINEL
-
-| # | Titlu | Oraș | URL |
-|---|-------|------|-----|
-| 1 | Consultant Support Microsoft Dynamics 365 Finance and Operations | Cluj-Napoca | [link](https://www.brinel.ro/cariere#job-3) |
-| 2 | Sales Executive IT Infrastructure | Cluj-Napoca | [link](https://www.brinel.ro/cariere#job-21) |
-| 3 | Network Engineer | Cluj-Napoca | [link](https://www.brinel.ro/cariere#job-1) |
-| 4 | Senior Full-Stack Java Developer | Cluj-Napoca | [link](https://www.brinel.ro/cariere#job-38) |
-| 5 | Servers and Storage Engineer | Cluj-Napoca | [link](https://www.brinel.ro/cariere#job-24) |
+| 1 | Operations Executive | - | [link](https://betterstack.com/careers#operations-executive) |
+| 2 | Customer Advocate | - | [link](https://betterstack.com/careers#customer-advocate) |
+| 3 | Founding Product Engineer | - | [link](https://betterstack.com/careers#founding-product-engineer) |
+| 4 | Recruiter | - | [link](https://betterstack.com/careers#recruiter) |
+| 5 | Full-stack Engineer | - | [link](https://betterstack.com/careers#fullstack-engineer) |
+| 6 | Customer Engineer | - | [link](https://betterstack.com/careers#customer-engineer) |
 
 ### CGSROMANIA
 
 | # | Titlu | Oraș | URL |
 |---|-------|------|-----|
-| 1 | Technical Support with German & English - Brasov / Bucuresti Hybrid | Brasov,Bucuresti | [link](https://romania.cgsinc.com/joburi/technical-support-with-german-and-english-brasov-bucuresti-hybrid/) |
-| 2 | Consultant - Brasov | Brasov | [link](https://romania.cgsinc.com/joburi/consultant-relatii-clienti-brasov-2/) |
-| 3 | German & English - Technical Customer Support | Bucuresti,Brasov | [link](https://romania.cgsinc.com/joburi/german-english-technical-customer-support/) |
-| 4 | Client Advisor with Italian & English | Bucuresti | [link](https://romania.cgsinc.com/joburi/client-advisor-with-italian-bucharest/) |
-| 5 | Spanish & English Customer Support - Brasov | Brasov | [link](https://romania.cgsinc.com/joburi/spanish-english-customer-support-brasov/) |
-| 6 | Tech Support L1 with Slovenian - Remote Job | Bucuresti | [link](https://romania.cgsinc.com/joburi/tech-support-l1-with-slovenian-remote-job/) |
+| 1 | Technical Support Specialist – Retail (Hungarian Language) | Bucuresti | [link](https://romania.cgsinc.com/joburi/technical-support-specialist-retail-hungarian-language/) |
+| 2 | German & English - Technical Customer Support | Bucuresti,Brasov | [link](https://romania.cgsinc.com/joburi/german-english-technical-customer-support/) |
+| 3 | Client Advisor with Italian & English | Bucuresti | [link](https://romania.cgsinc.com/joburi/client-advisor-with-italian-bucharest/) |
+| 4 | Spanish & English Customer Support - Brasov | Brasov | [link](https://romania.cgsinc.com/joburi/spanish-english-customer-support-brasov/) |
+| 5 | Tech Support L1 with Slovenian - Remote Job | Bucuresti | [link](https://romania.cgsinc.com/joburi/tech-support-l1-with-slovenian-remote-job/) |
+| 6 | Technical Support with German & English - Brasov / Bucuresti Hybrid | Brasov,Bucuresti | [link](https://romania.cgsinc.com/joburi/technical-support-with-german-and-english-brasov-bucuresti-hybrid/) |
+| 7 | Consultant - Brasov | Brasov | [link](https://romania.cgsinc.com/joburi/consultant-relatii-clienti-brasov-2/) |
 
 ### COCACOLAHBC
 
 | # | Titlu | Oraș | URL |
 |---|-------|------|-----|
-| 1 | Business Developer - Sibiu | Sibiu | [link](https://careers.coca-colahellenic.com/ro_RO/careers/ProjectDetail/Business-Developer-Sibiu/26213) |
-| 2 | Business Developer | Arad | [link](https://careers.coca-colahellenic.com/ro_RO/careers/ProjectDetail/Business-Developer/26255) |
-| 3 | Business Developer - Arad | Arad | [link](https://careers.coca-colahellenic.com/ro_RO/careers/ProjectDetail/Business-Developer-Arad/26115) |
-| 4 | Learning Partner | Bucuresti | [link](https://careers.coca-colahellenic.com/ro_RO/careers/ProjectDetail/Learning-Partner/25905) |
-| 5 | Demand Planning & S&OP Excellence Manager | Bucuresti | [link](https://careers.coca-colahellenic.com/ro_RO/careers/ProjectDetail/Demand-Planning-S-OP-Excellence-Manager/25923) |
-| 6 | Mecanic - Ploiesti | Ploiesti | [link](https://careers.coca-colahellenic.com/ro_RO/careers/ProjectDetail/Mecanic-Ploiesti/25445) |
+| 1 | Demand Planning & S&OP Excellence Manager | Bucuresti | [link](https://careers.coca-colahellenic.com/ro_RO/careers/ProjectDetail/Demand-Planning-S-OP-Excellence-Manager/25923) |
+| 2 | Commercial Assistant | Bucuresti | [link](https://careers.coca-colahellenic.com/ro_RO/careers/ProjectDetail/Commercial-Assistant/25805) |
+| 3 | Graduate Trainee - Maintenance Timisoara | Timisoara | [link](https://careers.coca-colahellenic.com/ro_RO/careers/ProjectDetail/Graduate-Trainee-Maintenance-Timisoara/24632) |
+| 4 | Operator Productie - Ploiesti | Ploiesti | [link](https://careers.coca-colahellenic.com/ro_RO/careers/ProjectDetail/Operator-Productie-Ploiesti/25636) |
 
-### CSCALE
+### CONNECTGROUP
 
 | # | Titlu | Oraș | URL |
 |---|-------|------|-----|
-| 1 | Senior Software Developer (Embedded) | Craiova | [link](https://www.c-scale.ro/careers#1) |
+| 1 | Product Engineer | Oradea | [link](https://www.connectgroup.com/en/vacancies/roemeni%C3%AB/product-engineer-4) |
 
 ### DECATHLON
 
 | # | Titlu | Oraș | URL |
 |---|-------|------|-----|
-| 1 | Consilier Servicii Clienți Decathlon Iuliu Maniu | Bucuresti | [link](https://cariere.decathlon.ro/jobs/consilier-servicii-clienti-decathlon-iuliu-maniu-cdQE) |
-| 2 | Manager Departament Decathlon Pantelimon | Bucuresti | [link](https://cariere.decathlon.ro/jobs/manager-departament-decathlon-pantelimon-ck3m) |
-| 3 | Reprezentant Vânzări Decathlon Pantelimon | Bucuresti | [link](https://cariere.decathlon.ro/jobs/reprezentant-vanzari-decathlon-pantelimon-ck3l) |
-| 4 | Tehnician reparații biciclete Decathlon Pallady | Bucuresti | [link](https://cariere.decathlon.ro/jobs/tehnician-reparatii-biciclete-decathlon-pallady-cdQx) |
-| 5 | Tehnician reparații biciclete Decathlon Iași | Iasi | [link](https://cariere.decathlon.ro/jobs/tehnician-reparatii-biciclete-decathlon-iasi-cdPY) |
-| 6 | Consilier Servicii Clienți Decathlon Iași | Iasi | [link](https://cariere.decathlon.ro/jobs/consilier-servicii-clienti-decathlon-iasi-cdQJ) |
-| 7 | Director Adjunct Decathlon Logistica | Stefanestii de Jos | [link](https://cariere.decathlon.ro/jobs/director-adjunct-decathlon-logistica-cgsr) |
-| 8 | Tehnician reparații biciclete Decathlon Iuliu Maniu | Bucuresti | [link](https://cariere.decathlon.ro/jobs/tehnician-reparatii-biciclete-decathlon-iuliu-maniu-cdPP) |
-| 9 | Manager Operațiuni Decathlon Tg. Mures | Targu-Mures | [link](https://cariere.decathlon.ro/jobs/manager-operatiuni-decathlon-tg-mures-cibD) |
+| 1 | Tehnician reparații biciclete Decathlon Pallady | Bucuresti | [link](https://cariere.decathlon.ro/jobs/tehnician-reparatii-biciclete-decathlon-pallady-cdQx) |
+| 2 | Consilier Servicii Clienți Decathlon Pallady | Bucuresti | [link](https://cariere.decathlon.ro/jobs/consilier-servicii-clienti-decathlon-pallady-cdQF) |
+| 3 | Tehnician reparații biciclete Decathlon Braila | Varsatura | [link](https://cariere.decathlon.ro/jobs/tehnician-reparatii-biciclete-decathlon-braila-ce5W-copy-ckUv) |
+| 4 | Tehnician reparații biciclete Decathlon Iuliu Maniu | Bucuresti | [link](https://cariere.decathlon.ro/jobs/tehnician-reparatii-biciclete-decathlon-iuliu-maniu-cdPP) |
+| 5 | Director Adjunct Decathlon Logistica | Stefanestii de Jos | [link](https://cariere.decathlon.ro/jobs/director-adjunct-decathlon-logistica-cgsr) |
+| 6 | Reprezentant Vânzări Decathlon Plaza | Bucuresti | [link](https://cariere.decathlon.ro/jobs/reprezentant-vanzari-decathlon-plaza-chqJ) |
+| 7 | Reprezentant Vânzări Decathlon Berceni | Bucuresti | [link](https://cariere.decathlon.ro/jobs/reprezentant-vanzari-decathlon-berceni-cdOS) |
+| 8 | Tehnician reparații biciclete Decathlon Iași | Iasi | [link](https://cariere.decathlon.ro/jobs/tehnician-reparatii-biciclete-decathlon-iasi-cdPY) |
+| 9 | Consilier Servicii Clienți Decathlon Iuliu Maniu | Bucuresti | [link](https://cariere.decathlon.ro/jobs/consilier-servicii-clienti-decathlon-iuliu-maniu-cdQE) |
 | 10 | Tehnician reparații biciclete Decathlon Constanța | Constanta | [link](https://cariere.decathlon.ro/jobs/tehnician-reparatii-biciclete-decathlon-constanta-cdPU) |
-| 11 | Consilier Servicii Clienți Decathlon Pallady | Bucuresti | [link](https://cariere.decathlon.ro/jobs/consilier-servicii-clienti-decathlon-pallady-cdQF) |
-| 12 | Tehnician reparații biciclete Decathlon Braila | Varsatura | [link](https://cariere.decathlon.ro/jobs/tehnician-reparatii-biciclete-decathlon-braila-ce5W-copy-ckUv) |
-| 13 | Tehnician reparații biciclete Decathlon Satu Mare | Satu Mare | [link](https://cariere.decathlon.ro/jobs/tehnician-reparatii-biciclete-decathlon-satu-mare-ckWu) |
-| 14 | Tehnician reparatii biciclete Decathlon Satu Mare | Satu Mare | [link](https://jobviewtrack.com/v2/G2eVwJI_xRcCUqelQ6YS5v4W0xeZJuVOM5tFN1H62qGNa8H17uA81XcODtHt8qc9fhYIgOWIX5-yeYbBm2n79IVZ5NicPtSZGvZ3p2LYs-wBNI8d1AOBrklhwkhnPa1ggcI6-zGcl82JBL8SUdt4DhZ6oWXquCZ02Zi5cU-JuQMKFDaM5L9Xb-kdpBjkZjdJ0mdWXeJAju5T0qX3lhtU7ZsxkEIHjTGm0SPwNV8UUkk) |
+| 11 | Tehnician reparații biciclete Decathlon Satu Mare | Satu Mare | [link](https://cariere.decathlon.ro/jobs/tehnician-reparatii-biciclete-decathlon-satu-mare-ckWu) |
+| 12 | Manager Operațiuni Decathlon Tg. Mures | Targu-Mures | [link](https://cariere.decathlon.ro/jobs/manager-operatiuni-decathlon-tg-mures-cibD) |
+
+### DELTATELGROUP
+
+| # | Titlu | Oraș | URL |
+|---|-------|------|-----|
+| 1 | Montator / Tehnician Telecom | Cluj-Napoca,Bucuresti | [link](https://deltatelgroup.com//ro/cariere/montator-tehnician-telecom-ro) |
 
 ### DRMAX
 
 | # | Titlu | Oraș | URL |
 |---|-------|------|-----|
-| 1 | Farmacist, Dr. Max Zărnești | Zarnesti | [link](https://drmaxromania.com/job/farmacist-dr-max-zarnesti/) |
-| 2 | Farmacist Șef Dr. Max, Dobroești | Dobroesti | [link](https://drmaxromania.com/job/farmacist-sef-dr-max-dobroesti/) |
-| 3 | Farmacist Dr. Max, Dobroești | Dobroesti | [link](https://drmaxromania.com/job/farmacist-dr-max-dobroesti/) |
-| 4 | Farmacist HIPER Dr. Max Farmacie, Brașov | Brasov | [link](https://drmaxromania.com/job/farmacist-hiper-dr-max-farmacie-brasov/) |
-| 5 | Manager HIPER Dr. Max Farmacie, Brăila | braila | [link](https://drmaxromania.com/job/manager-hiper-dr-max-farmacie-braila/) |
-| 6 | Platform Solutions Manager | Bucuresti | [link](https://drmaxromania.com/job/platform-solutions-manager/) |
-| 7 | Payroll Specialist | Bucuresti | [link](https://drmaxromania.com/job/payroll-specialist/) |
-| 8 | Telephone Sales Representative | Oradea | [link](https://drmaxromania.com/job/telephone-sales-representative/) |
-| 9 | Farmacist Dr. Max,Tecuci | Tecuci | [link](https://drmaxromania.com/job/farmacist-dr-maxtecuci/) |
-| 10 | Farmacist Dr. Max, Popești Leordeni | Bucuresti | [link](https://drmaxromania.com/job/farmacist-dr-max-popesti-leordeni/) |
-| 11 | Referent Farmacolog Dr. Max, Cluj Napoca | Cluj-Napoca | [link](https://drmaxromania.com/job/referent-farmacolog-dr-max-cluj-napoca/) |
-| 12 | Farmacist Dr.Max, Giurgiu | Giurgiu | [link](https://drmaxromania.com/job/farmacist-dr-max-giurgiu/) |
-| 13 | Farmacist Șef, Florești, județul Cluj | floresti | [link](https://drmaxromania.com/job/farmacist-sef-floresti-judetul-cluj/) |
-| 14 | Consultant Vânzări HIPER Dr. Max Farmacie | voluntari | [link](https://drmaxromania.com/job/consultant-vanzari-hiper-dr-max-farmacie/) |
-| 15 | Farmacist Dr. Max, Florești | floresti | [link](https://drmaxromania.com/job/farmacist-dr-max-floresti/) |
-| 16 | Farmacist Dr. Max, Sector 4 | Bucuresti | [link](https://drmaxromania.com/job/farmacist-dr-max-sector-4-2/) |
-| 17 | Farmacist Dr. Max Petroșani | Petrosani,Vulcan | [link](https://drmaxromania.com/job/farmacist-dr-max-petrosani-vulcan-part-time/) |
-| 18 | Farmacist Dr. Max, Crevedia, județul Dâmbovița | Crevedia | [link](https://drmaxromania.com/job/farmacist-dr-max-crevedia-judetul-dambovita/) |
-| 19 | Referent Farmacolog HIPER Dr. Max Farmacie, București | Bucuresti | [link](https://drmaxromania.com/job/referent-farmacolog-hiper-dr-max-farmacie-bucuresti/) |
-| 20 | Farmacist Dr. Max, Mediaș | Medias | [link](https://drmaxromania.com/job/farmacist-dr-max-medias/) |
-| 21 | Farmacist Dr. Max, Toplița | Toplita | [link](https://drmaxromania.com/job/farmacist-dr-max-toplita/) |
-| 22 | Farmacist Dr. Max, Brașov | Brasov | [link](https://drmaxromania.com/job/farmacist-dr-max-brasov/) |
-| 23 | Warehouse Worker E-commerce | Mogosoaia | [link](https://drmaxromania.com/job/warehouse-worker-e-commerce/) |
-| 24 | Farmacist Dr. Max Târnăveni | Tarnaveni | [link](https://drmaxromania.com/job/farmacist-dr-max-tarnaveni/) |
-| 25 | Personnel Administration Specialist | Bucuresti | [link](https://drmaxromania.com/job/personnel-administration-specialist/) |
-| 26 | Asistent Farmacist Dr. Max, Sector 3 | Bucuresti | [link](https://drmaxromania.com/job/asistent-farmacist-dr-max-sector-3/) |
-| 27 | Farmacist Dr. Max, Chiajna | Chiajna | [link](https://drmaxromania.com/job/farmacist-dr-max-chiajna/) |
-| 28 | Support Specialist Pricing | Bucuresti | [link](https://drmaxromania.com/job/support-specialist-pricing/) |
-| 29 | Farmacist Dr. Max Bistrița | Bistrita | [link](https://drmaxromania.com/job/farmacist-dr-max-bistrita/) |
-| 30 | Consultant Vânzări HIPER Dr. Max Farmacie Adjud | adjud | [link](https://drmaxromania.com/job/consultant-vanzari-hiper-dr-max-farmacie-adjud/) |
-| 31 | Asistent Farmacist HIPER Dr. Max Drogherie Adjud | adjud | [link](https://drmaxromania.com/job/asistent-farmacist-hiper-dr-max-drogherie-adjud/) |
-| 32 | Compensation Incentive Analyst | Bucuresti | [link](https://drmaxromania.com/job/compensation-incentive-analyst/) |
-| 33 | Farmacist Dr. Max Drobeta-Turnu Severin | Drobeta-Turnu Severin | [link](https://drmaxromania.com/job/farmacist-dr-max-drobeta-turnu-severin/) |
-| 34 | Farmacist Dr. Max, Sector 5 | Bucuresti | [link](https://drmaxromania.com/job/farmacist-dr-max-sector-5/) |
-| 35 | Warehouse Worker | Sibiu | [link](https://drmaxromania.com/job/warehouse-worker/) |
-| 36 | Farmacist Dr. Max Pantelimon | Pantelimon | [link](https://drmaxromania.com/job/farmacist-dr-max-pantelimon/) |
-| 37 | Farmacist Dr. Max, Sector 4 | Bucuresti | [link](https://drmaxromania.com/job/farmacist-dr-max-sector-4/) |
-| 38 | Farmacist Dr. Max, Alexandria, județul Teleorman | Alexandria | [link](https://drmaxromania.com/job/farmacist-dr-max-alexandria-judetul-teleorman/) |
+| 1 | Personnel Administration Specialist | Bucuresti | [link](https://drmaxromania.com/job/personnel-administration-specialist/) |
+| 2 | Asistent Farmacist Dr. Max, Sector 3 | Bucuresti | [link](https://drmaxromania.com/job/asistent-farmacist-dr-max-sector-3/) |
+| 3 | Farmacist Dr. Max, Chiajna | Chiajna | [link](https://drmaxromania.com/job/farmacist-dr-max-chiajna/) |
+| 4 | Farmacist Dr. Max Pitești | Pitesti | [link](https://drmaxromania.com/job/farmacist-dr-max-pitesti/) |
+| 5 | Area Manager, Sibiu | Sibiu | [link](https://drmaxromania.com/job/area-manager-sibiu/) |
+| 6 | Asistent Farmacist HIPER Dr. Max Farmacie, Sector 3 | Bucuresti | [link](https://drmaxromania.com/job/asistent-farmacist-hiper-dr-max-farmacie-sector-3/) |
+| 7 | Sales Representative | Baia Mare,Cluj-Napoca | [link](https://drmaxromania.com/job/sales-representative-2/) |
+| 8 | Support Specialist Pricing | Bucuresti | [link](https://drmaxromania.com/job/support-specialist-pricing/) |
+| 9 | Farmacist Dr. Max Bistrița | Bistrita | [link](https://drmaxromania.com/job/farmacist-dr-max-bistrita/) |
+| 10 | Consultant Vânzări HIPER Dr. Max Farmacie Adjud | adjud | [link](https://drmaxromania.com/job/consultant-vanzari-hiper-dr-max-farmacie-adjud/) |
+| 11 | Asistent Farmacist HIPER Dr. Max Drogherie Adjud | adjud | [link](https://drmaxromania.com/job/asistent-farmacist-hiper-dr-max-drogherie-adjud/) |
+| 12 | Compensation Incentive Analyst | Bucuresti | [link](https://drmaxromania.com/job/compensation-incentive-analyst/) |
+| 13 | Farmacist Dr.Max, Giurgiu | Giurgiu | [link](https://drmaxromania.com/job/farmacist-dr-max-giurgiu/) |
+| 14 | Farmacist Șef, Florești, județul Cluj | floresti | [link](https://drmaxromania.com/job/farmacist-sef-floresti-judetul-cluj/) |
+| 15 | Consultant Vânzări HIPER Dr. Max Farmacie | voluntari | [link](https://drmaxromania.com/job/consultant-vanzari-hiper-dr-max-farmacie/) |
+| 16 | Farmacist Dr. Max, Florești | floresti | [link](https://drmaxromania.com/job/farmacist-dr-max-floresti/) |
+| 17 | Farmacist Dr. Max, Sector 4 | Bucuresti | [link](https://drmaxromania.com/job/farmacist-dr-max-sector-4-2/) |
+| 18 | Farmacist Dr. Max Petroșani | Petrosani,Vulcan | [link](https://drmaxromania.com/job/farmacist-dr-max-petrosani-vulcan-part-time/) |
+| 19 | Farmacist Dr. Max, Crevedia, județul Dâmbovița | Crevedia | [link](https://drmaxromania.com/job/farmacist-dr-max-crevedia-judetul-dambovita/) |
+| 20 | Referent Farmacolog HIPER Dr. Max Farmacie, București | Bucuresti | [link](https://drmaxromania.com/job/referent-farmacolog-hiper-dr-max-farmacie-bucuresti/) |
+| 21 | Farmacist Dr. Max, Mediaș | Medias | [link](https://drmaxromania.com/job/farmacist-dr-max-medias/) |
+| 22 | Farmacist Dr. Max, Toplița | Toplita | [link](https://drmaxromania.com/job/farmacist-dr-max-toplita/) |
+| 23 | Farmacist Dr. Max, Brașov | Brasov | [link](https://drmaxromania.com/job/farmacist-dr-max-brasov/) |
+| 24 | Warehouse Worker E-commerce | Mogosoaia | [link](https://drmaxromania.com/job/warehouse-worker-e-commerce/) |
+| 25 | Farmacist Dr. Max Drobeta-Turnu Severin | Drobeta-Turnu Severin | [link](https://drmaxromania.com/job/farmacist-dr-max-drobeta-turnu-severin/) |
+| 26 | Farmacist Dr. Max, Sector 5 | Bucuresti | [link](https://drmaxromania.com/job/farmacist-dr-max-sector-5/) |
+| 27 | Warehouse Worker | Sibiu | [link](https://drmaxromania.com/job/warehouse-worker/) |
+| 28 | Farmacist Dr. Max Pantelimon | Pantelimon | [link](https://drmaxromania.com/job/farmacist-dr-max-pantelimon/) |
+| 29 | Operator Stocuri Dr. Max Beauty, Sector 6 | Bucuresti | [link](https://drmaxromania.com/job/operator-stocuri-dr-max-beauty-sector-6/) |
+| 30 | Operator Stocuri HIPER Dr. Max Farmacie, Baia Mare | Baia Mare | [link](https://drmaxromania.com/job/operator-stocuri-hiper-dr-max-farmacie-baia-mare/) |
+| 31 | Asistent Farmacist Dr. Max, Cluj Napoca | Cluj-Napoca | [link](https://drmaxromania.com/job/asistent-farmacist-dr-max-cluj-napoca/) |
 
-### EASPORTS
+### GKNAEROSPACE
 
 | # | Titlu | Oraș | URL |
 |---|-------|------|-----|
-| 1 | .NET Software Engineer - EA SPORTS™ FC | Bucuresti | [link](https://jobs.ea.com/en_US/careers/JobDetail/NET-Software-Engineer-EA-SPORTS-FC/215743) |
-| 2 | .NET Software Engineer - EA SPORTS™ FC | Bucuresti | [link](https://jobs.ea.com/en_US/careers/JobDetail/NET-Software-Engineer-EA-SPORTS-FC/215745) |
-| 3 | Project Manager - DevOps team | Bucuresti | [link](https://jobs.ea.com/en_US/careers/JobDetail/Project-Manager-DevOps-team/215856) |
-| 4 | Associate Cinematics Designer - EA Sports FC | Bucuresti | [link](https://jobs.ea.com/en_US/careers/JobDetail/Associate-Cinematics-Designer-EA-Sports-FC/215782) |
-| 5 | Technical Artist, UI - EA SPORTS™ FC | Bucuresti | [link](https://jobs.ea.com/en_US/careers/JobDetail/Technical-Artist-UI-EA-SPORTS-FC/213658) |
-
-### GYMPASS
-
-| # | Titlu | Oraș | URL |
-|---|-------|------|-----|
-| 1 | 7CARD: Social Media Specialist | București | [link](https://job-boards.greenhouse.io/gympass/jobs/8705839002) |
+| 1 | Sustaining Engineer - Analysis | Bucuresti | [link](https://joinus.gknaerospace.com/job/25808-en_US) |
 
 ### HEIDELBERGCEMENT
 
 | # | Titlu | Oraș | URL |
 |---|-------|------|-----|
-| 1 | Operator mașină de însăcuit | Tasca | [link](https://www.heidelbergmaterials.ro/ro/operator-masina-de-insacuit-0) |
-| 2 | Electrician întreținere și reparații | Tasca | [link](https://www.heidelbergmaterials.ro/ro/electrician-intretinere-si-reparatii-5) |
-| 3 | Mecanic mașini și utilaje | Fieni | [link](https://www.heidelbergmaterials.ro/ro/mecanic-masini-si-utilaje) |
+| 1 | Șofer autopompă beton - Năvodari | Constanta | [link](https://www.heidelbergmaterials.ro/ro/sofer-autopompa-beton-navodari) |
+| 2 | Șofer autobetonieră - jud. Constanța | Constanta | [link](https://www.heidelbergmaterials.ro/ro/sofer-autobetoniera-judet-constanta) |
+| 3 | Operator mașină de însăcuit | Tasca | [link](https://www.heidelbergmaterials.ro/ro/operator-masina-de-insacuit-0) |
+| 4 | Operator stație betoane | Constanta | [link](https://www.heidelbergmaterials.ro/ro/operator-statie-betoane) |
 
 ### HTECGROUP
 
 | # | Titlu | Oraș | URL |
 |---|-------|------|-----|
-| 1 | AI Inference Engineer | Bucuresti | [link](https://careers.htecgroup.com/jobs/ai-inference-engineer-Idz) |
-| 2 | Senior DevOps/SRE Engineer | Bucuresti | [link](https://careers.htecgroup.com/jobs/senior-devopssre-engineer-tXc) |
-| 3 | Forward Deployed AI Engineer | Bucuresti | [link](https://careers.htecgroup.com/jobs/forward-deployed-ai-engineer-cjDc) |
-| 4 | Forward Deployed Lead | Bucuresti | [link](https://careers.htecgroup.com/jobs/forward-deployed-lead-cjC9) |
-| 5 | Senior Data Engineer / Scala, Spark | Bucuresti | [link](https://careers.htecgroup.com/jobs/senior-data-engineer-scala-spark-tXi) |
-| 6 | Robotics Engineer | Bucuresti | [link](https://careers.htecgroup.com/jobs/robotics-engineer-ceif) |
-| 7 | Engineering Program Manager | Bucuresti | [link](https://careers.htecgroup.com/jobs/engineering-program-manager-cj8n) |
-| 8 | Data & AI Architect | Bucuresti | [link](https://careers.htecgroup.com/jobs/data-ai-architect-chOd) |
-| 9 | Senior Data Engineer / Databricks | Bucuresti | [link](https://careers.htecgroup.com/jobs/senior-data-engineer-databricks-ciSd) |
-| 10 | Senior AI Engineer | Bucuresti | [link](https://careers.htecgroup.com/jobs/senior-ai-engineer-cdGT) |
+| 1 | Solution Architect | Bucuresti | [link](https://careers.htecgroup.com/jobs/solution-architect-ci1s) |
+| 2 | Embedded Software Engineer – Functional Safety (ADAS) | Bucuresti | [link](https://careers.htecgroup.com/jobs/embedded-software-engineer-functional-safety-adas-ciZq) |
+| 3 | Infrastructure Architect | Bucuresti | [link](https://careers.htecgroup.com/jobs/infrastructure-architect-ci7c) |
+| 4 | Cybersecurity Engineer | Bucuresti | [link](https://careers.htecgroup.com/jobs/cybersecurity-engineer-ckmi) |
+| 5 | Forward Deployed AI Engineer | Bucuresti | [link](https://careers.htecgroup.com/jobs/forward-deployed-ai-engineer-cjDc) |
+| 6 | Forward Deployed Lead | Bucuresti | [link](https://careers.htecgroup.com/jobs/forward-deployed-lead-cjC9) |
+| 7 | Senior Data Engineer / Scala, Spark | Bucuresti | [link](https://careers.htecgroup.com/jobs/senior-data-engineer-scala-spark-tXi) |
+| 8 | Data Solution Architect | Bucuresti | [link](https://careers.htecgroup.com/jobs/data-solution-architect-ci4x) |
+| 9 | Data & AI Architect | Bucuresti | [link](https://careers.htecgroup.com/jobs/data-ai-architect-chOd) |
+| 10 | Senior Data Engineer / Databricks | Bucuresti | [link](https://careers.htecgroup.com/jobs/senior-data-engineer-databricks-ciSd) |
+| 11 | Robotics Engineer | Bucuresti | [link](https://careers.htecgroup.com/jobs/robotics-engineer-ceif) |
+| 12 | Engineering Program Manager | Bucuresti | [link](https://careers.htecgroup.com/jobs/engineering-program-manager-cj8n) |
+
+### HUBGETS
+
+| # | Titlu | Oraș | URL |
+|---|-------|------|-----|
+| 1 | AI Validation Engineer | Bucuresti | [link](https://www.hubgets.com/jobs/#job-133) |
+| 2 | SQA Engineer | Bucuresti | [link](https://www.hubgets.com/jobs/#job-134) |
+| 3 | Internship Software Engineer | Bucuresti | [link](https://www.hubgets.com/jobs/#job-135) |
+| 4 | UI/UX Designer | Bucuresti | [link](https://www.hubgets.com/jobs/#job-121) |
 
 ### HUNGRYBYTES
 
@@ -268,16 +257,11 @@ Total job-uri afectate: **198**
 | 4 | Java Software Developer | Iasi | [link](https://jobs.hungrybytes.co/careers/java-software-developer-romania/) |
 | 5 | Laravel Software Developer | Remote | [link](https://www.bestjobs.eu/loc-de-munca/laravel-software-developer) |
 
-### INTERRATRAVEL
+### INTESASANPAOLOBANK
 
 | # | Titlu | Oraș | URL |
 |---|-------|------|-----|
-| 1 | Agent Ticketing oferte personalizate | București | [link](https://www.interra.ro/angajari/agent-ticketing-oferte-personalizate-7) |
-| 2 | Șoferi categorie B sau D | București | [link](https://www.interra.ro/angajari/soferi-categorie-b-sau-d-3) |
-| 3 | Contabil | București | [link](https://www.interra.ro/angajari/contabil-2) |
-| 4 | Agent Turism operațional pachete turistice | București | [link](https://www.interra.ro/angajari/agent-turism-operational-pachete-turistice-5) |
-| 5 | Agent Turism productie pachete turistice | București | [link](https://www.interra.ro/angajari/agent-turism-productie-pachete-turistice-4) |
-| 6 | Agent Turism vânzare Circuite Interra | București | [link](https://www.interra.ro/angajari/agent-turism-vanzare-circuite-interra-6) |
+| 1 | Manager relații clienți persoane juridice Sucursala Galați | Galati | [link](https://www.intesasanpaolobank.ro/document/documents/ISPROMANIA/cariere/Manager-relatii-clienti-persoane-juridice-sucursala-Galati.pdf) |
 
 ### INTHEPOCKET
 
@@ -289,54 +273,65 @@ Total job-uri afectate: **198**
 
 | # | Titlu | Oraș | URL |
 |---|-------|------|-----|
-| 1 | Software Engineer with C++ Developer for Infrastructure and Network Development Team (full remote / hybrid) | Bucuresti | [link](https://www.ionos-group.com/jobs-career/4969936101-software-engineer-with-c-developer-for-infrastructure-and-network-development-team-full-remote-hybrid.html) |
-| 2 | Full-Stack Working Student for Productivity Solutions team (hybrid) | Bucuresti | [link](https://www.ionos-group.com/jobs-career/4955734101-full-stack-working-student-for-productivity-solutions-team-hybrid.html) |
-| 3 | Specialist System Engineer for DNS and Observability team (hybrid) | Bucuresti | [link](https://www.ionos-group.com/jobs-career/4679433101-specialist-system-engineer-for-dns-and-observability-team-hybrid.html) |
-| 4 | AI Developer with Python for Customer Care AI Platform team (hybrid) | Bucuresti | [link](https://www.ionos-group.com/jobs-career/4789603101-ai-developer-with-python-for-customer-care-ai-platform-team-hybrid.html) |
-| 5 | Data Engineer (Databricks) in Development Romania Access & Business Intelligence team (hybrid) | Bucuresti | [link](https://www.ionos-group.com/jobs-career/4851194101-data-engineer-databricks-in-development-romania-access-business-intelligence-team-hybrid.html) |
-| 6 | Data Engineer (Python & Kafka) in Development Romania Access & Business Intelligence team (hybrid) | Bucuresti | [link](https://www.ionos-group.com/jobs-career/4851165101-data-engineer-python-kafka-in-development-romania-access-business-intelligence-team-hybrid.html) |
-| 7 | DevOps Engineer for Technology BI Solutions team (hybrid) | Bucuresti | [link](https://www.ionos-group.com/jobs-career/4606387101-devops-engineer-for-technology-bi-solutions-team-hybrid.html) |
+| 1 | Specialist System Engineer for DNS and Observability team (hybrid) | Bucuresti | [link](https://www.ionos-group.com/jobs-career/4679433101-specialist-system-engineer-for-dns-and-observability-team-hybrid.html) |
+| 2 | AI Developer with Python for Customer Care AI Platform team (hybrid) | Bucuresti | [link](https://www.ionos-group.com/jobs-career/4789603101-ai-developer-with-python-for-customer-care-ai-platform-team-hybrid.html) |
+| 3 | Data Engineer (Databricks) in Development Romania Access & Business Intelligence team (hybrid) | Bucuresti | [link](https://www.ionos-group.com/jobs-career/4851194101-data-engineer-databricks-in-development-romania-access-business-intelligence-team-hybrid.html) |
+| 4 | Data Engineer (Python & Kafka) in Development Romania Access & Business Intelligence team (hybrid) | Bucuresti | [link](https://www.ionos-group.com/jobs-career/4851165101-data-engineer-python-kafka-in-development-romania-access-business-intelligence-team-hybrid.html) |
+| 5 | DevOps Engineer for Technology BI Solutions team (hybrid) | Bucuresti | [link](https://www.ionos-group.com/jobs-career/4606387101-devops-engineer-for-technology-bi-solutions-team-hybrid.html) |
+| 6 | Software Engineer with C++ Developer for Infrastructure and Network Development Team (hybrid) | Bucuresti | [link](https://www.ionos-group.com/jobs-career/4969936101-software-engineer-with-c-developer-for-infrastructure-and-network-development-team-hybrid.html) |
 
 ### KELLANOVA
 
 | # | Titlu | Oraș | URL |
 |---|-------|------|-----|
-| 1 | GBS Continuous Improvement Process Lead | Bucuresti | [link](https://jobs.kellanova.com/job/Bucharest-GBS-Continuous-Improvement-Process-Lead-14254/1424285100/) |
-| 2 | Supply Chain Data Visualization Lead | Bucharest | [link](https://www.undelucram.ro/ro/locuri-de-munca/supply-chain-data-visualization-lead/99117) |
+| 1 | Transportation Planner-12 months contract | Bucharest | [link](https://www.undelucram.ro/ro/locuri-de-munca/transportation-planner-12-months-contract/99714) |
+| 2 | GBS Continuous Improvement Process Lead | Bucharest | [link](https://www.undelucram.ro/ro/locuri-de-munca/gbs-continuous-improvement-process-lead/99859) |
+| 3 | GBS Continuous Improvement Process Lead | Bucuresti | [link](https://jobs.kellanova.com/job/Bucharest-GBS-Continuous-Improvement-Process-Lead-14254/1424285100/) |
+| 4 | Supply Chain Data Visualization Lead | Bucharest | [link](https://www.undelucram.ro/ro/locuri-de-munca/supply-chain-data-visualization-lead/99117) |
+
+### OLINIO
+
+| # | Titlu | Oraș | URL |
+|---|-------|------|-----|
+| 1 | Sales Manager-on site Bucharest | Bucuresti | [link](https://www.bestjobs.eu/loc-de-munca/sales-manager-on-site-bucharest) |
 
 ### ONTHEGOSYSTEMS
 
 | # | Titlu | Oraș | URL |
 |---|-------|------|-----|
 | 1 | Technical Paid Advertising Specialist | Remote | [link](https://www.bestjobs.eu/loc-de-munca/technical-paid-advertising-specialist) |
-| 2 | Ruby on Rails Developer | - | [link](https://devjob.ro/jobs/OnTheGoSystems-Ruby-on-Rails-Developer) |
 
 ### PRAGMATICPLAY
 
 | # | Titlu | Oraș | URL |
 |---|-------|------|-----|
-| 1 | Audio-Visual R&D Engineer | Bucuresti | [link](https://jobs.jobvite.com/pragmaticplay/job/osa2zfwX) |
-| 2 | Audio-Visual R&D Specialist | Bucuresti | [link](https://jobs.jobvite.com/pragmaticplay/job/ona2zfwS) |
-| 3 | Assistant Tailor | Bucuresti | [link](https://jobs.jobvite.com/pragmaticplay/job/ooRHAfwg) |
-| 4 | Audio Video Specialist | Bucuresti | [link](https://jobs.jobvite.com/pragmaticplay/job/okSLxfwe) |
-| 5 | Lighting Specialist - Global | Bucuresti | [link](https://jobs.jobvite.com/pragmaticplay/job/o4dGzfwg) |
-| 6 | Studio Production Governance Specialist | Bucuresti | [link](https://jobs.jobvite.com/pragmaticplay/job/oyqqAfwI) |
-| 7 | Audio Video Specialist | Bucuresti | [link](https://jobs.jobvite.com/pragmaticplay/job/o8JuAfwF) |
-| 8 | Senior Appearance Manager | Bucuresti | [link](https://jobs.jobvite.com/pragmaticplay/job/ojIxAfwS) |
-| 9 | Senior Application Security Engineer | Bucuresti | [link](https://jobs.jobvite.com/pragmaticplay/job/oBcUyfwZ) |
-| 10 | Head of Audio-Visual Research & Development | Bucuresti | [link](https://jobs.jobvite.com/pragmaticplay/job/oqa2zfwV) |
-| 11 | System Administrator | Bucuresti | [link](https://jobs.jobvite.com/pragmaticplay/job/om9KAfwz) |
+| 1 | Senior HR Business Partner | Bucuresti | [link](https://jobs.jobvite.com/pragmaticplay/job/o2NqAfwz) |
+| 2 | Audio Video Specialist | Bucuresti | [link](https://jobs.jobvite.com/pragmaticplay/job/okSLxfwe) |
+| 3 | System Administrator | Bucuresti | [link](https://jobs.jobvite.com/pragmaticplay/job/om9KAfwz) |
+| 4 | Risk Mathematician | Bucuresti | [link](https://jobs.jobvite.com/pragmaticplay/job/oRQwAfwx) |
+| 5 | Assistant Tailor | Bucuresti | [link](https://jobs.jobvite.com/pragmaticplay/job/ooRHAfwg) |
+| 6 | Project Manager | Bucuresti | [link](https://jobs.jobvite.com/pragmaticplay/job/oUsBAfwh) |
+| 7 | Senior Appearance Manager | Bucuresti | [link](https://jobs.jobvite.com/pragmaticplay/job/ojIxAfwS) |
+| 8 | Audio Video Specialist | Bucuresti | [link](https://jobs.jobvite.com/pragmaticplay/job/o8JuAfwF) |
+| 9 | Head of Audio-Visual Research & Development | Bucuresti | [link](https://jobs.jobvite.com/pragmaticplay/job/oqa2zfwV) |
+| 10 | Audio-Visual R&D Engineer | Bucuresti | [link](https://jobs.jobvite.com/pragmaticplay/job/osa2zfwX) |
+| 11 | Audio-Visual R&D Specialist | Bucuresti | [link](https://jobs.jobvite.com/pragmaticplay/job/ona2zfwS) |
+| 12 | Gameshow Host | Bucuresti | [link](https://jobs.jobvite.com/pragmaticplay/job/oSiIAfwc) |
+| 13 | Game Presenter with English (No previous job experience needed!) | Bucuresti | [link](https://jobs.jobvite.com/pragmaticplay/job/oqcbvfw2) |
+| 14 | Audio-Visual Engineer | Bucuresti | [link](https://jobs.jobvite.com/pragmaticplay/job/oSDFwfwq) |
 
 ### PROCTORANDGAMBLE
 
 | # | Titlu | Oraș | URL |
 |---|-------|------|-----|
-| 1 | IT Senior Data Analyst | Bucuresti | [link](https://www.pgcareers.com/global/en/job/R000158172) |
-| 2 | Europe Finance Leaders of Tomorrow - Recruitment Event | Bucuresti | [link](https://www.pgcareers.com/global/en/job/R000158277) |
-| 3 | Senior Full Stack Software Engineer (.NET & React) | Bucuresti | [link](https://www.pgcareers.com/global/en/job/R000146967) |
-| 4 | Brand & Consumer Junior Advisor with German (full-time or part-time) | Bucuresti | [link](https://www.pgcareers.com/global/en/job/R000155582) |
-| 5 | Senior Software Engineer | Bucuresti | [link](https://www.pgcareers.com/global/en/job/R000152645) |
-| 6 | Payments Senior Specialist with German | Bucuresti | [link](https://www.pgcareers.com/global/en/job/R000150849) |
+| 1 | Brand & Consumer Junior Advisor with German (full-time or part-time) | Bucuresti | [link](https://www.pgcareers.com/global/en/job/R000155582) |
+| 2 | German Consumer Relations Senior Specialist | Bucuresti | [link](https://www.pgcareers.com/global/en/job/R000144465) |
+| 3 | IT Senior Data Analyst | Bucuresti | [link](https://www.pgcareers.com/global/en/job/R000158172) |
+| 4 | Senior Full Stack Software Engineer (.NET & React) | Bucuresti | [link](https://www.pgcareers.com/global/en/job/R000146967) |
+| 5 | Junior Accounts Receivable Analyst with Greek | Bucuresti | [link](https://www.pgcareers.com/global/en/job/R000155389) |
+| 6 | Senior Software Engineer | Bucuresti | [link](https://www.pgcareers.com/global/en/job/R000152645) |
+| 7 | Influencer & Community Senior Manager | Bucuresti | [link](https://www.pgcareers.com/global/en/job/R000158296) |
+| 8 | Europe Finance Leaders of Tomorrow - Recruitment Event | Bucuresti | [link](https://www.pgcareers.com/global/en/job/R000158277) |
 
 ### RAMADAIASI
 
@@ -346,69 +341,67 @@ Total job-uri afectate: **198**
 | 2 | receptioner | Iasi | [link](http://www.ramadaiasi.ro/cariere/#1) |
 | 3 | ospatar | Iasi | [link](http://www.ramadaiasi.ro/cariere/#2) |
 
-### REFUNDME
+### REMOFIRST
 
 | # | Titlu | Oraș | URL |
 |---|-------|------|-----|
-| 1 | Shopify App Developer (Backend + Frontend) | Dej | [link](https://devjob.ro/jobs/RefundMe-Shopify-App-Developer-Backend--Frontend) |
+| 1 | Senior Product Designer | - | [link](https://jobs.lever.co/remofirst/63afeacf-d50c-4cfd-a394-446728a02d52) |
+| 2 | Senior AI Engineer (Conversational AI) | Remote | [link](https://www.bestjobs.eu/loc-de-munca/senior-ai-engineer-conversational-ai) |
 
 ### SIEMENSHEALTHINEERS
 
 | # | Titlu | Oraș | URL |
 |---|-------|------|-----|
 | 1 | HR Advisor | Bucuresti | [link](https://jobs.siemens-healthineers.com/en_US/searchjobs/JobDetail/504916) |
-| 2 | Customer Service Engineer CT - Bucuresti | Bucuresti | [link](https://jobs.siemens-healthineers.com/en_US/searchjobs/JobDetail/515023) |
+| 2 | Start-up Engineer (m/f/d) for Magnetic Resonance Imaging (MRI) Systems | Bucuresti | [link](https://jobs.siemens-healthineers.com/en_US/searchjobs/JobDetail/517787) |
 
 ### SOWELO
 
 | # | Titlu | Oraș | URL |
 |---|-------|------|-----|
-| 1 | Android Engineer - Fully Remote | București | [link](https://soweloconsulting.applytojob.com/apply/jobs/details/1aZPu3Wgqu?&) |
-| 2 | Backend Engineer - Fully Remote | București | [link](https://soweloconsulting.applytojob.com/apply/jobs/details/erDKL0z5oB?&) |
-| 3 | iOS Engineer - Fully Remote | București | [link](https://soweloconsulting.applytojob.com/apply/jobs/details/RBz5vJzrAt?&) |
+| 1 | Lead Backend Engineer (Ruby On Rails) - Fully Remote | București | [link](https://soweloconsulting.applytojob.com/apply/jobs/details/eYxxK1GVlk?&) |
 
-### SPEEDSERVICESATUMARE
+### TECAGENCY
 
 | # | Titlu | Oraș | URL |
 |---|-------|------|-----|
-| 1 | MECANIC AUTO | Satu Mare | [link](https://speedservicesatumare.ro/cariere/#1) |
-| 2 | ELECTRICIAN AUTO | Satu Mare | [link](https://speedservicesatumare.ro/cariere/#2) |
-
-### TCANDC
-
-| # | Titlu | Oraș | URL |
-|---|-------|------|-----|
-| 1 | Java Developer | Oradea | [link](https://www.tcandc.com/company/career/software-developer.html) |
-| 2 | Software Tester | Oradea | [link](https://www.tcandc.com/company/career/software-tester.html) |
-| 3 | Senior Systems Engineer | Oradea | [link](https://www.tcandc.com/company/career/senior-systems-engineer.html) |
-| 4 | Systems Engineer | Oradea | [link](https://www.tcandc.com/company/career/systems-engineer.html) |
+| 1 | Full Stack Developer | Cluj-Napoca | [link](https://tecss.bamboohr.com/careers/72) |
 
 ### THALESGROUP
 
 | # | Titlu | Oraș | URL |
 |---|-------|------|-----|
-| 1 | IVQ NetOps Engineer (NATO Project) | Bucuresti | [link](https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/IVQ-NetOps-Engineer--NATO-Project-_R0337428) |
-| 2 | IVQ Operations Engineer (NATO Project) | Bucuresti | [link](https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/IVQ-Operations-Engineer--NATO-Project-_R0337371) |
-| 3 | Elite Fullstack Engineer (B1 French)– Shape Global Innovation | Bucuresti | [link](https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/Elite-Fullstack-Engineer--B1-French---Shape-Global-Innovation_R0331165) |
-| 4 | Security SRE - Bucharest Sovereign Cloud Hub | Bucuresti | [link](https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/Security-SRE---Bucharest-Sovereign-Cloud-Hub_R0332898) |
-| 5 | Data SRE — Bucharest Sovereign Cloud Hub | Bucuresti | [link](https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/Data-SRE---Bucharest-Sovereign-Cloud-Hub_R0332890) |
-| 6 | Network SRE — Bucharest Sovereign Cloud Hub | Bucuresti | [link](https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/Network-SRE---Bucharest-Sovereign-Cloud-Hub_R0332896) |
-| 7 | Enabling SRE — Bucharest Sovereign Cloud Hub | Bucuresti | [link](https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/Enabling-SRE---Bucharest-Sovereign-Cloud-Hub_R0332892) |
-| 8 | Python AI Agent Engineer (Mid-level) | Bucuresti | [link](https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/Python-AI-Agent-Engineer--Mid-level-_R0338175) |
-| 9 | Generative & Agentic AI Engineer - Air Traffic Management Innovation | Bucuresti | [link](https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/Generative---Agentic-AI-Engineer---Air-Traffic-Management-Innovation_R0334039) |
-| 10 | Team Manager - Software Engineering for Defence Naval Business | Bucuresti | [link](https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/Team-Manager---Software-Engineering-for-Defence-Naval-Business_R0330940-1) |
-| 11 | DevOps Engineer | Bucuresti | [link](https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/DevOps-Engineer_R0337481) |
-| 12 | Full Stack Tech Lead for Defense Business | Bucuresti | [link](https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/Full-Stack-Tech-Lead-for-Defense-Business_R0335757) |
-| 13 | Senior DBA Engineer - with Cassandra | Bucuresti | [link](https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/Senior-DBA-Engineer---with-Cassandra_R0330589) |
+| 1 | Generative & Agentic AI Engineer - Air Traffic Management Innovation | Bucuresti | [link](https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/Generative---Agentic-AI-Engineer---Air-Traffic-Management-Innovation_R0334039) |
+| 2 | Security SRE - Bucharest Sovereign Cloud Hub | Bucuresti | [link](https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/Security-SRE---Bucharest-Sovereign-Cloud-Hub_R0332898) |
+| 3 | Data SRE — Bucharest Sovereign Cloud Hub | Bucuresti | [link](https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/Data-SRE---Bucharest-Sovereign-Cloud-Hub_R0332890) |
+| 4 | Network SRE — Bucharest Sovereign Cloud Hub | Bucuresti | [link](https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/Network-SRE---Bucharest-Sovereign-Cloud-Hub_R0332896) |
+| 5 | Elite Fullstack Engineer (B1 French)– Shape Global Innovation | Bucuresti | [link](https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/Elite-Fullstack-Engineer--B1-French---Shape-Global-Innovation_R0331165) |
+| 6 | Enabling SRE — Bucharest Sovereign Cloud Hub | Bucuresti | [link](https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/Enabling-SRE---Bucharest-Sovereign-Cloud-Hub_R0332892) |
+| 7 | Python AI Agent Engineer (Mid-level) | Bucuresti | [link](https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/Python-AI-Agent-Engineer--Mid-level-_R0338175) |
+| 8 | C++ Software Engineer - Defence Naval Business | Bucuresti | [link](https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/C-C---Software-Engineer---Defence-Naval-Business_R0190603-1) |
+| 9 | Team Manager - Software Engineering for Defence Naval Business | Bucuresti | [link](https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/Team-Manager---Software-Engineering-for-Defence-Naval-Business_R0330940-1) |
+| 10 | DevOps Engineer | Bucuresti | [link](https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/DevOps-Engineer_R0337481) |
+| 11 | IVQ NetOps Engineer (NATO Project) | Bucuresti | [link](https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/IVQ-NetOps-Engineer--NATO-Project-_R0337428) |
+| 12 | IVQ Operations Engineer (NATO Project) | Bucuresti | [link](https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/IVQ-Operations-Engineer--NATO-Project-_R0337371) |
+| 13 | Full Stack Tech Lead for Defense Business | Bucuresti | [link](https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/Full-Stack-Tech-Lead-for-Defense-Business_R0335757) |
+| 14 | Senior Front-End Developer (UI Components & Design Tokens) – Quantum | Bucuresti | [link](https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/Senior-Front-End-Developer--UI-Components---Design-Tokens----Quantum_R0336024) |
+| 15 | Senior BI Engineer - LEA Team | Bucuresti | [link](https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/Senior-BI-Engineer---LEA-Team_R0326291) |
+| 16 | Senior Network Administrator with French | Bucuresti | [link](https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/Senior-Network-Administrator-with-French_R0314433) |
+| 17 | Validation Engineer with French for Biometric Systems | Bucuresti | [link](https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/Validation-Engineer-with-French-for-Biometric-Systems_R0329831) |
+| 18 | Sales Manager (Civil Identity, Border & Travel, Public Security Solutions) | Bucuresti | [link](https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/Sales-Manager--Civil-Identity--Border---Travel--Public-Security-Solutions-_R0338193) |
+| 19 | Infrastructure Engineer (with DevOps skills) | Bucuresti | [link](https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/Infrastructure-Engineer--with-DevOps-skills-_R0336201-1) |
 
 ### VITESCOTECHNOLOGIES
 
 | # | Titlu | Oraș | URL |
 |---|-------|------|-----|
-| 1 | Quality Customer Engineer | Ghimbav | [link](https://jobs.vitesco-technologies.com/job/Ghimbav-Quality-Customer-Engineer/1369181957/) |
-| 2 | Supplier Quality Engineer - Fuel Delivery Modules | Ghimbav | [link](https://jobs.vitesco-technologies.com/job/Ghimbav-Supplier-Quality-Engineer-Fuel-Delivery-Modules/1360816057/) |
-| 3 | Facility Maintenance Internship | Ghimbav | [link](https://jobs.vitesco-technologies.com/job/Ghimbav-Facility-Maintenance-Internship/1370459357/) |
-| 4 | SAP IT Consultant (SAP MM) | Timisoara | [link](https://jobs.vitesco-technologies.com/job/Timisoara-SAP-IT-Consultant-%28SAP-MM%29/1358191257/) |
+| 1 | SAP IT Consultant (SAP MM) | Timisoara | [link](https://jobs.vitesco-technologies.com/job/Timisoara-SAP-IT-Consultant-%28SAP-MM%29/1358191257/) |
+| 2 | Scrum Master | Timisoara | [link](https://jobs.vitesco-technologies.com/job/Timisoara-Scrum-Master-300699/1370336557/) |
+| 3 | Polarion Software Developer | Iasi | [link](https://jobs.vitesco-technologies.com/job/Iasi-Polarion-Software-Developer/1365763457/) |
+| 4 | Mechanical Engineers Innovation Factory | Timisoara | [link](https://jobs.vitesco-technologies.com/job/Timisoara-Mechanical-Engineers-Innovation-Factory/1371464757/) |
+| 5 | Mechanical Engineers Innovation Factory | Timisoara | [link](https://jobs.vitesco-technologies.com/job/Timisoara-Mechanical-Engineers-Innovation-Factory/1371464957/) |
+| 6 | Testing Technician | Sibiu | [link](https://jobs.vitesco-technologies.com/job/Sibiu-Testing-Technician/1368810657/) |
+| 7 | Supplier Quality Engineer - Fuel Delivery Modules | Ghimbav | [link](https://jobs.vitesco-technologies.com/job/Ghimbav-Supplier-Quality-Engineer-Fuel-Delivery-Modules/1360816057/) |
 
 ### WWF
 
@@ -417,12 +410,10 @@ Total job-uri afectate: **198**
 | 1 | Forest Expert | Bucuresti | [link](https://wwf.ro/despre-wwf/wwf-romania/cariere/forest-expert/) |
 | 2 | Freshwater Policy Expert | Bucuresti | [link](https://wwf.ro/despre-wwf/wwf-romania/cariere/freshwater-policy-expert/) |
 | 3 | Fundraiser Part-Time | Bucuresti | [link](https://wwf.ro/despre-wwf/wwf-romania/cariere/fundraiser-part-time/) |
+| 4 | Youth & Education for SustainableDevelopment Junior Officer | Bucuresti | [link](https://wwf.ro/despre-wwf/wwf-romania/cariere/youth-education-for-sustainable-development-junior-officer/) |
 
-### ZONKWAVE
+### XEBIA
 
 | # | Titlu | Oraș | URL |
 |---|-------|------|-----|
-| 1 | Tech Support | București | [link](https://zonkwave.com/job/technical-support-level-1/) |
-| 2 | IT Sales Specialist | București | [link](https://zonkwave.com/job/it-sales-specialist/) |
-| 3 | IT Project Manager | București | [link](https://zonkwave.com/job/project-manager/) |
-| 4 | QA Engineer | București | [link](https://zonkwave.com/job/qa-engineer/) |
+| 1 | Senior Data Architect / Data Engineer | Remote | [link](https://www.bestjobs.eu/loc-de-munca/senior-data-architect-data-engineer-2) |
