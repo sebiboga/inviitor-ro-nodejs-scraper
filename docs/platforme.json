@@ -1,111 +1,119 @@
 {
-  "generatedAt": "2026-09-11T12:46:05.821Z",
-  "totalDomains": 420,
+  "generatedAt": "2026-09-12T12:07:37.122Z",
+  "totalDomains": 409,
   "counts": {
-    "aggregators": 15,
-    "ats": 65,
-    "companies": 340
+    "aggregators": 16,
+    "ats": 67,
+    "companies": 326
   },
   "aggregators": [
     {
       "host": "iajob.ro",
-      "count": 280,
-      "url": "https://www.iajob.ro/locuri-de-munca/4xs5k3",
+      "count": 358,
+      "url": "https://www.iajob.ro/locuri-de-munca/gx303v",
       "type": "aggregator",
       "name": "iajob.ro",
       "companyCount": 3
     },
     {
       "host": "hipo.ro",
-      "count": 163,
-      "url": "https://www.hipo.ro/locuri-de-munca/locuri_de_munca/268878/Continental/HVAC-Engineer---Tires",
+      "count": 141,
+      "url": "https://www.hipo.ro/locuri-de-munca/locuri_de_munca/269229/BCR/Loan-Capital-Market-Expert-(Syndication-Unit)",
       "type": "aggregator",
       "name": "hipo.ro",
-      "companyCount": 13
-    },
-    {
-      "host": "bestjobs.eu",
-      "count": 80,
-      "url": "https://www.bestjobs.eu/loc-de-munca/finance-intern-ap-ar-1",
-      "type": "aggregator",
-      "name": "bestjobs.eu",
-      "companyCount": 80
+      "companyCount": 12
     },
     {
       "host": "jobradar24.ro",
-      "count": 74,
-      "url": "https://www.jobradar24.ro/anunt/category-manager-beauty-division-0k82nd",
+      "count": 118,
+      "url": "https://www.jobradar24.ro/anunt/lucrator-depozit-logistica-bacau-republicii-rr6zpm",
       "type": "aggregator",
       "name": "jobradar24.ro",
-      "companyCount": 9
+      "companyCount": 11
+    },
+    {
+      "host": "bestjobs.eu",
+      "count": 71,
+      "url": "https://www.bestjobs.eu/loc-de-munca/senior-php-developer-368",
+      "type": "aggregator",
+      "name": "bestjobs.eu",
+      "companyCount": 71
     },
     {
       "host": "ejobs.ro",
-      "count": 56,
-      "url": "https://www.ejobs.ro/user/locuri-de-munca/electromecanic/1979805",
+      "count": 51,
+      "url": "https://www.ejobs.ro/user/locuri-de-munca/recruiter-blue-collar-satu-mare/1983776",
       "type": "aggregator",
       "name": "ejobs.ro",
-      "companyCount": 17
+      "companyCount": 22
     },
     {
-      "host": "undelucram.ro",
-      "count": 47,
-      "url": "https://www.undelucram.ro/ro/locuri-de-munca/omniverse-architect/97779",
+      "host": "jobviewtrack.com",
+      "count": 41,
+      "url": "https://jobviewtrack.com/v2/3M0bpQ_M6Re7PWuJEu0CTRVeKxC4dR9UimONlx3kqknDHhd-rfclPOOahzIvpO3ZzJJU_pBp5a0KqcT6jLNymGOzlEaMEfHLmjv9C9fHCI5ON1a02ho47XZw4KIXCFooHzTazFZV1SrtwKOiL-2Bg0r9W1CWoGuA4s1TwlWj1oX20z5_6bqFwPzvRU4f5uCnzztoPvt6EII2CpH6wJS7Hcc9PmiyWz8XeiCdNJxqrNM",
       "type": "aggregator",
-      "name": "undelucram.ro",
-      "companyCount": 6
+      "name": "jobviewtrack.com",
+      "companyCount": 29
     },
     {
       "host": "jobs.engie.com",
-      "count": 44,
-      "url": "https://jobs.engie.com/job/Specialist-portofoliu-investitii/60067/",
+      "count": 34,
+      "url": "https://jobs.engie.com/job/Economist-perioada-determinata-12-luni/69360/",
       "type": "aggregator",
       "name": "jobs.engie.com",
       "companyCount": 2
     },
     {
+      "host": "jobs.porsche.com",
+      "count": 29,
+      "url": "https://jobs.porsche.com/index.php?ac=jobad&id=18906",
+      "type": "aggregator",
+      "name": "jobs.porsche.com",
+      "companyCount": 2
+    },
+    {
+      "host": "targuldecariere.ro",
+      "count": 29,
+      "url": "https://www.targuldecariere.ro/companii/schaeffler/18145/tehnician-de-calitate-laborator",
+      "type": "aggregator",
+      "name": "targuldecariere.ro",
+      "companyCount": 3
+    },
+    {
+      "host": "undelucram.ro",
+      "count": 27,
+      "url": "https://www.undelucram.ro/ro/locuri-de-munca/transportation-planner-12-months-contract/99714",
+      "type": "aggregator",
+      "name": "undelucram.ro",
+      "companyCount": 7
+    },
+    {
       "host": "jobs.ashbyhq.com",
-      "count": 43,
-      "url": "https://jobs.ashbyhq.com/uipath/63aa7b8e-873d-4b90-9498-2577889b61e9",
+      "count": 26,
+      "url": "https://jobs.ashbyhq.com/ruby-labs/15fe67f5-8451-4831-b8cb-e162a04569e7",
       "type": "aggregator",
       "name": "jobs.ashbyhq.com",
       "companyCount": 4
     },
     {
-      "host": "jobviewtrack.com",
-      "count": 35,
-      "url": "https://jobviewtrack.com/v2/YOUYLd0FFa4Ub9MsAPl89pObfn7byWdmPD5go_fNTJpGQzmMkumzCFG0aKDMt0UvX__4I3XyyKPigNERyCvFGrGmse-HmJ_wzWWziWJeH-Gsd1S4aI1ywMOm7aiOL3iwT9Dm1UnytXCWK3tnJ7ezdeqLiyPdXx2XhhlZ9YO7L9kn0Jr-YPQcpX8YjcQBJ-fi9jB0YJoKckEYJYtgK3YIZ3kdRagdCi3hUiHJhwJEFDA",
+      "host": "wd3.myworkdaysite.com",
+      "count": 19,
+      "url": "https://wd3.myworkdaysite.com/en-US/recruiting/mdlz/External/job/Bucharest-Romania/Demand---Replenishment-Planner--Co-packing-planner_R-176787-1",
       "type": "aggregator",
-      "name": "jobviewtrack.com",
-      "companyCount": 25
+      "name": "wd3.myworkdaysite.com",
+      "companyCount": 3
     },
     {
       "host": "careers-page.com",
-      "count": 33,
+      "count": 16,
       "url": "https://www.careers-page.com/ams-hr/job/L3983YVW",
       "type": "aggregator",
       "name": "careers-page.com",
       "companyCount": 4
     },
     {
-      "host": "wd3.myworkdaysite.com",
-      "count": 27,
-      "url": "https://wd3.myworkdaysite.com/en-US/recruiting/mdlz/External/job/Bucharest-Romania/Shopper-Marketing-Manager-Romania_R-173365-2",
-      "type": "aggregator",
-      "name": "wd3.myworkdaysite.com",
-      "companyCount": 3
-    },
-    {
-      "host": "jobs.porsche.com",
-      "count": 24,
-      "url": "https://jobs.porsche.com/index.php?ac=jobad&id=21030",
-      "type": "aggregator",
-      "name": "jobs.porsche.com",
-      "companyCount": 2
-    },
-    {
       "host": "jobs.ea.com",
-      "count": 12,
+      "count": 10,
       "url": "https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-C-EA-SPORTS-FC/216031",
       "type": "aggregator",
       "name": "jobs.ea.com",
@@ -113,8 +121,8 @@
     },
     {
       "host": "8ore.ro",
-      "count": 6,
-      "url": "https://8ore.ro/locuri-de-munca/sudor-mig-mag-tig",
+      "count": 5,
+      "url": "https://8ore.ro/locuri-de-munca/consultant-back-office",
       "type": "aggregator",
       "name": "8ore.ro",
       "companyCount": 3
@@ -122,7 +130,7 @@
     {
       "host": "oferimdemunca.ro",
       "count": 2,
-      "url": "https://oferimdemunca.ro/job/angajam-urgent-agenti-asistenta-rutiera-limba-germana-c1/",
+      "url": "https://oferimdemunca.ro/job/orange-angajeaza/",
       "type": "aggregator",
       "name": "oferimdemunca.ro",
       "companyCount": 2
@@ -131,304 +139,312 @@
   "ats": [
     {
       "host": "jobs.smartrecruiters.com",
-      "count": 188,
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000147189629",
+      "count": 190,
+      "url": "https://jobs.smartrecruiters.com/Coface/744000148508574",
       "type": "ats",
       "name": "SmartRecruiters",
       "companyCount": 11
     },
     {
       "host": "ing.wd3.myworkdayjobs.com",
-      "count": 69,
-      "url": "https://ing.wd3.myworkdayjobs.com/en-US/ICSGBLCOR/job/Bucharest---Dacia-One/Java-Development-Engineer-PSS-SEPA--ING-Hubs-Romania_REQ-10116108",
-      "type": "ats",
-      "name": "Workday",
-      "companyCount": 1
-    },
-    {
-      "host": "jobs.lever.co",
-      "count": 57,
-      "url": "https://jobs.lever.co/smart-working-solutions/971b1807-9fa0-4582-8156-5e275d68e0af",
-      "type": "ats",
-      "name": "Lever",
-      "companyCount": 12
-    },
-    {
-      "host": "egup.fa.us2.oraclecloud.com",
-      "count": 39,
-      "url": "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/requisitions/preview/20271431",
-      "type": "ats",
-      "name": "Oracle Cloud (OIC)",
-      "companyCount": 1
-    },
-    {
-      "host": "lseg.wd3.myworkdayjobs.com",
-      "count": 37,
-      "url": "https://lseg.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest---Iuliu-Maniu-Boulevard/Advisor---Employee-Services_R0120961-1",
-      "type": "ats",
-      "name": "Workday",
-      "companyCount": 1
-    },
-    {
-      "host": "nxp.wd3.myworkdayjobs.com",
-      "count": 37,
-      "url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Bucharest/Automotive-integration-engineer-for-S32K-SDK_R-10063785",
+      "count": 53,
+      "url": "https://ing.wd3.myworkdayjobs.com/en-US/ICSGBLCOR/job/Bucharest---Dacia-One/Customer-Loyalty-Member-with-French--ING-Hubs-Romania_REQ-10118699",
       "type": "ats",
       "name": "Workday",
       "companyCount": 1
     },
     {
       "host": "smartrecruiters.com",
-      "count": 29,
-      "url": "https://www.smartrecruiters.com/Eurofins/744000139039174",
+      "count": 47,
+      "url": "https://www.smartrecruiters.com/Eurofins/744000132684849",
       "type": "ats",
       "name": "SmartRecruiters",
       "companyCount": 1
     },
     {
-      "host": "jobs.jobvite.com",
-      "count": 27,
-      "url": "https://jobs.jobvite.com/pragmaticplay/job/oRQwAfwx",
+      "host": "lseg.wd3.myworkdayjobs.com",
+      "count": 42,
+      "url": "https://lseg.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest-Romania/Senior-Data-Engineer_R0122012",
       "type": "ats",
-      "name": "Jobvite",
-      "companyCount": 3
+      "name": "Workday",
+      "companyCount": 1
     },
     {
       "host": "job-boards.greenhouse.io",
-      "count": 25,
-      "url": "https://job-boards.greenhouse.io/remotecom/jobs/5922893003",
+      "count": 39,
+      "url": "https://job-boards.greenhouse.io/wolt/jobs/7821228",
       "type": "ats",
       "name": "Greenhouse",
-      "companyCount": 8
+      "companyCount": 9
     },
     {
-      "host": "michelinhr.wd3.myworkdayjobs.com",
+      "host": "jobs.lever.co",
+      "count": 35,
+      "url": "https://jobs.lever.co/qualysoft/3656126a-8a25-4907-9167-84c3e843a6f0",
+      "type": "ats",
+      "name": "Lever",
+      "companyCount": 9
+    },
+    {
+      "host": "nxp.wd3.myworkdayjobs.com",
+      "count": 34,
+      "url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Bucharest/Linux-Kernel---BSP-Software-Validation-Engineer_R-10063718-1",
+      "type": "ats",
+      "name": "Workday",
+      "companyCount": 1
+    },
+    {
+      "host": "egup.fa.us2.oraclecloud.com",
+      "count": 32,
+      "url": "https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/requisitions/preview/20276399",
+      "type": "ats",
+      "name": "Oracle Cloud (OIC)",
+      "companyCount": 1
+    },
+    {
+      "host": "jobs.jobvite.com",
       "count": 17,
-      "url": "https://michelinhr.wd3.myworkdayjobs.com/en-US/Michelin/job/Voluntari/Data-Scientist_R-2026029359-1",
+      "url": "https://jobs.jobvite.com//amberstudiocareers/job/omF5zfwp",
       "type": "ats",
-      "name": "Workday",
-      "companyCount": 1
-    },
-    {
-      "host": "thales.wd3.myworkdayjobs.com",
-      "count": 16,
-      "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/Elite-Fullstack-Engineer--B1-French---Shape-Global-Innovation_R0331165",
-      "type": "ats",
-      "name": "Workday",
-      "companyCount": 1
-    },
-    {
-      "host": "tbibankro.recruitee.com",
-      "count": 16,
-      "url": "https://tbibankro.recruitee.com/o/relationship-manager-auto-partners-bucuresti-3",
-      "type": "ats",
-      "name": "Recruitee",
-      "companyCount": 1
-    },
-    {
-      "host": "zentiva.wd3.myworkdayjobs.com",
-      "count": 15,
-      "url": "https://zentiva.wd3.myworkdayjobs.com/en-US/Zentiva/job/Czechia--Praha/GMP-Auditor_R2469322",
-      "type": "ats",
-      "name": "Workday",
-      "companyCount": 1
-    },
-    {
-      "host": "solenis.wd1.myworkdayjobs.com",
-      "count": 14,
-      "url": "https://solenis.wd1.myworkdayjobs.com/en-US/Solenis/job/Bucharest-Romania/Technical-Customer-Service-Admin_R0032546",
-      "type": "ats",
-      "name": "Workday",
-      "companyCount": 1
+      "name": "Jobvite",
+      "companyCount": 2
     },
     {
       "host": "kone.wd3.myworkdayjobs.com",
-      "count": 14,
-      "url": "https://kone.wd3.myworkdayjobs.com/en-US/Careers/job/Kansas-City-MO/Service-Superintendent_R0664439-1",
+      "count": 17,
+      "url": "https://kone.wd3.myworkdayjobs.com/en-US/Careers/job/Mexico-City/Maintenance-Technician-Academy_R0664245",
       "type": "ats",
       "name": "Workday",
       "companyCount": 1
     },
     {
       "host": "everymatrix.teamtailor.com",
-      "count": 13,
-      "url": "https://everymatrix.teamtailor.com/jobs/8103258-product-designer",
+      "count": 16,
+      "url": "https://everymatrix.teamtailor.com/jobs/7643274-head-of-operations-live-casino",
       "type": "ats",
       "name": "Teamtailor",
       "companyCount": 1
     },
     {
+      "host": "michelinhr.wd3.myworkdayjobs.com",
+      "count": 15,
+      "url": "https://michelinhr.wd3.myworkdayjobs.com/en-US/Michelin/job/Voluntari/Logistics-Invoicing-Trainee_R-2026032585",
+      "type": "ats",
+      "name": "Workday",
+      "companyCount": 1
+    },
+    {
       "host": "careers.oracle.com",
-      "count": 11,
-      "url": "https://careers.oracle.com/jobs/#en/sites/jobsearch/job/339013",
+      "count": 14,
+      "url": "https://careers.oracle.com/jobs/#en/sites/jobsearch/job/340276",
       "type": "ats",
       "name": "Oracle",
       "companyCount": 1
     },
     {
-      "host": "ag.wd3.myworkdayjobs.com",
-      "count": 9,
-      "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Bucharest/Senior-AI-Engineer_JR10438697",
-      "type": "ats",
-      "name": "Workday",
-      "companyCount": 1
-    },
-    {
-      "host": "iqvia.wd1.myworkdayjobs.com",
-      "count": 8,
-      "url": "https://iqvia.wd1.myworkdayjobs.com/IQVIA/job/Bucuresti-Romania/Registered-Dietitian---Clinical-Research-Support--Romania-_R1536837",
-      "type": "ats",
-      "name": "Workday",
-      "companyCount": 1
-    },
-    {
-      "host": "cgm.wd3.myworkdayjobs.com",
-      "count": 8,
-      "url": "https://cgm.wd3.myworkdayjobs.com/en-US/cgm/job/Iasi/IT-Support-Professional_JR110173",
-      "type": "ats",
-      "name": "Workday",
-      "companyCount": 1
-    },
-    {
-      "host": "hitachi.wd1.myworkdayjobs.com",
-      "count": 8,
-      "url": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Bucharest-Ilfov-Romania/System-Tester--Final-Functional-Tester_R1013221",
-      "type": "ats",
-      "name": "Workday",
-      "companyCount": 1
-    },
-    {
-      "host": "prysmiangroup.wd3.myworkdayjobs.com",
-      "count": 8,
-      "url": "https://prysmiangroup.wd3.myworkdayjobs.com/en-US/Careers/job/Milcov/Maintenance-Engineer_R-36445",
-      "type": "ats",
-      "name": "Workday",
-      "companyCount": 1
-    },
-    {
       "host": "ehth.fa.em2.oraclecloud.com",
-      "count": 7,
-      "url": "https://ehth.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/14274/?location=Romania&locationId=300000000275207&locationLevel=country&mode=location",
+      "count": 12,
+      "url": "https://ehth.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/12685/?location=Romania&locationId=300000000275207&locationLevel=country&mode=location",
       "type": "ats",
       "name": "Oracle Cloud (OIC)",
       "companyCount": 1
     },
     {
-      "host": "maersk.wd3.myworkdayjobs.com",
-      "count": 7,
-      "url": "https://maersk.wd3.myworkdayjobs.com/en-US/Maersk_Careers/job/Romania-Constanta-900746/Electrician--SF-_R169138",
-      "type": "ats",
-      "name": "Workday",
-      "companyCount": 1
-    },
-    {
       "host": "ehpv.fa.em2.oraclecloud.com",
-      "count": 6,
+      "count": 9,
       "url": "https://ehpv.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/preview/26588/?location=Romania&locationId=300000000275207&locationLevel=country&mode=location",
       "type": "ats",
       "name": "Oracle Cloud (OIC)",
       "companyCount": 1
     },
     {
+      "host": "solenis.wd1.myworkdayjobs.com",
+      "count": 9,
+      "url": "https://solenis.wd1.myworkdayjobs.com/en-US/Solenis/job/Bucharest-Romania/Technical-Customer-Service-Admin_R0032546",
+      "type": "ats",
+      "name": "Workday",
+      "companyCount": 1
+    },
+    {
+      "host": "cgm.wd3.myworkdayjobs.com",
+      "count": 9,
+      "url": "https://cgm.wd3.myworkdayjobs.com/en-US/cgm/job/Iasi/Senior-IT-System-Specialist---Platform-Operations--Linux-Focus-_JR110117",
+      "type": "ats",
+      "name": "Workday",
+      "companyCount": 1
+    },
+    {
       "host": "fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com",
-      "count": 6,
+      "count": 9,
       "url": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/36413/?location=Romania&locationId=300000000471997&locationLevel=country&mode=location&sortBy=POSTING_DATES_DESC",
       "type": "ats",
       "name": "Oracle Cloud (OIC)",
       "companyCount": 1
     },
     {
-      "host": "monnoyeur.wd103.myworkdayjobs.com",
-      "count": 6,
-      "url": "https://monnoyeur.wd103.myworkdayjobs.com/ro-RO/Monnoyeur/job/ALEXANDRIA-IPS/Consilier-Piese-de-Schimb-si-Service_JR2646?hiringCompany=e9240506062810102069e15158e50000",
+      "host": "thales.wd3.myworkdayjobs.com",
+      "count": 9,
+      "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/Python-AI-Agent-Engineer--Mid-level-_R0338175",
       "type": "ats",
       "name": "Workday",
       "companyCount": 1
     },
     {
-      "host": "jobs.eu.lever.co",
-      "count": 6,
-      "url": "https://jobs.eu.lever.co/hkr/2c8f2199-8f04-4759-b98f-a338f32145af",
+      "host": "tbibankro.recruitee.com",
+      "count": 7,
+      "url": "https://tbibankro.recruitee.com/o/senior-product-manager-lending-1",
       "type": "ats",
-      "name": "Lever",
+      "name": "Recruitee",
       "companyCount": 1
     },
     {
-      "host": "theaccessgroup.wd103.myworkdayjobs.com",
-      "count": 6,
-      "url": "https://theaccessgroup.wd103.myworkdayjobs.com/en-US/Access_Group_External_Careers/job/Timisoara/Finance-Business-Partner_JR004476-1",
+      "host": "zentiva.wd3.myworkdayjobs.com",
+      "count": 7,
+      "url": "https://zentiva.wd3.myworkdayjobs.com/en-US/Zentiva/job/Czechia--Praha/GMP-Auditor_R2469322",
       "type": "ats",
       "name": "Workday",
       "companyCount": 1
     },
     {
-      "host": "careers.smartrecruiters.com",
+      "host": "ag.wd3.myworkdayjobs.com",
       "count": 6,
-      "url": "https://careers.smartrecruiters.com/Ramboll3/jobs/744000043179840",
+      "url": "https://ag.wd3.myworkdayjobs.com/en-US/Airbus/job/Bucharest/Qlik-Sense-Developer---Data-Visualization_JR10393086",
       "type": "ats",
-      "name": "SmartRecruiters",
+      "name": "Workday",
       "companyCount": 1
     },
     {
-      "host": "crowdstrike.wd5.myworkdayjobs.com",
+      "host": "hitachi.wd1.myworkdayjobs.com",
+      "count": 6,
+      "url": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Bucharest-Bucharest-Romania/Product-Management-Specialist-GA_R0114540",
+      "type": "ats",
+      "name": "Workday",
+      "companyCount": 1
+    },
+    {
+      "host": "ecolab.wd1.myworkdayjobs.com",
       "count": 5,
-      "url": "https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/Ireland---Remote/Sr-Engineer-II---Sensors-Team--Remote-_R24071",
+      "url": "https://ecolab.wd1.myworkdayjobs.com/en-US/Ecolab_External/job/ROU---Bucuresti---Bucharest/Site-Manager_R00302326",
       "type": "ats",
       "name": "Workday",
       "companyCount": 1
     },
     {
-      "host": "premierresearch.wd12.myworkdayjobs.com",
+      "host": "iqvia.wd1.myworkdayjobs.com",
       "count": 5,
-      "url": "https://premierresearch.wd12.myworkdayjobs.com/en-US/PremierResearch/job/Romania/Senior-R-Programmer--Shiny-Developer_R6528?locations=9e662c32237d10020998e40b53a80000",
+      "url": "https://iqvia.wd1.myworkdayjobs.com/IQVIA/job/Bucuresti-Romania/Registered-Dietitian---Clinical-Research-Support--Romania-_R1536837",
       "type": "ats",
       "name": "Workday",
       "companyCount": 1
     },
     {
-      "host": "medtronic.wd1.myworkdayjobs.com",
+      "host": "prysmiangroup.wd3.myworkdayjobs.com",
       "count": 5,
-      "url": "https://medtronic.wd1.myworkdayjobs.com/en-US/medtroniccareers/job/Bucharest-Bucharest-Romania/Senior-Service-Sales-Specialist--South-Eastern-Europe_R67867-1",
-      "type": "ats",
-      "name": "Workday",
-      "companyCount": 1
-    },
-    {
-      "host": "molgroup.taleo.net",
-      "count": 4,
-      "url": "https://molgroup.taleo.net/careersection/external/jobdetail.ftl?job=258394&tz=GMT%2B02%3A00&tzname=Europe%2FBucharest",
-      "type": "ats",
-      "name": "Oracle Taleo",
-      "companyCount": 1
-    },
-    {
-      "host": "hp.wd5.myworkdayjobs.com",
-      "count": 4,
-      "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Bucharest-Bucureti-Romania/Collections-Analyst-with-Turkish-Skills_3165063-1",
-      "type": "ats",
-      "name": "Workday",
-      "companyCount": 1
-    },
-    {
-      "host": "alliancewd.wd3.myworkdayjobs.com",
-      "count": 3,
-      "url": "https://alliancewd.wd3.myworkdayjobs.com/ro-RO/renault-group-careers/job/Mioveni/XMLNAME--Internship--Optimizarea-procesului-de-realizare-adeverinte--F-M-_JOBREQ_50277575",
+      "url": "https://prysmiangroup.wd3.myworkdayjobs.com/en-US/Careers/job/Milcov/Medium-IT-Logistics-Business-Analyst_R-34312",
       "type": "ats",
       "name": "Workday",
       "companyCount": 1
     },
     {
       "host": "levistraussandco.wd5.myworkdayjobs.com",
-      "count": 3,
-      "url": "https://levistraussandco.wd5.myworkdayjobs.com/ro-RO/External/job/LS-SHOPPING-CITY-Timisoara-Romania/Sales-Stylist-Timisoara-Full-Time_R-0153648",
+      "count": 5,
+      "url": "https://levistraussandco.wd5.myworkdayjobs.com/ro-RO/External/job/LS-BANEASA-Bucharest-Romania/Sales-Stylist-Bucharest-Baneasa-Shopping-City-Romania-Full-time_R-0156697",
       "type": "ats",
       "name": "Workday",
       "companyCount": 1
     },
     {
-      "host": "nvent.wd5.myworkdayjobs.com",
+      "host": "kei.wd1.myworkdayjobs.com",
+      "count": 5,
+      "url": "https://kei.wd1.myworkdayjobs.com/en-US/GlobalKimballCareers/job/Kimball-Electronics-Romania/Production-Operator-SMT_R20261278",
+      "type": "ats",
+      "name": "Workday",
+      "companyCount": 1
+    },
+    {
+      "host": "monnoyeur.wd103.myworkdayjobs.com",
+      "count": 4,
+      "url": "https://monnoyeur.wd103.myworkdayjobs.com/ro-RO/Monnoyeur/job/ORADEA-IPS/Tehnician-Service_JR3005?hiringCompany=e9240506062810102069e15158e50000",
+      "type": "ats",
+      "name": "Workday",
+      "companyCount": 1
+    },
+    {
+      "host": "premierresearch.wd12.myworkdayjobs.com",
+      "count": 4,
+      "url": "https://premierresearch.wd12.myworkdayjobs.com/en-US/PremierResearch/job/United-Kingdom/Vice-President--Medical-Affairs--Psychiatry-_R6636?locations=9e662c32237d10020998e40b53a80000",
+      "type": "ats",
+      "name": "Workday",
+      "companyCount": 1
+    },
+    {
+      "host": "theaccessgroup.wd103.myworkdayjobs.com",
+      "count": 4,
+      "url": "https://theaccessgroup.wd103.myworkdayjobs.com/en-US/Access_Group_External_Careers/job/Timisoara/Cloud-Security-Engineer_JR001852-3",
+      "type": "ats",
+      "name": "Workday",
+      "companyCount": 1
+    },
+    {
+      "host": "crowdstrike.wd5.myworkdayjobs.com",
+      "count": 4,
+      "url": "https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/United-Kingdom---Remote/Sr-Data-Scientist---Gen-AI--Remote-_R29878",
+      "type": "ats",
+      "name": "Workday",
+      "companyCount": 1
+    },
+    {
+      "host": "jobs.eu.lever.co",
+      "count": 4,
+      "url": "https://jobs.eu.lever.co/hkr/4735b2d5-6d3f-48ac-a04f-9454c6576721",
+      "type": "ats",
+      "name": "Lever",
+      "companyCount": 1
+    },
+    {
+      "host": "motorolasolutions.wd5.myworkdayjobs.com",
+      "count": 4,
+      "url": "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/Careers/job/Ukraine-Offsite-ZKU99/Associate-Territory-Director-Silvus--Ukraine_R63031",
+      "type": "ats",
+      "name": "Workday",
+      "companyCount": 1
+    },
+    {
+      "host": "medtronic.wd1.myworkdayjobs.com",
+      "count": 4,
+      "url": "https://medtronic.wd1.myworkdayjobs.com/en-US/medtroniccareers/job/Bucharest-Bucharest-Romania/Senior-Service-Sales-Specialist--South-Eastern-Europe_R67867-1",
+      "type": "ats",
+      "name": "Workday",
+      "companyCount": 1
+    },
+    {
+      "host": "apply.workable.com",
       "count": 3,
-      "url": "https://nvent.wd5.myworkdayjobs.com/job/Brasov-RO/Category-Leader-Electronics_R23212",
+      "url": "https://apply.workable.com/flowxai/j/78AB65FCED/",
+      "type": "ats",
+      "name": "Workable",
+      "companyCount": 2
+    },
+    {
+      "host": "hcmportal.wd5.myworkdayjobs.com",
+      "count": 3,
+      "url": "https://hcmportal.wd5.myworkdayjobs.com/en-US/Search/job/RO---HENRI-COANDA-INTERNATIONAL-AIRPORT-ROOPN/Sorter-PM-PT_R24008056",
+      "type": "ats",
+      "name": "Workday",
+      "companyCount": 1
+    },
+    {
+      "host": "ttiemea.wd3.myworkdayjobs.com",
+      "count": 3,
+      "url": "https://ttiemea.wd3.myworkdayjobs.com/ro-RO/TTI/job/Field-Based-Romania/Area-Sales-Representative-PT-OPE-Milwaukee-Romania_JR3740",
+      "type": "ats",
+      "name": "Workday",
+      "companyCount": 1
+    },
+    {
+      "host": "mitel.wd3.myworkdayjobs.com",
+      "count": 3,
+      "url": "https://mitel.wd3.myworkdayjobs.com/en-US/MitelCareers/job/Brasov/Senior-Technical-Support-specialist_R012208",
       "type": "ats",
       "name": "Workday",
       "companyCount": 1
@@ -442,57 +458,41 @@
       "companyCount": 1
     },
     {
-      "host": "motorolasolutions.wd5.myworkdayjobs.com",
+      "host": "alliancewd.wd3.myworkdayjobs.com",
       "count": 3,
-      "url": "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/Careers/job/Germany-Offsite-ZWG99/Technical-Architect-PreSales-Europe_R67839-1",
+      "url": "https://alliancewd.wd3.myworkdayjobs.com/ro-RO/renault-group-careers/job/Bucuresti/XMLNAME--Internship--Accounting---General-Ledger_JOBREQ_50276025",
       "type": "ats",
       "name": "Workday",
       "companyCount": 1
     },
     {
-      "host": "apply.workable.com",
+      "host": "hp.wd5.myworkdayjobs.com",
       "count": 3,
-      "url": "https://apply.workable.com/fioneer/j/5A478673D9",
-      "type": "ats",
-      "name": "Workable",
-      "companyCount": 2
-    },
-    {
-      "host": "kei.wd1.myworkdayjobs.com",
-      "count": 3,
-      "url": "https://kei.wd1.myworkdayjobs.com/en-US/GlobalKimballCareers/job/Kimball-Electronics-Romania/Production-Operator-SMT_R20261278",
-      "type": "ats",
-      "name": "Workday",
-      "companyCount": 1
-    },
-    {
-      "host": "workforcenow.adp.com",
-      "count": 2,
-      "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=41a778b2-3a5e-42c7-9770-87f62458fb3e&ccId=9200871461420_2&jobId=9201032729634_1&lang=en_US",
-      "type": "ats",
-      "name": "ADP",
-      "companyCount": 1
-    },
-    {
-      "host": "adient.wd3.myworkdayjobs.com",
-      "count": 2,
-      "url": "https://adient.wd3.myworkdayjobs.com/en-US/External/job/RomaniaJimbolia/Manufacturing-Engineering_R-29291",
-      "type": "ats",
-      "name": "Workday",
-      "companyCount": 1
-    },
-    {
-      "host": "hcmportal.wd5.myworkdayjobs.com",
-      "count": 2,
-      "url": "https://hcmportal.wd5.myworkdayjobs.com/en-US/Search/job/RO---HENRI-COANDA-INTERNATIONAL-AIRPORT-ROOPN/Sorter-PM-PT_R24008056",
+      "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Bucharest-Bucureti-Romania/HP-Qualcomm-Retail-Experience-Lead--EMEA_3161440-1",
       "type": "ats",
       "name": "Workday",
       "companyCount": 1
     },
     {
       "host": "ptc.wd1.myworkdayjobs.com",
+      "count": 3,
+      "url": "https://ptc.wd1.myworkdayjobs.com/en-US/PTC/job/ROM-Bucharest-PO/Compliance-Coordinator_JR112495",
+      "type": "ats",
+      "name": "Workday",
+      "companyCount": 1
+    },
+    {
+      "host": "snyk.wd103.myworkdayjobs.com",
       "count": 2,
-      "url": "https://ptc.wd1.myworkdayjobs.com/en-US/PTC/job/ROM-Bucharest-PO/Education-Customer-Operations-Specialist_JR112550",
+      "url": "https://snyk.wd103.myworkdayjobs.com/External/job/Romania---Bucharest-Office/Senior-Technical-Success-Manager_JR100779",
+      "type": "ats",
+      "name": "Workday",
+      "companyCount": 1
+    },
+    {
+      "host": "nvent.wd5.myworkdayjobs.com",
+      "count": 2,
+      "url": "https://nvent.wd5.myworkdayjobs.com/job/Brasov-RO/Marketing-Specialist_R23027",
       "type": "ats",
       "name": "Workday",
       "companyCount": 1
@@ -506,49 +506,89 @@
       "companyCount": 2
     },
     {
-      "host": "mitel.wd3.myworkdayjobs.com",
+      "host": "careers.smartrecruiters.com",
       "count": 2,
-      "url": "https://mitel.wd3.myworkdayjobs.com/en-US/MitelCareers/job/Brasov/Senior-Technical-Support-specialist_R012208",
+      "url": "https://careers.smartrecruiters.com/Ramboll3/jobs/744000043179840",
       "type": "ats",
-      "name": "Workday",
+      "name": "SmartRecruiters",
+      "companyCount": 1
+    },
+    {
+      "host": "molgroup.taleo.net",
+      "count": 2,
+      "url": "https://molgroup.taleo.net/careersection/external/jobdetail.ftl?job=275516&tz=GMT%2B02%3A00&tzname=Europe%2FBucharest",
+      "type": "ats",
+      "name": "Oracle Taleo",
       "companyCount": 1
     },
     {
       "host": "slihrms.wd3.myworkdayjobs.com",
       "count": 2,
-      "url": "https://slihrms.wd3.myworkdayjobs.com/en-US/Careers/job/CAONMississauga2251-Speakman-Drive/VP-Nuclear-Island---Monark_R-160423",
+      "url": "https://slihrms.wd3.myworkdayjobs.com/en-US/Careers/job/INBangaloreAVTowers/OAC-Reporting-Engineer_R-160163",
       "type": "ats",
       "name": "Workday",
       "companyCount": 1
     },
     {
-      "host": "ecolab.wd1.myworkdayjobs.com",
+      "host": "stryker.wd1.myworkdayjobs.com",
       "count": 2,
-      "url": "https://ecolab.wd1.myworkdayjobs.com/en-US/Ecolab_External/job/ROU---Bucuresti---Bucharest/Site-Manager_R00302326",
+      "url": "https://stryker.wd1.myworkdayjobs.com/en-US/StrykerCareers/job/Bucharest-Romania/QA-Specialist--2-Year-Fixed-Term-Contract-_R568714",
       "type": "ats",
       "name": "Workday",
+      "companyCount": 1
+    },
+    {
+      "host": "gsknch.wd3.myworkdayjobs.com",
+      "count": 1,
+      "url": "https://gsknch.wd3.myworkdayjobs.com/en-US/GSKCareers/job/Field-Worker---ROU/Sales-Representative_547398?locations=03fe97f04c9a017ec1d4d4e8a757dd50",
+      "type": "ats",
+      "name": "Workday",
+      "companyCount": 1
+    },
+    {
+      "host": "analogdevices.wd1.myworkdayjobs.com",
+      "count": 1,
+      "url": "https://analogdevices.wd1.myworkdayjobs.com/en-US/External/job/Romania-Cluj-Napoca/Principal-Engineer--Embedded-Software_R262716",
+      "type": "ats",
+      "name": "Workday",
+      "companyCount": 1
+    },
+    {
+      "host": "bengenro.bamboohr.com",
+      "count": 1,
+      "url": "https://bengenro.bamboohr.com/careers/146",
+      "type": "ats",
+      "name": "BambooHR",
+      "companyCount": 1
+    },
+    {
+      "host": "workforcenow.adp.com",
+      "count": 1,
+      "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=41a778b2-3a5e-42c7-9770-87f62458fb3e&ccId=9200871461420_2&jobId=9201032729634_1&lang=en_US",
+      "type": "ats",
+      "name": "ADP",
+      "companyCount": 1
+    },
+    {
+      "host": "eedu.fa.em3.oraclecloud.com",
+      "count": 1,
+      "url": "https://eedu.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/202603893/?lastSelectedFacet=LOCATIONS&selectedLocationsFacet=300000000346767",
+      "type": "ats",
+      "name": "Oracle Cloud (OIC)",
       "companyCount": 1
     },
     {
       "host": "flextronics.wd1.myworkdayjobs.com",
-      "count": 2,
+      "count": 1,
       "url": "https://flextronics.wd1.myworkdayjobs.com/ro-RO/Careers/job/Romania-Timisoara/System-Architect-Power-Electronics_WD227559",
       "type": "ats",
       "name": "Workday",
       "companyCount": 1
     },
     {
-      "host": "jobs.workable.com",
+      "host": "maersk.wd3.myworkdayjobs.com",
       "count": 1,
-      "url": "https://jobs.workable.com/view/jyqhgcUk5z8Bt2HinAqf8k/employer-branding-specialist---fixed-term---18-months-(maternity-cover)-in-cluj-napoca-at-mindera",
-      "type": "ats",
-      "name": "Workable",
-      "companyCount": 1
-    },
-    {
-      "host": "dennemeyer.wd3.myworkdayjobs.com",
-      "count": 1,
-      "url": "https://dennemeyer.wd3.myworkdayjobs.com/en-US/dennemeyer_careers/job/Brasov/Intellectual-Property-Specialist_2025-0290-1",
+      "url": "https://maersk.wd3.myworkdayjobs.com/en-US/Maersk_Careers/job/Romania-Bucharest-011853/Accountant--1-Year-_R190541",
       "type": "ats",
       "name": "Workday",
       "companyCount": 1
@@ -562,73 +602,9 @@
       "companyCount": 1
     },
     {
-      "host": "sec.wd3.myworkdayjobs.com",
+      "host": "trimble.wd1.myworkdayjobs.com",
       "count": 1,
-      "url": "https://sec.wd3.myworkdayjobs.com/en-US/Samsung_Careers/job/Metroffice-Bucharest-2-Romania/Payroll-Partner_R119822",
-      "type": "ats",
-      "name": "Workday",
-      "companyCount": 1
-    },
-    {
-      "host": "tecss.bamboohr.com",
-      "count": 1,
-      "url": "https://tecss.bamboohr.com/careers/72",
-      "type": "ats",
-      "name": "BambooHR",
-      "companyCount": 1
-    },
-    {
-      "host": "stryker.wd1.myworkdayjobs.com",
-      "count": 1,
-      "url": "https://stryker.wd1.myworkdayjobs.com/en-US/StrykerCareers/job/Bucharest-Romania/Sales-Representative--Orthopedics---Bucharest_R562076",
-      "type": "ats",
-      "name": "Workday",
-      "companyCount": 1
-    },
-    {
-      "host": "partnerd.teamtailor.com",
-      "count": 1,
-      "url": "https://partnerd.teamtailor.com/jobs/7086732-live-casino-presenter-3500-8000-net",
-      "type": "ats",
-      "name": "Teamtailor",
-      "companyCount": 1
-    },
-    {
-      "host": "job-boards.eu.greenhouse.io",
-      "count": 1,
-      "url": "https://job-boards.eu.greenhouse.io/kambi/jobs/4949566101",
-      "type": "ats",
-      "name": "Greenhouse",
-      "companyCount": 1
-    },
-    {
-      "host": "veoneerro.teamtailor.com",
-      "count": 1,
-      "url": "https://veoneerro.teamtailor.com/jobs/2855066-hardware-engineer",
-      "type": "ats",
-      "name": "Teamtailor",
-      "companyCount": 1
-    },
-    {
-      "host": "transperfect.wd5.myworkdayjobs.com",
-      "count": 1,
-      "url": "https://transperfect.wd5.myworkdayjobs.com/en-US/transperfect/job/RO-Bucharest/Backend-Developer--NET-C--_R2025-243424",
-      "type": "ats",
-      "name": "Workday",
-      "companyCount": 1
-    },
-    {
-      "host": "yougov.wd103.myworkdayjobs.com",
-      "count": 1,
-      "url": "https://yougov.wd103.myworkdayjobs.com/YouGov_External_Careers/job/Bucharest-Romania/Market-Analyst_JR1014",
-      "type": "ats",
-      "name": "Workday",
-      "companyCount": 1
-    },
-    {
-      "host": "borgwarner.wd5.myworkdayjobs.com",
-      "count": 1,
-      "url": "https://borgwarner.wd5.myworkdayjobs.com/en-US/BorgWarner_Careers/job/Bucharest---Romania/Financial-Analyst_R2026-3385",
+      "url": "https://trimble.wd1.myworkdayjobs.com/en-US/TrimbleCareers/job/Poland---Cracow/Junior-Carrier-Onboarding-Project-Manager--fixed-term-_R57359",
       "type": "ats",
       "name": "Workday",
       "companyCount": 1
@@ -642,325 +618,373 @@
       "companyCount": 1
     },
     {
-      "host": "eedu.fa.em3.oraclecloud.com",
+      "host": "veoneerro.teamtailor.com",
       "count": 1,
-      "url": "https://eedu.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/202603893/?lastSelectedFacet=LOCATIONS&selectedLocationsFacet=300000000346767",
+      "url": "https://veoneerro.teamtailor.com/jobs/8296611-it-security-engineer",
       "type": "ats",
-      "name": "Oracle Cloud (OIC)",
+      "name": "Teamtailor",
+      "companyCount": 1
+    },
+    {
+      "host": "sec.wd3.myworkdayjobs.com",
+      "count": 1,
+      "url": "https://sec.wd3.myworkdayjobs.com/en-US/Samsung_Careers/job/Metroffice-Bucharest-2-Romania/IT-Support-Specialist_R119983",
+      "type": "ats",
+      "name": "Workday",
+      "companyCount": 1
+    },
+    {
+      "host": "adient.wd3.myworkdayjobs.com",
+      "count": 1,
+      "url": "https://adient.wd3.myworkdayjobs.com/en-US/External/job/RomaniaJimbolia/Manufacturing-Engineering_R-29291",
+      "type": "ats",
+      "name": "Workday",
+      "companyCount": 1
+    },
+    {
+      "host": "partnerd.teamtailor.com",
+      "count": 1,
+      "url": "https://partnerd.teamtailor.com/jobs/7086732-live-casino-presenter-3500-8000-net",
+      "type": "ats",
+      "name": "Teamtailor",
+      "companyCount": 1
+    },
+    {
+      "host": "borgwarner.wd5.myworkdayjobs.com",
+      "count": 1,
+      "url": "https://borgwarner.wd5.myworkdayjobs.com/en-US/BorgWarner_Careers/job/Bucharest---Romania/AI---Automation-Engineer_R2026-3180",
+      "type": "ats",
+      "name": "Workday",
+      "companyCount": 1
+    },
+    {
+      "host": "tecss.bamboohr.com",
+      "count": 1,
+      "url": "https://tecss.bamboohr.com/careers/72",
+      "type": "ats",
+      "name": "BambooHR",
+      "companyCount": 1
+    },
+    {
+      "host": "dennemeyer.wd3.myworkdayjobs.com",
+      "count": 1,
+      "url": "https://dennemeyer.wd3.myworkdayjobs.com/en-US/dennemeyer_careers/job/Brasov/Intellectual-Property-Specialist_2025-0290-1",
+      "type": "ats",
+      "name": "Workday",
       "companyCount": 1
     }
   ],
   "companies": [
     {
       "host": "teamland.ro",
-      "count": 475,
-      "url": "https://www.teamland.ro/apply.php?id=1405#content",
+      "count": 502,
+      "url": "https://www.teamland.ro/apply.php?id=1058#content",
       "type": "company",
       "name": "teamland.ro",
       "companyCount": 1
     },
     {
       "host": "prohuman.ro",
-      "count": 458,
-      "url": "https://www.prohuman.ro/candidati/jobs/Pram_Electrician",
+      "count": 484,
+      "url": "https://www.prohuman.ro/candidati/jobs/Technical-Order-Production-Planning-Specialist-BOM",
       "type": "company",
       "name": "prohuman.ro",
       "companyCount": 1
     },
     {
       "host": "helperz.ro",
-      "count": 316,
-      "url": "https://helperz.ro/locuri-de-munca/anunt/6a7626dc16fd0900020fd460",
+      "count": 279,
+      "url": "https://helperz.ro/locuri-de-munca/anunt/6a9e92f8c4d5080002823a36",
       "type": "company",
       "name": "helperz.ro",
       "companyCount": 1
     },
     {
       "host": "leohr.ro",
-      "count": 221,
-      "url": "https://www.leohr.ro/jobs/quality-customer-engineer/403/",
+      "count": 253,
+      "url": "https://www.leohr.ro/jobs/head-of-purchasing-automotive/521/",
       "type": "company",
       "name": "leohr.ro",
       "companyCount": 1
     },
     {
       "host": "jobs.siemens-energy.com",
-      "count": 111,
-      "url": "https://jobs.siemens-energy.com/en_US/jobs/FolderDetail/Head-of-License-Management/302958",
+      "count": 89,
+      "url": "https://jobs.siemens-energy.com/en_US/jobs/FolderDetail/Senior-Procurement-Consultant/301284",
       "type": "company",
       "name": "jobs.siemens-energy.com",
       "companyCount": 1
     },
     {
-      "host": "cariere.lidl.ro",
-      "count": 97,
-      "url": "https://cariere.lidl.ro/jobs/vanzator-zalau-mihai-viteazu-f-m-zalau-743838",
-      "type": "company",
-      "name": "cariere.lidl.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "cariere.reginamaria.ro",
-      "count": 92,
-      "url": "https://cariere.reginamaria.ro/company/regina-maria-1/jobs/menajere-infirmiere-2",
-      "type": "company",
-      "name": "cariere.reginamaria.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "careers.db.com",
-      "count": 89,
-      "url": "https://careers.db.com/professionals/search-roles/#/professional/job/74447",
-      "type": "company",
-      "name": "careers.db.com",
-      "companyCount": 1
-    },
-    {
-      "host": "apply.deloittece.com",
-      "count": 78,
-      "url": "https://apply.deloittece.com/en_US/careers/JobDetail/Junior-Finance-Operations-Specialist-OTC-with-Hungarian-Portuguese-Spanish-French/19893",
-      "type": "company",
-      "name": "apply.deloittece.com",
-      "companyCount": 1
-    },
-    {
       "host": "d-career.org",
-      "count": 77,
-      "url": "https://d-career.org/Draexlmaier/job/Hunedoara-Logistic-Specialist-331110/1400380133/",
+      "count": 84,
+      "url": "https://d-career.org/Draexlmaier/job/Pitesti-Internship-Opportunity-Data-Engineer-for-Process-Mining-%28Celonis%29-110101/1433775733/",
       "type": "company",
       "name": "d-career.org",
       "companyCount": 1
     },
     {
-      "host": "careers.ing.com",
-      "count": 75,
-      "url": "https://careers.ing.com/en/job/bucharest/it-business-analyst-pricing-tribe-ipa-data-product-ing-hubs-romania/3121/41775489536",
+      "host": "cariere.reginamaria.ro",
+      "count": 82,
+      "url": "https://cariere.reginamaria.ro/company/regina-maria-1/jobs/medic-recuperare-medicala-kinetic",
       "type": "company",
-      "name": "careers.ing.com",
-      "companyCount": 1
-    },
-    {
-      "host": "capgemini.com",
-      "count": 68,
-      "url": "https://www.capgemini.com/ro-en/jobs/548136-en_GB_SAPBTP/senior-gis-consultant-/-technical-lead",
-      "type": "company",
-      "name": "capgemini.com",
-      "companyCount": 1
-    },
-    {
-      "host": "jobs.worldline.com",
-      "count": 67,
-      "url": "https://jobs.worldline.com/job/Site-Reliability-Engineer-Professional/305142-en_US",
-      "type": "company",
-      "name": "jobs.worldline.com",
-      "companyCount": 1
-    },
-    {
-      "host": "career.luxoft.com",
-      "count": 65,
-      "url": "https://career.luxoft.com/jobs/site-reliability-engineer-senior-24960",
-      "type": "company",
-      "name": "career.luxoft.com",
-      "companyCount": 1
-    },
-    {
-      "host": "aecom.jobs",
-      "count": 64,
-      "url": "https://aecom.jobs/bucharest-rom/junior-engineer-td/BE789A30F0004102B11AB21D0E182DBF/job/",
-      "type": "company",
-      "name": "aecom.jobs",
-      "companyCount": 1
-    },
-    {
-      "host": "careers.wipro.com",
-      "count": 63,
-      "url": "https://careers.wipro.com/job/Indirect-Category-Buyer/107163-en_US",
-      "type": "company",
-      "name": "careers.wipro.com",
+      "name": "cariere.reginamaria.ro",
       "companyCount": 1
     },
     {
       "host": "cariere.kaufland.rohttps",
-      "count": 60,
-      "url": "https://cariere.kaufland.rohttps://cariere.kaufland.ro/jobs/sef-raion-cluj-intre-lacuri-f-m-cluj-napoca-404472",
+      "count": 79,
+      "url": "https://cariere.kaufland.rohttps://cariere.kaufland.ro/jobs/lucrator-comercial-part-time-calarasi-magureni-f-m-calarasi-409958",
       "type": "company",
       "name": "cariere.kaufland.rohttps",
       "companyCount": 1
     },
     {
-      "host": "jobs.keysight.com",
-      "count": 58,
-      "url": "https://jobs.keysight.com/external/jobs/53476",
+      "host": "careers.db.com",
+      "count": 74,
+      "url": "https://careers.db.com/professionals/search-roles/#/professional/job/75593",
       "type": "company",
-      "name": "jobs.keysight.com",
+      "name": "careers.db.com",
+      "companyCount": 1
+    },
+    {
+      "host": "cariere.lidl.ro",
+      "count": 74,
+      "url": "https://cariere.lidl.ro/jobs/vanzator-orsova-f-m-orsova-745752",
+      "type": "company",
+      "name": "cariere.lidl.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "apply.deloittece.com",
+      "count": 74,
+      "url": "https://apply.deloittece.com/en_US/careers/JobDetail/Junior-Collections-Specialist-with-Portuguese/19540",
+      "type": "company",
+      "name": "apply.deloittece.com",
+      "companyCount": 1
+    },
+    {
+      "host": "career.luxoft.com",
+      "count": 64,
+      "url": "https://career.luxoft.com/jobs/senior-migration-consultant-27105",
+      "type": "company",
+      "name": "career.luxoft.com",
+      "companyCount": 1
+    },
+    {
+      "host": "capgemini.com",
+      "count": 64,
+      "url": "https://www.capgemini.com/ro-en/jobs/552698-en_GB_SAPBTP/senior-business-analyst",
+      "type": "company",
+      "name": "capgemini.com",
+      "companyCount": 1
+    },
+    {
+      "host": "careers.ing.com",
+      "count": 64,
+      "url": "https://careers.ing.com/en/job/bucharest/commercial-product-manager-wholesale-banking-ing-bank/3121/44487320384",
+      "type": "company",
+      "name": "careers.ing.com",
       "companyCount": 1
     },
     {
       "host": "careers.nttdata.ro",
-      "count": 53,
-      "url": "https://careers.nttdata.ro/nttdataromania/job/Sibiu-Senior-QA-Automation-Engineer-%28Selenium%2C-Java%2C-Playwright%29/1418403533/",
+      "count": 61,
+      "url": "https://careers.nttdata.ro/nttdataromania/job/Brasov-Java-Engineering-Lead-with-German/1434285033/",
       "type": "company",
       "name": "careers.nttdata.ro",
       "companyCount": 1
     },
     {
-      "host": "jobs.schaeffler.com",
-      "count": 52,
-      "url": "https://jobs.schaeffler.com/job/Brasov-Data-&-Analytics-Professional-507075/1401351133/",
+      "host": "careers.wipro.com",
+      "count": 60,
+      "url": "https://careers.wipro.com/job/PR2PO-Buyer-with-FrenchEnglishMDM-Buyer-with-French/160689/",
       "type": "company",
-      "name": "jobs.schaeffler.com",
+      "name": "careers.wipro.com",
       "companyCount": 1
     },
     {
       "host": "accenture.com",
-      "count": 51,
-      "url": "https://www.accenture.com/ro-en/careers/jobdetails?id=R00331450_en&title=AI+Solution+Architect",
+      "count": 53,
+      "url": "https://www.accenture.com/ro-en/careers/jobdetails?id=R00354888_en&title=SAP+GTS+Consultant+with+German",
       "type": "company",
       "name": "accenture.com",
       "companyCount": 1
     },
     {
-      "host": "jobs.bosch.com",
+      "host": "aecom.jobs",
       "count": 48,
-      "url": "https://jobs.bosch.com/en/job/REF295535W-working-student-in-data-analysis-and-logistics-support",
+      "url": "https://aecom.jobs/bucharest-rom/project-accountant-iii/6088BC8423DA4C0B96685884CD057B5F/job/",
       "type": "company",
-      "name": "jobs.bosch.com",
+      "name": "aecom.jobs",
       "companyCount": 1
     },
     {
-      "host": "jobs.continental.com",
-      "count": 45,
-      "url": "https://jobs.continental.com/en/detail-page/job-detail/REF96695H-p-14c71187bcff594d700d5c33077e4f70/product-industrialization-engineer-cttr",
+      "host": "jobs.keysight.com",
+      "count": 47,
+      "url": "https://jobs.keysight.com/external/jobs/54272",
       "type": "company",
-      "name": "jobs.continental.com",
+      "name": "jobs.keysight.com",
+      "companyCount": 1
+    },
+    {
+      "host": "elytis-hospital.ro",
+      "count": 46,
+      "url": "https://elytis-hospital.ro/cariere/fizioterapeut-cu-experienta-in-patologia-oncologica/",
+      "type": "company",
+      "name": "elytis-hospital.ro",
       "companyCount": 1
     },
     {
       "host": "jobs-cee.pwc.com",
-      "count": 44,
-      "url": "https://jobs-cee.pwc.com/ce/en/job/731794WD",
+      "count": 42,
+      "url": "https://jobs-cee.pwc.com/ce/en/job/666652WD",
       "type": "company",
       "name": "jobs-cee.pwc.com",
       "companyCount": 1
     },
     {
+      "host": "jobs.bosch.com",
+      "count": 41,
+      "url": "https://jobs.bosch.com/en/job/REF291286Y-data-modeler-senior",
+      "type": "company",
+      "name": "jobs.bosch.com",
+      "companyCount": 1
+    },
+    {
       "host": "cariere.raiffeisen.ro",
       "count": 40,
-      "url": "https://cariere.raiffeisen.ro/company/raiffeisen-bank/jobs/application-support-devops-engineer-professional-it",
+      "url": "https://cariere.raiffeisen.ro/company/raiffeisen-bank/jobs/responsabil-clientela-comunitate-antreprenori-banat-4",
       "type": "company",
       "name": "cariere.raiffeisen.ro",
       "companyCount": 1
     },
     {
-      "host": "jobs.vodafone.com",
-      "count": 39,
-      "url": "https://jobs.vodafone.com/careers/job/563018696844022",
+      "host": "careers.hcltech.com",
+      "count": 40,
+      "url": "https://careers.hcltech.com/job/Design-Lead/154776-en_US",
       "type": "company",
-      "name": "jobs.vodafone.com",
-      "companyCount": 1
-    },
-    {
-      "host": "globallogic.com",
-      "count": 39,
-      "url": "https://www.globallogic.com/careers/iam-security-architect-irc302833-2/",
-      "type": "company",
-      "name": "globallogic.com",
-      "companyCount": 1
-    },
-    {
-      "host": "librabank.ro",
-      "count": 38,
-      "url": "https://www.librabank.ro/Cariere/Business+Analyst/1455",
-      "type": "company",
-      "name": "librabank.ro",
+      "name": "careers.hcltech.com",
       "companyCount": 1
     },
     {
       "host": "careers.n-ix.com",
-      "count": 36,
-      "url": "https://careers.n-ix.com/jobs/4476010101-php-middle/",
+      "count": 40,
+      "url": "https://careers.n-ix.com/jobs/4478180101-other-business-professionals-senior-leader/",
       "type": "company",
       "name": "careers.n-ix.com",
       "companyCount": 1
     },
     {
+      "host": "jobs.continental.com",
+      "count": 39,
+      "url": "https://jobs.continental.com/en/detail-page/job-detail/REF99504M-p-b2ed6067500789f6a582b07be865c421/hr-internship-law-student-tires",
+      "type": "company",
+      "name": "jobs.continental.com",
+      "companyCount": 1
+    },
+    {
+      "host": "jobs.vodafone.com",
+      "count": 38,
+      "url": "https://jobs.vodafone.com/careers/job/563018697926377",
+      "type": "company",
+      "name": "jobs.vodafone.com",
+      "companyCount": 1
+    },
+    {
+      "host": "jobs.worldline.com",
+      "count": 38,
+      "url": "https://jobs.worldline.com/job/Quality-Manager/304418-en_US",
+      "type": "company",
+      "name": "jobs.worldline.com",
+      "companyCount": 1
+    },
+    {
+      "host": "librabank.ro",
+      "count": 37,
+      "url": "https://www.librabank.ro/Cariere/Sr+Project+Manager+(Scrum+Master)+-+Divizia+Managementul+Calitatii+Proceselor/1301",
+      "type": "company",
+      "name": "librabank.ro",
+      "companyCount": 1
+    },
+    {
       "host": "antal.com",
-      "count": 35,
-      "url": "https://www.antal.com/job-search/97397-qhse-manager-in-bucharest",
+      "count": 37,
+      "url": "https://www.antal.com/job-search/GC_002610-head-of-accounting",
       "type": "company",
       "name": "antal.com",
       "companyCount": 1
     },
     {
-      "host": "careers.honeywell.com",
-      "count": 35,
-      "url": "https://careers.honeywell.com/en/sites/Honeywell/job/147267",
+      "host": "globallogic.com",
+      "count": 36,
+      "url": "https://www.globallogic.com/careers/senior-ml-engineer-irc302152/",
       "type": "company",
-      "name": "careers.honeywell.com",
+      "name": "globallogic.com",
+      "companyCount": 1
+    },
+    {
+      "host": "cariere.mega-image.ro",
+      "count": 36,
+      "url": "https://cariere.mega-image.ro/post-vacant/1043/demand-replenishment-analyst",
+      "type": "company",
+      "name": "cariere.mega-image.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "jobs.schaeffler.com",
+      "count": 36,
+      "url": "https://jobs.schaeffler.com/job/Brasov-Montator-subansamble-507075/1435682833/",
+      "type": "company",
+      "name": "jobs.schaeffler.com",
+      "companyCount": 1
+    },
+    {
+      "host": "jobs.arcadis.com",
+      "count": 34,
+      "url": "https://jobs.arcadis.com/careers/job/563671531072566",
+      "type": "company",
+      "name": "jobs.arcadis.com",
+      "companyCount": 1
+    },
+    {
+      "host": "urbanconnect.ro",
+      "count": 33,
+      "url": "https://urbanconnect.ro/jobsid/java-developer/",
+      "type": "company",
+      "name": "urbanconnect.ro",
       "companyCount": 1
     },
     {
       "host": "recrutare.dedeman.ro",
-      "count": 35,
+      "count": 31,
       "url": "https://recrutare.dedeman.ro/detalii-post?job=consultant+vanzari&id=cb4d387b-08fa-4ed1-9fc4-68ee63c53fd9",
       "type": "company",
       "name": "recrutare.dedeman.ro",
       "companyCount": 1
     },
     {
-      "host": "recrutaresiselectie.ro",
-      "count": 34,
-      "url": "https://recrutaresiselectie.ro/job/reprezentant-medical-11/",
+      "host": "careers.honeywell.com",
+      "count": 31,
+      "url": "https://careers.honeywell.com/en/sites/Honeywell/job/156656",
       "type": "company",
-      "name": "recrutaresiselectie.ro",
+      "name": "careers.honeywell.com",
       "companyCount": 1
     },
     {
-      "host": "jobs.rinf.tech",
-      "count": 32,
-      "url": "https://jobs.rinf.tech/221740",
+      "host": "cni.ro",
+      "count": 31,
+      "url": "https://www.cni.ro/noutati/anunturi/-id-2093-cmsid-66",
       "type": "company",
-      "name": "jobs.rinf.tech",
-      "companyCount": 1
-    },
-    {
-      "host": "urbanconnect.ro",
-      "count": 32,
-      "url": "https://urbanconnect.ro/jobsid/senior-platform-engineer-with-mlops-and-databricks/",
-      "type": "company",
-      "name": "urbanconnect.ro",
+      "name": "cni.ro",
       "companyCount": 1
     },
     {
       "host": "erpahr.ro",
-      "count": 32,
-      "url": "https://erpahr.ro/jobs?ref=568&title=inginer-instalatii-de-racire-on-site",
+      "count": 29,
+      "url": "https://erpahr.ro/jobs?ref=561&title=farmacist-sef",
       "type": "company",
       "name": "erpahr.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "eu.rsystems.com",
-      "count": 31,
-      "url": "https://eu.rsystems.com/gis-engineer/",
-      "type": "company",
-      "name": "eu.rsystems.com",
-      "companyCount": 1
-    },
-    {
-      "host": "techtalent.ro",
-      "count": 30,
-      "url": "https://www.techtalent.ro/careers/senior-full-stack-developer/",
-      "type": "company",
-      "name": "techtalent.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "jobs.arcadis.com",
-      "count": 29,
-      "url": "https://jobs.arcadis.com/careers/job/563671532414939",
-      "type": "company",
-      "name": "jobs.arcadis.com",
       "companyCount": 1
     },
     {
@@ -972,331 +996,283 @@
       "companyCount": 1
     },
     {
-      "host": "digitalcareers.infosys.com",
-      "count": 29,
-      "url": "https://digitalcareers.infosys.com/global-careers/company-job/description/reqid/152407BR",
-      "type": "company",
-      "name": "digitalcareers.infosys.com",
-      "companyCount": 1
-    },
-    {
       "host": "jobs.bunge.com",
-      "count": 26,
-      "url": "https://jobs.bunge.com/job/Bucharest-Country-Controller-Bucharest-office-077199/1401250033/",
+      "count": 28,
+      "url": "https://jobs.bunge.com/job/Traian-Mecanic-%28Mechanic%29-Traian-Silo-Brai-817175/1418780833/",
       "type": "company",
       "name": "jobs.bunge.com",
       "companyCount": 1
     },
     {
-      "host": "careers.hcltech.com",
-      "count": 25,
-      "url": "https://careers.hcltech.com/job/Administrator-NetApp-FAS%2C-EMC-Isilion/157989-en_US",
-      "type": "company",
-      "name": "careers.hcltech.com",
-      "companyCount": 1
-    },
-    {
-      "host": "jobs.atos.net",
-      "count": 24,
-      "url": "https://jobs.atos.net/job/Sofia-International-Mobility-Senior-Specialist-with-French/1391654633/",
-      "type": "company",
-      "name": "jobs.atos.net",
-      "companyCount": 1
-    },
-    {
-      "host": "selgros.mingle.ro",
-      "count": 24,
-      "url": "https://selgros.mingle.ro/ro/embed/apply/Mouf6A",
-      "type": "company",
-      "name": "selgros.mingle.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "cariere.mega-image.ro",
-      "count": 24,
-      "url": "https://cariere.mega-image.ro/post-vacant/1030/business-analyst-transportation",
-      "type": "company",
-      "name": "cariere.mega-image.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "careers.allianz.com",
-      "count": 24,
-      "url": "https://careers.allianz.com/global/en/job/101107",
-      "type": "company",
-      "name": "careers.allianz.com",
-      "companyCount": 1
-    },
-    {
-      "host": "jobsearch.alstom.com",
-      "count": 24,
-      "url": "https://jobsearch.alstom.com/job/Bucharest-Project-Quality-and-Safety-Manager-B/1388458433/",
-      "type": "company",
-      "name": "jobsearch.alstom.com",
-      "companyCount": 1
-    },
-    {
-      "host": "skk.erecruiter.pl",
-      "count": 24,
-      "url": "https://skk.erecruiter.pl/Offer.aspx?oid=4573657&cfg=5CF1057684834EAF9639234516F6481A&ejoId=436752&ejorId=182996&comId=20136094",
-      "type": "company",
-      "name": "skk.erecruiter.pl",
-      "companyCount": 1
-    },
-    {
       "host": "ppc.jobful.io",
-      "count": 23,
+      "count": 28,
       "url": "https://ppc.jobful.io/company/ppc-energy/jobs/key-account-manager-regiunea-sud-est",
       "type": "company",
       "name": "ppc.jobful.io",
       "companyCount": 1
     },
     {
-      "host": "career.softserveinc.com",
-      "count": 22,
-      "url": "https://career.softserveinc.com/en-us/vacancy/senior-java-software-engineer-data-gcp-90034",
+      "host": "jobs.rinf.tech",
+      "count": 27,
+      "url": "https://jobs.rinf.tech/210224",
       "type": "company",
-      "name": "career.softserveinc.com",
+      "name": "jobs.rinf.tech",
       "companyCount": 1
     },
     {
-      "host": "hn-services.com",
-      "count": 22,
-      "url": "https://www.hn-services.com/en/we-recruit/data-engineer/",
+      "host": "selgros.mingle.ro",
+      "count": 27,
+      "url": "https://selgros.mingle.ro/ro/embed/apply/KqeACg",
       "type": "company",
-      "name": "hn-services.com",
+      "name": "selgros.mingle.ro",
       "companyCount": 1
     },
     {
       "host": "cariere.penny.ro",
-      "count": 22,
-      "url": "https://cariere.penny.ro/joburi/aplica/vanzari#20",
+      "count": 26,
+      "url": "https://cariere.penny.ro/joburi/aplica/vanzari#25",
       "type": "company",
       "name": "cariere.penny.ro",
       "companyCount": 1
     },
     {
-      "host": "drmaxromania.com",
-      "count": 22,
-      "url": "https://drmaxromania.com/job/farmacist-dr-max-targu-secuiesc/",
+      "host": "careers.allianz.com",
+      "count": 25,
+      "url": "https://careers.allianz.com/global/en/job/94466",
       "type": "company",
-      "name": "drmaxromania.com",
+      "name": "careers.allianz.com",
       "companyCount": 1
     },
     {
-      "host": "amazon.jobs",
-      "count": 20,
-      "url": "https://www.amazon.jobs/en/jobs/10502263/ahs-specialist-spa-account-health-support",
+      "host": "recrutaresiselectie.ro",
+      "count": 24,
+      "url": "https://recrutaresiselectie.ro/job/inginer-ofertare-oferta-tehnica-constructii-infrastructura-rutiera/",
       "type": "company",
-      "name": "amazon.jobs",
+      "name": "recrutaresiselectie.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "career.softserveinc.com",
+      "count": 24,
+      "url": "https://career.softserveinc.com/en-us/vacancy/lead-full-stack-software-engineer-90588",
+      "type": "company",
+      "name": "career.softserveinc.com",
+      "companyCount": 1
+    },
+    {
+      "host": "techtalent.ro",
+      "count": 24,
+      "url": "https://www.techtalent.ro/careers/senior-test-automation-engineer/",
+      "type": "company",
+      "name": "techtalent.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "digitalcareers.infosys.com",
+      "count": 24,
+      "url": "https://digitalcareers.infosys.com/global-careers/company-job/description/reqid/151734BR",
+      "type": "company",
+      "name": "digitalcareers.infosys.com",
       "companyCount": 1
     },
     {
       "host": "inetum.com",
-      "count": 19,
-      "url": "https://www.inetum.com/global/en/careers/5b3e3b0f-32cc-4c82-99d1-3a6c6922b31e.html",
+      "count": 23,
+      "url": "https://www.inetum.com/global/en/careers/d463ec9e-8a3d-4a37-8c56-721b5728b283.html",
       "type": "company",
       "name": "inetum.com",
       "companyCount": 1
     },
     {
-      "host": "careers.glovoapp.com",
-      "count": 19,
-      "url": "https://careers.glovoapp.com/job/growth-lead-romania-in-bucharest-romania-jid-744000139275039/",
+      "host": "hn-services.com",
+      "count": 23,
+      "url": "https://www.hn-services.com/en/we-recruit/frontend-fullstack-net-developer/",
       "type": "company",
-      "name": "careers.glovoapp.com",
+      "name": "hn-services.com",
       "companyCount": 1
     },
     {
-      "host": "tremend.com",
-      "count": 18,
-      "url": "https://tremend.com/career/fullstack-java-engineer-java-angular-senior-associate-financial-services-5/",
+      "host": "jobs.atos.net",
+      "count": 22,
+      "url": "https://jobs.atos.net/job/Timisoara-Salesforce-Developer/1277226501/",
       "type": "company",
-      "name": "tremend.com",
-      "companyCount": 1
-    },
-    {
-      "host": "careers.quality-ai.com",
-      "count": 18,
-      "url": "https://careers.quality-ai.com//job/Bucharest-Kantata-Administrator/58122044/",
-      "type": "company",
-      "name": "careers.quality-ai.com",
+      "name": "jobs.atos.net",
       "companyCount": 1
     },
     {
       "host": "romaero.com",
-      "count": 16,
-      "url": "https://romaero.com/cariere/anunt-angajare-tinichigiu-structurist-aviatie-atelier-compozite/",
+      "count": 22,
+      "url": "https://romaero.com/cariere/anunt-angajare-lacatus-constructii-structuri-aeronave-diram/",
       "type": "company",
       "name": "romaero.com",
       "companyCount": 1
     },
     {
-      "host": "careers.yazaki.com",
-      "count": 16,
-      "url": "https://careers.yazaki.com/job/Process-Improvement-Specialist/1351236155/",
-      "type": "company",
-      "name": "careers.yazaki.com",
-      "companyCount": 1
-    },
-    {
-      "host": "cariere.decathlon.ro",
-      "count": 16,
-      "url": "https://cariere.decathlon.ro/jobs/consilier-servicii-clienti-decathlon-iasi-cdQJ",
-      "type": "company",
-      "name": "cariere.decathlon.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "jobsearch.harman.com",
-      "count": 16,
-      "url": "https://jobsearch.harman.com/en_US/careers/JobDetail/Co-Program-Manager/32637",
-      "type": "company",
-      "name": "jobsearch.harman.com",
-      "companyCount": 1
-    },
-    {
-      "host": "omniasig.mingle.ro",
-      "count": 16,
-      "url": "https://omniasig.mingle.ro/ro/apply/sqZmWw",
-      "type": "company",
-      "name": "omniasig.mingle.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "jobs.infineon.com",
-      "count": 16,
-      "url": "https://jobs.infineon.com/careers/job/563808969002441",
-      "type": "company",
-      "name": "jobs.infineon.com",
-      "companyCount": 1
-    },
-    {
-      "host": "crosswork.sincron.biz",
-      "count": 15,
-      "url": "https://crosswork.sincron.biz/jobs/details/602/junior-sales-representative-chemistry-pharmaceutical-background",
-      "type": "company",
-      "name": "crosswork.sincron.biz",
-      "companyCount": 1
-    },
-    {
       "host": "hella.csod.com",
-      "count": 14,
-      "url": "https://hella.csod.com/ux/ats/careersite/3/home/requisition/18087?c=hella",
+      "count": 21,
+      "url": "https://hella.csod.com/ux/ats/careersite/3/home/requisition/18837?c=hella",
       "type": "company",
       "name": "hella.csod.com",
       "companyCount": 1
     },
     {
-      "host": "cariere.bancatransilvania.ro",
-      "count": 14,
-      "url": "https://cariere.bancatransilvania.ro/joburi-disponibile/responsabil-relatii-clienti-4",
+      "host": "msg-systems.ro",
+      "count": 21,
+      "url": "https://www.msg-systems.ro/en/careers/job-offerings/cobol-developer-automotive/",
       "type": "company",
-      "name": "cariere.bancatransilvania.ro",
+      "name": "msg-systems.ro",
       "companyCount": 1
     },
     {
-      "host": "careers.celestica.com",
-      "count": 14,
-      "url": "https://careers.celestica.com/job/Oradea-Decision-Support-Specialist-BH/1435761333/",
+      "host": "drmaxromania.com",
+      "count": 20,
+      "url": "https://drmaxromania.com/job/operator-stocuri-dr-max-beauty-sector-6/",
       "type": "company",
-      "name": "careers.celestica.com",
+      "name": "drmaxromania.com",
       "companyCount": 1
     },
     {
-      "host": "fancourier.ro",
-      "count": 14,
-      "url": "https://www.fancourier.ro/cariere/logistica/manipulant-marfa-fm-logistica/",
+      "host": "skk.erecruiter.pl",
+      "count": 19,
+      "url": "https://skk.erecruiter.pl/Offer.aspx?oid=4940545&cfg=5CF1057684834EAF9639234516F6481A&ejoId=573430&ejorId=235523&comId=20136094",
       "type": "company",
-      "name": "fancourier.ro",
+      "name": "skk.erecruiter.pl",
       "companyCount": 1
     },
     {
-      "host": "teamtailor.salesconsulting.ro",
-      "count": 14,
-      "url": "https://teamtailor.salesconsulting.ro/jobs/8339431-specialist-subscriere-property",
+      "host": "careers.glovoapp.com",
+      "count": 19,
+      "url": "https://careers.glovoapp.com/job/people-partner-romania-in-bucharest-romania-jid-744000139059550/",
       "type": "company",
-      "name": "teamtailor.salesconsulting.ro",
+      "name": "careers.glovoapp.com",
       "companyCount": 1
     },
     {
-      "host": "jobs.vitesco-technologies.com",
-      "count": 14,
-      "url": "https://jobs.vitesco-technologies.com/job/Timisoara-SAP-IT-Consultant-%28SAP-MM%29/1358191257/",
+      "host": "jobs.infineon.com",
+      "count": 17,
+      "url": "https://jobs.infineon.com/careers/job/563808969062045",
       "type": "company",
-      "name": "jobs.vitesco-technologies.com",
+      "name": "jobs.infineon.com",
       "companyCount": 1
     },
     {
-      "host": "erstegroup-careers.com",
-      "count": 13,
-      "url": "https://erstegroup-careers.com/bcr/job/Bucuresti-Relationship-Manager-%28Energy-and-Utilities%29/1409188533/",
+      "host": "crowe.mingle.ro",
+      "count": 16,
+      "url": "https://crowe.mingle.ro/en/apply/rg_y7A",
       "type": "company",
-      "name": "erstegroup-careers.com",
+      "name": "crowe.mingle.ro",
       "companyCount": 1
     },
     {
-      "host": "jobboerse.strabag.at",
-      "count": 13,
-      "url": "https://jobboerse.strabag.at/job-detail.php?ReqId=req78580&language=RO&source=",
+      "host": "netromsoftware.ro",
+      "count": 16,
+      "url": "https://www.netromsoftware.ro/Cariere/cpp-developer-timisoara/",
       "type": "company",
-      "name": "jobboerse.strabag.at",
+      "name": "netromsoftware.ro",
       "companyCount": 1
     },
     {
-      "host": "chorus.ro",
-      "count": 13,
-      "url": "https://www.chorus.ro/Careers/JobApplication/7?job=Inginer%20tehnic%20comercial",
+      "host": "jobsearch.alstom.com",
+      "count": 15,
+      "url": "https://jobsearch.alstom.com/job/Cluj-Napoca-Senior-Buyer-Printing-Managed-Services%2C-Collaborative-hardware-&amp;-Fixed-Telephony/1435574433/",
       "type": "company",
-      "name": "chorus.ro",
+      "name": "jobsearch.alstom.com",
       "companyCount": 1
     },
     {
-      "host": "kpmg-romania.talentlyft.com",
-      "count": 13,
-      "url": "https://kpmg-romania.talentlyft.com/jobs/id244783-consultant-forensic-services-ci9S",
+      "host": "makitajobs.ro",
+      "count": 15,
+      "url": "https://makitajobs.ro/traducator-limba-japoneza/",
       "type": "company",
-      "name": "kpmg-romania.talentlyft.com",
+      "name": "makitajobs.ro",
       "companyCount": 1
     },
     {
       "host": "careers.adobe.com",
-      "count": 13,
-      "url": "https://careers.adobe.com/us/en/job/R169502",
+      "count": 15,
+      "url": "https://careers.adobe.com/us/en/job/R171200",
       "type": "company",
       "name": "careers.adobe.com",
       "companyCount": 1
     },
     {
-      "host": "cni.ro",
-      "count": 13,
-      "url": "https://www.cni.ro/noutati/anunturi/-id-2133-cmsid-66",
+      "host": "cariere.decathlon.ro",
+      "count": 15,
+      "url": "https://cariere.decathlon.ro/jobs/tehnician-reparatii-biciclete-decathlon-constanta-cdPU",
       "type": "company",
-      "name": "cni.ro",
+      "name": "cariere.decathlon.ro",
       "companyCount": 1
     },
     {
-      "host": "careers.htecgroup.com",
-      "count": 12,
-      "url": "https://careers.htecgroup.com/jobs/solution-architect-ci1s",
+      "host": "hrsro.com",
+      "count": 15,
+      "url": "https://www.hrsro.com/job-posts/project-manager",
       "type": "company",
-      "name": "careers.htecgroup.com",
+      "name": "hrsro.com",
       "companyCount": 1
     },
     {
       "host": "careers.ey.com",
-      "count": 12,
-      "url": "https://careers.ey.com/ey/job/Cluj-Napoca-Flexible-Internship-in-Audit-HUB-Team-400592/1384201333/",
+      "count": 14,
+      "url": "https://careers.ey.com/ey/job/Bucharest-Senior-Consultant-Finance-Transformation-%28French-Speaking%29-011171/1416663633/",
       "type": "company",
       "name": "careers.ey.com",
       "companyCount": 1
     },
     {
-      "host": "leoni.ro",
-      "count": 12,
-      "url": "https://www.leoni.ro/en/jobs-portal/detail/senior-expert-ultrasonic-welding-m-f-d-sr744000137106200",
+      "host": "careers.htecgroup.com",
+      "count": 14,
+      "url": "https://careers.htecgroup.com/jobs/senior-ai-engineer-cdGT",
       "type": "company",
-      "name": "leoni.ro",
+      "name": "careers.htecgroup.com",
+      "companyCount": 1
+    },
+    {
+      "host": "jobboerse.strabag.at",
+      "count": 14,
+      "url": "https://jobboerse.strabag.at/job-detail.php?ReqId=req78922&language=RO&source=",
+      "type": "company",
+      "name": "jobboerse.strabag.at",
+      "companyCount": 1
+    },
+    {
+      "host": "rian-partners.com",
+      "count": 13,
+      "url": "https://rian-partners.com/en/job/quality-controller/",
+      "type": "company",
+      "name": "rian-partners.com",
+      "companyCount": 1
+    },
+    {
+      "host": "jobs.zollner.ro",
+      "count": 13,
+      "url": "https://jobs.zollner.ro/jobposting/d2ab167d3da9b6cc389943d9b1df583cf969a4b20",
+      "type": "company",
+      "name": "jobs.zollner.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "signal-iduna.ro",
+      "count": 12,
+      "url": "https://www.signal-iduna.ro/ro/cariere/Operator%20Call%20Center",
+      "type": "company",
+      "name": "signal-iduna.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "jobs.lenovo.com",
+      "count": 12,
+      "url": "https://jobs.lenovo.com/careers/JobDetail/Software-developer/75917",
+      "type": "company",
+      "name": "jobs.lenovo.com",
+      "companyCount": 1
+    },
+    {
+      "host": "atp-group.ro",
+      "count": 12,
+      "url": "https://atp-group.ro/cariere/job/consilier-v%C3%A2nzare-auto-rulate-ID43",
+      "type": "company",
+      "name": "atp-group.ro",
       "companyCount": 1
     },
     {
@@ -1308,17 +1284,9 @@
       "companyCount": 1
     },
     {
-      "host": "bioclinica.ro",
-      "count": 12,
-      "url": "https://bioclinica.ro/compania/cariere/asistent-medical-de-laborator-bucuresti",
-      "type": "company",
-      "name": "bioclinica.ro",
-      "companyCount": 1
-    },
-    {
       "host": "jobs.jti.com",
       "count": 11,
-      "url": "https://jobs.jti.com/job/BUCHAREST-Demand-and-Supply-Network-Planning-Manager-020335/1235671901/",
+      "url": "https://jobs.jti.com/job/BUCHAREST-REGIONAL-CONSUMER-CARE-MANAGER-020335/1431057933/",
       "type": "company",
       "name": "jobs.jti.com",
       "companyCount": 1
@@ -1326,65 +1294,49 @@
     {
       "host": "careers.ses.com",
       "count": 11,
-      "url": "https://careers.ses.com/job/Bucharest-HR-Analytics-and-Workforce-Planning-Senior-Analyst-RO-020339/1407060833/",
+      "url": "https://careers.ses.com/job/Bucharest-Senior-Product-Program-Specialist/1429505533/",
       "type": "company",
       "name": "careers.ses.com",
       "companyCount": 1
     },
     {
-      "host": "careers.veeam.com",
-      "count": 10,
-      "url": "https://careers.veeam.com/job/bucharest/customer-success-renewals-representative-enterprise-with-turkish/22681/99202787648",
-      "type": "company",
-      "name": "careers.veeam.com",
-      "companyCount": 1
-    },
-    {
       "host": "leviatan.ro",
-      "count": 10,
-      "url": "https://leviatan.ro/inginer-proiectant-instalatii-electrice-curenti-slabi/",
+      "count": 11,
+      "url": "https://leviatan.ro/inginer-proiectant-instalatii-hvac/",
       "type": "company",
       "name": "leviatan.ro",
       "companyCount": 1
     },
     {
-      "host": "ad01.com",
-      "count": 10,
-      "url": "https://www.ad01.com/vacature/221/specialist-pmo",
+      "host": "crosswork.sincron.biz",
+      "count": 11,
+      "url": "https://crosswork.sincron.biz/jobs/details/602/junior-sales-representative-chemistry-pharmaceutical-background",
       "type": "company",
-      "name": "ad01.com",
+      "name": "crosswork.sincron.biz",
       "companyCount": 1
     },
     {
-      "host": "updivision.com",
-      "count": 10,
-      "url": "https://updivision.com/careers/content-creator-with-an-eye-for-ux-design",
+      "host": "careers.yazaki.com",
+      "count": 11,
+      "url": "https://careers.yazaki.com/job/Production-Team-Manager/1365657955/",
       "type": "company",
-      "name": "updivision.com",
+      "name": "careers.yazaki.com",
       "companyCount": 1
     },
     {
-      "host": "corporate.stihl.ro",
-      "count": 10,
-      "url": "https://corporate.stihl.ro/ro/cariera/locuri-de-munca/detalii-job/2524014",
+      "host": "eu.rsystems.com",
+      "count": 11,
+      "url": "https://eu.rsystems.com/java-backend-engineer-id-15065/",
       "type": "company",
-      "name": "corporate.stihl.ro",
+      "name": "eu.rsystems.com",
       "companyCount": 1
     },
     {
-      "host": "explore-jobs.ciklum.com",
-      "count": 10,
-      "url": "https://explore-jobs.ciklum.com/en/sites/ciklum-career/job/3958",
+      "host": "jobsearch.harman.com",
+      "count": 11,
+      "url": "https://jobsearch.harman.com/en_US/careers/JobDetail/Embedded-Linux-SW-Engineer/30683",
       "type": "company",
-      "name": "explore-jobs.ciklum.com",
-      "companyCount": 1
-    },
-    {
-      "host": "elytis-hospital.ro",
-      "count": 10,
-      "url": "https://elytis-hospital.ro/cariere/angajare-asistent-medical-generalist/",
-      "type": "company",
-      "name": "elytis-hospital.ro",
+      "name": "jobsearch.harman.com",
       "companyCount": 1
     },
     {
@@ -1396,27 +1348,99 @@
       "companyCount": 1
     },
     {
-      "host": "bolt.eu",
-      "count": 9,
-      "url": "https://bolt.eu/en/careers/positions/31e75f73-c72c-4976-b614-2c45024116e5/",
+      "host": "acrom.mingle.ro",
+      "count": 10,
+      "url": "https://acrom.mingle.ro/en/apply/A3X9EQ",
       "type": "company",
-      "name": "bolt.eu",
+      "name": "acrom.mingle.ro",
       "companyCount": 1
     },
     {
-      "host": "careers-ro.forvismazars.com",
-      "count": 9,
-      "url": "https://careers-ro.forvismazars.com/job-offer/senior-finance-manager/",
+      "host": "ad01.com",
+      "count": 10,
+      "url": "https://www.ad01.com/vacature/214/product-manager-azure-data-platform",
       "type": "company",
-      "name": "careers-ro.forvismazars.com",
+      "name": "ad01.com",
       "companyCount": 1
     },
     {
-      "host": "pgcareers.com",
-      "count": 9,
-      "url": "https://www.pgcareers.com/global/en/job/R000144465",
+      "host": "explore-jobs.ciklum.com",
+      "count": 10,
+      "url": "https://explore-jobs.ciklum.com/en/sites/ciklum-career/job/3723",
       "type": "company",
-      "name": "pgcareers.com",
+      "name": "explore-jobs.ciklum.com",
+      "companyCount": 1
+    },
+    {
+      "host": "ceragon.com",
+      "count": 10,
+      "url": "https://www.ceragon.com/about-ceragon/careers/software-applications-qa-engineer-p11278-65-567",
+      "type": "company",
+      "name": "ceragon.com",
+      "companyCount": 1
+    },
+    {
+      "host": "kpmg-romania.talentlyft.com",
+      "count": 9,
+      "url": "https://kpmg-romania.talentlyft.com/jobs/id244783-consultant-forensic-services-ci9S",
+      "type": "company",
+      "name": "kpmg-romania.talentlyft.com",
+      "companyCount": 1
+    },
+    {
+      "host": "henkel.ro",
+      "count": 9,
+      "url": "https://www.henkel.ro/cariere/joburi-si-aplicare/2239866-2239866",
+      "type": "company",
+      "name": "henkel.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "teamtailor.salesconsulting.ro",
+      "count": 9,
+      "url": "https://teamtailor.salesconsulting.ro/jobs/8332453-sef-formatie-calitate-si-litigii",
+      "type": "company",
+      "name": "teamtailor.salesconsulting.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "omniasig.mingle.ro",
+      "count": 9,
+      "url": "https://omniasig.mingle.ro/ro/apply/scusEQ",
+      "type": "company",
+      "name": "omniasig.mingle.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "meteocontrol.jobs.personio.de",
+      "count": 9,
+      "url": "https://meteocontrol.jobs.personio.de/job/2145594?language=en%3Flanguage%3D&display=en",
+      "type": "company",
+      "name": "meteocontrol.jobs.personio.de",
+      "companyCount": 1
+    },
+    {
+      "host": "erstegroup-careers.com",
+      "count": 9,
+      "url": "https://erstegroup-careers.com/bcr/job/Bucuresti-Senior-Specialized-Financing-Manage/1405841433/",
+      "type": "company",
+      "name": "erstegroup-careers.com",
+      "companyCount": 1
+    },
+    {
+      "host": "bioclinica.ro",
+      "count": 9,
+      "url": "https://bioclinica.ro/compania/cariere/medic-medicina-de-laborator-4",
+      "type": "company",
+      "name": "bioclinica.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "careers.idemia.com",
+      "count": 9,
+      "url": "https://careers.idemia.com/job/Bucharest-Digital-Security-Officer-60044/1408379233/",
+      "type": "company",
+      "name": "careers.idemia.com",
       "companyCount": 1
     },
     {
@@ -1428,38 +1452,6 @@
       "companyCount": 1
     },
     {
-      "host": "careers.coca-colahellenic.com",
-      "count": 9,
-      "url": "https://careers.coca-colahellenic.com/ro_RO/careers/ProjectDetail/Sales-Analyst/25767",
-      "type": "company",
-      "name": "careers.coca-colahellenic.com",
-      "companyCount": 1
-    },
-    {
-      "host": "atp-group.ro",
-      "count": 9,
-      "url": "https://atp-group.ro/cariere/job/consilier-v%C3%A2nz%C4%83ri-piese-%C8%99i-accesorii-ID40",
-      "type": "company",
-      "name": "atp-group.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "veridion.com",
-      "count": 9,
-      "url": "https://veridion.com/company/careers/big-data-engineer",
-      "type": "company",
-      "name": "veridion.com",
-      "companyCount": 1
-    },
-    {
-      "host": "bookingholdings-coe.com",
-      "count": 9,
-      "url": "https://www.bookingholdings-coe.com/bookingholdings-coe/jobs/29830?lang=en-us",
-      "type": "company",
-      "name": "bookingholdings-coe.com",
-      "companyCount": 1
-    },
-    {
       "host": "dentesse.ro",
       "count": 9,
       "url": "https://dentesse.ro/cariere/#4",
@@ -1468,75 +1460,27 @@
       "companyCount": 1
     },
     {
-      "host": "dualitsoft.com",
-      "count": 9,
-      "url": "https://dualitsoft.com/careers/frontend-developer/",
-      "type": "company",
-      "name": "dualitsoft.com",
-      "companyCount": 1
-    },
-    {
-      "host": "hellojets.com",
-      "count": 9,
-      "url": "https://hellojets.com/ro/cariere/pilot/",
-      "type": "company",
-      "name": "hellojets.com",
-      "companyCount": 1
-    },
-    {
-      "host": "jobs.hamilton.ch",
+      "host": "jobs.vitesco-technologies.com",
       "count": 8,
-      "url": "https://jobs.hamilton.ch/en/job-posting/operator-producie_jr-5994/",
+      "url": "https://jobs.vitesco-technologies.com/job/Timisoara-Mechanical-Engineers-Innovation-Factory/1371464957/",
       "type": "company",
-      "name": "jobs.hamilton.ch",
+      "name": "jobs.vitesco-technologies.com",
       "companyCount": 1
     },
     {
-      "host": "spyro-soft.com",
+      "host": "recrutare.evolvetoday.ro",
       "count": 8,
-      "url": "https://spyro-soft.com/career/lead-automic-automation-uc4-specialist-developer-ro",
+      "url": "https://recrutare.evolvetoday.ro/jobs/8096332-software-architect",
       "type": "company",
-      "name": "spyro-soft.com",
+      "name": "recrutare.evolvetoday.ro",
       "companyCount": 1
     },
     {
-      "host": "meteocontrol.jobs.personio.de",
+      "host": "careers.opentext.com",
       "count": 8,
-      "url": "https://meteocontrol.jobs.personio.de/job/2557698?language=en%3Flanguage%3D&display=en",
+      "url": "https://careers.opentext.com/us/en/job/51378/sr-backup-engineer",
       "type": "company",
-      "name": "meteocontrol.jobs.personio.de",
-      "companyCount": 1
-    },
-    {
-      "host": "humanrise.ro",
-      "count": 8,
-      "url": "https://humanrise.ro/job/gestionar-depozit-iasi/",
-      "type": "company",
-      "name": "humanrise.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "job.leroymerlin.ro",
-      "count": 8,
-      "url": "https://job.leroymerlin.ro/jobs/8054541-consilier-vanzari-magazin-pantelimon",
-      "type": "company",
-      "name": "job.leroymerlin.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "autocobalcescu.ro",
-      "count": 8,
-      "url": "https://www.autocobalcescu.ro/mecanic-auto-pitesti",
-      "type": "company",
-      "name": "autocobalcescu.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "panifcom.ro",
-      "count": 8,
-      "url": "https://panifcom.ro/cariere/#7",
-      "type": "company",
-      "name": "panifcom.ro",
+      "name": "careers.opentext.com",
       "companyCount": 1
     },
     {
@@ -1548,51 +1492,67 @@
       "companyCount": 1
     },
     {
-      "host": "targuldecariere.ro",
+      "host": "careers.veeam.com",
       "count": 8,
-      "url": "https://www.targuldecariere.ro/companii/schaeffler/18145/tehnician-de-calitate-laborator",
+      "url": "https://careers.veeam.com/job/bucharest/customer-success-renewals-representative-enterprise-with-turkish/22681/99202787648",
       "type": "company",
-      "name": "targuldecariere.ro",
+      "name": "careers.veeam.com",
       "companyCount": 1
     },
     {
-      "host": "unixauto.ro",
-      "count": 7,
-      "url": "https://www.unixauto.ro/cariera/locuri-de-munca/236/1076",
+      "host": "ionos-group.com",
+      "count": 8,
+      "url": "https://www.ionos-group.com/jobs-career/4679433101-specialist-system-engineer-for-dns-and-observability-team-hybrid.html",
       "type": "company",
-      "name": "unixauto.ro",
+      "name": "ionos-group.com",
       "companyCount": 1
     },
     {
-      "host": "romania.cgsinc.com",
-      "count": 7,
-      "url": "https://romania.cgsinc.com/joburi/consultant-with-english-brasov/",
+      "host": "cariere.agricover.ro",
+      "count": 8,
+      "url": "https://cariere.agricover.ro/job/VOLUNTARI-OFITER-CONTRACTARE-CREDITE-IF/1355325457/",
       "type": "company",
-      "name": "romania.cgsinc.com",
+      "name": "cariere.agricover.ro",
       "companyCount": 1
     },
     {
-      "host": "cariere.porr.ro",
-      "count": 7,
-      "url": "https://cariere.porr.ro/joburi-porr/joburi/8462",
+      "host": "cariere.bancatransilvania.ro",
+      "count": 8,
+      "url": "https://cariere.bancatransilvania.ro/joburi-disponibile/telesales-advisor-9",
       "type": "company",
-      "name": "cariere.porr.ro",
+      "name": "cariere.bancatransilvania.ro",
       "companyCount": 1
     },
     {
-      "host": "careers.marriott.com",
-      "count": 7,
-      "url": "https://careers.marriott.com/assistant-chief-engineer-hotel/job/9C8F4E5935663F8F044E21088CB4F05C",
+      "host": "careerromania.autoliv.com",
+      "count": 8,
+      "url": "https://careerromania.autoliv.com/jobs/8216817-senior-systems-engineer",
       "type": "company",
-      "name": "careers.marriott.com",
+      "name": "careerromania.autoliv.com",
       "companyCount": 1
     },
     {
-      "host": "careers.idemia.com",
-      "count": 7,
-      "url": "https://careers.idemia.com/job/Bucharest-%28GSOC%29-Global-Security-Operations-Centre-Operator%28French-Speaker%29-60044/1429117933/",
+      "host": "bakertilly.ro",
+      "count": 8,
+      "url": "https://www.bakertilly.ro/2024/03/26/junior-legal-advisor-bucharest-office/",
       "type": "company",
-      "name": "careers.idemia.com",
+      "name": "bakertilly.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "cona.ro",
+      "count": 8,
+      "url": "https://cona.ro/cariere/#heading_998473",
+      "type": "company",
+      "name": "cona.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "autocobalcescu.ro",
+      "count": 8,
+      "url": "https://www.autocobalcescu.ro/mecanic-auto-pitesti",
+      "type": "company",
+      "name": "autocobalcescu.ro",
       "companyCount": 1
     },
     {
@@ -1604,339 +1564,259 @@
       "companyCount": 1
     },
     {
-      "host": "careers.opentext.com",
+      "host": "careers.coca-colahellenic.com",
       "count": 7,
-      "url": "https://careers.opentext.com/us/en/job/51378/sr-backup-engineer",
+      "url": "https://careers.coca-colahellenic.com/ro_RO/careers/ProjectDetail/Talent-Acquisition-Manager/26147",
       "type": "company",
-      "name": "careers.opentext.com",
+      "name": "careers.coca-colahellenic.com",
       "companyCount": 1
     },
     {
-      "host": "clevertech.biz",
+      "host": "hogarth.com",
       "count": 7,
-      "url": "https://clevertech.biz/remote-jobs/ai-engineer-machine-learning-engineer-989",
+      "url": "https://www.hogarth.com//careers/job/business-analyst-solutions-design-6148690004",
       "type": "company",
-      "name": "clevertech.biz",
+      "name": "hogarth.com",
       "companyCount": 1
     },
     {
-      "host": "ceragon.com",
+      "host": "spyro-soft.com",
       "count": 7,
-      "url": "https://www.ceragon.com/about-ceragon/careers/technical-support-engineer-tier-2-34-e62",
+      "url": "https://spyro-soft.com/career/lead-automic-automation-uc4-specialist-developer-ro",
       "type": "company",
-      "name": "ceragon.com",
+      "name": "spyro-soft.com",
       "companyCount": 1
     },
     {
-      "host": "jobs.lenovo.com",
+      "host": "takeandeat.ro",
       "count": 7,
-      "url": "https://jobs.lenovo.com/careers/JobDetail/HCS-PNC-Service-Engineer/75907",
+      "url": "https://takeandeat.ro/cariere/sef-de-tura/",
       "type": "company",
-      "name": "jobs.lenovo.com",
+      "name": "takeandeat.ro",
       "companyCount": 1
     },
     {
-      "host": "ddroidd.com",
+      "host": "romania.cgsinc.com",
       "count": 7,
-      "url": "https://www.ddroidd.com/vacancies/devops-engineer",
+      "url": "https://romania.cgsinc.com/joburi/german-english-technical-customer-support/",
       "type": "company",
-      "name": "ddroidd.com",
+      "name": "romania.cgsinc.com",
       "companyCount": 1
     },
     {
-      "host": "jobs.zollner.ro",
+      "host": "jobs.hamilton.ch",
       "count": 7,
-      "url": "https://jobs.zollner.ro/jobposting/88808a0d7636014363aab6e6e8c2ef5ea31f62860",
+      "url": "https://jobs.hamilton.ch/en/job-posting/operator-producie_jr-5994/",
       "type": "company",
-      "name": "jobs.zollner.ro",
+      "name": "jobs.hamilton.ch",
       "companyCount": 1
     },
     {
-      "host": "crowe.mingle.ro",
+      "host": "fancourier.ro",
       "count": 7,
-      "url": "https://crowe.mingle.ro/en/apply/GLxjWQ",
+      "url": "https://www.fancourier.ro/cariere/logistica/manipulant-marfa-fm-logistica/",
       "type": "company",
-      "name": "crowe.mingle.ro",
+      "name": "fancourier.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "cariere.groupama.ro",
+      "count": 7,
+      "url": "https://cariere.groupama.ro/job/Cluj-Napoca-Consilier-Vanzari-Directe-Asigurari-de-Persoane/1167456301/",
+      "type": "company",
+      "name": "cariere.groupama.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "updivision.com",
+      "count": 7,
+      "url": "https://updivision.com/careers/content-creator-with-an-eye-for-ux-design",
+      "type": "company",
+      "name": "updivision.com",
+      "companyCount": 1
+    },
+    {
+      "host": "jobs.halliburton.com",
+      "count": 6,
+      "url": "https://jobs.halliburton.com/job/Ploiesti-R&amp;M-Mechanical-Tech-I-Ploiesti%2C-Romania-PH-107025/1413706100/",
+      "type": "company",
+      "name": "jobs.halliburton.com",
+      "companyCount": 1
+    },
+    {
+      "host": "irum.ro",
+      "count": 6,
+      "url": "https://www.irum.ro/posturi-vacante/inginer-coordonator-prelucrari-mecanie-si-cnc/",
+      "type": "company",
+      "name": "irum.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "novartis.com",
+      "count": 6,
+      "url": "https://www.novartis.com/ro-ro/careers/career-search/job/details/req-10077475-execution-excellence-head",
+      "type": "company",
+      "name": "novartis.com",
+      "companyCount": 1
+    },
+    {
+      "host": "ambalajulperfect.ro",
+      "count": 6,
+      "url": "https://ambalajulperfect.ro/area-sales-manager-dep-agricol-3-3/",
+      "type": "company",
+      "name": "ambalajulperfect.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "888sparkware.ro",
+      "count": 6,
+      "url": "https://888sparkware.ro/career/?uid=C1.B68",
+      "type": "company",
+      "name": "888sparkware.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "panifcom.ro",
+      "count": 6,
+      "url": "https://panifcom.ro/cariere/#3",
+      "type": "company",
+      "name": "panifcom.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "yopeso.com",
+      "count": 6,
+      "url": "https://www.yopeso.com/open-positions/sap-eppm-consultant",
+      "type": "company",
+      "name": "yopeso.com",
+      "companyCount": 1
+    },
+    {
+      "host": "careers.chainiq.com",
+      "count": 6,
+      "url": "https://careers.chainiq.com/job/Bucharest-Operational-Sourcing/1420851033/",
+      "type": "company",
+      "name": "careers.chainiq.com",
+      "companyCount": 1
+    },
+    {
+      "host": "interra.ro",
+      "count": 6,
+      "url": "https://www.interra.ro/angajari/agent-turism-vanzare-circuite-interra-6",
+      "type": "company",
+      "name": "interra.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "careers.fedex.com",
+      "count": 5,
+      "url": "https://careers.fedex.com/handler/job/CC01E3B0BCA98C633627AEEDBA512600",
+      "type": "company",
+      "name": "careers.fedex.com",
+      "companyCount": 1
+    },
+    {
+      "host": "career.globant.com",
+      "count": 5,
+      "url": "https://career.globant.com/?country=RO#132",
+      "type": "company",
+      "name": "career.globant.com",
+      "companyCount": 1
+    },
+    {
+      "host": "unixauto.ro",
+      "count": 5,
+      "url": "https://www.unixauto.ro/cariera/locuri-de-munca/350/1065",
+      "type": "company",
+      "name": "unixauto.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "pgcareers.com",
+      "count": 5,
+      "url": "https://www.pgcareers.com/global/en/job/R000158704",
+      "type": "company",
+      "name": "pgcareers.com",
       "companyCount": 1
     },
     {
       "host": "plexus.eightfold.ai",
-      "count": 7,
+      "count": 5,
       "url": "https://plexus.eightfold.ai/careers/job/1099556049760",
       "type": "company",
       "name": "plexus.eightfold.ai",
       "companyCount": 1
     },
     {
-      "host": "cariere.agricover.ro",
-      "count": 7,
-      "url": "https://cariere.agricover.ro/job/VOLUNTARI-AREA-SALES-MANAGER-IF/1358110257/",
-      "type": "company",
-      "name": "cariere.agricover.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "rian-partners.com",
-      "count": 7,
-      "url": "https://rian-partners.com/en/job/quality-controller/",
-      "type": "company",
-      "name": "rian-partners.com",
-      "companyCount": 1
-    },
-    {
-      "host": "suvoda.com",
-      "count": 6,
-      "url": "https://www.suvoda.com/careers/job-openings?gh_jid=8769452002",
-      "type": "company",
-      "name": "suvoda.com",
-      "companyCount": 1
-    },
-    {
-      "host": "msg-systems.ro",
-      "count": 6,
-      "url": "https://www.msg-systems.ro/en/careers/job-offerings/business-consultant-payments/",
-      "type": "company",
-      "name": "msg-systems.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "careers.segulatechnologies.com",
-      "count": 6,
-      "url": "https://careers.segulatechnologies.com/ro/annonce/4525777-assistant-manager-cu-franceza-si-engleza-115400-mioveni",
-      "type": "company",
-      "name": "careers.segulatechnologies.com",
-      "companyCount": 1
-    },
-    {
-      "host": "tss-yonder.com",
-      "count": 6,
-      "url": "https://tss-yonder.com/job/java-developer",
-      "type": "company",
-      "name": "tss-yonder.com",
-      "companyCount": 1
-    },
-    {
-      "host": "makitajobs.ro",
-      "count": 6,
-      "url": "https://makitajobs.ro/traducator-limba-japoneza/",
-      "type": "company",
-      "name": "makitajobs.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "artvertising.com.ro",
-      "count": 6,
-      "url": "https://www.artvertising.com.ro/cariere/senior-graphic-designer-iasi",
-      "type": "company",
-      "name": "artvertising.com.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "jobs.tenneco.com",
-      "count": 6,
-      "url": "https://jobs.tenneco.com//job/Prahova%2C-Aricestii-Rahtiv-General-Ledger-Supervisor/1418981900/",
-      "type": "company",
-      "name": "jobs.tenneco.com",
-      "companyCount": 1
-    },
-    {
-      "host": "hogarth.com",
-      "count": 6,
-      "url": "https://www.hogarth.com//careers/job/ai-specialist-6008000004",
-      "type": "company",
-      "name": "hogarth.com",
-      "companyCount": 1
-    },
-    {
-      "host": "interra.ro",
-      "count": 6,
-      "url": "https://www.interra.ro/angajari/soferi-categorie-b-sau-d-3",
-      "type": "company",
-      "name": "interra.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "electromontaj.mingle.ro",
-      "count": 6,
-      "url": "https://electromontaj.mingle.ro/ro/apply/soznoA",
-      "type": "company",
-      "name": "electromontaj.mingle.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "henkel.ro",
-      "count": 6,
-      "url": "https://www.henkel.ro/cariere/joburi-si-aplicare/2239414-2239414",
-      "type": "company",
-      "name": "henkel.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "irum.ro",
-      "count": 6,
-      "url": "https://www.irum.ro/posturi-vacante/economist/",
-      "type": "company",
-      "name": "irum.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "connect44.com",
-      "count": 6,
-      "url": "https://www.connect44.com/careers/back-office-nfvi-engineer",
-      "type": "company",
-      "name": "connect44.com",
-      "companyCount": 1
-    },
-    {
-      "host": "conexdist.ro",
-      "count": 6,
-      "url": "https://conexdist.ro/cariere/lucrator-depozit-2/",
-      "type": "company",
-      "name": "conexdist.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "jobs.elastic.co",
-      "count": 6,
-      "url": "https://jobs.elastic.co/jobs?gh_jid=8138694&gh_jid=8138694",
-      "type": "company",
-      "name": "jobs.elastic.co",
-      "companyCount": 1
-    },
-    {
-      "host": "netromsoftware.ro",
-      "count": 6,
-      "url": "https://www.netromsoftware.ro/Cariere/automation-qa-test-engineer-craiova/",
-      "type": "company",
-      "name": "netromsoftware.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "jobs.pirelli.com",
+      "host": "clevertech.biz",
       "count": 5,
-      "url": "https://jobs.pirelli.com/job/IT-Infrastructure-Specialist-_Craiova-1/23069-en_GB/",
+      "url": "https://clevertech.biz/remote-jobs/data-engineer-senior-data-scientist-915",
       "type": "company",
-      "name": "jobs.pirelli.com",
+      "name": "clevertech.biz",
       "companyCount": 1
     },
     {
-      "host": "careers.egger.com",
+      "host": "jobs.ericsson.com",
       "count": 5,
-      "url": "https://careers.egger.com/job/Radauti-Inginer-chimist-%28Fabrica-de-Adezivi%29/1367732355/",
+      "url": "https://jobs.ericsson.com/careers/job/563121776862488",
       "type": "company",
-      "name": "careers.egger.com",
+      "name": "jobs.ericsson.com",
       "companyCount": 1
     },
     {
-      "host": "careers.abbvie.com",
+      "host": "conlangrup.ro",
       "count": 5,
-      "url": "https://careers.abbvie.com/en/job/talent-acquisition-partner-romanian-speaker-hired-through-korn-ferry-dedicated-to-abbvie-in-bucharest-bucharest-jid-32812",
+      "url": "https://conlangrup.ro/job/angajam-inginer-proiectant-instalatii-electrice/",
       "type": "company",
-      "name": "careers.abbvie.com",
+      "name": "conlangrup.ro",
       "companyCount": 1
     },
     {
-      "host": "boatyardx.hirehive.com",
+      "host": "pepsicojobs.com",
       "count": 5,
-      "url": "https://boatyardx.hirehive.com/redhat-openshift-engineer-iasi-cluj-napoca-brasov-OCB5gX",
+      "url": "https://www.pepsicojobs.com/jobs/405869?lang=en-us",
       "type": "company",
-      "name": "boatyardx.hirehive.com",
+      "name": "pepsicojobs.com",
       "companyCount": 1
     },
     {
-      "host": "signal-iduna.ro",
+      "host": "bookingholdings-coe.com",
       "count": 5,
-      "url": "https://www.signal-iduna.ro/ro/cariere/job-senior-compliance-officer",
+      "url": "https://www.bookingholdings-coe.com/bookingholdings-coe/jobs/30019?lang=en-us",
       "type": "company",
-      "name": "signal-iduna.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "careers.bat.com",
-      "count": 5,
-      "url": "https://careers.bat.com/en/job/ploiesti/accountant/1045/44291537344",
-      "type": "company",
-      "name": "careers.bat.com",
-      "companyCount": 1
-    },
-    {
-      "host": "brinel.ro",
-      "count": 5,
-      "url": "https://www.brinel.ro/cariere#job-3",
-      "type": "company",
-      "name": "brinel.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "careers.agilefreaks.com",
-      "count": 5,
-      "url": "https://careers.agilefreaks.com/jobs/8161134-android-developer-intern",
-      "type": "company",
-      "name": "careers.agilefreaks.com",
-      "companyCount": 1
-    },
-    {
-      "host": "edurom.ro",
-      "count": 5,
-      "url": "https://www.edurom.ro/jobs/software-engineer-iasi/",
-      "type": "company",
-      "name": "edurom.ro",
+      "name": "bookingholdings-coe.com",
       "companyCount": 1
     },
     {
       "host": "careers.mahle.com",
       "count": 5,
-      "url": "https://careers.mahle.com/job/Timisoara-Packaging-Planner/1432001133/",
+      "url": "https://careers.mahle.com/job/Timisoara-Packaging-Engineer-Logistics/1435272233/",
       "type": "company",
       "name": "careers.mahle.com",
       "companyCount": 1
     },
     {
-      "host": "bento.normahr.ro",
+      "host": "eaton.eightfold.ai",
       "count": 5,
-      "url": "https://bento.normahr.ro/careers-site/branch/c33e7207-eb18-4ac1-b01c-19276c41e562/jobs/63c4354e-6d31-457b-ae2e-b383c4886dc8",
+      "url": "https://eaton.eightfold.ai/careers/job/687238046001",
       "type": "company",
-      "name": "bento.normahr.ro",
+      "name": "eaton.eightfold.ai",
       "companyCount": 1
     },
     {
-      "host": "jobs.tdcx.com",
+      "host": "careers.bat.com",
       "count": 5,
-      "url": "https://jobs.tdcx.com/job-invite/138337/",
+      "url": "https://careers.bat.com/en/job/ploiesti/tehnician-mecanic-fochist/1045/43655393088",
       "type": "company",
-      "name": "jobs.tdcx.com",
+      "name": "careers.bat.com",
       "companyCount": 1
     },
     {
-      "host": "wwf.ro",
+      "host": "conexdist.ro",
       "count": 5,
-      "url": "https://wwf.ro/despre-wwf/wwf-romania/cariere/fundraiser-full-time/",
+      "url": "https://conexdist.ro/cariere/lucrator-depozit/",
       "type": "company",
-      "name": "wwf.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "gomag.ro",
-      "count": 5,
-      "url": "https://www.gomag.ro/blog/cautam-coleg-colega-account-manager/",
-      "type": "company",
-      "name": "gomag.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "888sparkware.ro",
-      "count": 5,
-      "url": "https://888sparkware.ro/career/?uid=36.075",
-      "type": "company",
-      "name": "888sparkware.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "bitsoftware.eu",
-      "count": 5,
-      "url": "https://www.bitsoftware.eu/cariere-la-bitsoftware-solutii-software-de-business-erp-crm-bi-wms/##4",
-      "type": "company",
-      "name": "bitsoftware.eu",
+      "name": "conexdist.ro",
       "companyCount": 1
     },
     {
@@ -1948,123 +1828,155 @@
       "companyCount": 1
     },
     {
-      "host": "reo-medical.ro",
-      "count": 5,
-      "url": "https://reo-medical.ro/cariere/inginer-service/",
-      "type": "company",
-      "name": "reo-medical.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "bcrasigviata.ro",
-      "count": 5,
-      "url": "https://www.bcrasigviata.ro/cariere#3",
-      "type": "company",
-      "name": "bcrasigviata.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "gmv.csod.com",
-      "count": 4,
-      "url": "https://gmv.csod.com/ux/ats/careersite/4/home/requisition/5019?c=gmv&lang=en-US",
-      "type": "company",
-      "name": "gmv.csod.com",
-      "companyCount": 1
-    },
-    {
-      "host": "yopeso.com",
-      "count": 4,
-      "url": "https://www.yopeso.com/open-positions/cybersecurity-risk-analyst---moldova-b45fe",
-      "type": "company",
-      "name": "yopeso.com",
-      "companyCount": 1
-    },
-    {
-      "host": "careerromania.autoliv.com",
-      "count": 4,
-      "url": "https://careerromania.autoliv.com/jobs/8315435-line-feeder-iscir-rbw",
-      "type": "company",
-      "name": "careerromania.autoliv.com",
-      "companyCount": 1
-    },
-    {
-      "host": "delonghigroup.com",
-      "count": 4,
-      "url": "https://www.delonghigroup.com/en/environment-health-and-safety-specialist",
-      "type": "company",
-      "name": "delonghigroup.com",
-      "companyCount": 1
-    },
-    {
-      "host": "gts.ro",
-      "count": 4,
-      "url": "https://www.gts.ro/ro/jobs/noc-front-office-engineer",
-      "type": "company",
-      "name": "gts.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "catena.ro",
-      "count": 4,
-      "url": "https://www.catena.ro/cariere/asistent-de-farmacie",
-      "type": "company",
-      "name": "catena.ro",
-      "companyCount": 1
-    },
-    {
       "host": "sinaps.ro",
-      "count": 4,
-      "url": "https://www.sinaps.ro/cariere/#job-1",
+      "count": 5,
+      "url": "https://www.sinaps.ro/cariere/#job-5",
       "type": "company",
       "name": "sinaps.ro",
       "companyCount": 1
     },
     {
-      "host": "career.hirschmann-automotive.com",
-      "count": 4,
-      "url": "https://career.hirschmann-automotive.com/en/job-detail/unsolicited-application",
+      "host": "bolt.eu",
+      "count": 5,
+      "url": "https://bolt.eu/en/careers/positions/538d3409-6b1a-44c7-a17e-a3c5cea40a77/",
       "type": "company",
-      "name": "career.hirschmann-automotive.com",
+      "name": "bolt.eu",
       "companyCount": 1
     },
     {
-      "host": "jobs.hungrybytes.co",
-      "count": 4,
-      "url": "https://jobs.hungrybytes.co/careers/marketing-specialist-romania/",
+      "host": "jobs.elastic.co",
+      "count": 5,
+      "url": "https://jobs.elastic.co/jobs?gh_jid=8002561&gh_jid=8002561",
       "type": "company",
-      "name": "jobs.hungrybytes.co",
+      "name": "jobs.elastic.co",
+      "companyCount": 1
+    },
+    {
+      "host": "brinel.ro",
+      "count": 5,
+      "url": "https://www.brinel.ro/cariere#job-1",
+      "type": "company",
+      "name": "brinel.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "bitsoftware.eu",
+      "count": 5,
+      "url": "https://www.bitsoftware.eu/cariere-la-bitsoftware-solutii-software-de-business-erp-crm-bi-wms/##3",
+      "type": "company",
+      "name": "bitsoftware.eu",
+      "companyCount": 1
+    },
+    {
+      "host": "career.preh.com",
+      "count": 5,
+      "url": "https://career.preh.com/en/job-openings/current-job-offers.html?yid=3761",
+      "type": "company",
+      "name": "career.preh.com",
+      "companyCount": 1
+    },
+    {
+      "host": "careers.egger.com",
+      "count": 4,
+      "url": "https://careers.egger.com/job/Radauti-Inginer-chimist-%28Fabrica-de-Adezivi%29/1367732355/",
+      "type": "company",
+      "name": "careers.egger.com",
       "companyCount": 1
     },
     {
       "host": "careers.danone.com",
       "count": 4,
-      "url": "https://careers.danone.com/en-global/jobs/automation-electrical-engineer-bucharest-factory-25468-en-us.html",
+      "url": "https://careers.danone.com/en-global/jobs/human-resources-business-partner-27739-en-us.html",
       "type": "company",
       "name": "careers.danone.com",
       "companyCount": 1
     },
     {
-      "host": "plan-net.ro",
+      "host": "careers.te.com",
       "count": 4,
-      "url": "https://www.plan-net.ro/ro/cariera/jobs/job-detail.1743158123.google-ads-manager.html",
+      "url": "https://careers.te.com/job/Quality-Manager/158177-en_US",
       "type": "company",
-      "name": "plan-net.ro",
+      "name": "careers.te.com",
       "companyCount": 1
     },
     {
-      "host": "careers.reckitt.com",
+      "host": "softlead.ro",
       "count": 4,
-      "url": "https://careers.reckitt.com//job/Bucharest-LEI-Accountant_fixed-term-Bucu-NA/1426014733/",
+      "url": "https://softlead.ro/cariere/senior-sales-business-developer",
       "type": "company",
-      "name": "careers.reckitt.com",
+      "name": "softlead.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "careers-ro.forvismazars.com",
+      "count": 4,
+      "url": "https://careers-ro.forvismazars.com/job-offer/senior-tax-consultant-direct-or-indirect-tax/",
+      "type": "company",
+      "name": "careers-ro.forvismazars.com",
+      "companyCount": 1
+    },
+    {
+      "host": "boatyardx.hirehive.com",
+      "count": 4,
+      "url": "https://boatyardx.hirehive.com/data-engineer-iasi-cluj-napoca-brasov-QEATlo",
+      "type": "company",
+      "name": "boatyardx.hirehive.com",
+      "companyCount": 1
+    },
+    {
+      "host": "jobs.systematic.com",
+      "count": 4,
+      "url": "https://jobs.systematic.com/job/Bucharest-Senior-QA-Engineer-010631/1398131333/",
+      "type": "company",
+      "name": "jobs.systematic.com",
+      "companyCount": 1
+    },
+    {
+      "host": "career.hirschmann-automotive.com",
+      "count": 4,
+      "url": "https://career.hirschmann-automotive.com/en/job-detail/leader-operational-technology-smart-factory",
+      "type": "company",
+      "name": "career.hirschmann-automotive.com",
+      "companyCount": 1
+    },
+    {
+      "host": "jobs.tdcx.com",
+      "count": 4,
+      "url": "https://jobs.tdcx.com/job-invite/138128/",
+      "type": "company",
+      "name": "jobs.tdcx.com",
+      "companyCount": 1
+    },
+    {
+      "host": "chorus.ro",
+      "count": 4,
+      "url": "https://www.chorus.ro/Careers/JobApplication/8?job=Inginer%20aprovizionare",
+      "type": "company",
+      "name": "chorus.ro",
       "companyCount": 1
     },
     {
       "host": "careers.hpe.com",
       "count": 4,
-      "url": "https://careers.hpe.com/us/en/job/1200586/Networking-Program-Manager",
+      "url": "https://careers.hpe.com/us/en/job/1210211/Direct-Contract-Operations-Consultant",
       "type": "company",
       "name": "careers.hpe.com",
+      "companyCount": 1
+    },
+    {
+      "host": "jobs.tenneco.com",
+      "count": 4,
+      "url": "https://jobs.tenneco.com//job/Bucharest-Customer-Planner-with-German/1416285800/",
+      "type": "company",
+      "name": "jobs.tenneco.com",
+      "companyCount": 1
+    },
+    {
+      "host": "maviprod.ro",
+      "count": 4,
+      "url": "https://www.maviprod.ro/despre-noi/cariere/economist/",
+      "type": "company",
+      "name": "maviprod.ro",
       "companyCount": 1
     },
     {
@@ -2076,134 +1988,6 @@
       "companyCount": 1
     },
     {
-      "host": "cegeka.com",
-      "count": 4,
-      "url": "https://www.cegeka.com/en/ro/jobs/all-jobs/automation-back-up-system-engineer-all-cities-r0-8313",
-      "type": "company",
-      "name": "cegeka.com",
-      "companyCount": 1
-    },
-    {
-      "host": "jobs.ericsson.com",
-      "count": 4,
-      "url": "https://jobs.ericsson.com/careers/job/563121776998228",
-      "type": "company",
-      "name": "jobs.ericsson.com",
-      "companyCount": 1
-    },
-    {
-      "host": "careers.te.com",
-      "count": 4,
-      "url": "https://careers.te.com/job/Quality-Engineer/156568-en_US",
-      "type": "company",
-      "name": "careers.te.com",
-      "companyCount": 1
-    },
-    {
-      "host": "cariere.arabesque.ro",
-      "count": 4,
-      "url": "https://cariere.arabesque.ro/jobs/job/?oras=Toate&categorie=Vanzari&job_id=476",
-      "type": "company",
-      "name": "cariere.arabesque.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "career.ascom.com",
-      "count": 4,
-      "url": "https://career.ascom.com/jobs/7910683-senior-infrastructure-engineer",
-      "type": "company",
-      "name": "career.ascom.com",
-      "companyCount": 1
-    },
-    {
-      "host": "pepsicojobs.com",
-      "count": 4,
-      "url": "https://www.pepsicojobs.com/jobs/473989?lang=ro-ro",
-      "type": "company",
-      "name": "pepsicojobs.com",
-      "companyCount": 1
-    },
-    {
-      "host": "apavital.ro",
-      "count": 4,
-      "url": "https://www.apavital.ro/cariere/rezultate-finale-concurs-pentru-ocuparea-unui-post-de-laborant-chimist-in-cadrul-laboratorului-apa-uzata",
-      "type": "company",
-      "name": "apavital.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "kronsoft.ro",
-      "count": 4,
-      "url": "https://www.kronsoft.ro/ro/cariera/java-developer",
-      "type": "company",
-      "name": "kronsoft.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "mcro.tech",
-      "count": 4,
-      "url": "https://mcro.tech//careers/marketing-manager/",
-      "type": "company",
-      "name": "mcro.tech",
-      "companyCount": 1
-    },
-    {
-      "host": "biofarm.mingle.ro",
-      "count": 4,
-      "url": "https://biofarm.mingle.ro/ro/embed/apply/sVCtww",
-      "type": "company",
-      "name": "biofarm.mingle.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "careers.olinio.com.cy",
-      "count": 4,
-      "url": "https://careers.olinio.com.cy/jobs/6995634-penetration-tester",
-      "type": "company",
-      "name": "careers.olinio.com.cy",
-      "companyCount": 1
-    },
-    {
-      "host": "bytex.net",
-      "count": 4,
-      "url": "https://bytex.net/careers/office-it-admin/",
-      "type": "company",
-      "name": "bytex.net",
-      "companyCount": 1
-    },
-    {
-      "host": "teams.emag.ro",
-      "count": 4,
-      "url": "https://teams.emag.ro/jobs/?gh_jid=4969662101",
-      "type": "company",
-      "name": "teams.emag.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "careers.ibm.com",
-      "count": 4,
-      "url": "https://careers.ibm.com/careers/JobDetail?jobId=126148",
-      "type": "company",
-      "name": "careers.ibm.com",
-      "companyCount": 1
-    },
-    {
-      "host": "novartis.com",
-      "count": 4,
-      "url": "https://www.novartis.com/ro-ro/careers/career-search/job/details/req-10077299-commercial-portfolio-head",
-      "type": "company",
-      "name": "novartis.com",
-      "companyCount": 1
-    },
-    {
-      "host": "heidelbergmaterials.ro",
-      "count": 4,
-      "url": "https://www.heidelbergmaterials.ro/ro/operator-masina-de-insacuit-0",
-      "type": "company",
-      "name": "heidelbergmaterials.ro",
-      "companyCount": 1
-    },
-    {
       "host": "esolutions.tech",
       "count": 4,
       "url": "https://www.esolutions.tech/big-data-developer",
@@ -2212,27 +1996,51 @@
       "companyCount": 1
     },
     {
-      "host": "atek.ro",
+      "host": "cariere.porr.ro",
       "count": 4,
-      "url": "https://atek.ro/apply-java-junior.html",
+      "url": "https://cariere.porr.ro/joburi-porr/joburi/8462",
       "type": "company",
-      "name": "atek.ro",
+      "name": "cariere.porr.ro",
       "companyCount": 1
     },
     {
-      "host": "career.preh.com",
+      "host": "gomag.ro",
       "count": 4,
-      "url": "https://career.preh.com/en/job-openings/current-job-offers.html?yid=3910",
+      "url": "https://www.gomag.ro/blog/developer-php/",
       "type": "company",
-      "name": "career.preh.com",
+      "name": "gomag.ro",
       "companyCount": 1
     },
     {
-      "host": "tcandc.com",
+      "host": "rottaprint.com",
       "count": 4,
-      "url": "https://www.tcandc.com/company/career/software-developer.html",
+      "url": "https://rottaprint.com/ro/cariere/operator-productie/",
       "type": "company",
-      "name": "tcandc.com",
+      "name": "rottaprint.com",
+      "companyCount": 1
+    },
+    {
+      "host": "careers.quality-ai.com",
+      "count": 4,
+      "url": "https://careers.quality-ai.com//job/Bucharest-Test-Automation-Lead-%28remote%29/59610844/",
+      "type": "company",
+      "name": "careers.quality-ai.com",
+      "companyCount": 1
+    },
+    {
+      "host": "hubgets.com",
+      "count": 4,
+      "url": "https://www.hubgets.com/jobs/#job-121",
+      "type": "company",
+      "name": "hubgets.com",
+      "companyCount": 1
+    },
+    {
+      "host": "careers.conectys.com",
+      "count": 4,
+      "url": "https://careers.conectys.com/jobs/customer-support-with-italian-office-based/",
+      "type": "company",
+      "name": "careers.conectys.com",
       "companyCount": 1
     },
     {
@@ -2244,211 +2052,107 @@
       "companyCount": 1
     },
     {
-      "host": "p-a.ro",
-      "count": 3,
-      "url": "https://www.p-a.ro/inginer-calcul-structural-senior/",
+      "host": "electromontaj.mingle.ro",
+      "count": 4,
+      "url": "https://electromontaj.mingle.ro/ro/apply/sooUJA",
       "type": "company",
-      "name": "p-a.ro",
+      "name": "electromontaj.mingle.ro",
       "companyCount": 1
     },
     {
-      "host": "jobs.gecareers.com",
-      "count": 3,
-      "url": "https://jobs.gecareers.com/aviation/global/en/job/R5036734/",
+      "host": "connect44.com",
+      "count": 4,
+      "url": "https://www.connect44.com/careers/back-office-nfvi-engineer",
       "type": "company",
-      "name": "jobs.gecareers.com",
+      "name": "connect44.com",
       "companyCount": 1
     },
     {
-      "host": "careers.conectys.com",
-      "count": 3,
-      "url": "https://careers.conectys.com/jobs/ai-solutions-developer/",
+      "host": "mcro.tech",
+      "count": 4,
+      "url": "https://mcro.tech//careers/marketing-manager/",
       "type": "company",
-      "name": "careers.conectys.com",
+      "name": "mcro.tech",
       "companyCount": 1
     },
     {
-      "host": "revolutpeople.com",
-      "count": 3,
-      "url": "https://revolutpeople.com/pago/public/careers/position/cybersecurity-engineer-852711ec-ff9d-40b5-8ee2-9d2a11981795",
+      "host": "jobs.hungrybytes.co",
+      "count": 4,
+      "url": "https://jobs.hungrybytes.co/careers/marketing-specialist-romania/",
       "type": "company",
-      "name": "revolutpeople.com",
+      "name": "jobs.hungrybytes.co",
       "companyCount": 1
     },
     {
-      "host": "slb.eightfold.ai",
-      "count": 3,
-      "url": "https://slb.eightfold.ai/careers/job/563499734250738",
+      "host": "plan-net.ro",
+      "count": 4,
+      "url": "https://www.plan-net.ro/ro/cariera/jobs/job-detail.1743158123.google-ads-manager.html",
       "type": "company",
-      "name": "slb.eightfold.ai",
+      "name": "plan-net.ro",
       "companyCount": 1
     },
     {
-      "host": "adosfresh.ro",
-      "count": 3,
-      "url": "https://www.adosfresh.ro/cariera/mecanic/",
+      "host": "careers.olinio.com.cy",
+      "count": 4,
+      "url": "https://careers.olinio.com.cy/jobs/6995634-penetration-tester",
       "type": "company",
-      "name": "adosfresh.ro",
+      "name": "careers.olinio.com.cy",
       "companyCount": 1
     },
     {
-      "host": "ag-prime.com",
-      "count": 3,
-      "url": "https://ag-prime.com/careers/medium-php-developer/",
+      "host": "catena.ro",
+      "count": 4,
+      "url": "https://www.catena.ro/cariere/asistent-de-farmacie",
       "type": "company",
-      "name": "ag-prime.com",
+      "name": "catena.ro",
       "companyCount": 1
     },
     {
-      "host": "autototal.ro",
-      "count": 3,
-      "url": "https://www.autototal.ro/sofer-distributie-cluj-napoca/",
+      "host": "avaelgo.ro",
+      "count": 4,
+      "url": "https://avaelgo.ro/job/microsoft-azure-cloud-engineer",
       "type": "company",
-      "name": "autototal.ro",
+      "name": "avaelgo.ro",
       "companyCount": 1
     },
     {
-      "host": "boostuphr.com",
+      "host": "careers.primark.com",
       "count": 3,
-      "url": "https://www.boostuphr.com/jobs/software-engineer-ai",
+      "url": "https://careers.primark.com/ro/post-vacant/timisoara/lucrator-comercial/8171/100111725856",
       "type": "company",
-      "name": "boostuphr.com",
+      "name": "careers.primark.com",
       "companyCount": 1
     },
     {
-      "host": "careers-ro.jdepeets.com",
+      "host": "reevotech.com",
       "count": 3,
-      "url": "https://careers-ro.jdepeets.com/job-posting-detail/?id=744000136463823&return_url=/job-search/",
+      "url": "https://reevotech.com/careers/frontend-developer/",
       "type": "company",
-      "name": "careers-ro.jdepeets.com",
-      "companyCount": 1
-    },
-    {
-      "host": "careers.chainiq.com",
-      "count": 3,
-      "url": "https://careers.chainiq.com/job/Bucharest-Operational-Sourcing/1420851033/",
-      "type": "company",
-      "name": "careers.chainiq.com",
-      "companyCount": 1
-    },
-    {
-      "host": "careers.abb",
-      "count": 3,
-      "url": "https://careers.abb/global/en/job/JR00038291/Global-Welding-Software-Sales-Manager",
-      "type": "company",
-      "name": "careers.abb",
-      "companyCount": 1
-    },
-    {
-      "host": "careers.astrazeneca.com",
-      "count": 3,
-      "url": "https://careers.astrazeneca.com/job/bucharest/medical-scientific-liaison-rare-disease-iasi/7684/100162631072",
-      "type": "company",
-      "name": "careers.astrazeneca.com",
-      "companyCount": 1
-    },
-    {
-      "host": "jobs.ikea.com",
-      "count": 3,
-      "url": "https://jobs.ikea.com/en/job/ulm/lagermitarbeiter-w-m-d-vollzeit/24107/100448962976",
-      "type": "company",
-      "name": "jobs.ikea.com",
-      "companyCount": 1
-    },
-    {
-      "host": "cariere.bookster.ro",
-      "count": 3,
-      "url": "https://cariere.bookster.ro/view/wannabe",
-      "type": "company",
-      "name": "cariere.bookster.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "consensys.io",
-      "count": 3,
-      "url": "https://consensys.io/open-roles/8048308",
-      "type": "company",
-      "name": "consensys.io",
-      "companyCount": 1
-    },
-    {
-      "host": "pentest-tools.com",
-      "count": 3,
-      "url": "https://pentest-tools.com/careers/technical-support-lead",
-      "type": "company",
-      "name": "pentest-tools.com",
-      "companyCount": 1
-    },
-    {
-      "host": "ionos-group.com",
-      "count": 3,
-      "url": "https://www.ionos-group.com/jobs-career/4955734101-full-stack-working-student-for-productivity-solutions-team-hybrid.html",
-      "type": "company",
-      "name": "ionos-group.com",
-      "companyCount": 1
-    },
-    {
-      "host": "hitachienergy.com",
-      "count": 3,
-      "url": "https://www.hitachienergy.com/careers/open-jobs/details/JID3-215171",
-      "type": "company",
-      "name": "hitachienergy.com",
-      "companyCount": 1
-    },
-    {
-      "host": "recrutare.evolvetoday.ro",
-      "count": 3,
-      "url": "https://recrutare.evolvetoday.ro/jobs/7952075-design-engineer-hydraulic",
-      "type": "company",
-      "name": "recrutare.evolvetoday.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "brd.ro",
-      "count": 3,
-      "url": "https://brd.ro/cariere/retail-relationship-banking-manager",
-      "type": "company",
-      "name": "brd.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "join.generalicee.com",
-      "count": 3,
-      "url": "https://join.generalicee.com/job/Bacau-Inspector-de-Risc-Asigurari-%28Iasi%2C-Bacau%2C-Bucuresti%29/1358940757/",
-      "type": "company",
-      "name": "join.generalicee.com",
-      "companyCount": 1
-    },
-    {
-      "host": "eaton.eightfold.ai",
-      "count": 3,
-      "url": "https://eaton.eightfold.ai/careers/job/687237537974",
-      "type": "company",
-      "name": "eaton.eightfold.ai",
-      "companyCount": 1
-    },
-    {
-      "host": "careers.evolution.com",
-      "count": 3,
-      "url": "https://careers.evolution.com/job/744000145948809/",
-      "type": "company",
-      "name": "careers.evolution.com",
+      "name": "reevotech.com",
       "companyCount": 1
     },
     {
       "host": "careers.loreal.com",
       "count": 3,
-      "url": "https://careers.loreal.com/en_US/jobs/JobDetail/Accountant-Intern/252991",
+      "url": "https://careers.loreal.com/en_US/jobs/JobDetail/Senior-Key-Account-Manager/255316",
       "type": "company",
       "name": "careers.loreal.com",
       "companyCount": 1
     },
     {
-      "host": "lucanet.com",
+      "host": "bbcollection.ro",
       "count": 3,
-      "url": "https://www.lucanet.com/en/careers/jobs/?gh_jid=4944204101",
+      "url": "https://www.bbcollection.ro/cariera-consilier-vanzari.html",
       "type": "company",
-      "name": "lucanet.com",
+      "name": "bbcollection.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "careers.agilefreaks.com",
+      "count": 3,
+      "url": "https://careers.agilefreaks.com/jobs/8156104-qa-engineer-internship",
+      "type": "company",
+      "name": "careers.agilefreaks.com",
       "companyCount": 1
     },
     {
@@ -2460,6 +2164,54 @@
       "companyCount": 1
     },
     {
+      "host": "inside.wpriders.com",
+      "count": 3,
+      "url": "https://inside.wpriders.com/careers/growth-marketer-b2b-remote/",
+      "type": "company",
+      "name": "inside.wpriders.com",
+      "companyCount": 1
+    },
+    {
+      "host": "jobs.siemens-healthineers.com",
+      "count": 3,
+      "url": "https://jobs.siemens-healthineers.com/en_US/searchjobs/JobDetail/504916",
+      "type": "company",
+      "name": "jobs.siemens-healthineers.com",
+      "companyCount": 1
+    },
+    {
+      "host": "careers.segulatechnologies.com",
+      "count": 3,
+      "url": "https://careers.segulatechnologies.com/ro/annonce/4534557-pilot-transport-post-vanzare-cu-franceza-engleza-117545-oarja",
+      "type": "company",
+      "name": "careers.segulatechnologies.com",
+      "companyCount": 1
+    },
+    {
+      "host": "cariere.bookster.ro",
+      "count": 3,
+      "url": "https://cariere.bookster.ro/view/editura",
+      "type": "company",
+      "name": "cariere.bookster.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "smartbill.ro",
+      "count": 3,
+      "url": "https://www.smartbill.ro/cariere/job/contabil_-_consultanta_telefonica",
+      "type": "company",
+      "name": "smartbill.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "metamob.ro",
+      "count": 3,
+      "url": "https://www.metamob.ro/ro/companie/cariera/1376-sofer-5",
+      "type": "company",
+      "name": "metamob.ro",
+      "companyCount": 1
+    },
+    {
       "host": "careers.conduent.com",
       "count": 3,
       "url": "https://careers.conduent.com/us/en/job/24515",
@@ -2468,123 +2220,211 @@
       "companyCount": 1
     },
     {
-      "host": "reevotech.com",
+      "host": "job.leroymerlin.ro",
       "count": 3,
-      "url": "https://reevotech.com/careers/senior-game-producer/",
+      "url": "https://job.leroymerlin.ro/jobs/5534163-consilier-vanzari-cluj-vlaicu",
       "type": "company",
-      "name": "reevotech.com",
-      "companyCount": 1
-    },
-    {
-      "host": "exesoftware.ro",
-      "count": 3,
-      "url": "https://www.exesoftware.ro/jobs/qa-engineer-2",
-      "type": "company",
-      "name": "exesoftware.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "windsoft.ro",
-      "count": 3,
-      "url": "https://www.windsoft.ro//jobs/4666/consultant-implementare-erp",
-      "type": "company",
-      "name": "windsoft.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "autonom.ro",
-      "count": 3,
-      "url": "https://www.autonom.ro/cariere/job/agent-servicii-client-otopeni/bucuresti",
-      "type": "company",
-      "name": "autonom.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "ramadaiasi.ro",
-      "count": 3,
-      "url": "http://www.ramadaiasi.ro/cariere/#3",
-      "type": "company",
-      "name": "ramadaiasi.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "rombat.ro",
-      "count": 3,
-      "url": "https://www.rombat.ro/cariere#2",
-      "type": "company",
-      "name": "rombat.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "ambalajulperfect.ro",
-      "count": 2,
-      "url": "https://ambalajulperfect.ro/specialist-achizitii/",
-      "type": "company",
-      "name": "ambalajulperfect.ro",
+      "name": "job.leroymerlin.ro",
       "companyCount": 1
     },
     {
       "host": "comtimromania.ro",
-      "count": 2,
-      "url": "https://comtimromania.ro/cariera/lacatus-mecanic-electromecanic-electrician/16",
+      "count": 3,
+      "url": "https://comtimromania.ro/cariera/ap-accountant/34",
       "type": "company",
       "name": "comtimromania.ro",
       "companyCount": 1
     },
     {
-      "host": "careers.amd.com",
-      "count": 2,
-      "url": "https://careers.amd.com/careers-home/jobs/80305",
+      "host": "tss-yonder.com",
+      "count": 3,
+      "url": "https://tss-yonder.com/job/17318",
       "type": "company",
-      "name": "careers.amd.com",
+      "name": "tss-yonder.com",
       "companyCount": 1
     },
     {
-      "host": "totalsoft.applytojob.com",
-      "count": 2,
-      "url": "https://totalsoft.applytojob.com/apply/wm6YTRxSV7/Senior-IT-Project-Manager",
+      "host": "slb.eightfold.ai",
+      "count": 3,
+      "url": "https://slb.eightfold.ai/careers/job/563499734160949",
       "type": "company",
-      "name": "totalsoft.applytojob.com",
+      "name": "slb.eightfold.ai",
       "companyCount": 1
     },
     {
-      "host": "careers.cargill.com",
-      "count": 2,
-      "url": "https://careers.cargill.com/en/job/bucharest/talent-acquisition-consultant/23251/98520171456",
+      "host": "apavital.ro",
+      "count": 3,
+      "url": "https://www.apavital.ro/cariere/concurs-pentru-ocuparea-unui-post-de-muncitor-calificat-in-domeniul-tehnic-instalator-lacatus-mecanic,-op-instalatii-apa-si-canalizare,-op.-masini-industriale,-masinist,-lucrator-mentenantaintretinere-in-cadrul-atelierului-gestiune-contoare",
       "type": "company",
-      "name": "careers.cargill.com",
+      "name": "apavital.ro",
       "companyCount": 1
     },
     {
-      "host": "careers.fedex.com",
-      "count": 2,
-      "url": "https://careers.fedex.com/handler/job/CC01E3B0BCA98C633627AEEDBA512600",
+      "host": "exesoftware.ro",
+      "count": 3,
+      "url": "https://www.exesoftware.ro/jobs/power-bi-developer",
       "type": "company",
-      "name": "careers.fedex.com",
+      "name": "exesoftware.ro",
       "companyCount": 1
     },
     {
-      "host": "leadlion.ro",
-      "count": 2,
-      "url": "https://leadlion.ro/cariere/business-development-specialist/",
+      "host": "leoni.ro",
+      "count": 3,
+      "url": "https://www.leoni.ro/en/jobs-portal/detail/specialist-production-engineering-m-f-d-sr744000139968859",
       "type": "company",
-      "name": "leadlion.ro",
+      "name": "leoni.ro",
       "companyCount": 1
     },
     {
-      "host": "hennlich.ro",
-      "count": 2,
-      "url": "https://www.hennlich.ro/cariera/toate-locurile-de-munca/pozitii-disponibile/asistent-comercial-vanzari",
+      "host": "heidelbergmaterials.ro",
+      "count": 3,
+      "url": "https://www.heidelbergmaterials.ro/ro/sofer-autopompa-beton-navodari",
       "type": "company",
-      "name": "hennlich.ro",
+      "name": "heidelbergmaterials.ro",
       "companyCount": 1
     },
     {
-      "host": "metamob.ro",
-      "count": 2,
-      "url": "https://www.metamob.ro/ro/companie/cariera/1376-sofer-5",
+      "host": "brd.ro",
+      "count": 3,
+      "url": "https://brd.ro/cariere/retail-relationship-banking-manager",
       "type": "company",
-      "name": "metamob.ro",
+      "name": "brd.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "bytex.net",
+      "count": 3,
+      "url": "https://bytex.net/careers/react-engineer/",
+      "type": "company",
+      "name": "bytex.net",
+      "companyCount": 1
+    },
+    {
+      "host": "careers.marriott.com",
+      "count": 3,
+      "url": "https://careers.marriott.com/jw-steakhouse-waiter/job/0AB42587F69C4E25A1A9BBA6A8345ADA",
+      "type": "company",
+      "name": "careers.marriott.com",
+      "companyCount": 1
+    },
+    {
+      "host": "careers.reckitt.com",
+      "count": 3,
+      "url": "https://careers.reckitt.com//job/Bucharest-Tax-Specialist-Bucu-NA/1423958933/",
+      "type": "company",
+      "name": "careers.reckitt.com",
+      "companyCount": 1
+    },
+    {
+      "host": "colorcontrol.ro",
+      "count": 3,
+      "url": "https://colorcontrol.ro/vacancies#mechanical",
+      "type": "company",
+      "name": "colorcontrol.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "careers.evolution.com",
+      "count": 3,
+      "url": "https://careers.evolution.com/job/744000105084275/",
+      "type": "company",
+      "name": "careers.evolution.com",
+      "companyCount": 1
+    },
+    {
+      "host": "one-it.ro",
+      "count": 3,
+      "url": "https://www.one-it.ro/blog/we-are-looking-for-a-new-colleague-senior-network-engineer-passionate-about-coffee/?cariere",
+      "type": "company",
+      "name": "one-it.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "teams.emag.ro",
+      "count": 3,
+      "url": "https://teams.emag.ro/jobs/?gh_jid=4933626101",
+      "type": "company",
+      "name": "teams.emag.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "jobs.gem.com",
+      "count": 3,
+      "url": "https://jobs.gem.com/senndertechnologies-gmbh/am9icG9zdDo9mwpHZw2Ratp0K9fPstGL",
+      "type": "company",
+      "name": "jobs.gem.com",
+      "companyCount": 1
+    },
+    {
+      "host": "windsoft.ro",
+      "count": 3,
+      "url": "https://www.windsoft.ro/jobs/4666/consultant-implementare-erp",
+      "type": "company",
+      "name": "windsoft.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "revolutpeople.com",
+      "count": 3,
+      "url": "https://revolutpeople.com/pago/public/careers/position/cybersecurity-engineer-852711ec-ff9d-40b5-8ee2-9d2a11981795",
+      "type": "company",
+      "name": "revolutpeople.com",
+      "companyCount": 1
+    },
+    {
+      "host": "atlascopco.com",
+      "count": 3,
+      "url": "https://www.atlascopco.com/ro-ro/jobs/tehnician-service-compresoare-de-aer",
+      "type": "company",
+      "name": "atlascopco.com",
+      "companyCount": 1
+    },
+    {
+      "host": "cariere.brinks.ro",
+      "count": 3,
+      "url": "https://cariere.brinks.ro/#0",
+      "type": "company",
+      "name": "cariere.brinks.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "saladbox.ro",
+      "count": 3,
+      "url": "https://saladbox.ro/ro/cariere#1",
+      "type": "company",
+      "name": "saladbox.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "urbica.ro",
+      "count": 3,
+      "url": "https://urbica.ro/cariere-urbica/#2",
+      "type": "company",
+      "name": "urbica.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "pimcopy.ro",
+      "count": 3,
+      "url": "https://pimcopy.ro/cariere#2",
+      "type": "company",
+      "name": "pimcopy.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "pentest-tools.com",
+      "count": 3,
+      "url": "https://pentest-tools.com/careers/technical-support-lead",
+      "type": "company",
+      "name": "pentest-tools.com",
+      "companyCount": 1
+    },
+    {
+      "host": "soweloconsulting.applytojob.com",
+      "count": 2,
+      "url": "https://soweloconsulting.applytojob.com/apply/jobs/details/FTCV0oDkTj?&",
+      "type": "company",
+      "name": "soweloconsulting.applytojob.com",
       "companyCount": 1
     },
     {
@@ -2596,27 +2436,43 @@
       "companyCount": 1
     },
     {
-      "host": "jobs.sap.com",
+      "host": "jobs.gecareers.com",
       "count": 2,
-      "url": "https://jobs.sap.com/job/Bucharest-Senior-SAP-AI-Architect-0030144/1394008533/",
+      "url": "https://jobs.gecareers.com/aviation/global/en/job/R5039729/",
       "type": "company",
-      "name": "jobs.sap.com",
+      "name": "jobs.gecareers.com",
       "companyCount": 1
     },
     {
-      "host": "assaabloy.jobs2web.com",
+      "host": "careers.mastercard.com",
       "count": 2,
-      "url": "https://assaabloy.jobs2web.com//job/Procurement-&-Logistics-Specialist-062202/1431898033/",
+      "url": "https://careers.mastercard.com/us/en/job/R-289472",
       "type": "company",
-      "name": "assaabloy.jobs2web.com",
+      "name": "careers.mastercard.com",
       "companyCount": 1
     },
     {
-      "host": "cabuzau.ro",
+      "host": "ag-prime.com",
       "count": 2,
-      "url": "https://www.cabuzau.ro/despre-noi/cariere/operator-retele-canal-sect-buzau-sud-merei/",
+      "url": "https://ag-prime.com/careers/qa-tester/",
       "type": "company",
-      "name": "cabuzau.ro",
+      "name": "ag-prime.com",
+      "companyCount": 1
+    },
+    {
+      "host": "leadlion.ro",
+      "count": 2,
+      "url": "https://leadlion.ro/cariere/business-development-specialist/",
+      "type": "company",
+      "name": "leadlion.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "career.hoffmann-group.com",
+      "count": 2,
+      "url": "https://career.hoffmann-group.com/Area-Sales-Manager-mfx-Timisoara-Caras-Severin-region-de-j1937.html",
+      "type": "company",
+      "name": "career.hoffmann-group.com",
       "companyCount": 1
     },
     {
@@ -2628,99 +2484,51 @@
       "companyCount": 1
     },
     {
-      "host": "careers.se.com",
+      "host": "grab.careers",
       "count": 2,
-      "url": "https://careers.se.com/jobs/125486?lang=en-us",
+      "url": "https://www.grab.careers/en/jobs/744000127629169/lead-edge-ai-engineer/",
       "type": "company",
-      "name": "careers.se.com",
+      "name": "grab.careers",
       "companyCount": 1
     },
     {
-      "host": "jobs.halliburton.com",
+      "host": "careers.amd.com",
       "count": 2,
-      "url": "https://jobs.halliburton.com/job/Ploiesti-Unit-Mgr-SDL%2C-Sr-Romania-PH-107025/1410445100/",
+      "url": "https://careers.amd.com/careers-home/jobs/80306",
       "type": "company",
-      "name": "jobs.halliburton.com",
+      "name": "careers.amd.com",
       "companyCount": 1
     },
     {
-      "host": "expertware.net",
+      "host": "jobs.sap.com",
       "count": 2,
-      "url": "https://www.expertware.net/Careers/Sales-Solutions-Engineer",
+      "url": "https://jobs.sap.com/job/Bucharest-Senior-SAP-AI-Architect-0030144/1394008533/",
       "type": "company",
-      "name": "expertware.net",
+      "name": "jobs.sap.com",
       "companyCount": 1
     },
     {
-      "host": "cariere.groupama.ro",
+      "host": "totalsoft.applytojob.com",
       "count": 2,
-      "url": "https://cariere.groupama.ro/job/Bucuresti-Administrator-Servere-Senior/1433275033/",
+      "url": "https://totalsoft.applytojob.com/apply/wm6YTRxSV7/Senior-IT-Project-Manager",
       "type": "company",
-      "name": "cariere.groupama.ro",
+      "name": "totalsoft.applytojob.com",
       "companyCount": 1
     },
     {
-      "host": "careers.primark.com",
+      "host": "careers.astrazeneca.com",
       "count": 2,
-      "url": "https://careers.primark.com/ro/post-vacant/bucuresti/people-and-culture-administrator-hr-administrator/8171/99658356592",
+      "url": "https://careers.astrazeneca.com/job/bucharest/key-account-manager-oncology-lung-cluj/7684/100434895968",
       "type": "company",
-      "name": "careers.primark.com",
+      "name": "careers.astrazeneca.com",
       "companyCount": 1
     },
     {
-      "host": "splendor.ro",
+      "host": "careers.abbvie.com",
       "count": 2,
-      "url": "https://www.splendor.ro/cariera.html#2",
+      "url": "https://careers.abbvie.com/en/job/senior-clinical-research-associate-in-bucharest-bucharest-jid-30221",
       "type": "company",
-      "name": "splendor.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "rsm.global",
-      "count": 2,
-      "url": "https://www.rsm.global//romania/ro/ne-marim-echipa-cu-un-contabilaccountant",
-      "type": "company",
-      "name": "rsm.global",
-      "companyCount": 1
-    },
-    {
-      "host": "jobs.webasto.com",
-      "count": 2,
-      "url": "https://jobs.webasto.com/job/Maintenance-Technician-Electrical/36350/",
-      "type": "company",
-      "name": "jobs.webasto.com",
-      "companyCount": 1
-    },
-    {
-      "host": "career.globant.com",
-      "count": 2,
-      "url": "https://career.globant.com/?country=RO#126",
-      "type": "company",
-      "name": "career.globant.com",
-      "companyCount": 1
-    },
-    {
-      "host": "inside.wpriders.com",
-      "count": 2,
-      "url": "https://inside.wpriders.com/careers/growth-marketer-b2b-remote/",
-      "type": "company",
-      "name": "inside.wpriders.com",
-      "companyCount": 1
-    },
-    {
-      "host": "intrainterim.ro",
-      "count": 2,
-      "url": "https://www.intrainterim.ro/oferte-de-munca/romania/livrator-glovo-bucuresti-2025-05-27-8901",
-      "type": "company",
-      "name": "intrainterim.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "sjobs.brassring.com",
-      "count": 2,
-      "url": "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25416&siteid=5429&PageType=JobDetails&jobid=3384687",
-      "type": "company",
-      "name": "sjobs.brassring.com",
+      "name": "careers.abbvie.com",
       "companyCount": 1
     },
     {
@@ -2732,43 +2540,123 @@
       "companyCount": 1
     },
     {
-      "host": "duk-tech.com",
+      "host": "bento.normahr.ro",
       "count": 2,
-      "url": "https://www.duk-tech.com/career#2",
+      "url": "https://bento.normahr.ro/careers-site/branch/c33e7207-eb18-4ac1-b01c-19276c41e562/jobs/6522e2fd-23d1-4d26-9196-fea12b08a169",
       "type": "company",
-      "name": "duk-tech.com",
+      "name": "bento.normahr.ro",
       "companyCount": 1
     },
     {
-      "host": "conlangrup.ro",
+      "host": "rombat.ro",
       "count": 2,
-      "url": "https://conlangrup.ro/job/inginer-constructii/",
+      "url": "https://www.rombat.ro/cariere#2",
       "type": "company",
-      "name": "conlangrup.ro",
+      "name": "rombat.ro",
       "companyCount": 1
     },
     {
-      "host": "pkffinconta.ro",
+      "host": "careers-ro.jdepeets.com",
       "count": 2,
-      "url": "https://pkffinconta.ro/senior-transfer-pricing-consultant/",
+      "url": "https://careers-ro.jdepeets.com/job-posting-detail/?id=744000136463823&return_url=/job-search/",
       "type": "company",
-      "name": "pkffinconta.ro",
+      "name": "careers-ro.jdepeets.com",
       "companyCount": 1
     },
     {
-      "host": "bdo.ro",
+      "host": "emp.jobylon.com",
       "count": 2,
-      "url": "https://www.bdo.ro/ro-ro/cariere/jobs/junior-auditor-6724cc9ccd3d21534a6836d84a8feac5-4997bca6c74962357fe4783129b2a535",
+      "url": "https://emp.jobylon.com/jobs/379137-basware-senior-analyst-fpa/",
       "type": "company",
-      "name": "bdo.ro",
+      "name": "emp.jobylon.com",
       "companyCount": 1
     },
     {
-      "host": "speedservicesatumare.ro",
+      "host": "careers.ibm.com",
       "count": 2,
-      "url": "https://speedservicesatumare.ro/cariere/#1",
+      "url": "https://careers.ibm.com/careers/JobDetail?jobId=128373",
       "type": "company",
-      "name": "speedservicesatumare.ro",
+      "name": "careers.ibm.com",
+      "companyCount": 1
+    },
+    {
+      "host": "careers.dlapiper.com",
+      "count": 2,
+      "url": "https://careers.dlapiper.com/jobs/2026/8245-associatemanaging-associate",
+      "type": "company",
+      "name": "careers.dlapiper.com",
+      "companyCount": 1
+    },
+    {
+      "host": "romania-career.wavestone.com",
+      "count": 2,
+      "url": "https://romania-career.wavestone.com/jobs/66894090/Senior-Consultant-AI-Data-Engineering---Microsoft-Azure-all-genders-/",
+      "type": "company",
+      "name": "romania-career.wavestone.com",
+      "companyCount": 1
+    },
+    {
+      "host": "suvoda.com",
+      "count": 2,
+      "url": "https://www.suvoda.com/careers/job-openings?gh_jid=8653417002",
+      "type": "company",
+      "name": "suvoda.com",
+      "companyCount": 1
+    },
+    {
+      "host": "eurotech-iasi.ro",
+      "count": 2,
+      "url": "https://eurotech-iasi.ro/tehnician-service-motoare-termice-2-si-4-timpi/",
+      "type": "company",
+      "name": "eurotech-iasi.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "expertware.net",
+      "count": 2,
+      "url": "https://www.expertware.net/Careers/Project-manager",
+      "type": "company",
+      "name": "expertware.net",
+      "companyCount": 1
+    },
+    {
+      "host": "careerscenter.ro",
+      "count": 2,
+      "url": "https://www.careerscenter.ro/jobs/contabil-cu-experienta-in-cabinet-de-contabilitate/",
+      "type": "company",
+      "name": "careerscenter.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "autonom.ro",
+      "count": 2,
+      "url": "https://www.autonom.ro/cariere/job/analist-servicii-client-bucuresti/bucuresti",
+      "type": "company",
+      "name": "autonom.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "betterstack.com",
+      "count": 2,
+      "url": "https://betterstack.com/careers#operations-executive",
+      "type": "company",
+      "name": "betterstack.com",
+      "companyCount": 1
+    },
+    {
+      "host": "consensys.io",
+      "count": 2,
+      "url": "https://consensys.io/open-roles/8048308",
+      "type": "company",
+      "name": "consensys.io",
+      "companyCount": 1
+    },
+    {
+      "host": "kirchhoff-automotive.com",
+      "count": 2,
+      "url": "https://kirchhoff-automotive.com/job_advertisement/continuous-improvement-specialist/",
+      "type": "company",
+      "name": "kirchhoff-automotive.com",
       "companyCount": 1
     },
     {
@@ -2780,179 +2668,99 @@
       "companyCount": 1
     },
     {
-      "host": "xerox.avature.net",
+      "host": "veridion.com",
       "count": 2,
-      "url": "https://xerox.avature.net/en_US/careers/JobDetail/Bucure-ti-Romania-Data-Validator/51614",
+      "url": "https://veridion.com/company/careers/data-assets-intern",
       "type": "company",
-      "name": "xerox.avature.net",
+      "name": "veridion.com",
       "companyCount": 1
     },
     {
-      "host": "smartbill.ro",
+      "host": "atek.ro",
       "count": 2,
-      "url": "https://www.smartbill.ro/cariere/job/consultant_vanzari_soft_contabilitate",
+      "url": "https://atek.ro/apply-ai-dev.html",
       "type": "company",
-      "name": "smartbill.ro",
+      "name": "atek.ro",
       "companyCount": 1
     },
     {
-      "host": "tehnoglobal.ro",
+      "host": "biofarm.mingle.ro",
       "count": 2,
-      "url": "https://www.tehnoglobal.ro/job/inginer-vanzari-actionari-electrice/12",
+      "url": "https://biofarm.mingle.ro/ro/embed/apply/Gd3RlA",
       "type": "company",
-      "name": "tehnoglobal.ro",
+      "name": "biofarm.mingle.ro",
       "companyCount": 1
     },
     {
-      "host": "regnology.jobs.personio.de",
-      "count": 1,
-      "url": "https://regnology.jobs.personio.de/job/2570749?language=en",
+      "host": "jobs.foundever.com",
+      "count": 2,
+      "url": "https://jobs.foundever.com/job/RO-Remote%2C-any-Location%2C-RO-Team-Manager-with-German&English/1424759700/",
       "type": "company",
-      "name": "regnology.jobs.personio.de",
+      "name": "jobs.foundever.com",
       "companyCount": 1
     },
     {
-      "host": "randstad.ro",
-      "count": 1,
-      "url": "https://www.randstad.ro/locuri-de-munca/hr-recruiter-blue-collar_brasov_4869/",
+      "host": "gmv.csod.com",
+      "count": 2,
+      "url": "https://gmv.csod.com/ux/ats/careersite/4/home/requisition/3307?c=gmv&lang=en-US",
       "type": "company",
-      "name": "randstad.ro",
+      "name": "gmv.csod.com",
       "companyCount": 1
     },
     {
-      "host": "pago.ro",
-      "count": 1,
-      "url": "https://pago.ro/jobs/ai-product-engineer",
+      "host": "inspet.ro",
+      "count": 2,
+      "url": "https://www.inspet.ro/job/lacatus/",
       "type": "company",
-      "name": "pago.ro",
+      "name": "inspet.ro",
       "companyCount": 1
     },
     {
-      "host": "lighthouse.darwinbox.com",
-      "count": 1,
-      "url": "https://lighthouse.darwinbox.com/ms/candidate/careers/a6a8455531b34e",
+      "host": "hennlich.ro",
+      "count": 2,
+      "url": "https://www.hennlich.ro/cariera/toate-locurile-de-munca/pozitii-disponibile/asistent-comercial-vanzari",
       "type": "company",
-      "name": "lighthouse.darwinbox.com",
+      "name": "hennlich.ro",
       "companyCount": 1
     },
     {
-      "host": "nolimits.ro",
-      "count": 1,
-      "url": "https://www.nolimits.ro/cariere.html",
+      "host": "autosiena.ro",
+      "count": 2,
+      "url": "https://autosiena.ro/cariera/#1",
       "type": "company",
-      "name": "nolimits.ro",
+      "name": "autosiena.ro",
       "companyCount": 1
     },
     {
-      "host": "saladbox.ro",
+      "host": "careers.cargill.com",
       "count": 1,
-      "url": "https://saladbox.ro/ro/cariere#1",
+      "url": "https://careers.cargill.com/en/job/bucharest/talent-acquisition-consultant/23251/98520171456",
       "type": "company",
-      "name": "saladbox.ro",
+      "name": "careers.cargill.com",
       "companyCount": 1
     },
     {
-      "host": "secondtex.ro",
+      "host": "join.generalicee.com",
       "count": 1,
-      "url": "https://www.secondtex.ro/cariera",
+      "url": "https://join.generalicee.com/job/Bacau-Inspector-de-Risc-Asigurari-%28Iasi%2C-Bacau%2C-Bucuresti%29/1358940757/",
       "type": "company",
-      "name": "secondtex.ro",
+      "name": "join.generalicee.com",
       "companyCount": 1
     },
     {
-      "host": "intersnack.ro",
+      "host": "rsm.global",
       "count": 1,
-      "url": "https://www.intersnack.ro/cariere/oportunitati-de-cariera/operator-ambalare-procesare",
+      "url": "https://www.rsm.global//romania/ro/senior-auditor",
       "type": "company",
-      "name": "intersnack.ro",
+      "name": "rsm.global",
       "companyCount": 1
     },
     {
-      "host": "aeroportoradea.ro",
+      "host": "careers.sofidel.com",
       "count": 1,
-      "url": "https://www.aeroportoradea.ro/images/jobs/septembrie-2026/Anunt%20concurs%20ocupare%205%20posturi%20agenti%20de%20securitate%20aeroportuara.pdf#1",
+      "url": "https://careers.sofidel.com/job/C%C4%83l%C4%83ra%C5%9Fi-Deputy-Maintenance-Manager-C%C4%83l%C4%83-910058/1332690357/",
       "type": "company",
-      "name": "aeroportoradea.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "romcim.ro",
-      "count": 1,
-      "url": "https://www.romcim.ro/cariere/locuri-de-munca-si-stagii/#:~:text=Inginer%20produc%C8%9Bie%2C%20Sta%C8%9Bii%20betoane%20-%20Timi%C8%99oara%2C%20Ploie%C8%99ti%2C%20Constan%C8%9Ba",
-      "type": "company",
-      "name": "romcim.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "maviprod.ro",
-      "count": 1,
-      "url": "https://www.maviprod.ro/despre-noi/cariere/economist/",
-      "type": "company",
-      "name": "maviprod.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "neptun-gears.ro",
-      "count": 1,
-      "url": "https://www.neptun-gears.ro/cariere/",
-      "type": "company",
-      "name": "neptun-gears.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "adecco.com",
-      "count": 1,
-      "url": "https://www.adecco.com/ro-ro/job-search/asistent-manager-cluj-napoca-cluj/JN-072026-1137431",
-      "type": "company",
-      "name": "adecco.com",
-      "companyCount": 1
-    },
-    {
-      "host": "decorfloor.ro",
-      "count": 1,
-      "url": "https://decorfloor.ro/sales-specialist-ofertare/",
-      "type": "company",
-      "name": "decorfloor.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "kirchhoff-automotive.com",
-      "count": 1,
-      "url": "https://kirchhoff-automotive.com/job_advertisement/continuous-improvement-specialist/",
-      "type": "company",
-      "name": "kirchhoff-automotive.com",
-      "companyCount": 1
-    },
-    {
-      "host": "connectgroup.com",
-      "count": 1,
-      "url": "https://www.connectgroup.com/en/vacancies/roemeni%C3%AB/product-engineer-4",
-      "type": "company",
-      "name": "connectgroup.com",
-      "companyCount": 1
-    },
-    {
-      "host": "also.com",
-      "count": 1,
-      "url": "https://www.also.com/ec/cms5/en_6000/6000/company/career/open-positions/job_details_v2_2_252800.jsp",
-      "type": "company",
-      "name": "also.com",
-      "companyCount": 1
-    },
-    {
-      "host": "intelligentbee.com",
-      "count": 1,
-      "url": "https://intelligentbee.com/job/8/human-resources-inspector",
-      "type": "company",
-      "name": "intelligentbee.com",
-      "companyCount": 1
-    },
-    {
-      "host": "career.hoffmann-group.com",
-      "count": 1,
-      "url": "https://career.hoffmann-group.com/Area-Sales-Manager-mfx-Timisoara-Caras-Severin-region-de-j1937.html",
-      "type": "company",
-      "name": "career.hoffmann-group.com",
+      "name": "careers.sofidel.com",
       "companyCount": 1
     },
     {
@@ -2980,99 +2788,19 @@
       "companyCount": 1
     },
     {
-      "host": "wd5.myworkdaysite.com",
+      "host": "noodlepack.ro",
       "count": 1,
-      "url": "https://wd5.myworkdaysite.com/en-US/recruiting/microchiphr/External/job/India---Bangalore/Senior-Engineer-II---CAD--Physical-Verification-_R3679-26",
+      "url": "https://noodlepack.ro/aplica-manager-restaurant/",
       "type": "company",
-      "name": "wd5.myworkdaysite.com",
+      "name": "noodlepack.ro",
       "companyCount": 1
     },
     {
-      "host": "photonenergy.ro",
+      "host": "jobs.kellanova.com",
       "count": 1,
-      "url": "https://www.photonenergy.ro/job-vacancy/senior-legal-counsel",
+      "url": "https://jobs.kellanova.com/job/Bucharest-GBS-Continuous-Improvement-Process-Lead-14254/1424285100/",
       "type": "company",
-      "name": "photonenergy.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "inthepocket.com",
-      "count": 1,
-      "url": "https://www.inthepocket.com/greenhouse-jobs/7842845---senior-full-stack-web-engineer",
-      "type": "company",
-      "name": "inthepocket.com",
-      "companyCount": 1
-    },
-    {
-      "host": "soweloconsulting.applytojob.com",
-      "count": 1,
-      "url": "https://soweloconsulting.applytojob.com/apply/jobs/details/FTCV0oDkTj?&",
-      "type": "company",
-      "name": "soweloconsulting.applytojob.com",
-      "companyCount": 1
-    },
-    {
-      "host": "sii-group.com",
-      "count": 1,
-      "url": "https://sii-group.com/en-FR/node/22873",
-      "type": "company",
-      "name": "sii-group.com",
-      "companyCount": 1
-    },
-    {
-      "host": "jobs.gem.com",
-      "count": 1,
-      "url": "https://jobs.gem.com/senndertechnologies-gmbh/am9icG9zdDp61Z5HPJHsf1jhaNVbXfWW",
-      "type": "company",
-      "name": "jobs.gem.com",
-      "companyCount": 1
-    },
-    {
-      "host": "careers.dlapiper.com",
-      "count": 1,
-      "url": "https://careers.dlapiper.com/jobs/2026/8145-junior-associate",
-      "type": "company",
-      "name": "careers.dlapiper.com",
-      "companyCount": 1
-    },
-    {
-      "host": "lensa.mingle.ro",
-      "count": 1,
-      "url": "https://lensa.mingle.ro/ro/apply/pyPAlw",
-      "type": "company",
-      "name": "lensa.mingle.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "jobs.aon.com",
-      "count": 1,
-      "url": "https://jobs.aon.com/jobs/105745?lang=en-us",
-      "type": "company",
-      "name": "jobs.aon.com",
-      "companyCount": 1
-    },
-    {
-      "host": "careers.unilever.com",
-      "count": 1,
-      "url": "https://careers.unilever.com/en/job/suceava/culinary-adviser/34155/99799641296",
-      "type": "company",
-      "name": "careers.unilever.com",
-      "companyCount": 1
-    },
-    {
-      "host": "careerscenter.ro",
-      "count": 1,
-      "url": "https://www.careerscenter.ro/jobs/reprezentant-vanzari-franciza-vodafone/",
-      "type": "company",
-      "name": "careerscenter.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "jobs.zf.com",
-      "count": 1,
-      "url": "https://jobs.zf.com/job/Timisoara-Function-&amp;-Project-Controller-TM/1430820733/",
-      "type": "company",
-      "name": "jobs.zf.com",
+      "name": "jobs.kellanova.com",
       "companyCount": 1
     },
     {
@@ -3084,11 +2812,35 @@
       "companyCount": 1
     },
     {
-      "host": "thoughtworks.com",
+      "host": "expertmind.ro",
       "count": 1,
-      "url": "https://www.thoughtworks.com/careers/jobs/8190436",
+      "url": "https://www.expertmind.ro/joburi/bucuresti-economist-team-lead/",
       "type": "company",
-      "name": "thoughtworks.com",
+      "name": "expertmind.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "neptun-gears.ro",
+      "count": 1,
+      "url": "https://www.neptun-gears.ro/cariere/",
+      "type": "company",
+      "name": "neptun-gears.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "photonenergy.ro",
+      "count": 1,
+      "url": "https://www.photonenergy.ro/job-vacancy/senior-legal-counsel",
+      "type": "company",
+      "name": "photonenergy.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "apply.corteva.com",
+      "count": 1,
+      "url": "https://apply.corteva.com/careers/job/893397477826",
+      "type": "company",
+      "name": "apply.corteva.com",
       "companyCount": 1
     },
     {
@@ -3100,67 +2852,27 @@
       "companyCount": 1
     },
     {
-      "host": "c4media.com",
+      "host": "delonghigroup.com",
       "count": 1,
-      "url": "https://c4media.com/open-positions/senior-editorial-software-community-manager-(editor-in-chief)/26",
+      "url": "https://www.delonghigroup.com/en/process-quality-engineer",
       "type": "company",
-      "name": "c4media.com",
+      "name": "delonghigroup.com",
       "companyCount": 1
     },
     {
-      "host": "careers.nshift.com",
+      "host": "lucanet.com",
       "count": 1,
-      "url": "https://careers.nshift.com/jobs/8298597-software-engineer",
+      "url": "https://www.lucanet.com/en/careers/jobs/?gh_jid=4870911101",
       "type": "company",
-      "name": "careers.nshift.com",
+      "name": "lucanet.com",
       "companyCount": 1
     },
     {
-      "host": "betterstack.com",
+      "host": "romcim.ro",
       "count": 1,
-      "url": "https://betterstack.com/careers#operations-executive",
+      "url": "https://www.romcim.ro/cariere/locuri-de-munca-si-stagii/#:~:text=Inginer%20produc%C8%9Bie%2C%20Sta%C8%9Bii%20betoane%20-%20Timi%C8%99oara%2C%20Ploie%C8%99ti%2C%20Constan%C8%9Ba",
       "type": "company",
-      "name": "betterstack.com",
-      "companyCount": 1
-    },
-    {
-      "host": "careers.synopsys.com",
-      "count": 1,
-      "url": "https://careers.synopsys.com/job/cluj-napoca/it-support-administrator/44408/99760751952",
-      "type": "company",
-      "name": "careers.synopsys.com",
-      "companyCount": 1
-    },
-    {
-      "host": "emp.jobylon.com",
-      "count": 1,
-      "url": "https://emp.jobylon.com/jobs/379137-basware-senior-analyst-fpa/",
-      "type": "company",
-      "name": "emp.jobylon.com",
-      "companyCount": 1
-    },
-    {
-      "host": "swicon.com",
-      "count": 1,
-      "url": "https://swicon.com/job/contract-management-with-hebrew-2/",
-      "type": "company",
-      "name": "swicon.com",
-      "companyCount": 1
-    },
-    {
-      "host": "jobs.siemens-healthineers.com",
-      "count": 1,
-      "url": "https://jobs.siemens-healthineers.com/en_US/searchjobs/JobDetail/504916",
-      "type": "company",
-      "name": "jobs.siemens-healthineers.com",
-      "companyCount": 1
-    },
-    {
-      "host": "join.com",
-      "count": 1,
-      "url": "https://join.com/companies/justrocket/16640313-software-engineer-ai-focus-m-f-d-german-required",
-      "type": "company",
-      "name": "join.com",
+      "name": "romcim.ro",
       "companyCount": 1
     },
     {
@@ -3188,107 +2900,179 @@
       "companyCount": 1
     },
     {
-      "host": "wsagroup.ro",
+      "host": "duk-tech.com",
       "count": 1,
-      "url": "https://wsagroup.ro/locuri-de-munca/electrician-intretinere-si-reparatii-harman-brasov-romania/",
+      "url": "https://www.duk-tech.com/career#2",
       "type": "company",
-      "name": "wsagroup.ro",
+      "name": "duk-tech.com",
       "companyCount": 1
     },
     {
-      "host": "grab.careers",
+      "host": "jobs.webasto.com",
       "count": 1,
-      "url": "https://www.grab.careers/en/jobs/744000127629169/lead-edge-ai-engineer/",
+      "url": "https://jobs.webasto.com/job/Operator-productie/36727/",
       "type": "company",
-      "name": "grab.careers",
+      "name": "jobs.webasto.com",
       "companyCount": 1
     },
     {
-      "host": "fltechnics.com",
+      "host": "randstad.ro",
       "count": 1,
-      "url": "https://fltechnics.com/careers/easa-b1-b767-b777/",
+      "url": "https://www.randstad.ro/locuri-de-munca/hr-recruiter-blue-collar_brasov_4869/",
       "type": "company",
-      "name": "fltechnics.com",
+      "name": "randstad.ro",
       "companyCount": 1
     },
     {
-      "host": "edenred.ro",
+      "host": "sii-group.com",
       "count": 1,
-      "url": "https://www.edenred.ro/ro/job/it-financial-controller",
+      "url": "https://sii-group.com/en-FR/node/22873",
       "type": "company",
-      "name": "edenred.ro",
+      "name": "sii-group.com",
       "companyCount": 1
     },
     {
-      "host": "vetro.vet",
+      "host": "swicon.com",
       "count": 1,
-      "url": "https://vetro.vet/cariere/reprezentant-vanzari-ferme-zona-de-sud/",
+      "url": "https://swicon.com/job/country-marketing-mgr-ii/",
       "type": "company",
-      "name": "vetro.vet",
+      "name": "swicon.com",
+      "companyCount": 1
+    },
+    {
+      "host": "autototal.ro",
+      "count": 1,
+      "url": "https://www.autototal.ro/agent-vanzari-turisme-camioane/",
+      "type": "company",
+      "name": "autototal.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "sjobs.brassring.com",
+      "count": 1,
+      "url": "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25416&siteid=5429&PageType=JobDetails&jobid=3377537",
+      "type": "company",
+      "name": "sjobs.brassring.com",
+      "companyCount": 1
+    },
+    {
+      "host": "hitachienergy.com",
+      "count": 1,
+      "url": "https://www.hitachienergy.com/careers/open-jobs/details/JID3-212587",
+      "type": "company",
+      "name": "hitachienergy.com",
+      "companyCount": 1
+    },
+    {
+      "host": "dpd.com",
+      "count": 1,
+      "url": "https://www.dpd.com/ro/ro/compania-dpd/cariere-profesionale-dpd-ro/#Curier",
+      "type": "company",
+      "name": "dpd.com",
       "companyCount": 1
     },
     {
       "host": "olx.ro",
       "count": 1,
-      "url": "https://www.olx.ro/oferta/loc-de-munca/operator-utilitati-fabrica-pepsico-IDkNx0p.html",
+      "url": "https://www.olx.ro/oferta/loc-de-munca/angajam-stivuitorist-arabesque-bacau-IDjEhLZ.html",
       "type": "company",
       "name": "olx.ro",
       "companyCount": 1
     },
     {
-      "host": "jobs.napa.fi",
+      "host": "etusoft.com",
       "count": 1,
-      "url": "https://jobs.napa.fi/jobs/8030987-cybersecurity-datacom-specialist",
+      "url": "https://www.etusoft.com/locuridemunca.html#1",
       "type": "company",
-      "name": "jobs.napa.fi",
+      "name": "etusoft.com",
       "companyCount": 1
     },
     {
-      "host": "joinus.gknaerospace.com",
+      "host": "boostuphr.com",
       "count": 1,
-      "url": "https://joinus.gknaerospace.com/job/25808-en_US",
+      "url": "https://www.boostuphr.com/jobs/full-stack-developer-%28java-%2526-react%29",
       "type": "company",
-      "name": "joinus.gknaerospace.com",
+      "name": "boostuphr.com",
+      "companyCount": 1
+    },
+    {
+      "host": "lensa.mingle.ro",
+      "count": 1,
+      "url": "https://lensa.mingle.ro/ro/apply/qtWN_A",
+      "type": "company",
+      "name": "lensa.mingle.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "bdo.ro",
+      "count": 1,
+      "url": "https://www.bdo.ro/ro-ro/cariere/jobs/experienced-audit-assistant",
+      "type": "company",
+      "name": "bdo.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "careers.unilever.com",
+      "count": 1,
+      "url": "https://careers.unilever.com/en/job/suceava/culinary-adviser/34155/99799641296",
+      "type": "company",
+      "name": "careers.unilever.com",
+      "companyCount": 1
+    },
+    {
+      "host": "jobs.zf.com",
+      "count": 1,
+      "url": "https://jobs.zf.com/job/Timisoara-Function-&amp;-Project-Controller-TM/1430820733/",
+      "type": "company",
+      "name": "jobs.zf.com",
+      "companyCount": 1
+    },
+    {
+      "host": "career.ascom.com",
+      "count": 1,
+      "url": "https://career.ascom.com/jobs/7910683-senior-infrastructure-engineer",
+      "type": "company",
+      "name": "career.ascom.com",
+      "companyCount": 1
+    },
+    {
+      "host": "wwf.ro",
+      "count": 1,
+      "url": "https://wwf.ro/despre-wwf/wwf-romania/cariere/fundraiser-full-time/",
+      "type": "company",
+      "name": "wwf.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "also.com",
+      "count": 1,
+      "url": "https://www.also.com/ec/cms5/en_6000/6000/company/career/open-positions/job_details_v2_2_252800.jsp",
+      "type": "company",
+      "name": "also.com",
+      "companyCount": 1
+    },
+    {
+      "host": "kronsoft.ro",
+      "count": 1,
+      "url": "https://www.kronsoft.ro/ro/cariera/java-developer",
+      "type": "company",
+      "name": "kronsoft.ro",
       "companyCount": 1
     },
     {
       "host": "career.alpla.com",
       "count": 1,
-      "url": "https://career.alpla.com/en/jobs/romania/brasov/senior-technical-solution-architect-d365",
+      "url": "https://career.alpla.com/en/jobs/romania/brasov/senior-data-center-architect-all-genders-brasov",
       "type": "company",
       "name": "career.alpla.com",
       "companyCount": 1
     },
     {
-      "host": "deltatelgroup.com",
+      "host": "assaabloy.jobs2web.com",
       "count": 1,
-      "url": "https://deltatelgroup.com//ro/cariere/montator-tehnician-telecom-ro",
+      "url": "https://assaabloy.jobs2web.com//job/Sales-Representative-062202/1394134533/",
       "type": "company",
-      "name": "deltatelgroup.com",
-      "companyCount": 1
-    },
-    {
-      "host": "c-scale.ro",
-      "count": 1,
-      "url": "https://www.c-scale.ro/careers#1",
-      "type": "company",
-      "name": "c-scale.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "urbio-romania.ro",
-      "count": 1,
-      "url": "https://urbio-romania.ro/cariere/#1662454401930-ce44399a-786c#1",
-      "type": "company",
-      "name": "urbio-romania.ro",
-      "companyCount": 1
-    },
-    {
-      "host": "jobs.kws.com",
-      "count": 1,
-      "url": "https://jobs.kws.com/job/Bucuresti-Sales-Representative-%28mwd%29-Buzau-County-Bucu/1430026833/",
-      "type": "company",
-      "name": "jobs.kws.com",
+      "name": "assaabloy.jobs2web.com",
       "companyCount": 1
     },
     {
@@ -3297,6 +3081,62 @@
       "url": "https://careers.enea.com/jobs/8107517-software-engineer-bucharest",
       "type": "company",
       "name": "careers.enea.com",
+      "companyCount": 1
+    },
+    {
+      "host": "careers.nshift.com",
+      "count": 1,
+      "url": "https://careers.nshift.com/jobs/8338803-senior-python-developer",
+      "type": "company",
+      "name": "careers.nshift.com",
+      "companyCount": 1
+    },
+    {
+      "host": "adecco.com",
+      "count": 1,
+      "url": "https://www.adecco.com/ro-ro/job-search/asistent-manager-cluj-napoca-cluj/JN-092026-1165384",
+      "type": "company",
+      "name": "adecco.com",
+      "companyCount": 1
+    },
+    {
+      "host": "connectgroup.com",
+      "count": 1,
+      "url": "https://www.connectgroup.com/en/vacancies/roemeni%C3%AB/product-engineer-4",
+      "type": "company",
+      "name": "connectgroup.com",
+      "companyCount": 1
+    },
+    {
+      "host": "mediere.anofm.ro",
+      "count": 1,
+      "url": "https://mediere.anofm.ro/app/module/mediere/job/3278640",
+      "type": "company",
+      "name": "mediere.anofm.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "c4media.com",
+      "count": 1,
+      "url": "https://c4media.com/open-positions/mobile-developer-(react-native)/33",
+      "type": "company",
+      "name": "c4media.com",
+      "companyCount": 1
+    },
+    {
+      "host": "pago.ro",
+      "count": 1,
+      "url": "https://pago.ro/jobs/ai-product-engineer",
+      "type": "company",
+      "name": "pago.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "lighthouse.darwinbox.com",
+      "count": 1,
+      "url": "https://lighthouse.darwinbox.com/ms/candidate/careers/a6a8455531b34e",
+      "type": "company",
+      "name": "lighthouse.darwinbox.com",
       "companyCount": 1
     },
     {
@@ -3316,59 +3156,131 @@
       "companyCount": 1
     },
     {
-      "host": "cona.ro",
+      "host": "pkffinconta.ro",
       "count": 1,
-      "url": "https://cona.ro/cariere/#heading_997759",
+      "url": "https://pkffinconta.ro/senior-tax-consultant/",
       "type": "company",
-      "name": "cona.ro",
+      "name": "pkffinconta.ro",
       "companyCount": 1
     },
     {
-      "host": "noodlepack.ro",
+      "host": "adosfresh.ro",
       "count": 1,
-      "url": "https://noodlepack.ro/aplica-asistent-manager-restaurant/",
+      "url": "https://www.adosfresh.ro/cariera/agent-achizitii-si-contractari-cereale/",
       "type": "company",
-      "name": "noodlepack.ro",
+      "name": "adosfresh.ro",
       "companyCount": 1
     },
     {
-      "host": "mediere.anofm.ro",
+      "host": "jobs.apple.com",
       "count": 1,
-      "url": "https://mediere.anofm.ro/app/module/mediere/job/3367526",
+      "url": "https://jobs.apple.com/ro-ro/details/200667954-5501/channel-customer-communications-executive-romania-and-bulgaria?team=SLDEV",
       "type": "company",
-      "name": "mediere.anofm.ro",
+      "name": "jobs.apple.com",
       "companyCount": 1
     },
     {
-      "host": "jobs.kellanova.com",
+      "host": "nl.linkedin.com",
       "count": 1,
-      "url": "https://jobs.kellanova.com/job/Bucharest-GBS-Continuous-Improvement-Process-Lead-14254/1424285100/",
+      "url": "https://nl.linkedin.com/company/bearingpoint",
       "type": "company",
-      "name": "jobs.kellanova.com",
+      "name": "nl.linkedin.com",
       "companyCount": 1
     },
     {
-      "host": "romania-career.wavestone.com",
+      "host": "careers.cbre.com",
       "count": 1,
-      "url": "https://romania-career.wavestone.com/jobs/66894090/Senior-Consultant-AI-Data-Engineering---Microsoft-Azure-all-genders-/",
+      "url": "https://careers.cbre.com/en_US/careers/JobDetail/HSE-Anlyst-temporary-1-year-role/281678",
       "type": "company",
-      "name": "romania-career.wavestone.com",
+      "name": "careers.cbre.com",
       "companyCount": 1
     },
     {
-      "host": "jobs.systematic.com",
+      "host": "cegeka.com",
       "count": 1,
-      "url": "https://jobs.systematic.com/job/Bucharest-Mid-Level-Software-Developer-Grow-Your-Skills-With-Us-010631/1390461233/",
+      "url": "https://www.cegeka.com/en/ro/jobs/all-jobs/senior-d365-bc-developer-8030",
       "type": "company",
-      "name": "jobs.systematic.com",
+      "name": "cegeka.com",
       "companyCount": 1
     },
     {
-      "host": "bgs.ro",
+      "host": "careers.celestica.com",
       "count": 1,
-      "url": "https://bgs.ro/recrutare",
+      "url": "https://careers.celestica.com/job/Oradea-Sr_-Security-Architect%2C-Cloud-&amp;-Apps-Solutions-BH/1385562733/",
       "type": "company",
-      "name": "bgs.ro",
+      "name": "careers.celestica.com",
+      "companyCount": 1
+    },
+    {
+      "host": "deltatelgroup.com",
+      "count": 1,
+      "url": "https://deltatelgroup.com//ro/cariere/montator-tehnician-telecom-ro",
+      "type": "company",
+      "name": "deltatelgroup.com",
+      "companyCount": 1
+    },
+    {
+      "host": "wsagroup.ro",
+      "count": 1,
+      "url": "https://wsagroup.ro/locuri-de-munca/operator-smt/",
+      "type": "company",
+      "name": "wsagroup.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "cariere.arabesque.ro",
+      "count": 1,
+      "url": "https://cariere.arabesque.ro/jobs/job/?oras=Toate&categorie=Logistica&job_id=430",
+      "type": "company",
+      "name": "cariere.arabesque.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "secondtex.ro",
+      "count": 1,
+      "url": "https://www.secondtex.ro/cariera",
+      "type": "company",
+      "name": "secondtex.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "intersnack.ro",
+      "count": 1,
+      "url": "https://www.intersnack.ro/cariere/oportunitati-de-cariera/operator-ambalare-procesare",
+      "type": "company",
+      "name": "intersnack.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "berg-software.com",
+      "count": 1,
+      "url": "https://www.berg-software.com/en/jobs/frestyle-application/",
+      "type": "company",
+      "name": "berg-software.com",
+      "companyCount": 1
+    },
+    {
+      "host": "softexco.ro",
+      "count": 1,
+      "url": "https://softexco.ro/p/cariere#aplica",
+      "type": "company",
+      "name": "softexco.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "expresscredit.ro",
+      "count": 1,
+      "url": "https://www.expresscredit.ro/despre-express-credit-amanet/cariere/",
+      "type": "company",
+      "name": "expresscredit.ro",
+      "companyCount": 1
+    },
+    {
+      "host": "rervest.ro",
+      "count": 1,
+      "url": "https://rervest.ro/job/2134/",
+      "type": "company",
+      "name": "rervest.ro",
       "companyCount": 1
     }
   ]
