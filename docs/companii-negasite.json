@@ -1,42 +1,57 @@
 {
-  "generatedAt": "2026-09-19T12:26:43.194Z",
-  "totalCompanies": 36,
-  "totalJobs": 190,
+  "generatedAt": "2026-09-20T13:01:42.028Z",
+  "totalCompanies": 41,
+  "totalJobs": 238,
   "companies": [
     {
       "name": "888SPARKWARE",
-      "jobCount": 3,
+      "jobCount": 6,
       "jobs": [
         {
-          "title": "Senior Network Engineer",
-          "city": "Bucuresti",
-          "url": "https://888sparkware.ro/career/?uid=45.27F"
-        },
-        {
-          "title": "Fullstack Developer (2 years)",
-          "city": "Bucuresti",
-          "url": "https://888sparkware.ro/career/?uid=36.075"
+          "title": "Gaming Content Specialist",
+          "city": "Bucharest, Romania",
+          "url": "https://www.bestjobs.eu/loc-de-munca/gaming-content-specialist-1"
         },
         {
           "title": "Data Engineer",
           "city": "Bucuresti",
           "url": "https://888sparkware.ro/career/?uid=A6.075"
+        },
+        {
+          "title": "Back-End Engineer Casino Infra",
+          "city": "Bucuresti",
+          "url": "https://888sparkware.ro/career/?uid=03.E66"
+        },
+        {
+          "title": "Full Stack Developer ePayments",
+          "city": "Bucuresti",
+          "url": "https://888sparkware.ro/career/?uid=03.E64"
+        },
+        {
+          "title": "Fraud Strategy Manager",
+          "city": "Bucuresti",
+          "url": "https://888sparkware.ro/career/?uid=CC.F6C"
+        },
+        {
+          "title": "Senior Data Engineer",
+          "city": "Bucuresti",
+          "url": "https://888sparkware.ro/career/?uid=CD.172"
         }
       ]
     },
     {
       "name": "AD01",
-      "jobCount": 8,
+      "jobCount": 12,
       "jobs": [
         {
-          "title": "Specialist PMO",
+          "title": "Product Manager Azure Data Platform",
           "city": "București",
-          "url": "https://www.ad01.com/vacature/221/specialist-pmo"
+          "url": "https://www.ad01.com/vacature/214/product-manager-azure-data-platform"
         },
         {
-          "title": "SAP FI Engineering Manager",
+          "title": "SAP SuccessFactors Talent (PMGM) & LMS Configurator",
           "city": "București",
-          "url": "https://www.ad01.com/vacature/200/sap-fi-engineering-manager"
+          "url": "https://www.ad01.com/vacature/225/sap-successfactors-talent-pmgm-lms-configurator"
         },
         {
           "title": "Senior Data Engineer",
@@ -54,19 +69,39 @@
           "url": "https://www.ad01.com/vacature/226/product-architect"
         },
         {
+          "title": "Data Engineer",
+          "city": "București",
+          "url": "https://www.ad01.com/vacature/229/data-engineer-6"
+        },
+        {
+          "title": "Mobile QA Lead",
+          "city": "București",
+          "url": "https://www.ad01.com/vacature/233/mobile-qa-lead"
+        },
+        {
           "title": "DevOps Engineer",
           "city": "București",
           "url": "https://www.ad01.com/vacature/155/devops-engineer-7"
         },
         {
-          "title": "React Native Developer",
+          "title": "Specialist PMO",
           "city": "București",
-          "url": "https://www.ad01.com/vacature/231/react-native-developer-1"
+          "url": "https://www.ad01.com/vacature/221/specialist-pmo"
         },
         {
-          "title": "Program Manager - Commerce Platform Modernization",
+          "title": "SAP FI Engineering Manager",
           "city": "București",
-          "url": "https://www.ad01.com/vacature/230/program-manager-commerce-platform-modernization"
+          "url": "https://www.ad01.com/vacature/200/sap-fi-engineering-manager"
+        },
+        {
+          "title": "SAP Finance Business Analyst",
+          "city": "București",
+          "url": "https://www.ad01.com/vacature/209/sap-finance-business-analyst"
+        },
+        {
+          "title": "SAP HANA & ABAP Developer",
+          "city": "București",
+          "url": "https://www.ad01.com/vacature/219/sap-hana-abap-developer"
         }
       ]
     },
@@ -82,34 +117,34 @@
       ]
     },
     {
-      "name": "AGPRIME",
-      "jobCount": 3,
-      "jobs": [
-        {
-          "title": "PHP Developer",
-          "city": "Cluj-Napoca",
-          "url": "https://ag-prime.com/careers/medium-php-developer/"
-        },
-        {
-          "title": "QA Tester",
-          "city": "Cluj-Napoca",
-          "url": "https://ag-prime.com/careers/qa-tester/"
-        },
-        {
-          "title": "WordPress Developer",
-          "city": "Cluj-Napoca",
-          "url": "https://ag-prime.com/careers/wordpress-developer/"
-        }
-      ]
-    },
-    {
       "name": "ATKINSREALIS",
-      "jobCount": 1,
+      "jobCount": 2,
       "jobs": [
         {
           "title": "VP Nuclear Island - Monark",
           "city": "Bucuresti",
           "url": "https://slihrms.wd3.myworkdayjobs.com/en-US/Careers/job/CAONMississauga2251-Speakman-Drive/VP-Nuclear-Island---Monark_R-160423"
+        },
+        {
+          "title": "OAC Reporting Engineer",
+          "city": "Bucuresti",
+          "url": "https://slihrms.wd3.myworkdayjobs.com/en-US/Careers/job/INBangaloreAVTowers/OAC-Reporting-Engineer_R-160163"
+        }
+      ]
+    },
+    {
+      "name": "AUTOSIENA",
+      "jobCount": 2,
+      "jobs": [
+        {
+          "title": "Mecanic Auto",
+          "city": "Oradea",
+          "url": "https://autosiena.ro/cariera/#1"
+        },
+        {
+          "title": "Responsabil Curatenie",
+          "city": "Oradea",
+          "url": "https://autosiena.ro/cariera/#2"
         }
       ]
     },
@@ -142,7 +177,7 @@
     },
     {
       "name": "BESHAPINGTHEFUTURE",
-      "jobCount": 3,
+      "jobCount": 8,
       "jobs": [
         {
           "title": "Cobol & Java Developer",
@@ -150,14 +185,39 @@
           "url": "https://www.careers-page.com/be-shaping-the-future/job/X94X763Y"
         },
         {
+          "title": "Cloud Developer/Full Stack Developer",
+          "city": "Iași",
+          "url": "https://www.careers-page.com/be-shaping-the-future/job/L349YV6W"
+        },
+        {
+          "title": "COBOL DEVELOPER with French",
+          "city": "Bucuresti",
+          "url": "https://www.careers-page.com/be-shaping-the-future/job/93949894"
+        },
+        {
+          "title": "AS400 Developer with RPG",
+          "city": "Bucuresti",
+          "url": "https://www.careers-page.com/be-shaping-the-future/job/L343W35V"
+        },
+        {
+          "title": "Cloud Engineer with Kubernetes",
+          "city": "Iași",
+          "url": "https://www.careers-page.com/be-shaping-the-future/job/QWWW596W"
+        },
+        {
+          "title": "Avaloq Consultant",
+          "city": "Bucuresti",
+          "url": "https://www.careers-page.com/be-shaping-the-future/job/W355968W"
+        },
+        {
           "title": "DLP Functional Administrator - (26000H28)",
           "city": "Bucuresti",
           "url": "https://www.careers-page.com/be-shaping-the-future/job/W34RVRV6"
         },
         {
-          "title": "Cloud Full-stack Senior Developer with French",
+          "title": "DevOps Engineer - DBA PostgreSQL - (26000J69)",
           "city": "Bucuresti",
-          "url": "https://www.careers-page.com/be-shaping-the-future/job/V6466YXR"
+          "url": "https://www.careers-page.com/be-shaping-the-future/job/7X5VRW93"
         }
       ]
     },
@@ -165,11 +225,6 @@
       "name": "BETTERSTACK",
       "jobCount": 7,
       "jobs": [
-        {
-          "title": "Operations Executive",
-          "city": "",
-          "url": "https://betterstack.com/careers#operations-executive"
-        },
         {
           "title": "Customer Engineer",
           "city": "",
@@ -196,6 +251,11 @@
           "url": "https://betterstack.com/careers#fullstack-engineer"
         },
         {
+          "title": "Operations Executive",
+          "city": "",
+          "url": "https://betterstack.com/careers#operations-executive"
+        },
+        {
           "title": "Developer Advocate",
           "city": "",
           "url": "https://betterstack.com/careers#developer-advocate"
@@ -203,9 +263,35 @@
       ]
     },
     {
-      "name": "BRINEL",
-      "jobCount": 2,
+      "name": "BONDUELLE",
+      "jobCount": 1,
       "jobs": [
+        {
+          "title": "Junior Brand Manager, South Europe",
+          "city": "Bucuresti",
+          "url": "https://jobs.bonduelle.com/job/Bucharest-Junior-Brand-Manager%2C-South-Europe-030606/1437126733/"
+        }
+      ]
+    },
+    {
+      "name": "BRINEL",
+      "jobCount": 5,
+      "jobs": [
+        {
+          "title": "Consultant Support Microsoft Dynamics 365 Finance and Operations",
+          "city": "Cluj-Napoca",
+          "url": "https://www.brinel.ro/cariere#job-3"
+        },
+        {
+          "title": "Sales Executive IT Infrastructure",
+          "city": "Cluj-Napoca",
+          "url": "https://www.brinel.ro/cariere#job-21"
+        },
+        {
+          "title": "Network Engineer",
+          "city": "Cluj-Napoca",
+          "url": "https://www.brinel.ro/cariere#job-1"
+        },
         {
           "title": "Senior Full-Stack Java Developer",
           "city": "Cluj-Napoca",
@@ -222,11 +308,6 @@
       "name": "CGSROMANIA",
       "jobCount": 7,
       "jobs": [
-        {
-          "title": "Consultant with English - Brasov",
-          "city": "Brasov",
-          "url": "https://romania.cgsinc.com/joburi/consultant-with-english-brasov/"
-        },
         {
           "title": "German & English - Technical Customer Support",
           "city": "Bucuresti,Brasov",
@@ -248,30 +329,50 @@
           "url": "https://romania.cgsinc.com/joburi/tech-support-l1-with-slovenian-remote-job/"
         },
         {
-          "title": "Consultant - Brasov",
-          "city": "Brasov",
-          "url": "https://romania.cgsinc.com/joburi/consultant-relatii-clienti-brasov-2/"
+          "title": "Technical Support Specialist – Retail (Hungarian Language)",
+          "city": "Bucuresti",
+          "url": "https://romania.cgsinc.com/joburi/technical-support-specialist-retail-hungarian-language/"
         },
         {
-          "title": "Consultant Relatii Clienti - Targu-Jiu (la sediu)",
-          "city": "Targu Jiu",
-          "url": "https://romania.cgsinc.com/joburi/consultant-relatii-clienti-targu-jiu/"
+          "title": "Consultant with English - Brasov",
+          "city": "Brasov",
+          "url": "https://romania.cgsinc.com/joburi/consultant-with-english-brasov/"
+        },
+        {
+          "title": "Client Advisor with English & French - Brasov",
+          "city": "Brasov",
+          "url": "https://romania.cgsinc.com/joburi/client-advisor-with-english-french-brasov/"
         }
       ]
     },
     {
       "name": "COCACOLAHBC",
-      "jobCount": 4,
+      "jobCount": 10,
       "jobs": [
         {
-          "title": "Operator Productie - Ploiesti",
-          "city": "Ploiesti",
-          "url": "https://careers.coca-colahellenic.com/ro_RO/careers/ProjectDetail/Operator-Productie-Ploiesti/25636"
+          "title": "Business Developer",
+          "city": "Arad",
+          "url": "https://careers.coca-colahellenic.com/ro_RO/careers/ProjectDetail/Business-Developer/26255"
         },
         {
-          "title": "Sales Analyst",
+          "title": "Business Developer - Sibiu",
+          "city": "Sibiu",
+          "url": "https://careers.coca-colahellenic.com/ro_RO/careers/ProjectDetail/Business-Developer-Sibiu/26213"
+        },
+        {
+          "title": "Talent Acquisition Manager",
           "city": "Bucuresti",
-          "url": "https://careers.coca-colahellenic.com/ro_RO/careers/ProjectDetail/Sales-Analyst/25767"
+          "url": "https://careers.coca-colahellenic.com/ro_RO/careers/ProjectDetail/Talent-Acquisition-Manager/26147"
+        },
+        {
+          "title": "Commercial Assistant",
+          "city": "Bucuresti",
+          "url": "https://careers.coca-colahellenic.com/ro_RO/careers/ProjectDetail/Commercial-Assistant/25805"
+        },
+        {
+          "title": "Graduate Trainee - Maintenance Timisoara",
+          "city": "Timisoara",
+          "url": "https://careers.coca-colahellenic.com/ro_RO/careers/ProjectDetail/Graduate-Trainee-Maintenance-Timisoara/24632"
         },
         {
           "title": "Demand Planning & S&OP Excellence Manager",
@@ -282,6 +383,21 @@
           "title": "Inginer Automatist - Ploiesti",
           "city": "Ploiesti",
           "url": "https://careers.coca-colahellenic.com/ro_RO/careers/ProjectDetail/Inginer-Automatist-Ploiesti/25419"
+        },
+        {
+          "title": "Sales Analyst",
+          "city": "Bucuresti",
+          "url": "https://careers.coca-colahellenic.com/ro_RO/careers/ProjectDetail/Sales-Analyst/25767"
+        },
+        {
+          "title": "Mecanic - Ploiesti",
+          "city": "Ploiesti",
+          "url": "https://careers.coca-colahellenic.com/ro_RO/careers/ProjectDetail/Mecanic-Ploiesti/25445"
+        },
+        {
+          "title": "Utilities & Water Treatment Manager - Ploiesti",
+          "city": "Ploiesti",
+          "url": "https://careers.coca-colahellenic.com/ro_RO/careers/ProjectDetail/Utilities-Water-Treatment-Manager-Ploiesti/26431"
         }
       ]
     },
@@ -298,47 +414,12 @@
     },
     {
       "name": "DECATHLON",
-      "jobCount": 11,
+      "jobCount": 14,
       "jobs": [
-        {
-          "title": "Consilier Servicii Clienți Decathlon Iași",
-          "city": "Iasi",
-          "url": "https://cariere.decathlon.ro/jobs/consilier-servicii-clienti-decathlon-iasi-cdQJ"
-        },
         {
           "title": "Tehnician reparații biciclete Decathlon Iuliu Maniu",
           "city": "Bucuresti",
           "url": "https://cariere.decathlon.ro/jobs/tehnician-reparatii-biciclete-decathlon-iuliu-maniu-cdPP"
-        },
-        {
-          "title": "Director Adjunct Decathlon Logistica",
-          "city": "Stefanestii de Jos",
-          "url": "https://cariere.decathlon.ro/jobs/director-adjunct-decathlon-logistica-cgsr"
-        },
-        {
-          "title": "Tehnician reparații biciclete Decathlon Iași",
-          "city": "Iasi",
-          "url": "https://cariere.decathlon.ro/jobs/tehnician-reparatii-biciclete-decathlon-iasi-cdPY"
-        },
-        {
-          "title": "Reprezentant Vânzări Decathlon Plaza",
-          "city": "Bucuresti",
-          "url": "https://cariere.decathlon.ro/jobs/reprezentant-vanzari-decathlon-plaza-chqJ"
-        },
-        {
-          "title": "Reprezentant Vânzări Decathlon Berceni",
-          "city": "Bucuresti",
-          "url": "https://cariere.decathlon.ro/jobs/reprezentant-vanzari-decathlon-berceni-cdOS"
-        },
-        {
-          "title": "Manager Departament Decathlon Plaza",
-          "city": "Bucuresti",
-          "url": "https://cariere.decathlon.ro/jobs/manager-departament-decathlon-plaza-cjGE"
-        },
-        {
-          "title": "Tehnician reparații biciclete Decathlon Plaza",
-          "city": "Bucuresti",
-          "url": "https://cariere.decathlon.ro/jobs/tehnician-reparatii-biciclete-decathlon-plaza-cjGF"
         },
         {
           "title": "Manager Operațiuni Decathlon Tg. Mures",
@@ -351,9 +432,59 @@
           "url": "https://cariere.decathlon.ro/jobs/downstream-transport-coordinator-ckpi"
         },
         {
-          "title": "Tehnician reparații biciclete Decathlon Satu Mare",
+          "title": "Consilier Servicii Clienți Decathlon Iuliu Maniu",
+          "city": "Bucuresti",
+          "url": "https://cariere.decathlon.ro/jobs/consilier-servicii-clienti-decathlon-iuliu-maniu-cdQE"
+        },
+        {
+          "title": "Tehnician reparatii biciclete Decathlon Satu Mare",
           "city": "Satu Mare",
-          "url": "https://cariere.decathlon.ro/jobs/tehnician-reparatii-biciclete-decathlon-satu-mare-ckWu"
+          "url": "https://jobviewtrack.com/v2/G2eVwJI_xRcCUqelQ6YS5v4W0xeZJuVOM5tFN1H62qGNa8H17uA81XcODtHt8qc9fhYIgOWIX5-yeYbBm2n79IVZ5NicPtSZGvZ3p2LYs-wBNI8d1AOBrklhwkhnPa1ggcI6-zGcl82JBL8SUdt4DhZ6oWXquCZ02Zi5cU-JuQMKFDaM5L9Xb-kdpBjkZjdJ0mdWXeJAju5T0qX3lhtU7ZsxkEIHjTGm0SPwNV8UUkk"
+        },
+        {
+          "title": "Director Adjunct Decathlon Logistica",
+          "city": "Stefanestii de Jos",
+          "url": "https://cariere.decathlon.ro/jobs/director-adjunct-decathlon-logistica-cgsr"
+        },
+        {
+          "title": "Tehnician reparații biciclete Decathlon Constanța",
+          "city": "Constanta",
+          "url": "https://cariere.decathlon.ro/jobs/tehnician-reparatii-biciclete-decathlon-constanta-cdPU"
+        },
+        {
+          "title": "Consilier Servicii Clienți Decathlon Pallady",
+          "city": "Bucuresti",
+          "url": "https://cariere.decathlon.ro/jobs/consilier-servicii-clienti-decathlon-pallady-cdQF"
+        },
+        {
+          "title": "Tehnician reparații biciclete Decathlon Braila",
+          "city": "Varsatura",
+          "url": "https://cariere.decathlon.ro/jobs/tehnician-reparatii-biciclete-decathlon-braila-ce5W-copy-ckUv"
+        },
+        {
+          "title": "Consilier Servicii Clienți Decathlon Cluj Napoca",
+          "city": "Floresti",
+          "url": "https://cariere.decathlon.ro/jobs/consilier-servicii-clienti-decathlon-cluj-napoca-cdQM"
+        },
+        {
+          "title": "Tehnician reparații biciclete Decathlon Iași",
+          "city": "Iasi",
+          "url": "https://cariere.decathlon.ro/jobs/tehnician-reparatii-biciclete-decathlon-iasi-cdPY"
+        },
+        {
+          "title": "Consilier Servicii Clienți Decathlon Iași",
+          "city": "Iasi",
+          "url": "https://cariere.decathlon.ro/jobs/consilier-servicii-clienti-decathlon-iasi-cdQJ"
+        },
+        {
+          "title": "Manager Departament Decathlon Plaza",
+          "city": "Bucuresti",
+          "url": "https://cariere.decathlon.ro/jobs/manager-departament-decathlon-plaza-cjGE"
+        },
+        {
+          "title": "Tehnician reparații biciclete Decathlon Plaza",
+          "city": "Bucuresti",
+          "url": "https://cariere.decathlon.ro/jobs/tehnician-reparatii-biciclete-decathlon-plaza-cjGF"
         }
       ]
     },
@@ -370,8 +501,43 @@
     },
     {
       "name": "DRMAX",
-      "jobCount": 48,
+      "jobCount": 40,
       "jobs": [
+        {
+          "title": "Payroll Specialist",
+          "city": "Bucuresti",
+          "url": "https://drmaxromania.com/job/payroll-specialist/"
+        },
+        {
+          "title": "Telephone Sales Representative",
+          "city": "Oradea",
+          "url": "https://drmaxromania.com/job/telephone-sales-representative/"
+        },
+        {
+          "title": "Trade Marketing Specialist",
+          "city": "Bucuresti",
+          "url": "https://drmaxromania.com/job/trade-marketing-specialist-2/"
+        },
+        {
+          "title": "Kar Telephone Sales Representative",
+          "city": "Bucuresti",
+          "url": "https://drmaxromania.com/job/kar-telephone-sales-representative/"
+        },
+        {
+          "title": "Junior PPC Specialist",
+          "city": "Bucuresti",
+          "url": "https://drmaxromania.com/job/junior-ppc-specialist/"
+        },
+        {
+          "title": "Asistent Farmacist HIPER Dr. Max Farmacie, Sector 3",
+          "city": "Bucuresti",
+          "url": "https://drmaxromania.com/job/asistent-farmacist-hiper-dr-max-farmacie-sector-3/"
+        },
+        {
+          "title": "Farmacist HIPER Dr. Max Farmacie, Brașov",
+          "city": "Brasov",
+          "url": "https://drmaxromania.com/job/farmacist-hiper-dr-max-farmacie-brasov/"
+        },
         {
           "title": "Consultant Vânzări HIPER Dr. Max Farmacie",
           "city": "voluntari",
@@ -468,34 +634,9 @@
           "url": "https://drmaxromania.com/job/farmacist-dr-max-suceava-2/"
         },
         {
-          "title": "Payroll Specialist",
-          "city": "Bucuresti",
-          "url": "https://drmaxromania.com/job/payroll-specialist/"
-        },
-        {
-          "title": "Telephone Sales Representative",
-          "city": "Oradea",
-          "url": "https://drmaxromania.com/job/telephone-sales-representative/"
-        },
-        {
-          "title": "Trade Marketing Specialist",
-          "city": "Bucuresti",
-          "url": "https://drmaxromania.com/job/trade-marketing-specialist-2/"
-        },
-        {
-          "title": "Kar Telephone Sales Representative",
-          "city": "Bucuresti",
-          "url": "https://drmaxromania.com/job/kar-telephone-sales-representative/"
-        },
-        {
-          "title": "Junior PPC Specialist",
-          "city": "Bucuresti",
-          "url": "https://drmaxromania.com/job/junior-ppc-specialist/"
-        },
-        {
-          "title": "Asistent Farmacist HIPER Dr. Max Farmacie, Sector 3",
-          "city": "Bucuresti",
-          "url": "https://drmaxromania.com/job/asistent-farmacist-hiper-dr-max-farmacie-sector-3/"
+          "title": "Farmacist, Dr. Max Zărnești",
+          "city": "Zarnesti",
+          "url": "https://drmaxromania.com/job/farmacist-dr-max-zarnesti/"
         },
         {
           "title": "Personnel Administration Specialist",
@@ -503,69 +644,19 @@
           "url": "https://drmaxromania.com/job/personnel-administration-specialist/"
         },
         {
-          "title": "Asistent Farmacist Dr. Max, Sector 3",
-          "city": "Bucuresti",
-          "url": "https://drmaxromania.com/job/asistent-farmacist-dr-max-sector-3/"
+          "title": "Farmacist Șef Dr. Max, Dobroești",
+          "city": "Dobroesti",
+          "url": "https://drmaxromania.com/job/farmacist-sef-dr-max-dobroesti/"
         },
         {
-          "title": "Farmacist Dr. Max, Chiajna",
-          "city": "Chiajna",
-          "url": "https://drmaxromania.com/job/farmacist-dr-max-chiajna/"
+          "title": "Farmacist Dr. Max, Dobroești",
+          "city": "Dobroesti",
+          "url": "https://drmaxromania.com/job/farmacist-dr-max-dobroesti/"
         },
         {
-          "title": "Operator Stocuri HIPER Dr. Max Farmacie, Baia Mare",
-          "city": "Baia Mare",
-          "url": "https://drmaxromania.com/job/operator-stocuri-hiper-dr-max-farmacie-baia-mare/"
-        },
-        {
-          "title": "Asistent Farmacist Dr. Max, Cluj Napoca",
-          "city": "Cluj-Napoca",
-          "url": "https://drmaxromania.com/job/asistent-farmacist-dr-max-cluj-napoca/"
-        },
-        {
-          "title": "Manager HIPER Dr. Max Farmacie, Brăila",
-          "city": "braila",
-          "url": "https://drmaxromania.com/job/manager-hiper-dr-max-farmacie-braila/"
-        },
-        {
-          "title": "Platform Solutions Manager",
-          "city": "Bucuresti",
-          "url": "https://drmaxromania.com/job/platform-solutions-manager/"
-        },
-        {
-          "title": "Support Specialist Pricing",
-          "city": "Bucuresti",
-          "url": "https://drmaxromania.com/job/support-specialist-pricing/"
-        },
-        {
-          "title": "Farmacist Dr. Max Bistrița",
-          "city": "Bistrita",
-          "url": "https://drmaxromania.com/job/farmacist-dr-max-bistrita/"
-        },
-        {
-          "title": "Consultant Vânzări HIPER Dr. Max Farmacie Adjud",
-          "city": "adjud",
-          "url": "https://drmaxromania.com/job/consultant-vanzari-hiper-dr-max-farmacie-adjud/"
-        },
-        {
-          "title": "Asistent Farmacist HIPER Dr. Max Drogherie Adjud",
-          "city": "adjud",
-          "url": "https://drmaxromania.com/job/asistent-farmacist-hiper-dr-max-drogherie-adjud/"
-        },
-        {
-          "title": "Data Analyst",
-          "city": "Bucuresti",
-          "url": "https://drmaxromania.com/job/data-analyst/"
-        },
-        {
-          "title": "Data Analysis Manager",
-          "city": "Bucuresti",
-          "url": "https://drmaxromania.com/job/data-analysis-manager/"
-        },
-        {
-          "title": "Farmacist Dr. Max Târnăveni",
-          "city": "Tarnaveni",
-          "url": "https://drmaxromania.com/job/farmacist-dr-max-tarnaveni/"
+          "title": "Sales Representative",
+          "city": "Baia Mare,Cluj-Napoca",
+          "url": "https://drmaxromania.com/job/sales-representative-2/"
         },
         {
           "title": "Farmacist Dr. Max, Cluj Napoca",
@@ -593,45 +684,55 @@
           "url": "https://drmaxromania.com/job/farmacist-dr-max-giurgiu/"
         },
         {
-          "title": "Farmacist, Dr. Max Zărnești",
-          "city": "Zarnesti",
-          "url": "https://drmaxromania.com/job/farmacist-dr-max-zarnesti/"
+          "title": "Operator Stocuri HIPER Dr. Max Farmacie, Baia Mare",
+          "city": "Baia Mare",
+          "url": "https://drmaxromania.com/job/operator-stocuri-hiper-dr-max-farmacie-baia-mare/"
         },
         {
-          "title": "Farmacist Șef Dr. Max, Dobroești",
-          "city": "Dobroesti",
-          "url": "https://drmaxromania.com/job/farmacist-sef-dr-max-dobroesti/"
+          "title": "Farmacist Dr. Max, Siret",
+          "city": "Siret",
+          "url": "https://drmaxromania.com/job/farmacist-dr-max-siret/"
         },
         {
-          "title": "Farmacist Dr. Max, Dobroești",
-          "city": "Dobroesti",
-          "url": "https://drmaxromania.com/job/farmacist-dr-max-dobroesti/"
+          "title": "Farmacist Dr. Max, Alexandria, județul Teleorman (part time)",
+          "city": "Alexandria",
+          "url": "https://drmaxromania.com/job/farmacist-dr-max-alexandria-judetul-teleorman-part-time/"
         },
         {
-          "title": "Area Manager, Sibiu",
-          "city": "Sibiu",
-          "url": "https://drmaxromania.com/job/area-manager-sibiu/"
+          "title": "Asistent Farmacist Dr. Max, Câmpulung, județul Argeș",
+          "city": "Campulung",
+          "url": "https://drmaxromania.com/job/asistent-farmacist-dr-max-campulung-judetul-arges/"
         }
       ]
     },
     {
       "name": "EASPORTS",
-      "jobCount": 5,
+      "jobCount": 8,
       "jobs": [
-        {
-          "title": "Systems Software Engineer - EA SPORTS™ FC",
-          "city": "Bucuresti",
-          "url": "https://jobs.ea.com/en_US/careers/JobDetail/Systems-Software-Engineer-EA-SPORTS-FC/215924"
-        },
-        {
-          "title": "Software Engineer, C++ - EA SPORTS™ FC",
-          "city": "Bucuresti",
-          "url": "https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-C-EA-SPORTS-FC/216031"
-        },
         {
           "title": "Project Manager - DevOps team",
           "city": "Bucuresti",
           "url": "https://jobs.ea.com/en_US/careers/JobDetail/Project-Manager-DevOps-team/215856"
+        },
+        {
+          "title": "Technical Artist, UI - EA SPORTS™ FC",
+          "city": "Bucuresti",
+          "url": "https://jobs.ea.com/en_US/careers/JobDetail/Technical-Artist-UI-EA-SPORTS-FC/213658"
+        },
+        {
+          "title": "Senior Software Engineer, Machine Learning -  EA SPORTS™ FC",
+          "city": "Bucuresti",
+          "url": "https://jobs.ea.com/en_US/careers/JobDetail/Senior-Software-Engineer-Machine-Learning-EA-SPORTS-FC/213900"
+        },
+        {
+          "title": "Development Director -  EA SPORTS™ FC",
+          "city": "Bucuresti",
+          "url": "https://jobs.ea.com/en_US/careers/JobDetail/Development-Director-EA-SPORTS-FC/212689"
+        },
+        {
+          "title": "Associate Cinematics Designer - EA Sports FC",
+          "city": "Bucuresti",
+          "url": "https://jobs.ea.com/en_US/careers/JobDetail/Associate-Cinematics-Designer-EA-Sports-FC/215782"
         },
         {
           "title": "Technical Artist @ EA Sports FC",
@@ -639,9 +740,36 @@
           "url": "https://jobs.ea.com/en_US/careers/JobDetail/Technical-Artist-EA-Sports-FC/215872"
         },
         {
-          "title": "Cinematics Designer @ EA Sports FC",
+          "title": ".NET Software Engineer - EA SPORTS™ FC",
           "city": "Bucuresti",
-          "url": "https://jobs.ea.com/en_US/careers/JobDetail/Cinematics-Designer-EA-Sports-FC/215795"
+          "url": "https://jobs.ea.com/en_US/careers/JobDetail/NET-Software-Engineer-EA-SPORTS-FC/215743"
+        },
+        {
+          "title": "Software Engineer, C++ - EA SPORTS™ FC",
+          "city": "Bucuresti",
+          "url": "https://jobs.ea.com/en_US/careers/JobDetail/Software-Engineer-C-EA-SPORTS-FC/216031"
+        }
+      ]
+    },
+    {
+      "name": "EONROMANIA",
+      "jobCount": 1,
+      "jobs": [
+        {
+          "title": "Șef Centru Operațiuni Rețea Electricitate",
+          "city": "Botoșani",
+          "url": "https://careers.eon.com/job/Șef-Centru-Operațiuni-Rețea-Electricitate/1437018833/"
+        }
+      ]
+    },
+    {
+      "name": "GKNAEROSPACE",
+      "jobCount": 1,
+      "jobs": [
+        {
+          "title": "Sustaining Engineer - Analysis",
+          "city": "Bucuresti",
+          "url": "https://joinus.gknaerospace.com/job/25808-en_US"
         }
       ]
     },
@@ -661,14 +789,14 @@
       "jobCount": 3,
       "jobs": [
         {
-          "title": "Șofer autopompă beton - Năvodari",
-          "city": "Constanta",
-          "url": "https://www.heidelbergmaterials.ro/ro/sofer-autopompa-beton-navodari"
+          "title": "Electrician întreținere și reparații",
+          "city": "Tasca",
+          "url": "https://www.heidelbergmaterials.ro/ro/electrician-intretinere-si-reparatii-5"
         },
         {
-          "title": "Șofer autobetonieră - jud. Constanța",
-          "city": "Constanta",
-          "url": "https://www.heidelbergmaterials.ro/ro/sofer-autobetoniera-judet-constanta"
+          "title": "Mecanic mașini și utilaje",
+          "city": "Fieni",
+          "url": "https://www.heidelbergmaterials.ro/ro/mecanic-masini-si-utilaje"
         },
         {
           "title": "Operator stație betoane",
@@ -679,22 +807,37 @@
     },
     {
       "name": "HTECGROUP",
-      "jobCount": 8,
+      "jobCount": 12,
       "jobs": [
         {
-          "title": "Solution Architect",
+          "title": "Data Solution Architect",
           "city": "Bucuresti",
-          "url": "https://careers.htecgroup.com/jobs/solution-architect-ci1s"
+          "url": "https://careers.htecgroup.com/jobs/data-solution-architect-ci4x"
         },
         {
-          "title": "Embedded Software Engineer – Functional Safety (ADAS)",
+          "title": "Engineering Program Manager",
           "city": "Bucuresti",
-          "url": "https://careers.htecgroup.com/jobs/embedded-software-engineer-functional-safety-adas-ciZq"
+          "url": "https://careers.htecgroup.com/jobs/engineering-program-manager-cj8n"
         },
         {
           "title": "Infrastructure Architect",
           "city": "Bucuresti",
           "url": "https://careers.htecgroup.com/jobs/infrastructure-architect-ci7c"
+        },
+        {
+          "title": "Forward Deployed AI Engineer",
+          "city": "Bucuresti",
+          "url": "https://careers.htecgroup.com/jobs/forward-deployed-ai-engineer-cjDc"
+        },
+        {
+          "title": "Forward Deployed Lead",
+          "city": "Bucuresti",
+          "url": "https://careers.htecgroup.com/jobs/forward-deployed-lead-cjC9"
+        },
+        {
+          "title": "Senior Data Engineer / Scala, Spark",
+          "city": "Bucuresti",
+          "url": "https://careers.htecgroup.com/jobs/senior-data-engineer-scala-spark-tXi"
         },
         {
           "title": "System Software Engineer",
@@ -707,19 +850,24 @@
           "url": "https://careers.htecgroup.com/jobs/compiler-toolchain-engineer-HPO"
         },
         {
-          "title": "Robotics Engineer",
+          "title": "Senior AI Engineer",
           "city": "Bucuresti",
-          "url": "https://careers.htecgroup.com/jobs/robotics-engineer-ceif"
+          "url": "https://careers.htecgroup.com/jobs/senior-ai-engineer-cdGT"
         },
         {
-          "title": "Engineering Program Manager",
+          "title": "Cybersecurity Engineer",
           "city": "Bucuresti",
-          "url": "https://careers.htecgroup.com/jobs/engineering-program-manager-cj8n"
+          "url": "https://careers.htecgroup.com/jobs/cybersecurity-engineer-ckmi"
         },
         {
-          "title": "Guidewire Developer",
+          "title": "AI Inference Engineer",
           "city": "Bucuresti",
-          "url": "https://careers.htecgroup.com/jobs/guidewire-developer-clbR"
+          "url": "https://careers.htecgroup.com/jobs/ai-inference-engineer-Idz"
+        },
+        {
+          "title": "Senior DevOps/SRE Engineer",
+          "city": "Bucuresti",
+          "url": "https://careers.htecgroup.com/jobs/senior-devopssre-engineer-tXc"
         }
       ]
     },
@@ -751,8 +899,28 @@
     },
     {
       "name": "HUNGRYBYTES",
-      "jobCount": 1,
+      "jobCount": 5,
       "jobs": [
+        {
+          "title": "Marketing Specialist",
+          "city": "Iasi",
+          "url": "https://jobs.hungrybytes.co/careers/marketing-specialist-romania/"
+        },
+        {
+          "title": "PHP Development Intern",
+          "city": "Iasi",
+          "url": "https://jobs.hungrybytes.co/careers/php-development-intern/"
+        },
+        {
+          "title": "Laravel Software Developer",
+          "city": "Iasi",
+          "url": "https://jobs.hungrybytes.co/careers/laravel-software-developer-romania/"
+        },
+        {
+          "title": "Java Software Developer",
+          "city": "Iasi",
+          "url": "https://jobs.hungrybytes.co/careers/java-software-developer-romania/"
+        },
         {
           "title": "Laravel Software Developer",
           "city": "Remote",
@@ -761,13 +929,75 @@
       ]
     },
     {
-      "name": "INTESASANPAOLOBANK",
+      "name": "INTERRATRAVEL",
+      "jobCount": 5,
+      "jobs": [
+        {
+          "title": "Agent Ticketing oferte personalizate",
+          "city": "București",
+          "url": "https://www.interra.ro/angajari/agent-ticketing-oferte-personalizate-7"
+        },
+        {
+          "title": "Șoferi categorie B sau D",
+          "city": "București",
+          "url": "https://www.interra.ro/angajari/soferi-categorie-b-sau-d-3"
+        },
+        {
+          "title": "Contabil",
+          "city": "București",
+          "url": "https://www.interra.ro/angajari/contabil-2"
+        },
+        {
+          "title": "Agent Turism operațional pachete turistice",
+          "city": "București",
+          "url": "https://www.interra.ro/angajari/agent-turism-operational-pachete-turistice-5"
+        },
+        {
+          "title": "Agent Turism productie pachete turistice",
+          "city": "București",
+          "url": "https://www.interra.ro/angajari/agent-turism-productie-pachete-turistice-4"
+        }
+      ]
+    },
+    {
+      "name": "INTHEPOCKET",
       "jobCount": 1,
       "jobs": [
         {
-          "title": "Manager relații clienți persoane juridice Sucursala Galați",
-          "city": "Galati",
-          "url": "https://www.intesasanpaolobank.ro/document/documents/ISPROMANIA/cariere/Manager-relatii-clienti-persoane-juridice-sucursala-Galati.pdf"
+          "title": "Java Back-End Engineer",
+          "city": "Bucuresti",
+          "url": "https://www.inthepocket.com/greenhouse-jobs/8210823---java-back-end-engineer"
+        }
+      ]
+    },
+    {
+      "name": "KELLANOVA",
+      "jobCount": 5,
+      "jobs": [
+        {
+          "title": "Supply Chain Data Visualization Lead",
+          "city": "Bucharest",
+          "url": "https://www.undelucram.ro/ro/locuri-de-munca/supply-chain-data-visualization-lead/99117"
+        },
+        {
+          "title": "GBS Continuous Improvement Process Lead",
+          "city": "Bucharest",
+          "url": "https://www.undelucram.ro/ro/locuri-de-munca/gbs-continuous-improvement-process-lead/99859"
+        },
+        {
+          "title": "Inventory Planner and  Phase In/Phase Out Analyst - 12 months contract",
+          "city": "Bucuresti",
+          "url": "https://jobs.kellanova.com/job/Bucharest-Inventory-Planner-and-Phase-InPhase-Out-Analyst-12-months-contract-14254/1429643600/"
+        },
+        {
+          "title": "Plant Finance Advisor - temporary contract until December 2027",
+          "city": "Bucuresti",
+          "url": "https://jobs.kellanova.com/job/Bucharest-Plant-Finance-Advisor-temporary-contract-until-December-2027-14254/1430032700/"
+        },
+        {
+          "title": "GBS Continuous Improvement Process Lead",
+          "city": "Bucuresti",
+          "url": "https://jobs.kellanova.com/job/Bucharest-GBS-Continuous-Improvement-Process-Lead-14254/1424285100/"
         }
       ]
     },
@@ -810,28 +1040,8 @@
     },
     {
       "name": "PRAGMATICPLAY",
-      "jobCount": 13,
+      "jobCount": 14,
       "jobs": [
-        {
-          "title": "Billing & Collection Analyst",
-          "city": "Bucuresti",
-          "url": "https://jobs.jobvite.com/pragmaticplay/job/oB4NAfwM"
-        },
-        {
-          "title": "Gameshow Host",
-          "city": "Bucuresti",
-          "url": "https://jobs.jobvite.com/pragmaticplay/job/oSiIAfwc"
-        },
-        {
-          "title": "Assistant Tailor",
-          "city": "Bucuresti",
-          "url": "https://jobs.jobvite.com/pragmaticplay/job/ooRHAfwg"
-        },
-        {
-          "title": "IT Helpdesk Engineer",
-          "city": "Bucuresti",
-          "url": "https://jobs.jobvite.com/pragmaticplay/job/o3bMAfwk"
-        },
         {
           "title": "Project Manager",
           "city": "Bucuresti",
@@ -841,16 +1051,6 @@
           "title": "Senior Appearance Manager",
           "city": "Bucuresti",
           "url": "https://jobs.jobvite.com/pragmaticplay/job/ojIxAfwS"
-        },
-        {
-          "title": "Risk Mathematician",
-          "city": "Bucuresti",
-          "url": "https://jobs.jobvite.com/pragmaticplay/job/oRQwAfwx"
-        },
-        {
-          "title": "Audio Video Specialist",
-          "city": "Bucuresti",
-          "url": "https://jobs.jobvite.com/pragmaticplay/job/o8JuAfwF"
         },
         {
           "title": "Game Presenter with English (No previous job experience needed!)",
@@ -863,45 +1063,65 @@
           "url": "https://jobs.jobvite.com/pragmaticplay/job/oSDFwfwq"
         },
         {
+          "title": "IT Helpdesk Engineer",
+          "city": "Bucuresti",
+          "url": "https://jobs.jobvite.com/pragmaticplay/job/o3bMAfwk"
+        },
+        {
           "title": "Audio-Visual R&D Specialist",
           "city": "Bucuresti",
           "url": "https://jobs.jobvite.com/pragmaticplay/job/odRcxfwx"
         },
         {
-          "title": "Head of Audio-Visual Research & Development",
+          "title": "Audio Technician",
           "city": "Bucuresti",
-          "url": "https://jobs.jobvite.com/pragmaticplay/job/oqa2zfwV"
+          "url": "https://jobs.jobvite.com/pragmaticplay/job/opvQyfw2"
         },
         {
-          "title": "Senior Product Owner(Studio Tools)",
+          "title": "Assistant Tailor",
           "city": "Bucuresti",
-          "url": "https://jobs.jobvite.com/pragmaticplay/job/oHeFzfwT"
+          "url": "https://jobs.jobvite.com/pragmaticplay/job/ooRHAfwg"
+        },
+        {
+          "title": "Audio Video Specialist",
+          "city": "Bucuresti",
+          "url": "https://jobs.jobvite.com/pragmaticplay/job/o8JuAfwF"
+        },
+        {
+          "title": "Billing & Collection Analyst",
+          "city": "Bucuresti",
+          "url": "https://jobs.jobvite.com/pragmaticplay/job/oB4NAfwM"
+        },
+        {
+          "title": "Risk Mathematician",
+          "city": "Bucuresti",
+          "url": "https://jobs.jobvite.com/pragmaticplay/job/oRQwAfwx"
+        },
+        {
+          "title": "Senior HR Business Partner",
+          "city": "Bucuresti",
+          "url": "https://jobs.jobvite.com/pragmaticplay/job/o2NqAfwz"
+        },
+        {
+          "title": "Audio-Visual R&D Engineer",
+          "city": "Bucuresti",
+          "url": "https://jobs.jobvite.com/pragmaticplay/job/osa2zfwX"
+        },
+        {
+          "title": "Audio-Visual R&D Specialist",
+          "city": "Bucuresti",
+          "url": "https://jobs.jobvite.com/pragmaticplay/job/ona2zfwS"
         }
       ]
     },
     {
       "name": "PROCTORANDGAMBLE",
-      "jobCount": 8,
+      "jobCount": 4,
       "jobs": [
         {
-          "title": "Commercial Sales Account Manager",
+          "title": "Senior Full Stack Software Engineer (.NET & React)",
           "city": "Bucuresti",
-          "url": "https://www.pgcareers.com/global/en/job/R000158188"
-        },
-        {
-          "title": "German Consumer Relations Senior Specialist",
-          "city": "Bucuresti",
-          "url": "https://www.pgcareers.com/global/en/job/R000144465"
-        },
-        {
-          "title": "Influencer & Community Manager",
-          "city": "Bucuresti",
-          "url": "https://www.pgcareers.com/global/en/job/R000158704"
-        },
-        {
-          "title": "Senior Brand Manager",
-          "city": "Bucuresti",
-          "url": "https://www.pgcareers.com/global/en/job/R000158186"
+          "url": "https://www.pgcareers.com/global/en/job/R000146967"
         },
         {
           "title": "Influencer & Community Senior Manager",
@@ -909,56 +1129,14 @@
           "url": "https://www.pgcareers.com/global/en/job/R000158296"
         },
         {
+          "title": "Senior Software Engineer",
+          "city": "Bucuresti",
+          "url": "https://www.pgcareers.com/global/en/job/R000152645"
+        },
+        {
           "title": "Europe Finance Leaders of Tomorrow - Recruitment Event",
           "city": "Bucuresti",
           "url": "https://www.pgcareers.com/global/en/job/R000158277"
-        },
-        {
-          "title": "Brand & Consumer Junior Advisor with German (full-time or part-time)",
-          "city": "Bucuresti",
-          "url": "https://www.pgcareers.com/global/en/job/R000155582"
-        },
-        {
-          "title": "Senior Full Stack Software Engineer (.NET & React)",
-          "city": "Bucuresti",
-          "url": "https://www.pgcareers.com/global/en/job/R000146967"
-        }
-      ]
-    },
-    {
-      "name": "RAMADAIASI",
-      "jobCount": 3,
-      "jobs": [
-        {
-          "title": "camerista",
-          "city": "Iasi",
-          "url": "http://www.ramadaiasi.ro/cariere/#3"
-        },
-        {
-          "title": "receptioner",
-          "city": "Iasi",
-          "url": "http://www.ramadaiasi.ro/cariere/#1"
-        },
-        {
-          "title": "ospatar",
-          "city": "Iasi",
-          "url": "http://www.ramadaiasi.ro/cariere/#2"
-        }
-      ]
-    },
-    {
-      "name": "REMOFIRST",
-      "jobCount": 2,
-      "jobs": [
-        {
-          "title": "Senior Product Designer",
-          "city": "",
-          "url": "https://jobs.lever.co/remofirst/63afeacf-d50c-4cfd-a394-446728a02d52"
-        },
-        {
-          "title": "Senior AI Engineer (Conversational AI)",
-          "city": "Remote",
-          "url": "https://www.bestjobs.eu/loc-de-munca/senior-ai-engineer-conversational-ai"
         }
       ]
     },
@@ -980,12 +1158,22 @@
     },
     {
       "name": "SOWELO",
-      "jobCount": 3,
+      "jobCount": 6,
       "jobs": [
         {
           "title": "Lead Backend Engineer (Ruby On Rails) - Fully Remote",
           "city": "București",
           "url": "https://soweloconsulting.applytojob.com/apply/jobs/details/eYxxK1GVlk?&"
+        },
+        {
+          "title": "Senior IT Recruitment Consultant (home office)",
+          "city": "București",
+          "url": "https://soweloconsulting.applytojob.com/apply/jobs/details/EsG3lyZ633?&"
+        },
+        {
+          "title": "Senior Machine Learning Engineer - Fully Remote",
+          "city": "București",
+          "url": "https://soweloconsulting.applytojob.com/apply/jobs/details/FTCV0oDkTj?&"
         },
         {
           "title": "Android Engineer - Fully Remote",
@@ -996,38 +1184,105 @@
           "title": "Backend Engineer - Fully Remote",
           "city": "București",
           "url": "https://soweloconsulting.applytojob.com/apply/jobs/details/erDKL0z5oB?&"
+        },
+        {
+          "title": "iOS Engineer - Fully Remote",
+          "city": "București",
+          "url": "https://soweloconsulting.applytojob.com/apply/jobs/details/RBz5vJzrAt?&"
+        }
+      ]
+    },
+    {
+      "name": "SPEEDSERVICESATUMARE",
+      "jobCount": 2,
+      "jobs": [
+        {
+          "title": "MECANIC AUTO",
+          "city": "Satu Mare",
+          "url": "https://speedservicesatumare.ro/cariere/#1"
+        },
+        {
+          "title": "ELECTRICIAN AUTO",
+          "city": "Satu Mare",
+          "url": "https://speedservicesatumare.ro/cariere/#2"
+        }
+      ]
+    },
+    {
+      "name": "TCANDC",
+      "jobCount": 4,
+      "jobs": [
+        {
+          "title": "Java Developer",
+          "city": "Oradea",
+          "url": "https://www.tcandc.com/company/career/software-developer.html"
+        },
+        {
+          "title": "Software Tester",
+          "city": "Oradea",
+          "url": "https://www.tcandc.com/company/career/software-tester.html"
+        },
+        {
+          "title": "Senior Systems Engineer",
+          "city": "Oradea",
+          "url": "https://www.tcandc.com/company/career/senior-systems-engineer.html"
+        },
+        {
+          "title": "Systems Engineer",
+          "city": "Oradea",
+          "url": "https://www.tcandc.com/company/career/systems-engineer.html"
         }
       ]
     },
     {
       "name": "TECAGENCY",
-      "jobCount": 3,
+      "jobCount": 1,
       "jobs": [
         {
           "title": "Full Stack Developer",
           "city": "Cluj-Napoca",
           "url": "https://tecss.bamboohr.com/careers/72"
-        },
-        {
-          "title": "Marketing Manager",
-          "city": "Cluj-Napoca",
-          "url": "https://tecss.bamboohr.com/careers/78"
-        },
-        {
-          "title": "Technical Team Lead Fullstack Developer",
-          "city": "Cluj-Napoca",
-          "url": "https://tecss.bamboohr.com/careers/80"
         }
       ]
     },
     {
       "name": "THALESGROUP",
-      "jobCount": 12,
+      "jobCount": 14,
       "jobs": [
+        {
+          "title": "Sales Manager (Civil Identity, Border & Travel, Public Security Solutions)",
+          "city": "Bucuresti",
+          "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/Sales-Manager--Civil-Identity--Border---Travel--Public-Security-Solutions-_R0338193"
+        },
+        {
+          "title": "Senior DBA Engineer - with Cassandra",
+          "city": "Bucuresti",
+          "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/Senior-DBA-Engineer---with-Cassandra_R0330589"
+        },
+        {
+          "title": "Elite Fullstack Engineer (B1 French)– Shape Global Innovation",
+          "city": "Bucuresti",
+          "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/Elite-Fullstack-Engineer--B1-French---Shape-Global-Innovation_R0331165"
+        },
         {
           "title": "Lead Engineer - Agentic Systems (AI/ML focus)",
           "city": "Bucuresti",
           "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/Lead-Engineer---Agentic-Systems--AI-ML-focus-_R0338174"
+        },
+        {
+          "title": "Python AI Agent Engineer (Mid-level)",
+          "city": "Bucuresti",
+          "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/Python-AI-Agent-Engineer--Mid-level-_R0338175"
+        },
+        {
+          "title": "IVQ NetOps Engineer (NATO Project)",
+          "city": "Bucuresti",
+          "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/IVQ-NetOps-Engineer--NATO-Project-_R0337428"
+        },
+        {
+          "title": "IVQ Operations Engineer (NATO Project)",
+          "city": "Bucuresti",
+          "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/IVQ-Operations-Engineer--NATO-Project-_R0337371"
         },
         {
           "title": "Enabling SRE — Bucharest Sovereign Cloud Hub",
@@ -1035,24 +1290,14 @@
           "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/Enabling-SRE---Bucharest-Sovereign-Cloud-Hub_R0332892"
         },
         {
-          "title": "Infrastructure Engineer (with DevOps skills)",
-          "city": "Bucuresti",
-          "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/Infrastructure-Engineer--with-DevOps-skills-_R0336201-1"
-        },
-        {
-          "title": "DevOps Engineer",
-          "city": "Bucuresti",
-          "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/DevOps-Engineer_R0337481"
-        },
-        {
           "title": "Senior Network Administrator with French",
           "city": "Bucuresti",
           "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/Senior-Network-Administrator-with-French_R0314433"
         },
         {
-          "title": "Validation Engineer with French for Biometric Systems",
+          "title": "Senior Front-End Developer (UI Components & Design Tokens) – Quantum",
           "city": "Bucuresti",
-          "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/Validation-Engineer-with-French-for-Biometric-Systems_R0329831"
+          "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/Senior-Front-End-Developer--UI-Components---Design-Tokens----Quantum_R0336024"
         },
         {
           "title": "Security SRE - Bucharest Sovereign Cloud Hub",
@@ -1070,55 +1315,25 @@
           "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/Network-SRE---Bucharest-Sovereign-Cloud-Hub_R0332896"
         },
         {
-          "title": "GIS Engineer / Software Developer (Python, DevOps, DB Knowledge)",
+          "title": "Java Software Engineer - Naval Business",
           "city": "Bucuresti",
-          "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/GIS-Engineer---Software-Developer--Python--DevOps--DB-Knowledge-_R0332453"
-        },
-        {
-          "title": "Senior Front-End Developer (UI Components & Design Tokens) – Quantum",
-          "city": "Bucuresti",
-          "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/Senior-Front-End-Developer--UI-Components---Design-Tokens----Quantum_R0336024"
-        },
-        {
-          "title": "Full Stack Tech Lead for Defense Business",
-          "city": "Bucuresti",
-          "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/Full-Stack-Tech-Lead-for-Defense-Business_R0335757"
+          "url": "https://thales.wd3.myworkdayjobs.com/en-US/Careers/job/Bucharest/Java-Software-Engineer_R0161685"
         }
       ]
     },
     {
       "name": "VITESCOTECHNOLOGIES",
-      "jobCount": 11,
+      "jobCount": 15,
       "jobs": [
+        {
+          "title": "Join Our Talent Network: Your Electrified Future Starts Here!",
+          "city": "Timisoara",
+          "url": "https://jobs.vitesco-technologies.com/job/Timisoara-Join-Our-Talent-Network-Your-Electrified-Future-Starts-Here%21/1370475757/"
+        },
         {
           "title": "Configuration Management Tools Developer",
           "city": "Iasi",
           "url": "https://jobs.vitesco-technologies.com/job/Iasi-Configuration-Management-Tools-Developer/1372053957/"
-        },
-        {
-          "title": "SAP IT Consultant (SAP MM)",
-          "city": "Timisoara",
-          "url": "https://jobs.vitesco-technologies.com/job/Timisoara-SAP-IT-Consultant-%28SAP-MM%29/1358191257/"
-        },
-        {
-          "title": "Mechanical Engineers Innovation Factory",
-          "city": "Timisoara",
-          "url": "https://jobs.vitesco-technologies.com/job/Timisoara-Mechanical-Engineers-Innovation-Factory/1371464757/"
-        },
-        {
-          "title": "Mechanical Engineers Innovation Factory",
-          "city": "Timisoara",
-          "url": "https://jobs.vitesco-technologies.com/job/Timisoara-Mechanical-Engineers-Innovation-Factory/1371464957/"
-        },
-        {
-          "title": "Internship Operational Buyer with French",
-          "city": "Iasi",
-          "url": "https://jobs.vitesco-technologies.com/job/Iasi-Internship-Operational-Buyer-with-French/1351948657/"
-        },
-        {
-          "title": "Scrum Master",
-          "city": "Timisoara",
-          "url": "https://jobs.vitesco-technologies.com/job/Timisoara-Scrum-Master-300699/1370336557/"
         },
         {
           "title": "Software DevOps Engineer (Digital workbench)",
@@ -1126,24 +1341,64 @@
           "url": "https://jobs.vitesco-technologies.com/job/Iasi-Software-DevOps-Engineer-%28Digital-workbench%29/1372053257/"
         },
         {
+          "title": "Internal Audit Control Specialist for IT",
+          "city": "Timisoara",
+          "url": "https://jobs.vitesco-technologies.com/job/Timisoara-Internal-Audit-Control-Specialist-for-IT-300699/1356646657/"
+        },
+        {
+          "title": "Learning & Talent Specialist - Determined Contract",
+          "city": "Sibiu",
+          "url": "https://jobs.vitesco-technologies.com/job/Sibiu-Learning-&-Talent-Specialist-Determined-Contract-550018/1371955657/"
+        },
+        {
+          "title": "Polarion Software Developer",
+          "city": "Iasi",
+          "url": "https://jobs.vitesco-technologies.com/job/Iasi-Polarion-Software-Developer/1365763457/"
+        },
+        {
+          "title": "Internship Operational Buyer with French",
+          "city": "Iasi",
+          "url": "https://jobs.vitesco-technologies.com/job/Iasi-Internship-Operational-Buyer-with-French/1351948657/"
+        },
+        {
+          "title": "IT Linux Engineer",
+          "city": "Timisoara",
+          "url": "https://jobs.vitesco-technologies.com/job/Timisoara-IT-Linux-Engineer/1331539557/"
+        },
+        {
+          "title": "Expert SuccessFactors Employee Central",
+          "city": "Timisoara",
+          "url": "https://jobs.vitesco-technologies.com/job/Timisoara-Expert-SuccessFactors-Employee-Central/1331582857/"
+        },
+        {
+          "title": "Expert in EC with focus on Org-Management Solutions",
+          "city": "Timisoara",
+          "url": "https://jobs.vitesco-technologies.com/job/Timisoara-Expert-in-EC-with-focus-on-Org-Management-Solutions/1331545857/"
+        },
+        {
+          "title": "Technician piese de schimb",
+          "city": "Ghimbav",
+          "url": "https://jobs.vitesco-technologies.com/job/Ghimbav-Technician-piese-de-schimb/1362649357/"
+        },
+        {
+          "title": "Product Group Owner HR IT Solutions",
+          "city": "Timisoara",
+          "url": "https://jobs.vitesco-technologies.com/job/Timisoara-Product-Group-Owner-HR-IT-Solutions-300699/1352615757/"
+        },
+        {
+          "title": "Scrum Master",
+          "city": "Timisoara",
+          "url": "https://jobs.vitesco-technologies.com/job/Timisoara-Scrum-Master-300699/1370336557/"
+        },
+        {
           "title": "Quality Customer Engineer",
           "city": "Ghimbav",
           "url": "https://jobs.vitesco-technologies.com/job/Ghimbav-Quality-Customer-Engineer/1369181957/"
         },
         {
-          "title": "Join Our Talent Network: Your Electrified Future Starts Here!",
+          "title": "SAP IT Consultant (SAP MM)",
           "city": "Timisoara",
-          "url": "https://jobs.vitesco-technologies.com/job/Timisoara-Join-Our-Talent-Network-Your-Electrified-Future-Starts-Here%21/1370475757/"
-        },
-        {
-          "title": "Supplier Quality Engineer - Fuel Delivery Modules",
-          "city": "Ghimbav",
-          "url": "https://jobs.vitesco-technologies.com/job/Ghimbav-Supplier-Quality-Engineer-Fuel-Delivery-Modules/1360816057/"
-        },
-        {
-          "title": "Testing Technician",
-          "city": "Sibiu",
-          "url": "https://jobs.vitesco-technologies.com/job/Sibiu-Testing-Technician/1368810657/"
+          "url": "https://jobs.vitesco-technologies.com/job/Timisoara-SAP-IT-Consultant-%28SAP-MM%29/1358191257/"
         }
       ]
     },
@@ -1160,8 +1415,23 @@
     },
     {
       "name": "ZONKWAVE",
-      "jobCount": 1,
+      "jobCount": 4,
       "jobs": [
+        {
+          "title": "IT Sales Specialist",
+          "city": "București",
+          "url": "https://zonkwave.com/job/it-sales-specialist/"
+        },
+        {
+          "title": "IT Project Manager",
+          "city": "București",
+          "url": "https://zonkwave.com/job/project-manager/"
+        },
+        {
+          "title": "QA Engineer",
+          "city": "București",
+          "url": "https://zonkwave.com/job/qa-engineer/"
+        },
         {
           "title": "Tech Support",
           "city": "București",
